@@ -1,0 +1,43 @@
+﻿<Window x:Class="MSFBlitzBot.Overlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSFBlitzBot"
+        mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480"
+        Title="Overlay"
+        DataContext="{Binding OverlayViewModel, Source={StaticResource viewModelLocator}}"
+        Left="{Binding WindowLeft, Mode=TwoWay}" Top="{Binding WindowTop, Mode=TwoWay}"
+        Width="{Binding WindowWidth, Mode=TwoWay}" Height="{Binding WindowHeight, Mode=TwoWay}"
+        AllowsTransparency="True" WindowStyle="None" ShowInTaskbar="False">
+    <Window.Background>
+        <SolidColorBrush Color="White" Opacity="0"/>
+    </Window.Background>
+    <FrameworkElement.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="{DataTemplateKey {x:Type local:BlitzViewModel}}" DataType="{x:Type local:BlitzViewModel}">
+                <local:Blitz />
+            </DataTemplate>
+        </ResourceDictionary>
+    </FrameworkElement.Resources>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Column="2">
+                <TextBlock RenderTransformOrigin="1,1" Background="#50000000">
+                    <UIElement.RenderTransform>
+                        <TransformGroup>
+                            <TranslateTransform X="200" Y="0" />
+                            <RotateTransform Angle="-90" />
+                        </TransformGroup>
+                    </UIElement.RenderTransform>
+                    <TextBlock Text="Improved by M.S.F.B.B. by SHPRRR" Foreground="#70FFFFFF" Margin="6,0,6,0" />
+                </TextBlock>
+            </Viewbox>
+        </Grid>
+        <ContentControl Content="{Binding OverlayPage}" />
+    </Grid>
+</Window>

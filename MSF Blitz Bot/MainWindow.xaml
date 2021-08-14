@@ -1,0 +1,25 @@
+﻿<Window x:Class="MSFBlitzBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSFBlitzBot"
+        mc:Ignorable="d"
+        x:Name="_this"
+        Title="Marvel Strike Force Blitz Bot" Height="450" Width="800" Closing="Window_Closing">
+    <Window.Resources>
+        <local:BlitzViewModel x:Key="blitzViewModel" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock x:Name="txtEmulatorDebug" Text="{Binding ElementName=_this, Path=EmulatorDebug}" TextWrapping="Wrap"/>
+            <TextBlock x:Name="txtCurrentPage" Text="{Binding ElementName=_this, Path=CurrentPage}" TextWrapping="Wrap"/>
+            <Button Content="Refresh" Click="ButtonRefresh_Click"/>
+        </StackPanel>
+        <ListBox Grid.Row="1" ItemsSource="{Binding Source={StaticResource blitzViewModel}, Path=FightsToday, Mode=OneWay}"/>
+    </Grid>
+</Window>

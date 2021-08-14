@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0058: La valeur d'expression n'est jamais utilisée
+dotnet_diagnostic.IDE0058.severity = none
+
+# IDE0011: Ajouter des accolades
+dotnet_diagnostic.IDE0011.severity = none
+
+# IDE0008: Utiliser un type explicite
+csharp_style_var_when_type_is_apparent = true

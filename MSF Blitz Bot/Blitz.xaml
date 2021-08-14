@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="MSFBlitzBot.Blitz"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MSFBlitzBot"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             DataContext="{Binding BlitzViewModel, Source={StaticResource viewModelLocator}}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <local:PredictionColorSelector x:Key="PredictionColorSelector"/>
+    </UserControl.Resources>
+    <Grid Margin="2, 0, 20, 0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="1.5*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="BlitzPage" TextWrapping="Wrap" Foreground="AliceBlue"/>
+        <Button Background="DeepSkyBlue" VerticalAlignment="Top" Margin="8" Width="50" Height="50" BorderThickness="0" Visibility="{Binding NeedRetrain, Converter={StaticResource BooleanToVisibilityConverter}}" Click="ButtonRetrain_Click">Retrain
+        </Button>
+        <TextBlock Text="{Binding PlayerHeroes}" TextWrapping="Wrap" Foreground="AliceBlue" FontSize="10" Grid.Row="1"/>
+        <TextBlock Text="{Binding OpponentHeroes}" TextWrapping="Wrap" Foreground="AliceBlue" FontSize="10" TextAlignment="Right" Grid.Column="1" Grid.Row="1"/>
+        <Grid Grid.Column="0" Grid.Row="2" Width="440" Height="48" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ToggleButton x:Name="btnAutoBestTarget" Grid.Column="1" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoBestTarget_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
+                    <Path Fill="LightGreen" VerticalAlignment="Center" Data="M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" />
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton x:Name="btnAutoHighestTotal" Grid.Column="2" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoHighestTotal_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
+                    <Path Fill="AliceBlue" VerticalAlignment="Center" Data="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" />
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton x:Name="btnAutoTrainWorthy" Grid.Column="3" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoTrainWorthy_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
+                    <Path Fill="DeepSkyBlue" VerticalAlignment="Center" Data="M20.57,14.86L22,13.43L20.57,12L17,15.57L8.43,7L12,3.43L10.57,2L9.14,3.43L7.71,2L5.57,4.14L4.14,2.71L2.71,4.14L4.14,5.57L2,7.71L3.43,9.14L2,10.57L3.43,12L7,8.43L15.57,17L12,20.57L13.43,22L14.86,20.57L16.29,22L18.43,19.86L19.86,21.29L21.29,19.86L19.86,18.43L22,16.29L20.57,14.86Z" />
+                </StackPanel>
+            </ToggleButton>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="412"/>
+                <ColumnDefinition MaxWidth="85"/>
+                <ColumnDefinition MaxWidth="85"/>
+                <ColumnDefinition MaxWidth="85"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding CombatState}" TextWrapping="Wrap" Foreground="AliceBlue"/>
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="{Binding OpponentTotalTeam1, StringFormat={}{0:N0}}" TextWrapping="Wrap" Foreground="AliceBlue" TextAlignment="Center"/>
+                <TextBlock Text="{Binding OpponentPredictionTeam1, StringFormat={}{0:P2}}" TextWrapping="Wrap" Foreground="{Binding OpponentPredictionTeam1, Converter={StaticResource PredictionColorSelector}}" TextAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Path Fill="LightGreen" Visibility="{Binding OpponentIsBestTargetTeam1, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" />
+                    <Path Fill="AliceBlue" Visibility="{Binding OpponentIsHighestTotalTeam1, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" />
+                    <Path Fill="DeepSkyBlue" Visibility="{Binding OpponentIsTrainWorthyTeam1, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M20.57,14.86L22,13.43L20.57,12L17,15.57L8.43,7L12,3.43L10.57,2L9.14,3.43L7.71,2L5.57,4.14L4.14,2.71L2.71,4.14L4.14,5.57L2,7.71L3.43,9.14L2,10.57L3.43,12L7,8.43L15.57,17L12,20.57L13.43,22L14.86,20.57L16.29,22L18.43,19.86L19.86,21.29L21.29,19.86L19.86,18.43L22,16.29L20.57,14.86Z" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="{Binding OpponentTotalTeam2, StringFormat={}{0:N0}}" TextWrapping="Wrap" Foreground="AliceBlue" TextAlignment="Center"/>
+                <TextBlock Text="{Binding OpponentPredictionTeam2, StringFormat={}{0:P2}}" TextWrapping="Wrap" Foreground="{Binding OpponentPredictionTeam2, Converter={StaticResource PredictionColorSelector}}" TextAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Path Fill="LightGreen" Visibility="{Binding OpponentIsBestTargetTeam2, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" />
+                    <Path Fill="AliceBlue" Visibility="{Binding OpponentIsHighestTotalTeam2, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" />
+                    <Path Fill="DeepSkyBlue" Visibility="{Binding OpponentIsTrainWorthyTeam2, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M20.57,14.86L22,13.43L20.57,12L17,15.57L8.43,7L12,3.43L10.57,2L9.14,3.43L7.71,2L5.57,4.14L4.14,2.71L2.71,4.14L4.14,5.57L2,7.71L3.43,9.14L2,10.57L3.43,12L7,8.43L15.57,17L12,20.57L13.43,22L14.86,20.57L16.29,22L18.43,19.86L19.86,21.29L21.29,19.86L19.86,18.43L22,16.29L20.57,14.86Z" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <TextBlock Text="{Binding OpponentTotalTeam3, StringFormat={}{0:N0}}" TextWrapping="Wrap" Foreground="AliceBlue" TextAlignment="Center"/>
+                <TextBlock Text="{Binding OpponentPredictionTeam3, StringFormat={}{0:P2}}" TextWrapping="Wrap" Foreground="{Binding OpponentPredictionTeam3, Converter={StaticResource PredictionColorSelector}}" TextAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Path Fill="LightGreen" Visibility="{Binding OpponentIsBestTargetTeam3, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" />
+                    <Path Fill="AliceBlue" Visibility="{Binding OpponentIsHighestTotalTeam3, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" />
+                    <Path Fill="DeepSkyBlue" Visibility="{Binding OpponentIsTrainWorthyTeam3, Converter={StaticResource BooleanToVisibilityConverter}}" Data="M20.57,14.86L22,13.43L20.57,12L17,15.57L8.43,7L12,3.43L10.57,2L9.14,3.43L7.71,2L5.57,4.14L4.14,2.71L2.71,4.14L4.14,5.57L2,7.71L3.43,9.14L2,10.57L3.43,12L7,8.43L15.57,17L12,20.57L13.43,22L14.86,20.57L16.29,22L18.43,19.86L19.86,21.29L21.29,19.86L19.86,18.43L22,16.29L20.57,14.86Z" />
+                </StackPanel>
+            </StackPanel>
+            <Button Background="DarkOrange" Width="50" BorderThickness="0" Click="ButtonBattle_Click">Battle
+                <Button.RenderTransform>
+                    <TranslateTransform X="0" Y="-100" />
+                </Button.RenderTransform>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>
