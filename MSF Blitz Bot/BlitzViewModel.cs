@@ -170,14 +170,11 @@ namespace MSFBlitzBot
                 }
                 CheckOpponentTeams();
 
-                // ML in thread to not block UI and get result when ready
                 if (data.HasOpponent) StartTeamPrediction(data);
             }
 
-            if (!data.HasOpponent)
-            {
-                ClearOpponentTeams();
-            }
+            if (!data.HasOpponent) ClearOpponentTeams();
+            if (data.CanFindOpponent || data.HasOpponent) DoAutoBlitz(data.TeamIndex);
         }
 
         private void CheckOpponentTeams()
@@ -255,6 +252,63 @@ namespace MSFBlitzBot
             OpponentIsTrainWorthyTeam3 = false;
         }
 
+
+        private void DoAutoBlitz(int selectedIndex)
+        {
+            if (CurrentAutoState == AutoState.None) return;
+
+            if (!OpponentTotalTeam1.HasValue || !OpponentTotalTeam2.HasValue || !OpponentTotalTeam3.HasValue)
+            {
+                ClickNextOpponent();
+                return;
+            }
+
+            // Everything is scanned so get desired target.
+            switch (CurrentAutoState)
+            {
+                case AutoState.BestTarget:
+                    {
+                        var bestTargetIndex = OpponentIsBestTargetTeam1 ? 0 : OpponentIsBestTargetTeam2 ? 1 : OpponentIsBestTargetTeam3 ? 2 : -1;
+                        if (bestTargetIndex == -1) return;
+                        ClickUntilThisOpponent(selectedIndex, bestTargetIndex);
+                    }
+                    break;
+
+                case AutoState.HighestTotal:
+                    {
+                        var highestTotalIndex = OpponentIsHighestTotalTeam1 ? 0 : OpponentIsHighestTotalTeam2 ? 1 : OpponentIsHighestTotalTeam3 ? 2 : -1;
+                        if (highestTotalIndex == -1) return;
+                        ClickUntilThisOpponent(selectedIndex, highestTotalIndex);
+                    }
+                    break;
+
+                case AutoState.TrainWorthy:
+                    {
+                        var trainWorthyIndex = OpponentIsTrainWorthyTeam1 ? 0 : OpponentIsTrainWorthyTeam2 ? 1 : OpponentIsTrainWorthyTeam3 ? 2 : -1;
+                        if (trainWorthyIndex == -1) return;
+                        ClickUntilThisOpponent(selectedIndex, trainWorthyIndex);
+                    }
+                    break;
+            }
+        }
+
+        public static void ClickNextOpponent()
+        {
+            // 1159, 629  248, 70  total 1505, 847
+            MouseControl.ClickArea(new RectangleF(1159f / 1505, 629f / 847, 248f / 1505, 70f / 847));
+        }
+
+        private static void ClickUntilThisOpponent(int selectedIndex, int desiredOpponentIndex)
+        {
+            while (selectedIndex != desiredOpponentIndex)
+            {
+                ClickNextOpponent();
+                selectedIndex++;
+                if (selectedIndex > 2) selectedIndex = 0;
+            }
+        }
+
+
         private class MLTask
         {
             public MLTask(BlitzData data, Thread thread)
@@ -270,6 +324,7 @@ namespace MSFBlitzBot
         }
         private void StartTeamPrediction(BlitzData data)
         {
+            // ML in thread to not block UI and get result when ready
             if (mlThreads[data.TeamIndex] != null && mlThreads[data.TeamIndex].Thread.ThreadState == (ThreadState.Unstarted | ThreadState.Running))
             {
                 mlThreads[data.TeamIndex].Cancel = true;

@@ -10,6 +10,28 @@
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
         <local:PredictionColorSelector x:Key="PredictionColorSelector"/>
+        <Style x:Key="ToggleButtonStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Border x:Name="border" Margin="8" CornerRadius="5,5,5,5" Background="{TemplateBinding Background}" BorderBrush="#FF000000" BorderThickness="1,1,1,1">
+                            <ContentPresenter x:Name="contentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter Property="Background" TargetName="border" Value="DarkOrange"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="OrangeRed"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border" Value="LightBlue"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
     <Grid Margin="2, 0, 20, 0">
         <Grid.ColumnDefinitions>
@@ -34,19 +56,19 @@
                 <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <ToggleButton x:Name="btnAutoBestTarget" Grid.Column="1" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoBestTarget_Click">
+            <ToggleButton x:Name="btnAutoBestTarget" Grid.Column="1" Style="{StaticResource ToggleButtonStyle}" Click="ToggleButtonAutoBestTarget_Click">
                 <StackPanel Orientation="Horizontal">
                     <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
                     <Path Fill="LightGreen" VerticalAlignment="Center" Data="M8.58,17.25L9.5,13.36L6.5,10.78L10.45,10.41L12,6.8L13.55,10.45L17.5,10.78L14.5,13.36L15.42,17.25L12,15.19L8.58,17.25M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" />
                 </StackPanel>
             </ToggleButton>
-            <ToggleButton x:Name="btnAutoHighestTotal" Grid.Column="2" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoHighestTotal_Click">
+            <ToggleButton x:Name="btnAutoHighestTotal" Grid.Column="2" Style="{StaticResource ToggleButtonStyle}" Click="ToggleButtonAutoHighestTotal_Click">
                 <StackPanel Orientation="Horizontal">
                     <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
                     <Path Fill="AliceBlue" VerticalAlignment="Center" Data="M4.08,11.92L12,4L19.92,11.92L18.5,13.33L13,7.83V22H11V7.83L5.5,13.33L4.08,11.92M12,4H22V2H2V4H12Z" />
                 </StackPanel>
             </ToggleButton>
-            <ToggleButton x:Name="btnAutoTrainWorthy" Grid.Column="3" Margin="8" Background="DarkOrange" Click="ToggleButtonAutoTrainWorthy_Click">
+            <ToggleButton x:Name="btnAutoTrainWorthy" Grid.Column="3" Style="{StaticResource ToggleButtonStyle}" Click="ToggleButtonAutoTrainWorthy_Click">
                 <StackPanel Orientation="Horizontal">
                     <Label Foreground="AliceBlue" FontWeight="Bold" FontSize="14">Auto</Label>
                     <Path Fill="DeepSkyBlue" VerticalAlignment="Center" Data="M20.57,14.86L22,13.43L20.57,12L17,15.57L8.43,7L12,3.43L10.57,2L9.14,3.43L7.71,2L5.57,4.14L4.14,2.71L2.71,4.14L4.14,5.57L2,7.71L3.43,9.14L2,10.57L3.43,12L7,8.43L15.57,17L12,20.57L13.43,22L14.86,20.57L16.29,22L18.43,19.86L19.86,21.29L21.29,19.86L19.86,18.43L22,16.29L20.57,14.86Z" />

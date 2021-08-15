@@ -29,12 +29,13 @@ namespace MSFBlitzBot.GamePages
         }
 
         public Hero[] PlayerHeroes = new Hero[5];
+        public bool CanFindOpponent;
         public bool HasOpponent;
         public int TeamIndex = -1;
         public Hero[] OpponentHeroes = new Hero[5];
 
-        public bool Victory = false;
-        public bool Defeat = false;
+        public bool Victory;
+        public bool Defeat;
     }
 
     internal class BlitzPage : GamePage
@@ -143,6 +144,8 @@ namespace MSFBlitzBot.GamePages
                     data.OpponentHeroes[i] = new(GetHeroId(1, i), GetHeroPower(1, i));
                 }
             }
+            else
+                data.CanFindOpponent = pixelOpponentButton.IsCloseTo(Color.FromArgb(249, 181, 28), 3);
 
             return data;
         }
