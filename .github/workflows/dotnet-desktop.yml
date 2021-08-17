@@ -24,3 +24,8 @@ jobs:
         dotnet-version: '5.0.x'
     - name: Build
       run: dotnet build --configuration Release
+    - name: Upload build
+      uses: actions/upload-artifact@v2
+      with:
+        name: MSF Blitz Bot
+        path: MSF-Blitz-Bot\MSF Blitz Bot\bin\Release\net5.0-windows\
