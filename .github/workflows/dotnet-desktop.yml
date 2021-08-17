@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: MSF Blitz Bot
-        path: MSF-Blitz-Bot\MSF Blitz Bot\bin\Release\net5.0-windows\
+        path: MSF Blitz Bot\bin\Release\net5.0-windows\
