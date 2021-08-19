@@ -21,6 +21,7 @@ ID_MILESTONE_BLITZ_CAPTAINAMERICA,Win a Blitz battle with: Captain America
 ID_MILESTONE_BLITZ_SAMWILSON,Win a Blitz battle with: Captain America (Sam)
 ID_MILESTONE_BLITZ_CAPTAINMARVEL,Win a Blitz battle with: Captain Marvel
 ID_MILESTONE_BLITZ_CARNAGE,Win a Blitz battle with: Carnage
+ID_MILESTONE_BLITZ_CLOAK,Win a Blitz battle with: Cloak
 ID_MILESTONE_BLITZ_COLLEENWING,Win a Blitz battle with: Colleen Wing
 ID_MILESTONE_BLITZ_COLOSSUS,Win a Blitz battle with: Colossus
 ID_MILESTONE_BLITZ_CORVUSGLAIVE,Win a Blitz battle with: Corvus Glaive
@@ -29,8 +30,10 @@ ID_MILESTONE_BLITZ_CROSSBONES,Win a Blitz battle with: Crossbones
 ID_MILESTONE_BLITZ_CRYSTAL,Win a Blitz battle with: Crystal
 ID_MILESTONE_BLITZ_CULLOBSIDIAN,Win a Blitz battle with: Cull Obsidian
 ID_MILESTONE_BLITZ_CYCLOPS,Win a Blitz battle with: Cyclops
+ID_MILESTONE_BLITZ_DAGGER,Win a Blitz battle with: Dagger
 ID_MILESTONE_BLITZ_DAREDEVIL,Win a Blitz battle with: Daredevil
 ID_MILESTONE_BLITZ_DEADPOOL,Win a Blitz battle with: Deadpool
+ID_MILESTONE_BLITZ_DEATHPOOL,Win a Blitz battle with: Deathpool
 ID_MILESTONE_BLITZ_DOCTOROCTOPUS,Win a Blitz battle with: Doctor Octopus
 ID_MILESTONE_BLITZ_DOCTORSTRANGE,Win a Blitz battle with: Doctor Strange
 ID_MILESTONE_BLITZ_DOMINO,Win a Blitz battle with: Domino
@@ -131,6 +134,7 @@ ID_MILESTONE_BLITZ_SABRETOOTH,Win a Blitz battle with: Sabretooth
 ID_MILESTONE_BLITZ_SCARLETWITCH,Win a Blitz battle with: Scarlet Witch
 ID_MILESTONE_BLITZ_SCIENTISTSUPREME,Win a Blitz battle with: Scientist Supreme
 ID_MILESTONE_BLITZ_SCREAM,Win a Blitz battle with: Scream
+ID_MILESTONE_BLITZ_SHANGCHI,Win a Blitz battle with: Shang-Chi
 ID_MILESTONE_BLITZ_SHARONCARTER,Win a Blitz battle with: Sharon Carter
 ID_MILESTONE_BLITZ_SHATTERSTAR,Win a Blitz battle with: Shatterstar
 ID_MILESTONE_BLITZ_SHIELDDMG_AOE,Win a Blitz battle with: S.H.I.E.L.D. Assault
@@ -708,12 +712,15 @@ ID_BP_MISSION_DAMAGE_SKILL,Damage with: Skill
 ID_BP_MISSION_DAMAGE_SUPPORT,Damage with: Support
 ID_BP_MISSION_DAMAGE_VILLAIN,Damage with: Villain
 ID_BP_MISSION_KNOCKOUT100,Get 100 Knockouts
+ID_BP_MISSION_KNOCKOUT150,Get 150 Knockouts
 ID_BP_MISSION_KNOCKOUT200,Get 200 Knockouts
 ID_BP_MISSION_KNOCKOUT400,Get 225 Knockouts
 ID_BP_MISSION_KNOCKOUT900,Get 350 Knockouts
 ID_BP_MISSION_KNOCKOUT1200,Get 550 Knockouts
 ID_BP_MISSION_KNOCKOUT5,Get 5 Knockouts
+ID_BP_MISSION_KNOCKOUT10,Get 10 Knockouts
 ID_BP_MISSION_KNOCKOUT15,Get 15 Knockouts
+ID_BP_MISSION_KNOCKOUT20,Get 20 Knockouts
 ID_BP_MISSION_KNOCKOUT25,Get 25 Knockouts
 ID_BP_MISSION_KNOCKOUT30,Get 30 Knockouts
 ID_BP_MISSION_KNOCKOUT35,Get 35 Knockouts
@@ -841,6 +848,7 @@ ID_BP_MISSION_ABILITY_YOYO,Use abilities: Yo-Yo
 ID_BP_MISSION_ABILITY_ZEMO,Use abilities: Baron Zemo
 ID_BP_MISSION_COMPLETEMATCH,Complete a Real-Time Arena match
 ID_BP_MISSION_WIN1,Win 1 Match
+ID_BP_MISSION_WIN2,Win 2 Matches
 ID_BP_MISSION_WIN3,Win 3 Matches
 ID_BP_MISSION_DAMAGE_ELECTRO,Damage with: Electro
 ID_BP_MISSION_DAMAGE_SWARM,Damage with: Swarm
@@ -998,3 +1006,27 @@ ID_QU_NA_TARGETACQUIRED,Target Acquired
 ID_QU_SD_TARGETACQUIRED,Participate in battles
 ID_QU_LM_TARGETACQUIRED,"Score points by playing Arena, Raid, War battles and winning Real-Time Arena battles to earn Classified Data. Spend Classified Data to open the following Orbs:\n\nOrange Hidden Threat Orb\nPurple Hidden Threat Orb\nBlue Hidden Threat Orb"
 ID_QU_SM_TARGETACQUIRED,"Earn points by participating in Arena, Raid, and War battles and winning Real-Time Arena battles."
+ID_QU_NA_DEADLYINTENTIONS,Deadly Intentions
+ID_QU_SD_DEADLYINTENTIONS,Participate in combat
+ID_QU_LM_DEADLYINTENTIONS,"Battle in Arena, Raid, and Alliance War to earn points for various milestone rewards."
+ID_QU_SM_DEADLYINTENTIONS,Earn points by participating in combat
+ID_QU_S1_DEADLYINTENTIONS,Win or Lose an Arena battle
+ID_QU_S2_DEADLYINTENTIONS,Win or Lose a Raid battle
+ID_QU_S3_DEADLYINTENTIONS,Win or Lose a War battle
+ID_QU_NA_CLASSICLOOKS,Classic Looks
+ID_QU_SD_CLASSICLOOKS,Spend Conspiracy Theories Energy
+ID_QU_LM_CLASSICLOOKS,Spend Conspiracy Theories Energy to score points and earn various milestone rewards.
+ID_QU_SM_CLASSICLOOKS,Earn points by spending Conspiracy Theories Energy
+ID_QU_S1_CLASSICLOOKS,Spend 1 Conspiracy Theories Energy
+ID_QU_NA_DEATHPOOL_SOLO,Post Mortem
+ID_QU_SD_DEATHPOOL_SOLO,Participate in combat and Event Campaign
+ID_QU_S1_DEATHPOOL_SOLO,Spend 1 Shadow of Deathpool Energy
+ID_QU_S2_DEATHPOOL_SOLO,Battle in RAIDS with Deathpool
+ID_QU_S3_DEATHPOOL_SOLO,Battle in the ARENA with Deathpool
+ID_QU_LM_DEATHPOOL_SOLO,Complete Arena and Raid battles and spend Shadow of Deathpool Energy to score points and earn various milestone rewards
+ID_QU_SM_DEATHPOOL_SOLO,Earn points by completing Arena and Raid battles and spending Shadow of Deathpool Energy
+ID_QU_NA_THELEGEND,Wise Warrior
+ID_QU_SD_THELEGEND,Spend Fire Essence
+ID_QU_LM_THELEGEND,"Earn Fire Essence by participating in Campaign, Blitz, Raids, Arena, and Real-Time Arena. Spend those Credits in the limited-time Fire Essence Event Store."
+ID_QU_SM_THELEGEND,Earn points by spending Fire Essence
+ID_QU_S1_THELEGEND,Spend Fire Essence

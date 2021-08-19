@@ -71,6 +71,9 @@ ID_ME_BO_ARENACOMP_FIX,"Commander, we recently experienced some unexpected techn
 ID_ME_NA_STORECOMP_FIX,Store Issue Resolved
 ID_ME_DE_STORECOMP_FIX,A gift for your patience!
 ID_ME_BO_STORECOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with the Store, but our top technicians have identified and resolved the issue. Here are some resources to thank you for understanding."
+ID_ME_NA_REDSTARCOMP_FIX,Store Issue Resolved
+ID_ME_DE_REDSTARCOMP_FIX,Thank you for your patience
+ID_ME_BO_REDSTARCOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with the Red Star Orb, but our top technicians have identified and resolved the issue. Thank you for your patience."
 ID_ME_NA_EVENTCOMP_FIX,Event Issue Resolved
 ID_ME_DE_EVENTCOMP_FIX,A gift for your patience!
 ID_ME_BO_EVENTCOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with one of our events, but our top technicians have identified and resolved the issue. Here are some resources to thank you for understanding."
@@ -107,6 +110,12 @@ ID_ME_BO_RTACOMP_FIX,"Commander, we recently experienced some unexpected technic
 ID_ME_NA_DAILIESCOMP_FIX,Daily Objectives Issue Resolved
 ID_ME_DE_DAILIESCOMP_FIX,A gift for your patience!
 ID_ME_BO_DAILIESCOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with Daily Objectives, but our top technicians have identified and resolved the issue. Here are some resources to thank you for understanding."
+ID_ME_NA_RSFEATURINGCOMP_FIX,Red Star Featuring Issue Resolved
+ID_ME_DE_RSFEATURINGCOMP_FIX,A gift for your patience!
+ID_ME_BO_RSFEATURINGCOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with the Red Star Featuring of a character, but our top technicians have identified and resolved the issue. Here are some resources to thank you for understanding."
+ID_ME_NA_HCCOMP_FIX,Power Core Issue Resolved
+ID_ME_DE_HCCOMP_FIX,A gift for your patience!
+ID_ME_BO_HCCOMP_FIX,"Commander, we recently experienced some unexpected technical difficulties with the Power Core purchases in the Store, but our top technicians have identified and resolved the issue. Here are some resources to thank you for understanding."
 ID_ME_NA_OFFERCOMP_FIX_SPECIFIC,Notice: Red Star Offer
 ID_ME_DE_OFFERCOMP_FIX_SPECIFIC,Issue resolution
 ID_ME_BO_OFFERCOMP_FIX_SPECIFIC,"Commander, we recently experienced some unexpected difficulties with a Red Star offer, where the pricing, items, or description did not match. We noticed that you were affected by this error, and we apologize for the inconvenience. Here are some resources to thank you for understanding.\n\nIf you have further concerns, please reach out to our Customer Support."
@@ -238,9 +247,15 @@ ID_ME_BO_CUSTOMER_SUPPORT_DOWNTIME_END,"Our Customer Support system is back in a
 ID_ME_NA_MOJO_UNCLAIMED_REWARDS,Mojo's Mayhem Rewards
 ID_ME_DE_MOJO_UNCLAIMED_REWARDS,Season has concluded
 ID_ME_BO_MOJO_UNCLAIMED_REWARDS,"Commander,\n\nHere are your unclaimed rewards from the recent Mojo's Mayhem Season."
+ID_ME_NA_MOJO_SEASON_START,(DUMMY) New Mojo's Mayhem Season
+ID_ME_DE_MOJO_SEASON_START,(DUMMY) The new Season has started
+ID_ME_BO_MOJO_SEASON_START,"(DUMMY) Commander,\n\nYour new Mojo's Mayhem Season has been jump-started with some Tokens."
 ID_ME_NA_STRIKEPASS_UNCLAIMED_REWARDS,S.T.R.I.K.E. Pass Rewards
 ID_ME_DE_STRIKEPASS_UNCLAIMED_REWARDS,Season has concluded
 ID_ME_BO_STRIKEPASS_UNCLAIMED_REWARDS,"Commander,\n\nHere are your unclaimed rewards from the recent S.T.R.I.K.E. Pass Season."
+ID_ME_NA_STRIKEPASS_SEASON_START,(DUMMY) New S.T.R.I.K.E. Pass Season
+ID_ME_DE_STRIKEPASS_SEASON_START,(DUMMY) The new Season has started
+ID_ME_BO_STRIKEPASS_SEASON_START,"(DUMMY) Commander,\n\nYour new S.T.R.I.K.E. Pass Season has been jump-started with some Tokens."
 ID_ME_NA_REENGAGE_GEN,Welcome back
 ID_ME_DE_REENGAGE_GEN,Claim your gift!
 ID_ME_BO_REENGAGE_GEN,"Commander, welcome back to the fight against Ultimus. Here is a gift to help you in the adventure ahead."
@@ -681,6 +696,12 @@ ID_ME_BO_SHARONCARTER_ECM_TEASER,"Commander,\n\n<color=#fff568>Sharon Carter</co
 ID_ME_NA_SHARONCARTER_ECM_ANNOUNCE,LIVE: Conspiracy Theories
 ID_ME_DE_SHARONCARTER_ECM_ANNOUNCE,Recruit Sharon Carter
 ID_ME_BO_SHARONCARTER_ECM_ANNOUNCE,"Commander,\n\n<color=#fff568>You're needed for this secret S.T.R.I.K.E. mission</color>:\nJoin Sharon Carter as she infiltrates a Hydra-run dimension to prevent a new secret weapon from destroying S.T.R.I.K.E.\n\nEach node in the Conspiracy Theories Event Campaign rewards <color=#fff568>Saboteur Orb Fragments</color> that contain select characters with the limited-time <color=#fff568>Saboteur</color> trait (excluding legendary characters, Longshot, Symbiote Spider-Man, Emma Frost, and Coulson).\n\nFor this event, the <color=#fff568>Medium Difficulty</color> will have no trait restrictions.\n\nFor the list of characters using the <color=#fff568>Saboteur trait</color> filter your roster using: <color=#fff568>Saboteur</color>.\n\n"
+ID_ME_NA_DEATHPOOL_ECM_TEASER,Coming Soon: Deathpool
+ID_ME_DE_DEATHPOOL_ECM_TEASER,Mortem with a Mouth
+ID_ME_BO_DEATHPOOL_ECM_TEASER,"Commander,\n\n<color=#fff568>Deathpool</color> is departing for the battlefield! Be on the lookout for your first chance to recruit her in the upcoming Event Campaign: <color=#fff568>Shadow of Deathpool</color>.\n\nReap victory with the daughter of Deadpool and Death:\n\n- Clears negative effects and Heals via Basic ability\n- Transfers and spreads negative effects\n- Grants Health, Ability Energy, and Drain to Mystic allies\n- Synergizes with Mystics, New Warriors, and Deadpool (via his Passive ability)\n- Hero, Cosmic, Mystic, Brawler, New Warriors\n\n<color=#fff568>Event Requirements</color>\nLimited-time Devoted trait.\n\nPrepare for Deathpool's arrival!"
+ID_ME_NA_DEATHPOOL_ECM_ANNOUNCE,LIVE: Shadow of Deathpool
+ID_ME_DE_DEATHPOOL_ECM_ANNOUNCE,Recruit Deathpool
+ID_ME_BO_DEATHPOOL_ECM_ANNOUNCE,"Commander,\n\n<color=#fff568>You're needed for this secret S.T.R.I.K.E. mission:</color>\nThe Daughter of Death and Deadpool has come to Nexus Earth! Chasing a crazed Thanos who is eliminating every interdimensional version of her father, Deathpool has to protect Deadpool while he tries to bond with his sort-of-not daughter.\n\nEach node in the Shadow of Deathpool Event Campaign rewards <color=#fff568>Devoted Orb Fragments</color> that contain select characters with the limited-time <color=#fff568>Devoted</color> trait (excluding Legendary characters, Longshot, Symbiote Spider-Man, Emma Frost, and Coulson).\n\n<color=#fff568>Event Campaign Update</color>\nFor this event, the Medium Difficulty will have <color=#fff568>no trait restrictions.</color>\n\nFor the list of characters using the <color=#fff568>Devoted trait</color>, filter your roster using: Devoted."
 ID_ME_NA_ALLIANCE_DONATION,War Effort - Alliance Donation Event
 ID_ME_DE_ALLIANCE_DONATION,Additional Alliance Donation Rewards!
 ID_ME_BO_ALLIANCE_DONATION,"Commander,\n\nFor the next week, War Energy Refills, War Defense Boosts, and additional Gold have been added to the Alliance Donation Milestone Rewards. Donate to increase your Alliance level and receive the new rewards!"
@@ -692,7 +713,7 @@ ID_ME_DE_BLUEGEAR_BLITZ_1HOUR_COOLDOWN,Limited time only!
 ID_ME_BO_BLUEGEAR_BLITZ_1HOUR_COOLDOWN,"Commander,\n\nFor this Blitz, the cooldown period to reuse characters will be <color=#fff568>one hour</color> instead of the normal two hours!\n\nTake advantage of this special cooldown to save your Blitz Charges, fight in more Blitz battles, and hit more Milestone Rewards to earn additional Blue Gear Raid Orb Fragments."
 ID_ME_NA_CATALYSTCATACLYSM_ANNOUNCE,Catalyst Cataclysm
 ID_ME_DE_CATALYSTCATACLYSM_ANNOUNCE,3x Basic Catalysts from Campaign
-ID_ME_BO_CATALYSTCATACLYSM_ANNOUNCE,"For 24-hours only, earn <color=#fff568>3x Basic Catalysts</color> from select Campaign missions:\n\nHeroes 7-6 : Superior Basic Catalyst Part\nVillains 7-3 : Superior Basic Catalyst Part\nNexus 8-3: Superior Basic Catalyst Part\nVillains 2-6 : Improved Basic Catalyst\nVillains 4-6 : Improved Basic Catalyst\nVillains 6-6 : Improved Basic Catalyst\nNexus 1-6 : Improved Basic Catalyst\nNexus 2-6 : Advanced Basic Catalyst Part\nNexus 4-3 : Advanced Basic Catalyst Part\nNexus 6-6 : Advanced Basic Catalyst Part\nCosmic 1-3 : Advanced Basic Catalyst Part\nCosmic 3-3 : Advanced Basic Catalyst Part\nMystic 1-3 : Advanced Basic Catalyst Part\nMystic 3-3 : Advanced Basic Catalyst Part\nDoom 1-3: Superior Basic Catalyst Part\n\nYou can easily find these by looking for the ""Bonus"" text under each Campaign chapter."
+ID_ME_BO_CATALYSTCATACLYSM_ANNOUNCE,"Commander,\n\nFor a limited time earn <color=#fff568>3x Basic Catalysts</color> from Campaigns for the next <color=#fff568>24 hours</color>.\n\nHurry and earn more Basic Catalysts to upgrade your characters!"
 ID_ME_NA_ENERGY_OVERLOAD,LIVE: Energy Overload
 ID_ME_DE_ENERGY_OVERLOAD,Double your Campaign energy!
 ID_ME_BO_ENERGY_OVERLOAD,"Commander,\n\nFor 24 hours, the amount of Campaign Energy when purchased will be doubled from <color=#fff568>120</color> to <color=#fff568>240</color>!\n\nUse your Campaign Energy to collect more gear and upgrade your characters!"
@@ -702,6 +723,15 @@ ID_ME_BO_GEARBLOWOUT,"For 24 hours only, items in the Main Store sold for Gold a
 ID_ME_NA_GOLDCONQUEST_BLITZ,LIMITED: Gold Conquest
 ID_ME_DE_GOLDCONQUEST_BLITZ,24-hour Blitz to earn Gold Orbs!
 ID_ME_BO_GOLDCONQUEST_BLITZ,"Commander,\n\nStrike Gold with a 1-day Gold Conquest Blitz!\n\nFor a limited time, rack up big Gold payouts as you Blitz your way to Gold Orb Fragments.\n\nFor the next 24 hours, fight through the opposition to earn <color=#fff568>Gold Orb Fragments</color>. Work your way up the leaderboard through percentage ranks to earn at least 500 Gold Orb Fragments with a chance to earn up to 4 full orbs.\n\nDon't miss the mark; stockpile Gold and improve your roster!"
+ID_ME_NA_GEOLOGY_BOUNTY_UPDATE,Geology Bounty
+ID_ME_DE_GEOLOGY_BOUNTY_UPDATE,2x Iso-8 Crystals
+ID_ME_BO_GEOLOGY_BOUNTY_UPDATE,"Commander,\n\nFor 24 hours, the number of <color=#fff568>Iso-8 Crystals</color> rewarded from Campaign nodes will <color=#fff568>double (2x)</color>.\n\nAffected Campaign nodes will be marked with <color=#fff568>BONUS</color>, so be on the lookout.\n\nGood luck, Commander!"
+ID_ME_NA_GEAR_EXPLOSION_UPDATE,Gear Explosion
+ID_ME_DE_GEAR_EXPLOSION_UPDATE,3x rewards for select gear
+ID_ME_BO_GEAR_EXPLOSION_UPDATE,"Commander,\n\nFor 24 hours, the number of select <color=#fff568>Improved, Advanced, and Superior Origin Gear</color> rewarded in Campaign nodes will <color=#fff568>triple (3x)</color>.\n\nAffected Campaign nodes will be marked with <color=#fff568>BONUS</color>, so be on the lookout.\n\nGood luck, Commander!"
+ID_ME_NA_IONINFLUX,LIVE: Ion Influx
+ID_ME_DE_IONINFLUX,Reduced refresh cost
+ID_ME_BO_IONINFLUX,"Commander,\n\nIt's time to Boost your Iso-8 progress! For the next 24 hours, the cost to purchase <color=#fff568>120 Iso-8 Campaign Energy</color> will remain at <color=#fff568>50 Power Cores</color>.\n\nUse this extra Campaign Energy to earn more Ions and power up your roster!"
 ID_ME_NA_ORANGEGEAR_BLITZ,LIMITED: Gear Strike: Orange
 ID_ME_DE_ORANGEGEAR_BLITZ,24-hour Blitz to earn Gear!
 ID_ME_BO_ORANGEGEAR_BLITZ,"Commander,\n\nPower up your squads with a 1-day Gear Strike: Orange Blitz!\n\nFor a limited time, rack up big rewards as you Blitz your way to Orange and Purple Gear Raid Orbs.\n\nFor the next 24 hours, blitz through the opposition to earn Orange Gear Raid Orb Fragments. Work your way up the leaderboard through percentage ranks to earn at least 500 <color=#fff568>Orange Gear Raid Orb Fragments</color> with a chance to earn up to 5 full orbs.\n\nDon't miss this limited-time event!"
@@ -1413,9 +1443,6 @@ ID_ME_DE_YELENA_ELITE_STORE,Get Red Stars for Yelena Belova
 ID_ME_BO_YELENA_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Yelena Belova</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Yelena 1 Red Star higher</color> than her current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
 ID_ME_NA_DOOM_NODE_CHANGE_EXTENSION,Doom's Influence Event Extension
 ID_ME_BO_DOOM_NODE_CHANGE_EXTENSION,"Commander,\n\nThe Doom's Influence event will be extended for a limited time!\n\nTake advantage of Doom's influence while you can!"
-ID_ME_NA_IONINFLUX,LIVE: Ion Influx
-ID_ME_DE_IONINFLUX,Reduced refresh cost
-ID_ME_BO_IONINFLUX,"Commander,\n\nIt's time to Boost your Iso-8 progress! For the next 24 hours, the cost to purchase <color=#fff568>120 Iso-8 Campaign Energy</color> will remain at <color=#fff568>50 Power Cores</color>.\n\nUse this extra Campaign Energy to earn more Ions and power up your roster!"
 ID_ME_NA_HOLIDAY_GIFT,Just for You
 ID_ME_DE_HOLIDAY_GIFT,Unwrap your special gift!
 ID_ME_BO_HOLIDAY_GIFT,"Commander,\n\nThank you for playing MARVEL Strike Force! Please enjoy these gifts to help hit the ground running in 2021.\n\nHave a happy and safe holiday!"
@@ -1807,12 +1834,6 @@ ID_ME_BO_ARENA_STORE_UPDATE,"Commander,\n\nWe've updated the Arena Store, includ
 ID_ME_NA_ANNIVERSARY_GIFT_2021,Anniversary Gift
 ID_ME_DE_ANNIVERSARY_GIFT_2021,Thank you for playing
 ID_ME_BO_ANNIVERSARY_GIFT_2021,"Commander,\n\nThank you for playing MARVEL Strike Force! Help us celebrate three years of costumed heroes and villains protecting Nexus Earth with this anniversary gift."
-ID_ME_NA_GEOLOGY_BOUNTY_UPDATE,Geology Bounty
-ID_ME_DE_GEOLOGY_BOUNTY_UPDATE,2x Iso-8 Crystals
-ID_ME_BO_GEOLOGY_BOUNTY_UPDATE,"Commander,\n\nFor 24 hours, the number of <color=#fff568>Iso-8 Crystals</color> rewarded from Campaign nodes will <color=#fff568>double (2x)</color>.\n\nAffected Campaign nodes will be marked with <color=#fff568>BONUS</color>, so be on the lookout.\n\nGood luck, Commander!"
-ID_ME_NA_GEAR_EXPLOSION_UPDATE,Gear Explosion
-ID_ME_DE_GEAR_EXPLOSION_UPDATE,3x rewards for select gear
-ID_ME_BO_GEAR_EXPLOSION_UPDATE,"Commander,\n\nFor 24 hours, the number of select <color=#fff568>Improved, Advanced, and Superior Origin Gear</color> rewarded in Campaign nodes will <color=#fff568>triple (3x)</color>.\n\nAffected Campaign nodes will be marked with <color=#fff568>BONUS</color>, so be on the lookout.\n\nGood luck, Commander!"
 ID_ME_NA_NEWBLOGPOST_031921,New Blog Available
 ID_ME_DE_NEWBLOGPOST_031921,See the latest MARVEL Strike Force news
 ID_ME_BO_NEWBLOGPOST_031921,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Polaris Abilities\n- Upcoming Blitzes\n- Weekly Events"
@@ -2311,18 +2332,222 @@ ID_ME_BO_NEWBLOGPOST_070921,"Commander,\n\nThere's a new blog available to read.
 ID_ME_NA_WEBOFSPIES_MILESTONEPTS_MAKEGOOD,Event Issue Resolved
 ID_ME_DE_WEBOFSPIES_MILESTONEPTS_MAKEGOOD,Compensation inside
 ID_ME_BO_WEBOFSPIES_MILESTONEPTS_MAKEGOOD,"Commander,\n\nWe recently experienced unexpected difficulties with the Web of Spies Milestone Event. While we took the event down to fix the rewards, players who opened the event orbs (Orange, Purple, and Blue Hidden Threat Orbs) did not receive progress towards the milestone.\n\nAttached are Milestone Points that will grant you the milestone progress you should've earned for the event orbs you opened.\n\nPlease note: If you opened more than one orb, you'll receive compensation for each. You may receive multiple messages that will be additive of the points you earned for the total number of event orbs opened.\n\nThank you for your patience."
-ID_ME_NA_BWTWITTER_JA_ANNOUNCE,Temp string
-ID_ME_DE_BWTWITTER_JA_ANNOUNCE,Temp string
-ID_ME_BO_BWTWITTER_JA_ANNOUNCE,Temp string
-ID_ME_NA_BWTWITTER_JA_REMINDER1,Temp string
-ID_ME_DE_BWTWITTER_JA_REMINDER1,Temp string
-ID_ME_BO_BWTWITTER_JA_REMINDER1,Temp string
-ID_ME_NA_BWTWITTER_JA_REMINDER2,Temp string
-ID_ME_DE_BWTWITTER_JA_REMINDER2,Temp string
-ID_ME_BO_BWTWITTER_JA_REMINDER2,Temp string
-ID_ME_NA_BWTWITTER_JA_REWARD,Temp string
-ID_ME_DE_BWTWITTER_JA_REWARD,Temp string
-ID_ME_BO_BWTWITTER_JA_REWARD,Temp string
-ID_ME_NA_STARLORD_START,The Space Ace event has begun!
-ID_ME_DE_STARLORD_START,Recruit Star-Lord now!
-ID_ME_BO_STARLORD_START,"The time has come to recruit <color=#fff568>Star-Lord</color>. Assemble your Guardian and Ravager squad for battle. If you're unable to recruit Star-Lord this time, don't worry, he will return.\n\n<color=#fff568>Event Requirements</color>:\n- Five (5) Guardians and/or Ravagers\n- Guardian and Ravager Star Rank requirement increases by 1 with each level\n\n<color=#fff568>List of Guardians and Ravagers</color>:\n- Gamora\n- Drax\n- Rocket Raccoon\n- Groot\n- Mantis\n- Yondu\n- Ravager Boomer\n- Ravager Bruiser\n- Ravager Stitcher\n\nGood luck, Commander."
+ID_ME_NA_CAPTAINAMERICASAM_TEASER,Soon: Captain America (Sam)
+ID_ME_DE_CAPTAINAMERICASAM_TEASER,Sentinel of Liberty
+ID_ME_BO_CAPTAINAMERICASAM_TEASER,"Commander,\n\n<color=#fff568>Captain America (Sam)</color> is soaring toward the battle! Elevate your roster with this upcoming Secret Avenger:\n\n- Gains Deflect on Spawn and with Basic & Special abilities\n- Grants Defense Up, Speed Up, and Ability Energy to Skill allies\n- Fills Speed Bar for Skill allies by 10% per enemy\n- Synergizes with Skill and Secret Avenger allies\n- Hero, Global, Skill, Protector, Secret Avenger\n\nBe on the lookout for the upcoming Season of <color=#fff568>S.T.R.I.K.E. Pass</color> to earn Captain America (Sam) shards!"
+ID_ME_NA_CAPTAINAMERICASAM_ANNOUNCE,Captain America (Sam)
+ID_ME_DE_CAPTAINAMERICASAM_ANNOUNCE,Sentinel of Liberty
+ID_ME_BO_CAPTAINAMERICASAM_ANNOUNCE,"Commander\n\nAdd the power of claws and stripes to your roster with Captain America (Sam):\n\n<color=#fff568>Strengths:</color> High Health & Resistance\n<color=#fff568>Specialty:</color> Resilient Protector with easy access to Deflect & provides allies with positive effects\n<color=#fff568>Ability Highlights:</color> 2 turn Taunt and gains Deflect via his Basic and Special abilities\n<color=#fff568>Raids:</color> Grants extra Max Health to non-Secret Avenger Skill allies\n\nFor more details, check out his <color=#fff568>New Character Spotlight</color> (English only) on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nUpcoming Season of S.T.R.I.K.E. Pass\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Captain America (Sam) is featured in Red Star Orbs with an increased drop rate of 15% for a limited-time. During this period, Dark Promotion Credits will return to their base drop quantities in Basic Red Star Orbs.\n\nRecruit this Secret Avenger Protector!"
+ID_ME_NA_CAPTAINAMERICASAM_RS_ENDING,Red Star ft. Captain America (Sam)
+ID_ME_DE_CAPTAINAMERICASAM_RS_ENDING,1 day left: Captain America (Sam)
+ID_ME_BO_CAPTAINAMERICASAM_RS_ENDING,"<color=#fff568>Captain America (Sam)</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%. When this featuring ends, Dark Promotion Credit rewards will increase in Basic Red Star Orbs."
+ID_ME_NA_CAPTAINAMERICASAM_PREBAMESH,Availability Update
+ID_ME_DE_CAPTAINAMERICASAM_PREBAMESH,Recruit Captain America (Sam)!
+ID_ME_BO_CAPTAINAMERICASAM_PREBAMESH,"Commander,\n\n<color=#fff568>Captain America (Sam)</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>Sif</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_CAPTAINAMERICASAM_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_CAPTAINAMERICASAM_ELITE_STORE,Get Red Stars for Captain America (Sam)
+ID_ME_BO_CAPTAINAMERICASAM_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Captain America (Sam)</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Captain America (Sam) 1 Red Star higher</color> than his current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
+ID_ME_NA_CLASSICLOOKS_TEASER,Liberty is getting a new look
+ID_ME_DE_CLASSICLOOKS_TEASER,Classic Captain America Costume
+ID_ME_BO_CLASSICLOOKS_TEASER,"Commander,\n\nWear victory on your sleeve with the upcoming <color=#fff568>Classic Looks</color> Event!\n\nTurn your roster into Super-Soldiers with these potential rewards:\n\n- ""Classic"" Captain America Costume\n- Skill Gear\n- Catalyst Parts\n- And more!\n\nThis reward revolution starts soon, so be on the lookout."
+ID_ME_NA_CLASSICLOOKS_ANNOUNCE,LIVE: Classic Looks
+ID_ME_DE_CLASSICLOOKS_ANNOUNCE,Earn your stars and stripes
+ID_ME_BO_CLASSICLOOKS_ANNOUNCE,"Commander,\n\nNOW LIVE: Classic Looks!\n\nEarn your stars and stripes with this limited-time event:\n\n<color=#fff568>Conspiracy Theories Event Campaign</color>\nEarn Sharon Carter character shards and Saboteur Orb Fragments via the Conspiracy Theories Event Campaign.\n\n<color=#fff568>Classic Looks Milestone</color>\nSpend Conspiracy Theories Energy to earn points toward a recurring 2-day milestone that rewards Orange Skill gear parts, Catalyst Parts, and Silver Phase Bits.\n\n<color=#fff568>Classic Costume</color>\nUse your Silver Phase Bits to purchase the ""Classic"" Captain America Costume, which will only be available for a limited time at first. After acquiring this costume, you have the option to purchase a visual upgrade using Costume Credits. Unused Bits will be converted to <color=#fff568>Costume Credits</color> on <color=#fff568>August 6, 2021 5:00PM (PDT)</color> at a conversion rate of 60%."
+ID_ME_NA_CLASSICLOOKS_ENDING,ENDING: Classic Looks
+ID_ME_DE_CLASSICLOOKS_ENDING,4 days left!
+ID_ME_BO_CLASSICLOOKS_ENDING,"Commander,\n\nThe Classic Looks event ends in 4 days! All unused <color=#fff568>Silver Phase Bits</color> will be converted to Costume Credits on <color=#fff568>August 6, 2021 5:00PM (PDT)</color> at a conversion rate of <color=#fff568>60%</color> after the event has ended.\n\nContinue spending Conspiracy Theories Energy before these rewards are gone for good.\n\nGood luck, Commander!"
+ID_ME_NA_RECURRING_MILESTONE_UPDATE,Recurring Milestone Updates
+ID_ME_DE_RECURRING_MILESTONE_UPDATE,New Milestone II Orb & Rewards
+ID_ME_BO_RECURRING_MILESTONE_UPDATE,"Commander,\n\nWe've updated the rewards and orb for our <color=#fff568>recurring milestones</color>. Here's what's new:\n\n<color=#fff568>New Milestone II Orb</color>\nThe Milestone II Orb has replaced the Milestone Orb and includes a new set of rewards. Agent Coulson has been removed and Emma Frost is now a featured character with a higher drop rate than other characters. Please open your remaining Milestone Orbs as soon as possible, as they'll be removed from the Store in the near future.\n\n<color=#fff568>Updated Rewards</color>\nWe updated the milestones with the goal of greatly increasing their value overall. You'll now find Orange Gear Elite Orb Fragments, Armory 14 & 15 Orb Fragments, Iso-8 Ions, and L3 Training Modules, in addition to increased amounts of Purple and Orange gear within the milestone rewards.\n\n<color=#fff568>High Roller Milestone</color>\nThe High Roller Gold Milestone has been raised from its previous max of 2.7M to 4M, creating additional milestones and rewards.\n\nStart earning your new milestone rewards today!"
+ID_ME_NA_MILESTONE_ORB_7DAY_WARNING,Going Away: Milestone Orb
+ID_ME_DE_MILESTONE_ORB_7DAY_WARNING,7 days left to open your orbs!
+ID_ME_BO_MILESTONE_ORB_7DAY_WARNING,"Commander,\n\nThe <color=#fff568>Milestone Orb</color> will only be in the Store for <color=#fff568>7 more days</color>.\n\nHurry and open your remaining Milestone Orbs before they're gone for good!"
+ID_ME_NA_MILESTONE_ORB_1DAY_WARNING,Going Away: Milestone Orb
+ID_ME_DE_MILESTONE_ORB_1DAY_WARNING,1 day left to open your orbs!
+ID_ME_BO_MILESTONE_ORB_1DAY_WARNING,"Commander,\n\nThe Milestone Orb will only be in the Store for <color=#fff568>1 more day</color>.\n\nHurry and open your remaining Milestone Orbs before they're gone for good!"
+ID_ME_NA_STRIKEPASS5_ANNOUNCE,S.T.R.I.K.E. Pass: Season 5
+ID_ME_DE_STRIKEPASS5_ANNOUNCE,Earn Captain America (Sam) character shards!
+ID_ME_BO_STRIKEPASS5_ANNOUNCE,<color=#fff568>S.T.R.I.K.E. Pass: Season 5 is live!</color>\n\nRack up big rewards by completing your Daily Objectives!\n\nSeason 5 Featured Character Shards: <color=#fff568>Captain America (Sam)</color>\n\n<color=#fff568>How it Works</color>\n- Certain Daily Objectives now also reward S.T.R.I.K.E. Tokens\n- Earn S.T.R.I.K.E. Tokens to hit Season-long milestone rewards\n- You can also spend Power Cores to immediately reach the next S.T.R.I.K.E. Level\n- Your S.T.R.I.K.E. Level refreshes each Season\n\n<color=#fff568>Reward Tiers</color>\n- Commander Level determines your S.T.R.I.K.E. Pass Tier & Rewards\n- S.T.R.I.K.E. I: Commander Levels 10-49\n- S.T.R.I.K.E. II: Commander Levels 50-69\n- S.T.R.I.K.E. III: Commander Levels 70+\n- Your Commander Level at the START of the season determines which S.T.R.I.K.E. Pass Tier you get for the duration of the Season\n\n<color=#fff568>Premium S.T.R.I.K.E. Pass</color>\nUpgrade to the Premium S.T.R.I.K.E. Pass to earn additional rewards for reaching each S.T.R.I.K.E. Level.\n\nDon't miss out on Captain America (Sam) shards and big rewards in Season 5!
+ID_ME_NA_STRIKEPASS5_ENDING,Ending: S.T.R.I.K.E. Pass
+ID_ME_DE_STRIKEPASS5_ENDING,Hurry and recruit Captain America (Sam)!
+ID_ME_BO_STRIKEPASS5_ENDING,"Commander,\n\nYou only have <color=#fff568>7 days remaining</color> to earn Captain America (Sam) shards in Season 5 of S.T.R.I.K.E. Pass.\n\nHurry and complete your Daily Objectives before Captain America (Sam) and these rewards are gone for good!"
+ID_ME_NA_NEWBLOGPOST_071621,New Blog Available
+ID_ME_DE_NEWBLOGPOST_071621,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_071621,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Conspiracy Theories & Classic Looks Events\n- Character Availability Updates\n- Upcoming Legendary Events\n- Weekly Events"
+ID_ME_NA_SISTERLYLOVE_SOCIAL_POLL,Sisterly Love Social Poll
+ID_ME_DE_SISTERLYLOVE_SOCIAL_POLL,And your favorite sister is...
+ID_ME_BO_SISTERLYLOVE_SOCIAL_POLL,"Commander,\n\nThe Sisterly Love Social Poll on the <color=#fff568>MARVEL Strike Force Facebook</color> page has concluded, and the winner is...\n\n<color=#fff568>Nebula</color>\n\nDon't miss Nebula's upcoming <color=#fff568>Sadistic Sister Blitz</color> for a chance to power up your Infinity Watch team!"
+ID_ME_NA_VEILEDTHREATS_TEASER,Prepare to lift the veil
+ID_ME_DE_VEILEDTHREATS_TEASER,Earn costumes and big rewards!
+ID_ME_BO_VEILEDTHREATS_TEASER,"Commander,\n\nSharpen your blade for the upcoming <color=#fff568>Veiled Threats Event!</color>\n\nEarn gear rewards and Bits to purchase your choice of costumes:\n\n- Gamora's <color=#fff568>""Requiem""</color> Costume\n- Daredevil's <color=#fff568>""Shadowland""</color> Costume\n\nGet ready because this event starts soon!"
+ID_ME_NA_VEILEDTHREATS_ANNOUNCE,LIVE: Veiled Threats
+ID_ME_DE_VEILEDTHREATS_ANNOUNCE,"Earn costumes, ability materials, and gear!"
+ID_ME_BO_VEILEDTHREATS_ANNOUNCE,"Commander,\n\nNOW LIVE: <color=#fff568>Veiled Threats!</color>\n\nArm yourself with gear and a set of menacing costumes with this limited-time event:\n\n<color=#fff568>Deadly Intentions Milestone</color>\nCut down opponents in Alliance War, Raids, and Arena battles to earn points toward a 14-day milestone that rewards:\n\n- Purple Phase Bits\n- Elite 4 & Elite 5 Credits\n- Ability Materials\n- Catalyst Parts\n- Gear\n\n<color=#fff568>Costumes</color>\nVeiled Threats is your first opportunity to add these available costumes to your roster using Purple Phase Bits:\n\n- Gamora's <color=#fff568>""Requiem""</color> Costume\n- Daredevil's <color=#fff568>""Shadowland""</color> Costume\n\nAfter acquiring these costumes, you have the option to purchase a visual upgrade using Costume Credits. Unused Bits will be converted to <color=#fff568>Costume Credits</color> on August 21st, 2021 5:00PM (PDT) at a conversion rate of <color=#fff568>60%.</color>"
+ID_ME_NA_VEILEDTHREATS_ENDING,ENDING: Veiled Threats
+ID_ME_DE_VEILEDTHREATS_ENDING,3 days left!
+ID_ME_BO_VEILEDTHREATS_ENDING,"Commander,\n\nThe <color=#fff568>Veiled Threats</color> event ends in 3 days!\n\n Continue earning <color=#fff568>Purple Phase Bits</color> and gear before these rewards are gone for good. All unused Purple Phase Bits will be converted to Costume Credits on <color=#fff568>August 21st, 5:00PM (PDT)</color> at a conversion rate of 60% after the event has ended.\n\nGood luck, Commander!"
+ID_ME_NA_KITTYPRYDE_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_KITTYPRYDE_FOUNTAIN_UPDATE,Recruit Kitty Pryde
+ID_ME_BO_KITTYPRYDE_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Kitty Pryde</color> character shards are now available in the <color=#fff568>Raid Store</color> for 1400 Raid Credits."
+ID_ME_NA_KESTREL_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_KESTREL_FOUNTAIN_UPDATE,Recruit Kestrel
+ID_ME_BO_KESTREL_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Kestrel</color> character shards are now exclusively available in the <color=#fff568>Premium Orb</color> at a higher drop rate alongside Anti-Venom.\n\nAdditionally, <color=#fff568>Cull Obsidian</color> will no longer be featured at a higher drop rate in the Premium Orb but will be made purchasable in the <color=#fff568>War Store</color> for 1,375 War Credits."
+ID_ME_NA_BISHOP_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_BISHOP_FOUNTAIN_UPDATE,Recruit Bishop
+ID_ME_BO_BISHOP_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Bishop</color> character shards are now available in the <color=#fff568>War Store</color> for 1375 War Credits.\n\n<color=#fff568>Hydra Sniper</color> will be removed from the <color=#fff568>War Store</color>, but will still be available in <color=#fff568>Cosmic 2-3</color>.\n\n"
+ID_ME_NA_MARIAHILL_TEASER,Coming Soon: Maria Hill
+ID_ME_DE_MARIAHILL_TEASER,Flawless Efficiency
+ID_ME_BO_MARIAHILL_TEASER,"Commander,\n\n<color=#fff568>Maria Hill</color> is suiting up for battle! Deploy the Secret Avenger's fire support:\n\n- Passive ability Heals allies on allied Block\n- Summons S.H.I.E.L.D. Troopers\n- Applies Deflect and Immunity to Secret Avenger allies\n- High single target damage\n- Hero, Global, Skill, Support, S.H.I.E.L.D., Secret Avenger\n\nBe on the lookout for <color=#fff568>Deputy Director Blitz</color>, featuring Maria Hill!"
+ID_ME_NA_MARIAHILL_ANNOUNCE,Maria Hill drops into battle!
+ID_ME_DE_MARIAHILL_ANNOUNCE,Secret Leader
+ID_ME_BO_MARIAHILL_ANNOUNCE,"Commander,\n\nCall in fire support for your Secret Avenger Raid team with <color=#fff568>Maria Hill:</color>\n\n<color=#fff568>Strengths</color>: High Health\n<color=#fff568>Specialty</color>: Healing allies and summoning S.H.I.E.L.D. Troopers\n<color=#fff568>Ability Highlights</color>: Passive ability Heals allies on allied Block\n<color=#fff568>Raids</color>: Increased Secret Avenger Resistance & always Heals most injured ally on allied Block.\n\nFor more details, check out her <color=#fff568>New Character Spotlight</color> (English only) on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nDeputy Director Blitz, starting on July 29, 5:00PM (PDT)\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Maria Hill is featured in Red Star Orbs with an increased drop rate of 15% for a limited time. \n\nAdd Maria Hill to your Secret Avengers team today!"
+ID_ME_NA_MARIAHILL_RS_ENDING,Red Star feat. Maria Hill
+ID_ME_DE_MARIAHILL_RS_ENDING,1 day left!
+ID_ME_BO_MARIAHILL_RS_ENDING,<color=#fff568>Maria Hill</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%.
+ID_ME_NA_MARIAHILL_PREBAMESH,Availability Update
+ID_ME_DE_MARIAHILL_PREBAMESH,Recruit Maria Hill!
+ID_ME_BO_MARIAHILL_PREBAMESH,"Commander,\n\n<color=#fff568>Maria Hill</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>the Thing</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_MARIAHILL_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_MARIAHILL_ELITE_STORE,Get Red Stars for Maria Hill
+ID_ME_BO_MARIAHILL_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Maria Hill</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Maria Hill 1 Red Star higher</color> than her current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
+ID_ME_NA_RAID_WAR_ABMATS_UPDATE,Raid Season Update
+ID_ME_DE_RAID_WAR_ABMATS_UPDATE,Rank Rewards
+ID_ME_BO_RAID_WAR_ABMATS_UPDATE,"Commander,\n\nTo help you earn even more <color=#fff568>T4 Ability Materials</color>, we've made the following updates to Raid Season Rank Rewards:\n\nRank Rewards will now include <color=#fff568>100% of all Raid participants</color> and the lower 95% will now earn more T4 Ability Materials, resulting in 5 to 40 more T4 Ability Materials per Season to put toward your roster.\n\nGood luck, Commander!"
+ID_ME_NA_BLITZ_POLL_ANNOUNCE,Community Poll
+ID_ME_DE_BLITZ_POLL_ANNOUNCE,Vote for the featured Blitz character!
+ID_ME_BO_BLITZ_POLL_ANNOUNCE,"Commander,\n\nIt's decision time: Which character should be featured in our upcoming Blitz?\n\nVisit the <color=#fff568>MARVEL Strike Force Facebook page</color> and help choose our future Blitz!"
+ID_ME_NA_DOOM_ULTIMUS_ABMATS_UPDATE,Ultimus VII & Doom I Rewards
+ID_ME_DE_DOOM_ULTIMUS_ABMATS_UPDATE,T4 Ability Materials Rewards
+ID_ME_BO_DOOM_ULTIMUS_ABMATS_UPDATE,"Commander,\n\nWe've updated the <color=#fff568>Raid Completion Rewards</color> for Ultimus VII and Doom I.\n\nAll <color=#fff568>T4 Ability Materials</color> rewards now match those of the top contributor, resulting in about 30 to 90 additional T4 Ability Materials per month, depending on your damage contribution.\n\nCoordinate with your Alliance and start earning these updated rewards!"
+ID_ME_NA_GAMMA_RAIDS_UPDATE_072721,Gamma Raids Update
+ID_ME_DE_GAMMA_RAIDS_UPDATE_072721,Gamma Raids III & IV
+ID_ME_BO_GAMMA_RAIDS_UPDATE_072721,"Commander,\n\nStart flexing the might of Heroes for Hire in Gamma Raids!\n\nGoing forward, any <color=#fff568>Gamma Raids III and IV</color> node that required the Defenders trait will now also allow the <color=#fff568>Heroes for Hire</color> trait. No other trait restrictions will be affected by this change.\n\nGood luck, Commander!"
+ID_ME_NA_WAR_ABMATS_UPDATE,Alliance War Update
+ID_ME_DE_WAR_ABMATS_UPDATE,War Season Rewards
+ID_ME_BO_WAR_ABMATS_UPDATE,"Commander,\n\nTo help you earn even more <color=#fff568>T4 Ability Materials</color>, we've updated the Alliance War Rank Rewards:\n\nRank Rewards will now include <color=#fff568>100% of all Alliance War participants</color> and the lower 90% will now earn more T4 Ability Materials, resulting in 20 to 50 additional T4 Ability Materials per Season.\n\nCoordinate with your Alliance and start earning these new rewards!"
+ID_ME_NA_NEWBLOGPOST_072321,New Blog Available
+ID_ME_DE_NEWBLOGPOST_072321,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_072321,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- T4 Ability Materials Availability\n- Gamma Raids Updates\n- Upcoming Blitzes\n- Weekly Events"
+ID_ME_NA_AGENTCOULSON_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_AGENTCOULSON_FOUNTAIN_UPDATE,Recruit Coulson
+ID_ME_BO_AGENTCOULSON_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Agent Coulson</color> character shards are now available in the <color=#fff568>Blitz Store</color> for 500 Blitz Credits.\n\n"
+ID_ME_NA_SILVERSURFER_SUPPLYSTORE,Supplies Store Update
+ID_ME_DE_SILVERSURFER_SUPPLYSTORE,Limited-Time: Silver Surfer
+ID_ME_BO_SILVERSURFER_SUPPLYSTORE,"Commander,\n\nNow available in the Supplies Store: <color=#fff568>Silver Surfer!</color>\n\nFrom <color=#fff568>July 27, 5PM (PDT) to August 2, 5PM (PDT)</color> Silver Surfer character shards will be purchasable with Power Cores and have an appearance rate of <color=#fff568>20%</color>. After this period, he'll return to being solely available via the Raid Season Milestones.\n\nHurry and power up Silver Surfer before he leaves the Store!"
+ID_ME_NA_PREVIEWBLOG2_2021,2021 Second Half Preview
+ID_ME_DE_PREVIEWBLOG2_2021,Upcoming new features and content
+ID_ME_BO_PREVIEWBLOG2_2021,"Commander,\n\nCheck out our <color=#fff568>latest blog</color> with a rundown of what's in store for the rest of <color=#fff568>2021 and beyond</color>, including:\n\n- Updates to Alliance War and Real-Time Arena\n- Doom Raid II & Dark Dimension V\n- Auto-Basic Combat\n- Preview of Upcoming Costumes\n- New Game Mode in 2022...\n\nTap Go to learn about all this and more!"
+ID_ME_NA_NEWBLOGPOST_073021,New Blog Available
+ID_ME_DE_NEWBLOGPOST_073021,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_073021,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Veiled Threats Event\n- War Store Update\n- Repeating Legendary Event\n- Weekly Events"
+ID_ME_NA_DEATHPOOL_ANNOUNCE,Deathpool rises into battle
+ID_ME_DE_DEATHPOOL_ANNOUNCE,Mortem with a Mouth
+ID_ME_BO_DEATHPOOL_ANNOUNCE,"Commander,\n\nSend your enemies to an early grave with <color=#fff568>Deathpool</color>:\n\n<color=#fff568>Strengths:</color> High Health & Damage\n<color=#fff568>Specialty:</color> Deadly combination of firepower, healing, and negative effect control\n<color=#fff568>Ability Highlights:</color> Fully Charged Ultimate Ability turns enemies to dust\n<color=#fff568>Raids:</color> Grants Health, Ability Energy, and Drain to Mystic allies\n\nAnd don't miss her <color=#fff568>New Character Spotlight</color> on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nShadow of Deathpool Event Campaign, starting on <color=#fff568>August 20th, 5:00PM (PDT).</color>\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Deathpool is featured in Red Star Orbs with an increased drop rate of 15% for a limited time.\n\nReap victory with Deathpool!"
+ID_ME_NA_DEATHPOOL_RS_ENDING,Red Star feat. Deathpool
+ID_ME_DE_DEATHPOOL_RS_ENDING,1 day left!
+ID_ME_BO_DEATHPOOL_RS_ENDING,<color=#fff568>Deathpool</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%.
+ID_ME_NA_DEATHPOOL_PREBAMESH,Availability Update
+ID_ME_DE_DEATHPOOL_PREBAMESH,Recruit Deathpool!
+ID_ME_BO_DEATHPOOL_PREBAMESH,"Commander,\n\n<color=#fff568>Deathpool</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>Namor</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_DEATHPOOL_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_DEATHPOOL_ELITE_STORE,Get Red Stars for Deathpool
+ID_ME_BO_DEATHPOOL_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Deathpool</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Deathpool 1 Red Star higher</color> than her current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
+ID_ME_NA_POWERCORE_MAKEGOOD,Power Core Issue Resolved
+ID_ME_DE_POWERCORE_MAKEGOOD,Thank you for your patience
+ID_ME_BO_POWERCORE_MAKEGOOD,"Commander, we recently experienced some unexpected technical difficulties with the Power Core purchases in the Store, but our top technicians have identified and resolved the issue.\n\nAttached are the Power Cores you should've received with your purchase.\n\nPlease note: If you made more than one purchase, you may receive multiple messages; the sum of the rewards from these messages will equal the total amount of Power Cores you should have received.\n\nThank you for your patience."
+ID_ME_NA_KESTREL_SUPPLIES_STORE,Kestrel Store Update
+ID_ME_DE_KESTREL_SUPPLIES_STORE,Limited-time rate increase
+ID_ME_BO_KESTREL_SUPPLIES_STORE,"Commander,\n\n<color=#fff568>Kestrel's</color> appearance rate in the <color=#fff568>Supplies Store</color> has been temporarily increased.\n\nFrom <color=#fff568>August 3rd, 5PM (PDT)</color> to <color=#fff568>August 9th, 5PM (PDT)</color>, Kestrel will have an increased appearance rate of <color=#fff568>20%</color> in the <color=#fff568>Supplies Store</color>. After this period, she'll return to her normal appearance rate.\n\nDon't miss out on more opportunities for Kestrel shards in the Store!"
+ID_ME_NA_SHANGCHI_TEASER,Coming Soon: Shang-Chi
+ID_ME_DE_SHANGCHI_TEASER,The Human Weapon
+ID_ME_BO_SHANGCHI_TEASER,"Commander,\n\n<color=#fff568>Shang-Chi</color> is preparing for battle! Add one of the Earth's greatest fighters to your roster:\n\n- Hits hard and attacks often\n- Powerful synergies on War Defense and with Heroes for Hire\n- Clears negative effects from allies\n- Punishes enemies that have positive effects\n- Hero, City, Skill, Brawler, Heroes for Hire\n\n<color=#fff568>How to Recruit</color>\nBe on the lookout for <color=#fff568>The Legend Event</color> to earn Shang-Chi character shards.\n\n<color=#fff568>Supply Store Availability</color>\nCan't wait for The Legend? Starting <color=#fff568>August 20th, 5PM (PDT)</color>, Shang-Chi character shards will be purchasable with Power Cores and will have a 100% appearance rate in the <color=#fff568>Supplies Store</color>."
+ID_ME_NA_MAYHEM_SEASON9_PREHYPE,Soon: Mayhem Season 9
+ID_ME_DE_MAYHEM_SEASON9_PREHYPE,Updates & New Featured Character
+ID_ME_BO_MAYHEM_SEASON9_PREHYPE,"Commander,\n\nThe new Season of Mojo's Mayhem is almost here! Don't touch that dial because Moon Knight is coming your way!\n\nStay tuned for the exciting start of <color=#fff568>Mojo's Mayhem: Season 9!</color>"
+ID_ME_NA_MAYHEM_SEASON9_ENDING,Season Ending Soon...
+ID_ME_DE_MAYHEM_SEASON9_ENDING,7 more days!
+ID_ME_BO_MAYHEM_SEASON9_ENDING,"Commander,\n\nThere are only <color=#fff568>7 more days</color> until this Season of Mojo's Mayhem ends.\n\nHit your Objectives and earn Moon Knight shards before these rewards fade to black!"
+ID_ME_NA_560PATCHNOTES_TEASER,Update Coming Soon
+ID_ME_DE_560PATCHNOTES_TEASER,Prepare yourself
+ID_ME_BO_560PATCHNOTES_TEASER,"Commander,\n\nA new MARVEL Strike Force update is coming soon, including:\n\n- 4 new playable characters\n- New costumes\n- Saved Squads Tabs\n- New Auto-Basic Combat\n- Mojo's Mayhem Updates\n- New Event Campaign\n- And more!\n\nGet ready for these and other big changes coming soon!"
+ID_ME_NA_POSTMORTEM_TEASER,Death is knocking...
+ID_ME_DE_POSTMORTEM_TEASER,Reap big rewards!
+ID_ME_BO_POSTMORTEM_TEASER,"Commander,\n\nEmbrace Deathpool's arrival with the upcoming <color=#fff568>Post Mortem</color> Event!\n\nRaise your roster from the grave with big rewards:\n\n- Orange, Purple, and Blue gear\n- Orange Elite Orb Fragments\n- T2 Iso-8 Credits\n- Catalyst Parts\n- And more!\n\nGet ready because your brush with death starts soon!"
+ID_ME_NA_POSTMORTEM_ANNOUNCE,LIVE: Post Mortem
+ID_ME_DE_POSTMORTEM_ANNOUNCE,"Earn gear, Catalyst Parts, and T2 Iso-8 Credits"
+ID_ME_BO_POSTMORTEM_ANNOUNCE,"Commander,\n\nNOW LIVE: <color=#fff568>Post Mortem</color>! Reap big rewards with this limited-time event:\n\n<color=#fff568>Shadow of Deathpool Event Campaign</color>\nEarn Deathpool character shards and Devoted Orb Fragments via the Shadow of Deathpool Event Campaign. The Devoted Orb contains select characters with the limited-time Devoted trait.\n\n<color=#fff568>Post Mortem Milestone</color>\nScore points toward a daily milestone by participating in the Shadow of Deathpool Campaign and by battling (bonus points for using Deathpool) in Arena and Raids. Dig up rewards, including origin gear, Catalyst Parts, Orange Elite Orb Fragments, and T2 Iso-8 Credits."
+ID_ME_NA_POSTMORTEM_ENDING,ENDING: Post Mortem
+ID_ME_DE_POSTMORTEM_ENDING,3 days left!
+ID_ME_BO_POSTMORTEM_ENDING,"Commander,\n\nThe <color=#fff568>Post Mortem</color> event ends in <color=#fff568>3 days</color>! Continue spending Devoted Campaign Energy and battling in Arena and Raids before these rewards rest in peace for good!\n\nGood luck, Commander!"
+ID_ME_NA_SEEINGRED_WINNER1,Seeing Red Sweepstakes
+ID_ME_DE_SEEINGRED_WINNER1,Congratulations!
+ID_ME_BO_SEEINGRED_WINNER1,"Commander,\n\nThe <color=#fff568>Seeing Red Sweepstakes</color> has concluded...\n\nCongratulations: You're the <color=#fff568>Grand Prize Winner</color>!\n\nPower up your roster with your prizes:\n\n- 810 shards (7 Stars) & 5-Red Star Promotions for each of the following: Black Widow, Taskmaster, Red Guardian, and Yelena Belova\n- Early access to the Taskmaster costume\n- 20,000 Power Cores\n\nGood luck, Commander!"
+ID_ME_NA_SEEINGRED_WINNER2,Seeing Red Sweepstakes
+ID_ME_DE_SEEINGRED_WINNER2,Congratulations!
+ID_ME_BO_SEEINGRED_WINNER2,"Commander,\n\nThe <color=#fff568>Seeing Red Sweepstakes</color> has concluded...\n\nCongratulations: You're a <color=#fff568>2nd Prize Winner</color>!\n\nPower up your roster with your prizes:\n\n- 310 shards (5 Stars) & 4-Red Star Promotions for each of the following: Black Widow, Taskmaster, Red Guardian, and Yelena Belova\n- Early access to the Taskmaster costume\n- 10,000 Power Cores\n\nGood luck, Commander!"
+ID_ME_NA_SEEINGRED_WINNER3,Seeing Red Sweepstakes
+ID_ME_DE_SEEINGRED_WINNER3,Congratulations!
+ID_ME_BO_SEEINGRED_WINNER3,"Commander,\n\nThe <color=#fff568>Seeing Red Sweepstakes</color> has concluded...\n\nCongratulations: You're a <color=#fff568>Runner Up Prize Winner</color>!\n\nPower up your roster with your prizes:\n\n- 100 shards (3 Stars) & 3-Red Star Promotions for each of the following: Black Widow, Taskmaster, Red Guardian, and Yelena Belova\n- Early access to the Taskmaster costume\n- 5,000 Power Cores\n\nGood luck, Commander!"
+ID_ME_NA_SEEINGRED_WINNER_ALL,Seeing Red Sweepstakes
+ID_ME_DE_SEEINGRED_WINNER_ALL,Congratulations!
+ID_ME_BO_SEEINGRED_WINNER_ALL,"Commander,\n\nThank you for entering the <color=#fff568>Seeing Red Sweepstakes</color>!\n\nPlease enjoy these <color=#fff568>5 Red Star Orbs</color> to help power up your roster.\n\nGood luck, Commander!"
+ID_ME_NA_PAYDAY_REWARDS_UPDATE,Payday Rewards
+ID_ME_DE_PAYDAY_REWARDS_UPDATE,Gold Rewards
+ID_ME_BO_PAYDAY_REWARDS_UPDATE,"Commander,\n\nTo help newer players power up their roster and to further improve access to Gold, we've updated the <color=#fff568>Payday Flash Event</color> rewards.\n\nFirst-time rewards have been increased for all tiers and recurring rewards have been increased by at least <color=#fff568>33%</color> for all tiers.\n\nThese rewards are now live, so don't miss out!"
+ID_ME_NA_MAYHEM_SEASON9_ANNOUNCE,Mojo's Mayhem: Season 9
+ID_ME_DE_MAYHEM_SEASON9_ANNOUNCE,Updates & New Featured Character
+ID_ME_BO_MAYHEM_SEASON9_ANNOUNCE,"Commander,\n\n<color=#fff568>Mojo's Mayhem: Season 9 is live!</color>\n\nHelp Mojo crush his ratings goals in return for big prizes in this month's Season of Mojo's Mayhem! Complete this Season's Daily and Weekly Objectives and reap the ratings rewards.\n\n<color=#fff568>Updates for this Season:</color>\nTo promote more competitive matches, encourage fun theory-crafting, and reduce the overall time spent on Real-Time Arena matches, we've made the following updates this season:\n\n- Removed Daily and Weekly <color=#fff568>Ability Objectives</color> to increase focus on KOs.\n- Improved character ban system: Multiple rotations of bans will take place each week.\n- Weekly bans now include Role (Protector, Brawler, Blaster, Controller, and Support) & Origin (Bio, Mystic, Mutant, Tech, and Skill) bans.\n\n<color=#fff568>Featured Season 9 Rewards:</color>\n- 100 <color=#fff568>Moon Knight</color> character shards\n- 120 Superior Gear Parts required for Gear Tier 14\n- 100 Superior Gear Parts required for Gear Tier 15\n- 5 Gold Promotion Credits\n- 15 Silver Promotion Credits\n- 1,675 Various pieces of Superior Gear\n- 712 Various pieces of Advanced Gear\n- 550 Power Cores\n- 180 L3 Training Modules\n\nYou don't need to complete every Daily and Weekly Objective to complete your Ratings Levels and earn all of your rewards (both Free and Premium).\n\nCharge into <color=#fff568>Mojo's Mayhem: Season 9</color> today!"
+ID_ME_NA_NEWBLOGPOST_080621,New Blog Available
+ID_ME_DE_NEWBLOGPOST_080621,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_080621,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Deathpool abilities\n- Mojo's Mayhem Updates\n- Payday Rewards Improvements\n- Character Availability Updates\n- Weekly Events"
+ID_ME_NA_SECRETAVENGERS_RS_ANNOUNCE,Red Star Featuring
+ID_ME_DE_SECRETAVENGERS_RS_ANNOUNCE,Upgrade your Secret Avengers with Red Stars
+ID_ME_BO_SECRETAVENGERS_RS_ANNOUNCE,"Commander,\n\nThe <color=#fff568>Secret Avengers</color> have infiltrated the Red Star Orbs!\n\nFor a limited-time, <color=#fff568>all Red Star Orbs</color> have an increased drop rate of <color=#fff568>5%</color> for each of the following <color=#fff568>Secret Avenger</color> characters:\n\n- Captain America (Sam)\n- Sharon Carter\n- Maria Hill\n\nPower up your Secret Avengers team with Red Stars!"
+ID_ME_NA_SECRETAVENGERS_RS_ENDING,Red Star Featuring
+ID_ME_DE_SECRETAVENGERS_RS_ENDING,1 day left for Secret Avengers
+ID_ME_BO_SECRETAVENGERS_RS_ENDING,"Commander,\n\n<color=#fff568>Secret Avenger</color> characters will only be featured in the Red Star Orbs for <color=#fff568>1 more day</color>! Hurry and open <color=#fff568>Red Star Orbs</color> while the drop rate is still 5% for the following characters:\n\n- Captain America (Sam)\n- Sharon Carter\n- Maria Hill"
+ID_ME_NA_560PATCHNOTES_ANNOUNCE,The Latest Update has Arrived!
+ID_ME_DE_560PATCHNOTES_ANNOUNCE,5.6.0 Release Notes
+ID_ME_BO_560PATCHNOTES_ANNOUNCE,"Introducing: Deathpool! The daughter of Deadpool and the cosmic entity Death, Deathpool is MARVEL Strike Force's contribution to Deadpool's year-long 30th Anniversary celebration!\n\n<color=#fff568>New over the course of this release:</color>\n\n- 4 new playable characters: Deathpool, Cloak, Dagger, and Shang-Chi\n- New Costumes for Shang-Chi, Doctor Strange, Invisible Woman, Emma Frost, Carnage, and Taskmaster\n- Deathpool Event Campaign: ""Shadow of Deathpool""\n- New Advanced Setting: Auto-Basic Combat\n- Updates to Mojo's Mayhem\n- Updated Isotope-8 Campaign\n- Updated Ultra Store Badging\n- Upgrading to gear tiers 11 and 12 no longer trigger alerts in Alliance Chat\n- ""Open Multiple Orbs at Once"" is now the default action for select orbs\n- Sort Roster by character level\n- New Saved Squads tabs\n- Max Commander Level 85\n\nAccess the full briefing on the MARVEL Strike Force website.\n\nGood luck, Commanders!"
+ID_ME_NA_ABILITYORB_REMOVAL_ANNOUNCE,Leaving Soon: Ability Orb
+ID_ME_DE_ABILITYORB_REMOVAL_ANNOUNCE,Open your remaining Ability Orbs
+ID_ME_BO_ABILITYORB_REMOVAL_ANNOUNCE,"Commander,\n\nDue to our transition to the T1, T2, and T3 Ability Orbs, we'll soon be <color=#fff568>permanently removing</color> the old <color=#fff568>Ability Orb</color> from the <color=#fff568>Supplies Store</color>.\n\nPlease open your remaining Ability Orbs as soon as possible, as you'll no longer be able to open or purchase Ability Orbs after this time."
+ID_ME_NA_ABILITYORB_REMOVAL_7DAYS,Leaving Soon: Ability Orbs
+ID_ME_DE_ABILITYORB_REMOVAL_7DAYS,Hurry and open your remaining orbs!
+ID_ME_BO_ABILITYORB_REMOVAL_7DAYS,"Commander,\n\nTime is running out to open your Ability Orbs. When the game returns from Maintenance Mode during our upcoming release next week, you'll no longer be able to open these Orbs.\n\nDon't miss out on your Ability Orb rewards!"
+ID_ME_NA_ABILITYORB_REMOVAL_1DAY,Last Call for Ability Orbs
+ID_ME_DE_ABILITYORB_REMOVAL_1DAY,Hurry and open your remaining orbs!
+ID_ME_BO_ABILITYORB_REMOVAL_1DAY,"Commander,\n\nTomorrow, <color=#fff568>Ability Orbs</color> will be <color=#fff568>permanently removed</color> from the <color=#fff568>Supplies Store</color>. When the game returns from Maintenance Mode, you'll no longer be able to open these Orbs.\n\nDon't miss out on your Ability Orb rewards!"
+ID_ME_NA_T4_ABMAT_REWARDS_LEVEL64,Unlocked: T4 Ability Materials
+ID_ME_DE_T4_ABMAT_REWARDS_LEVEL64,Power up your characters
+ID_ME_BO_T4_ABMAT_REWARDS_LEVEL64,"Commander,\n\nCongratulations: You've unlocked <color=#fff568>T4 Ability Materials</color>!\n\nYou can now upgrade a character's <color=#fff568>Passive Ability to Level 5</color>.\n\n<color=#fff568>What are T4 Ability Materials?</color>\nT4 (Orange) Ability Materials are used to upgrade a character's abilities to their maximum level: Level 5 for Passive Abilities and Level 7 for all others.\n\n<color=#fff568>Where to find T4 Ability Materials</color>\nYou can earn T4 Ability Materials from the following sources:\n\n- Raid Rewards\n- Raid & War Season Rank Rewards\n- Ability Enhancements Challenge (Tiers 10+)\n- Recurring milestones\n- T3 Ability Orb\n- Events\n- Special Offers\n\n<color=#fff568>How to Use</color>\nTo upgrade your character's Passive Ability to Level 5 with T4 Ability Materials, your desired character should be at least Level 64 and Ability Level 4. From there, select the Passive Ability on the character's ability screen and select ""Upgrade.""\n\nAttached are <color=#fff568>400 T4 Ability Materials</color> and <color=#fff568>200,000 in Gold</color> to get you started. Power up a character today with T4 Ability Materials!"
+ID_ME_NA_T4_ABMAT_REWARDS_LEVEL65,Unlocked: Level 7 Ability
+ID_ME_DE_T4_ABMAT_REWARDS_LEVEL65,Power up your characters
+ID_ME_BO_T4_ABMAT_REWARDS_LEVEL65,"Commander,\n\nCongratulations: You've unlocked <color=#fff568>Level 7 Basic Abilities</color>!\n\nYou can now use T4 Ability Materials to upgrade a character's <color=#fff568>Basic Ability to Level 7</color>.\n\n<color=#fff568>What are T4 Ability Materials?</color>\nT4 (Orange) Ability Materials are used to upgrade a character's abilities to their maximum level: Level 5 for Passive Abilities and Level 7 for all others.\n\n<color=#fff568>Where to find T4 Ability Materials</color>\nYou can earn T4 Ability Materials from the following sources:\n\n- Raid Rewards\n- Raid & War Season Rank Rewards\n- Ability Enhancements Challenge (Tiers 10+)\n- Recurring milestones\n- T3 Ability Orb\n- Events\n- Special Offers\n\n<color=#fff568>How to Use</color>\nTo upgrade your character's Basic Ability to Level 7 with T4 Ability Materials, your desired character should be at least Level 65 and Ability Level 6. From there, select the Basic Ability on the character's ability screen and select ""Upgrade.""\n\nAttached are <color=#fff568>360 T4 Ability Materials</color> and <color=#fff568>200,000 in Gold</color> to get you started. Power up a character today with T4 Ability Materials!"
+ID_ME_NA_T4_ABMAT_REWARDS_LEVEL68,Unlocked: Level 7 Ability
+ID_ME_DE_T4_ABMAT_REWARDS_LEVEL68,Power up your characters
+ID_ME_BO_T4_ABMAT_REWARDS_LEVEL68,"Commander,\n\nCongratulations: You've unlocked <color=#fff568>Level 7 Special Abilities</color>!\n\nYou can now use T4 Ability Materials to upgrade a character's <color=#fff568>Special Ability to Level 7</color>.\n\n<color=#fff568>What are T4 Ability Materials?</color>\nT4 (Orange) Ability Materials are used to upgrade a character's abilities to their maximum level: Level 5 for Passive Abilities and Level 7 for all others.\n\n<color=#fff568>Where to find T4 Ability Materials</color>\nYou can earn T4 Ability Materials from the following sources:\n\n- Raid Rewards\n- Raid & War Season Rank Rewards\n- Ability Enhancements Challenge (Tiers 10+)\n- Recurring milestones\n- T3 Ability Orb\n- Events\n- Special Offers\n\n<color=#fff568>How to Use</color>\nTo upgrade your character's Special Ability to Level 7 with T4 Ability Materials, your desired character should be at least Level 68 and Ability Level 6. From there, select the Special Ability on the character's ability screen and select ""Upgrade.""\n\nAttached are <color=#fff568>440 T4 Ability Materials</color> and <color=#fff568>200,000 in Gold</color> to get you started. Power up a character today with T4 Ability Materials!"
+ID_ME_NA_T4_ABMAT_REWARDS_LEVEL70,Unlocked: Level 7 Ability
+ID_ME_DE_T4_ABMAT_REWARDS_LEVEL70,Power up your characters
+ID_ME_BO_T4_ABMAT_REWARDS_LEVEL70,"Commander,\n\nCongratulations: You've unlocked <color=#fff568>Level 7 Ultimate Abilities</color>!\n\nYou can now use T4 Ability Materials to upgrade a character's <color=#fff568>Ultimate Ability to Level 7</color>.\n\n<color=#fff568>What are T4 Ability Materials?</color>\nT4 (Orange) Ability Materials are used to upgrade a character's abilities to their maximum level: Level 5 for Passive Abilities and Level 7 for all others.\n\n<color=#fff568>Where to find T4 Ability Materials</color>\nYou can earn T4 Ability Materials from the following sources:\n\n- Raid Rewards\n- Raid & War Season Rank Rewards\n- Ability Enhancements Challenge (Tiers 10+)\n- Recurring milestones\n- T3 Ability Orb\n- Events\n- Special Offers\n\n<color=#fff568>How to Use</color>\nTo upgrade your character's Ultimate Ability to Level 7 with T4 Ability Materials, your desired character should be at least Level 70 and Ability Level 6. From there, select the Ultimate Ability on the character's ability screen and select ""Upgrade.""\n\nAttached are <color=#fff568>480 T4 Ability Materials</color> and <color=#fff568>225,000 in Gold</color> to get you started. Power up a character today with T4 Ability Materials!"
+ID_ME_NA_THELEGEND_TEASER,The Legend approaches...
+ID_ME_DE_THELEGEND_TEASER,Recruit Shang-Chi!
+ID_ME_BO_THELEGEND_TEASER,"Commander,\n\nPrepare for the upcoming <color=#fff568>The Legend</color> Event! Turn your roster into an epic fighting force with these rewards:\n\n- Shang-Chi character shards\n- Shang-Chi's ""Battle Armor"" Costume\n- Superior gear\n- Elite 4 and 6 Credits\n- Limited-time Achievements\n- And more!\n\nAlso, be on the lookout for The Legend's limited-time login calendar!"
+ID_ME_NA_THELEGEND_ANNOUNCE,LIVE: The Legend
+ID_ME_DE_THELEGEND_ANNOUNCE,Fight your way to Shang-Chi shards and rewards!
+ID_ME_BO_THELEGEND_ANNOUNCE,"Commander,\n\nNOW LIVE: <color=#fff568>The Legend</color>! Transform your roster with <color=#fff568>Shang-Chi</color> character shards and more with this limited-time event:\n\n<color=#fff568>Fire Essence Event Currency</color>\nEarn limited-time Fire Essence Event Currency via Campaign Nodes (not including Event Campaign), Blitz, and select Daily Objectives.\n\n<color=#fff568>Wise Warrior Milestone</color>\nRack up points toward a 14-day milestone by spending Fire Essence in the limited-time Event Store. Earn Shang-Chi character shards, various gear, Elite 6 Credits, and more via the milestone rewards.\n\n<color=#fff568>10 Medallions</color>\nFind Medallions in the limited-time login calendar, milestones, and offers and then redeem each Medallion in the Orbs Section of the Fire Essence Event Store for various rewards. Each opened Medallion earns Achievement progress. Open 7 Medallions to earn enough Gold Phase Bits to obtain Shang-Chi's ""Battle Armor"" Costume. Open all 10 Medallions to earn additional Shang-Chi character shards.\n\n<color=#fff568>Shang-Chi Costume</color>\nThe Legend is your first opportunity to add Shang-Chi's ""Battle Armor"" Costume to your roster using Gold Phase Bits. Unused Bits will be converted to <color=#fff568>Costume Credits</color> on Sept 22nd, at 5:00PM (PDT) at a conversion rate of <color=#fff568>60%</color>.\n\n<color=#fff568>Bonus Events Coming Soon</color>\n<color=#fff568>Ionize</color> - When refreshing your Isotope-8 Campaign Energy, earn 2x the amount\n<color=#fff568>Raid Frenzy</color> - 20% cost reduction for Raid Energy, Heals, and Revives in Raids\n<color=#fff568>Train and Gain</color> - 2x Training Modules from Campaign nodes\n<color=#fff568>Energy Overload</color> - When refreshing your Campaign Energy, earn 2x the amount"
+ID_ME_NA_THELEGEND_ENDING,ENDING: The Legend
+ID_ME_DE_THELEGEND_ENDING,3 days left!
+ID_ME_BO_THELEGEND_ENDING,"Commander,\n\n<color=#fff568>The Legend</color> event ends in <color=#fff568>3 days</color>! Continue hitting milestones and earning Medallions before these rewards are gone.\n\nGood luck, Commander!"
+ID_ME_NA_THELEGEND_ACHIEVEMENTS_ENDING,Medallion Achievements
+ID_ME_DE_THELEGEND_ACHIEVEMENTS_ENDING,3 days to claim your Achievements
+ID_ME_BO_THELEGEND_ACHIEVEMENTS_ENDING,"Commander,\n\nThe <color=#fff568>Fire Essence Event Store</color> is coming to a close in <color=#fff568>3 days</color>! Hurry and spend your remaining Fire Essence on any of the items in the Store.\n\nAdditionally, ensure that you open any of your remaining <color=#fff568>Medallions</color>. Each Medallion opened gives you progress toward limited-time achievements from The Legend Event.\n\nGood luck, Commander!"
+ID_ME_NA_ULTRON_RS_DPC_UPDATE,Dark Promotion Credits Update
+ID_ME_DE_ULTRON_RS_DPC_UPDATE,Ultron Red Stars & Credit Cap Increase
+ID_ME_BO_ULTRON_RS_DPC_UPDATE,"Commander,\n\nUltron's <color=#fff568>Red Stars</color> and <color=#fff568>Dark Promotion Credits</color> just got a big upgrade. Here's what's now live:\n\n<color=#fff568>Ultron Red Stars</color>\n4-Red Star and 5-Red Star Promotions for Ultron are now available in the first slot of the Elite Store.\n\n<color=#fff568>Dark Promotion Credits</color>\nThe maximum number of Dark Promotion Credits you can keep in your inventory has been increased from 2,000 to 3,000. Open Basic Red Star Orbs and take advantage of our upcoming offers to earn more Dark Promotion Credits.\n\nHead to the Elite Store today and power up Ultron with Red Stars!"
+ID_ME_NA_MARIAHILLRS_MAKEGOOD_ELITE67,A Message From Customer Support
+ID_ME_DE_MARIAHILLRS_MAKEGOOD_ELITE67,Thank you for your patience
+ID_ME_BO_MARIAHILLRS_MAKEGOOD_ELITE67,"There was an issue on July 23, 2021, 5PM (PDT) with Maria Hill being accidentally added early to the Red Star Orbs for approximately 45 minutes.\n\nDue to this issue, we are offering players who opened an Elite 6 or 7 Star Orb shortly after Maria Hill was removed from the orbs the choice of keeping the Red Star they received from the Elite 6 or 7 Star Orb or exchanging the Red Star for the return of the Elite 6 or 7 Star Orb used.\n\nPlease contact Customer Support via our in-game support window in the Options menu at the top right corner if you would like to exchange the Red Star you received."
+ID_ME_NA_GOLD_CALENDAR_10MM,Crafting Bug & 10M Gold
+ID_ME_DE_GOLD_CALENDAR_10MM,Log in every day to earn 10M in Gold!
+ID_ME_BO_GOLD_CALENDAR_10MM,"We recently corrected a bug that was affecting gear crafting. Specifically, it was costing more Gold to craft gear piece-by-piece than crafting the full gear part all at once.\n\nTo compensate the Community for this error, we're upgrading the Update Gold Calendar to a <color=#fff568>2-week login calendar</color> that rewards <color=#fff568>10 million in Gold</color>, which will start on <color=#fff568>August 20th local time</color>.\n\nDon't miss a day and stock up on Gold to power up your roster.\n\n-- MARVEL Strike Force Dev Team"

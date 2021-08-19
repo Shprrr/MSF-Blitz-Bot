@@ -126,6 +126,10 @@ ID_GACHA_CRATE_MILESTONE_DESCRIPTION_02,Exclusive chance to earn up to <color=#f
 ID_GACHA_CRATE_MILESTONE_DESCRIPTION,Earn up to 10 shards of select characters
 ID_GACHA_CRATE_MILESTONE_TOKEN_NAME,Milestone Orb Fragments
 ID_GACHA_CRATE_MILESTONE_TOKEN_DESCRIPTION,Collect Milestone Orb Fragments to earn a Milestone Orb.
+ID_GACHA_CRATE_MILESTONE_202107_NAME,Milestone II Orb
+ID_GACHA_CRATE_MILESTONE_202107_DESCRIPTION,Earn up to 10 shards of select characters
+ID_GACHA_CRATE_MILESTONE_202107_TOKEN_NAME,Milestone II Orb Fragments
+ID_GACHA_CRATE_MILESTONE_202107_TOKEN_DESCRIPTION,Collect Milestone II Orb Fragments to earn a Milestone II Orb.
 ID_GACHA_CRATE_PREMIUM_NAME,Premium Orb
 ID_GACHA_CRATE_PREMIUM_DESCRIPTION,Guarantees at least 15 character shards
 ID_GACHA_CRATE_PREMIUM_TOKEN_NAME,Premium Orb Fragments
@@ -480,6 +484,17 @@ ID_OF_DE_SHARONCARTER_ECO_OFFER_VAR,Save on <color=#fff568>{var1} Saboteur Orbs<
 ID_OF_NA_SHARONCARTER_ENERGY_OFFER_1,Conspiracy Theories Energy Offer
 ID_OF_NA_SHARONCARTER_ENERGY_OFFER_2,Conspiracy Theories Energy Bundle
 ID_OF_DE_SHARONCARTER_ENERGY_OFFER_1,Save on <color=#fff568>Conspiracy Theories Energy</color> with this offer! Play in the Conspiracy Theories Campaign and recruit Sharon Carter!
+ID_GACHA_CRATE_EVENT_CAMPAIGN_DEATHPOOL_202108_NAME,Devoted Orb
+ID_GACHA_CRATE_EVENT_CAMPAIGN_DEATHPOOL_202108_DESCRIPTION,Earn Devoted Orb Fragments in the Shadow of Deathpool Event Campaign.
+ID_GACHA_CRATE_EVENT_CAMPAIGN_DEATHPOOL_202108_TOKEN_NAME,Devoted Orb Fragments
+ID_GACHA_CRATE_EVENT_CAMPAIGN_DEATHPOOL_202108_TOKEN_DESCRIPTION,Collect Devoted Orb Fragments in the Shadow of Deathpool Event Campaign to earn Devoted Orbs.
+ID_OF_NA_DEATHPOOL_ECO_OFFER,Devoted Orb Offer
+ID_OF_DE_DEATHPOOL_ECO_OFFER_VAR,Save on <color=#fff568>{var1} Devoted Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 28 character shards</color>!
+ID_OF_NA_DEATHPOOL_MORB_1,Devoted Orb Fragments
+ID_OF_DE_DEATHPOOL_MORB_500,Take advantage of this limited-time deal and complete your orb! Get <color=#fff568>500 Devoted Orb Fragments</color> with this offer!
+ID_OF_NA_DEATHPOOL_ENERGY_OFFER_1,Shadow of Deathpool Energy Offer
+ID_OF_NA_DEATHPOOL_ENERGY_OFFER_2,Shadow of Deathpool Energy Bundle
+ID_OF_DE_DEATHPOOL_ENERGY_OFFER_1,Save on <color=#fff568>Shadow of Deathpool Energy</color> with this offer! Play in the Shadow of Deathpool Campaign and recruit Deathpool!
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_NAME,Serendipity Orb
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_DESCRIPTION,Earn Serendipity Orb Fragments in the Serendipity Event Campaign.
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_TOKEN_NAME,Serendipity Orb Fragments
@@ -1318,6 +1333,10 @@ ID_OF_NA_CITYHEROES_LE_FCO_OFFER_1,Hometown Heroes Orb Bundle
 ID_OF_DE_CITYHEROES_LE_FCO_OFFER_30,Save on <color=#fff568>3 Hometown Heroes Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 145 shards</color>.
 ID_OF_DE_CITYHEROES_LE_FCO_OFFER_4O,Save on <color=#fff568>4 Hometown Heroes Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 145 shards</color>.
 ID_OF_DE_CITYHEROES_LE_FCO_OFFER_5O,Save on <color=#fff568>5 Hometown Heroes Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 145 shards</color>.
+ID_GACHA_CRATE_FCO_CLOAK_SPECIAL_NAME,Within the Shadows Orb
+ID_GACHA_CRATE_FCO_CLOAK_SPECIAL_DESCRIPTION,Earn up to 180 Cloak shards
+ID_GACHA_CRATE_FCO_CLOAK_SPECIAL_TOKEN_NAME,Within the Shadows Orb Fragments
+ID_GACHA_CRATE_FCO_CLOAK_SPECIAL_TOKEN_DESCRIPTION,Collect Within the Shadows Orb Fragments to earn a Within the Shadows Orb.
 ID_GACHA_CRATE_FCO_COLLEENWING_SPECIAL_NAME,Dragon Daughter Orb
 ID_GACHA_CRATE_FCO_COLLEENWING_SPECIAL_DESCRIPTION,Earn up to 180 Colleen Wing shards
 ID_GACHA_CRATE_FCO_COLLEENWING_SPECIAL_TOKEN_NAME,Dragon Daughter Orb Fragments
@@ -1508,6 +1527,10 @@ ID_OF_DE_CYCLOPS_OFFER_55,"Get <color=#fff568>55 Cyclops shards</color> and use 
 ID_OF_DE_CYCLOPS_OFFER_75,"Get <color=#fff568>75 Cyclops shards</color> and use him to coordinate ally attacks around Taunters, apply Slow, and unleash a massive area of effect attack."
 ID_OF_DE_CYCLOPS_OFFER_125,"Get <color=#fff568>125 Cyclops shards</color> and use him to coordinate ally attacks around Taunters, apply Slow, and unleash a massive area of effect attack."
 ID_OF_DE_CYCLOPS_OFFER_150,"Get <color=#fff568>150 Cyclops shards</color> and use him to coordinate ally attacks around Taunters, apply Slow, and unleash a massive area of effect attack."
+ID_GACHA_CRATE_FCO_DAGGER_SPECIAL_NAME,Light of Hope Orb
+ID_GACHA_CRATE_FCO_DAGGER_SPECIAL_DESCRIPTION,Earn up to 180 Dagger shards
+ID_GACHA_CRATE_FCO_DAGGER_SPECIAL_TOKEN_NAME,Light of Hope Orb Fragments
+ID_GACHA_CRATE_FCO_DAGGER_SPECIAL_TOKEN_DESCRIPTION,Collect Light of Hope Orb Fragments to earn a Light of Hope Orb.
 ID_GACHA_CRATE_FCO_DAREDEVIL_SPECIAL_NAME,Man Without Fear Orb
 ID_GACHA_CRATE_FCO_DAREDEVIL_SPECIAL_DESCRIPTION,Get up to 180 Daredevil shards
 ID_GACHA_CRATE_FCO_DAREDEVIL_SPECIAL_TOKEN_NAME,Man Without Fear Orb Fragments
@@ -1558,6 +1581,10 @@ ID_OF_DE_DEADPOOL_OFFER_125,Get <color=#fff568>125 Deadpool shards</color> and e
 ID_OF_DE_DEADPOOL_OFFER_150,Get <color=#fff568>150 Deadpool shards</color> and excel at ignoring taunts and wiping out weakened opponents. Mister Tightpants also shirks off negative effects and revives regularly too!
 ID_OF_NA_GEAR_DEADPOOL_OFFER_1,Deadpool Gear Bundle
 ID_OF_DE_GEAR_DEADPOOL_OFFER_1,Power up Deadpool with this amazing deal! Take him to level 15 and equip his origin gear with this offer.
+ID_GACHA_CRATE_FCO_DEATHPOOL_SPECIAL_NAME,Grim Reaper Orb
+ID_GACHA_CRATE_FCO_DEATHPOOL_SPECIAL_DESCRIPTION,Earn up to 180 Deathpool shards
+ID_GACHA_CRATE_FCO_DEATHPOOL_SPECIAL_TOKEN_NAME,Grim Reaper Orb Fragments
+ID_GACHA_CRATE_FCO_DEATHPOOL_SPECIAL_TOKEN_DESCRIPTION,Collect Grim Reaper Orb Fragments to earn a Grim Reaper Orb.
 ID_GACHA_CRATE_FCO_DOCTORSTRANGE_SPECIAL_NAME,Sorcerer Supreme Orb
 ID_GACHA_CRATE_FCO_DOCTORSTRANGE_SPECIAL_DESCRIPTION,Get up to 180 Doctor Strange shards
 ID_GACHA_CRATE_FCO_DOCTORSTRANGE_SPECIAL_TOKEN_NAME,Sorcerer Supreme Orb Fragments
@@ -2957,6 +2984,10 @@ ID_GACHA_CRATE_FCO_SCREAM_SPECIAL_NAME,Locks of Terror Orb
 ID_GACHA_CRATE_FCO_SCREAM_SPECIAL_DESCRIPTION,Get up to 180 Scream shards
 ID_GACHA_CRATE_FCO_SCREAM_SPECIAL_TOKEN_NAME,Locks of Terror Orb Fragments
 ID_GACHA_CRATE_FCO_SCREAM_SPECIAL_TOKEN_DESCRIPTION,Collect Locks of Terror Orb Fragments to earn a Locks of Terror Orb.
+ID_GACHA_CRATE_FCO_SHANGCHI_SPECIAL_NAME,Human Weapon Orb
+ID_GACHA_CRATE_FCO_SHANGCHI_SPECIAL_DESCRIPTION,Earn up to 180 Shang-Chi shards
+ID_GACHA_CRATE_FCO_SHANGCHI_SPECIAL_TOKEN_NAME,Human Weapon Orb Fragments
+ID_GACHA_CRATE_FCO_SHANGCHI_SPECIAL_TOKEN_DESCRIPTION,Collect Human Weapon Orb Fragments to earn a Human Weapon Orb.
 ID_GACHA_CRATE_FCO_SHARONCARTER_SPECIAL_NAME,Super Spy Orb
 ID_GACHA_CRATE_FCO_SHARONCARTER_SPECIAL_DESCRIPTION,Earn up to 180 Sharon Carter shards
 ID_GACHA_CRATE_FCO_SHARONCARTER_SPECIAL_TOKEN_NAME,Super Spy Orb Fragments
@@ -5836,6 +5867,8 @@ ID_OF_NA_345_RSDRAFT_TEAM_SUPERNATURAL_01,Red Star: Supernatural
 ID_OF_NA_345_RSDRAFT_TEAM_SINISTERSIX_01,Red Star: Sinister Six
 ID_OF_NA_345_RSDRAFT_TEAM_SHIELDM_01,Red Star: Shield Minion
 ID_OF_NA_345_RSDRAFT_TEAM_BLACKORDER_01,Red Star: Black Order
+ID_OF_NA_345_RSDRAFT_TEAM_PYMTECH_01,Red Star: Pym Tech
+ID_OF_DE_345_RSDRAFT_TEAM_PYMTECH_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Ghost, Stature, Yellowjacket, Wasp, and Ant-Man</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_BLACKORDER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Ebony Maw, Thanos, Cull Obsidian, Proxima Midnight, and Corvus Glaive</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_SHIELDM_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>S.H.I.E.L.D. Assault, S.H.I.E.L.D. Trooper, S.H.I.E.L.D. Medic, S.H.I.E.L.D. Operative, and S.H.I.E.L.D. Security</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_XMEN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Cyclops, Colossus, Psylocke, Storm, and Wolverine</color>"
@@ -5845,7 +5878,7 @@ ID_OF_DE_345_RSDRAFT_TEAM_ASGARDIAN_01_VAR,"Get an equal chance of either a <col
 ID_OF_DE_345_RSDRAFT_TEAM_AVENGER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Captain America, Hulk, Vision, Hawkeye, and Ant-Man</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_DEFENDER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Daredevil, Iron Fist, Jessica Jones, Luke Cage, and Punisher</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_BROTHERHOOD_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Juggernaut, Pyro, Blob, Toad, and Sabretooth</color>"
-ID_OF_DE_345_RSDRAFT_TEAM_INHUMAN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Crystal, Yo-Yo, Karnak, Quake, and Ms. Marvel</color>"
+ID_OF_DE_345_RSDRAFT_TEAM_INHUMAN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Black Bolt, Crystal, Yo-Yo, Karnak, and Quake</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_SUPERNATURAL_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Ghost Rider, Doctor Strange, Scarlet Witch, Elsa Bloodstone, and Mordo</color>"
 ID_OF_DE_345_RSDRAFT_TEAM_SINISTERSIX_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Mysterio, Vulture, Shocker, Rhino, and Green Goblin</color>"
 ID_OF_NA_3_REDSTAR_TEAM_XMEN_01,3 Red Star: X-Men
@@ -6487,7 +6520,7 @@ ID_OF_DE_PIDAY_OFFER_2,Celebrate Pi Day and save <color=#fff568>over {var1}%</co
 ID_OF_NA_PICK_DUAL_TEAM_GENERIC,Dual: Pick your Team Offer
 ID_OF_DE_PICK_DUAL_TEAM_GENERIC,Take advantage of one of these spectacular <color=#fff568>Character Team</color> deals!
 ID_OF_NA_LEGACY_V2_01,Legacy II Orb Bundle
-ID_OF_NA_LEGACY_V2_08,"Don't miss this exclusive deal! Save on <color=#fff568>{var1} Legacy II Orbs</color> and strengthen your roster! "
+ID_OF_DE_LEGACY_V2_08,"Don't miss this exclusive deal! Save on <color=#fff568>{var1} Legacy II Orbs</color> and strengthen your roster! "
 ID_OF_DE_SILVERSURFER_FCO_OFFER_VAR_SU,"Recruit a <color=#fff568>{var1}-star Silver Surfer</color> with this offer! Harness the Power Cosmic! Obliterate enemies with high damage attacks, Heal on any turn, and never be Counterattacked."
 ID_OF_NA_SILVERSURFER_ABILITY_OFFER_1,Silver Surfer: Ability
 ID_OF_DE_SILVERSURFER_ABILITY_OFFER_50,Get this amazing bundle and power up Silver Surfer. Get over <color=#fff568>50%</color> off when you buy now!
@@ -6777,3 +6810,178 @@ ID_OF_NA_2_3STAR_CHAR,Double Three Star Unlock
 ID_OF_DE_2_3STAR_CHAR,Save <color=#fff568>over {var1}%</color> and get <color=#fff568>two 3-star characters</color> and more!
 ID_OF_NA_SUMMER_CREDIT_OFFER,Classified Data Daily Offer
 ID_OF_DE_SUMMER_CREDIT_OFFER,Get <color=#fff568>{var1} Classified Data currency</color> to open <color=#fff568>Hidden Threat Orbs</color>!
+ID_OF_NA_345_RSDRAFT_TEAM_MARAUDER_01,Red Star: Marauder
+ID_OF_DE_345_RSDRAFT_TEAM_MARAUDER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Emma Frost, Mister Sinister, Sabretooth, Mystique, and Stryfe</color>"
+ID_OF_NA_FCO_SAMWILSON_OFFER,Wield the Shield Orb Offer
+ID_OF_DE_SAMWILSON_FCO_OFFER_VAR_SU,Recruit a <color=#fff568>{var1}-star Captain America (Sam)</color> with this offer! Each orb has a chance to earn up to 180 shards. Recruit this aerial Protector! Protect allies with a 2 turn Taunt and by granting them ability energy and positive effects. Synergize with Skill and Secret Avenger allies!
+ID_OF_DE_SAMWILSON_FCO_OFFER_VAR_O,Save on <color=#fff568>{var1} Wield the Shield Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Captain America (Sam) shards</color>. Recruit this aerial Protector! Protect allies with a 2 turn Taunt and by granting them ability energy and positive effects. Synergize with Skill and Secret Avenger allies!
+ID_OF_NA_SAMWILSON_ABILITY_OFFER_1,Captain America (Sam): Ability
+ID_OF_DE_SAMWILSON_ABILITY_OFFER_50,Get this amazing bundle and power up Captain America (Sam). Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_SAMWILSON_GEAR_OFFER_1,Captain America (Sam): Gear
+ID_OF_DE_SAMWILSON_GEAR_OFFER_50,Get this amazing bundle and gear up Captain America (Sam). Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_SAMWILSON_GOLD_OFFER_1,Captain America (Sam): Gold
+ID_OF_DE_SAMWILSON_GOLD_OFFER_50,Get this amazing bundle and level up Captain America (Sam). Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_SAMWILSON_TRAINING_OFFER_1,Captain America (Sam): Training
+ID_OF_DE_SAMWILSON_TRAINING_OFFER_40,Get this amazing bundle and level up Captain America (Sam). Get over <color=#fff568>40%</color> off when you buy now!
+ID_OF_NA_SAMWILSON_OFFER,Wings of Liberty Offer
+ID_OF_DE_SAMWILSON_OFFER_VAR,Get <color=#fff568>{var1} Captain America (Sam) shards</color> and protect allies with a 2 turn Taunt and by granting them ability energy and positive effects. Synergize with Skill and Secret Avenger allies!
+ID_OF_NA_PICK_DUAL_SAMWILSON_OFFER,Dual: Wield the Shield Orb Offer
+ID_OF_NA_PICK_DUAL_SAMWILSON_OFFER_V2,Dual: Pick Your Wield the Shield Orb Offer
+ID_OF_DE_PICK_DUAL_SAMWILSON_FCO_OFFER,"Take advantage of one of these spectacular <color=#fff568>Wield the Shield Orb</color> deals. "
+ID_OF_NA_FCO_MARIAHILL_OFFER,Deputy Director Orb Offer
+ID_OF_DE_MARIAHILL_FCO_OFFER_VAR_SU,Recruit a <color=#fff568>{var1}-star Maria Hill</color> with this offer! Each orb has a chance to earn up to 180 shards. Build an army with this Secret Avenger Support! Summon S.H.I.E.L.D. Troopers for added firepower and heal allies.
+ID_OF_DE_MARIAHILL_FCO_OFFER_VAR_O,Save on <color=#fff568>{var1} Deputy Director Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Maria Hill shards</color>. Recruit this Secret Avenger Support who summons S.H.I.E.L.D. Troopers and Heals allies via abilities and on allied Block.
+ID_OF_NA_MARIAHILL_ABILITY_OFFER_1,Maria Hill: Ability
+ID_OF_DE_MARIAHILL_ABILITY_OFFER_50,Get this amazing bundle and power up Maria Hill. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_MARIAHILL_GEAR_OFFER_1,Maria Hill: Gear
+ID_OF_DE_MARIAHILL_GEAR_OFFER_50,Get this amazing bundle and gear up Maria Hill. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_MARIAHILL_GOLD_OFFER_1,Maria Hill: Gold
+ID_OF_DE_MARIAHILL_GOLD_OFFER_50,Get this amazing bundle and level up Maria Hill. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_MARIAHILL_TRAINING_OFFER_1,Maria Hill: Training
+ID_OF_DE_MARIAHILL_TRAINING_OFFER_40,Get this amazing bundle and level up Maria Hill. Get over <color=#fff568>40%</color> off when you buy now!
+ID_OF_NA_MARIAHILL_OFFER,Fire Support Leader Offer
+ID_OF_DE_MARIAHILL_OFFER_VAR,Get <color=#fff568>{var1} Maria Hill shards</color> and build an army with this Secret Avenger Support! Summon S.H.I.E.L.D. Troopers for added firepower and heal allies.
+ID_OF_NA_PICK_DUAL_MARIAHILL_OFFER,Dual: Deputy Director Orb Offer
+ID_OF_NA_PICK_DUAL_MARIAHILL_OFFER_V2,Dual: Pick Your Deputy Director Orb Offer
+ID_OF_DE_PICK_DUAL_MARIAHILL_FCO_OFFER,"Take advantage of one of these spectacular <color=#fff568>Deputy Director Orb</color> deals. "
+ID_OF_DE_PREMIUMORB_OFFER_VAR_02,Save on <color=#fff568>{var1} Premium Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 50 shards</color> of a marquee character with a higher drop chance for <color=#fff568>Anti-Venom and Kestrel</color>.
+ID_OF_NA_PICK_DUAL_TEAM_BROTHERHOOD,Dual: Brotherhood Team Offer
+ID_OF_DE_PICK_DUAL_TEAM_BROTHERHOOD,Take advantage of one of these spectacular <color=#fff568>Character Shard</color> deals!
+ID_OF_BO_PICK_DUAL_TEAM_BROTHERHOOD_1,"Save big on this <color=#fff568>Brotherhood team</color> to help recruit Magneto! This bundle includes <color=#fff568>100 Shards</color> of <color=#fff568>Juggernaut</color>, and <color=#fff568>45 Shards</color> of <color=#fff568>Blob, Pyro, and Toad</color>."
+ID_OF_BO_PICK_DUAL_TEAM_BROTHERHOOD_2,"Unlock this <color=#fff568>4-Star Brotherhood team</color> to help recruit Magneto! This bundle includes <color=#fff568>180 Shards</color> of:\n<color=#fff568>Juggernaut, Pyro, Blob, and Toad</color>."
+ID_OF_NA_MASSIVEORB_OFFER_3,Massive Orb Bundle Offer
+ID_OF_DE_MASSIVEORB_OFFER_3,Take advantage of this orb bundle and save <color=#fff568>over {var1}%</color> when you buy now.
+ID_OF_NA_ISO8_ION_OFFER_10,Ion Offer
+ID_OF_DE_ISO8_ION_OFFER_10,Save <color=#fff568>over {var1}%</color> and get <color=#fff568>{var2} T1 Ions</color>! Fuse your Iso-8 Crystals or upgrade your Class Level with these T1 Ions.
+ID_OF_DE_456_RSDRAFT_TEAM_BLACKORDER_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Ebony Maw, Thanos, Cull Obsidian, Proxima Midnight, and Corvus Glaive</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_SHIELDM_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>S.H.I.E.L.D. Assault, S.H.I.E.L.D. Trooper, S.H.I.E.L.D. Medic, S.H.I.E.L.D. Operative, and S.H.I.E.L.D. Security</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_XMEN_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Cyclops, Colossus, Psylocke, Storm, and Wolverine</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_GUARDIAN_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Rocket Raccoon, Groot, Mantis, Gamora, and Drax</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_XFORCE_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Deadpool, Cable, X-23, Negasonic, and Domino</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_ASGARDIAN_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Hela, Thor, Loki, Sif, and Heimdall</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_AVENGER_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Captain America, Hulk, Vision, Hawkeye, and Ant-Man</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_DEFENDER_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Daredevil, Iron Fist, Jessica Jones, Luke Cage, and Punisher</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_BROTHERHOOD_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Juggernaut, Pyro, Blob, Toad, and Sabretooth</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_INHUMAN_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Crystal, Yo-Yo, Karnak, Quake, and Ms. Marvel</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_SUPERNATURAL_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Ghost Rider, Doctor Strange, Scarlet Witch, Elsa Bloodstone, and Mordo</color>"
+ID_OF_DE_456_RSDRAFT_TEAM_SINISTERSIX_01_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Mysterio, Vulture, Shocker, Rhino, and Green Goblin</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_BLACKORDER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Ebony Maw, Thanos, Cull Obsidian, Proxima Midnight, and Corvus Glaive</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_SHIELDM_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>S.H.I.E.L.D. Assault, S.H.I.E.L.D. Trooper, S.H.I.E.L.D. Medic, S.H.I.E.L.D. Operative, and S.H.I.E.L.D. Security</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_XMEN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Cyclops, Colossus, Psylocke, Storm, and Wolverine</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_GUARDIAN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Rocket Raccoon, Groot, Mantis, Gamora, and Drax</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_XFORCE_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Deadpool, Cable, X-23, Negasonic, and Domino</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_ASGARDIAN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Hela, Thor, Loki, Sif, and Heimdall</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_AVENGER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Captain America, Hulk, Vision, Hawkeye, and Ant-Man</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_DEFENDER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Daredevil, Iron Fist, Jessica Jones, Luke Cage, and Punisher</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_BROTHERHOOD_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Juggernaut, Pyro, Blob, Toad, and Sabretooth</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_INHUMAN_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Crystal, Yo-Yo, Karnak, Quake, and Ms. Marvel</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_SUPERNATURAL_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Ghost Rider, Doctor Strange, Scarlet Witch, Elsa Bloodstone, and Mordo</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_SINISTERSIX_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Mysterio, Vulture, Shocker, Rhino, and Green Goblin</color>"
+ID_BP_NA_OFFER_DESCRIPTION_1,Upgrade your Mojo's Mayhem Battle Pass! Get <color=#fff568>30 Ratings Levels</color> worth of progress with this offer!
+ID_OF_DE_456_RSDRAFT_TEAM_XMEN_05_VAR,"Get an equal chance of either a <color=#fff568>4, 5, or 6 Red Star</color> (Minimum Red Star level 4, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Phoenix, Cyclops, Colossus, Psylocke, and Storm</color>"
+ID_OF_DE_3456_RSDRAFT_TEAM_XMEN_05_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Phoenix, Cyclops, Colossus, Psylocke, and Storm</color>"
+ID_OF_NA_CAL_ELITE_6_OFFER_VAR,Elite 6 Credit: Calendar
+ID_OF_DE_CAL_ELITE_6_OFFER_VAR,Get <color=#fff568>{var1} Elite 6 Credits</color> over {var2} days and get <color=#fff568>{var3}% off</color> when you buy this offer! Log in for the next {var2} days to collect your rewards.
+ID_OF_NA_CAL_ELITE_7_OFFER_VAR,Elite 7 Credit: Calendar
+ID_OF_DE_CAL_ELITE_7_OFFER_VAR,Get <color=#fff568>{var1} Elite 7 Credits</color> over {var2} days and get <color=#fff568>{var3}% off</color> when you buy this offer! Log in for the next {var2} days to collect your rewards.
+ID_OF_NA_DAILY_STC_OFFER_01,Daily: Costume Bits Offer
+ID_OF_NA_PICK_TRIO_WHATIF_OFFER,Trio: Orb Offer
+ID_OF_DE_PICK_TRIO_WHATIF_OFFER,Pick Your Orb Offer
+ID_OF_NA_6_RED_STAR_DRAFT_BLACKPANTHER,3-6 Red Star Draft: Black Panther
+ID_OF_DE_6_RED_STAR_DRAFT_BLACKPANTHER,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for <color=#fff568>Black Panther</color>"
+ID_OF_NA_SILVERSURFER_RED_STAR_DRAFT,Red Star Draft: Silver Surfer
+ID_OF_DE_SILVERSURFER_RED_STAR_DRAFT,"Power up your Silver Surfer with this offer that grants you an equal chance of receiving a <color=#fff568>3</color>, <color=#fff568>4</color>, or <color=#fff568>5 Red Star</color> for <color=#fff568>Silver Surfer</color>."
+ID_OF_NA_KESTREL_RED_STAR_DRAFT,Red Star Draft: Kestrel
+ID_OF_DE_KESTREL_RED_STAR_DRAFT,"Power up your Kestrel with this offer that grants you an equal chance of receiving a <color=#fff568>3</color>, <color=#fff568>4</color>, or <color=#fff568>5 Red Star</color> for <color=#fff568>Kestrel</color>."
+ID_OF_NA_COSTUME_DR_STRANGE_DUAL_OFFER,Dual: Costume Offer
+ID_OF_DE_COSTUME_DR_STRANGE_DUAL_OFFER,Take advantage of one of these spectacular offers and acquire Doctor Strange's <color=#fff568>What If...?</color> costume!
+ID_OF_NA_PICK_DUAL_GOLD_LEVEL_65_OFFER,Level 65: Dual Gold Unlock Offer
+ID_OF_NA_PICK_DUAL_GOLD_LEVEL_70_OFFER,Level 70: Dual Gold Unlock Offer
+ID_OF_NA_PICK_DUAL_GOLD_LEVEL_75_OFFER,Level 75: Dual Gold Unlock Offer
+ID_OF_NA_PICK_DUAL_GOLD_LEVEL_80_OFFER,Level 80: Dual Gold Unlock Offer
+ID_OF_DE_PICK_DUAL_GOLD_LEVEL_OFFER,Congratulations on reaching a new level milestone! Take advantage of one of these <color=#fff568>Gold</color> offers!
+ID_OF_NA_LC_T4MAT_UNLOCK,T4 Unlock Bundle
+ID_OF_DE_LC_T4MAT_UNLOCK_VAR,Congratulations on unlocking a new T4 ability to upgrade! Get ahead of your opponents and level up a new T4 ability. Get over <color=#fff568>{var1}%</color> off when you buy now!
+ID_OF_NA_PICK_DUAL_LC_T4MAT_UNLOCK,New T4 Unlock Offer
+ID_OF_DE_PICK_DUAL_LC_T4MAT_UNLOCK_VAR,You've unlocked new T4 abilities! Choose to level up one T4 ability or a login calendar to level up 3!
+ID_OF_DE_PICK_DUAL_LC_T4MAT_UNLOCKPASSIVE_VAR,You've unlocked T4 Passives! Choose to level up one T4 Passive or a login calendar to level up 3 T4 Passives!
+ID_OF_DE_PICK_DUAL_LC_T4MAT_UNLOCKBASIC_VAR,You've unlocked T4 Basics! Choose to level up one T4 Basic or a login calendar to level up 3 T4 Basics!
+ID_OF_DE_PICK_DUAL_LC_T4MAT_UNLOCKSPECIAL_VAR,You've unlocked T4 Specials! Choose to level up one T4 Special or a login calendar to level up 3 T4 Specials!
+ID_OF_DE_PICK_DUAL_LC_T4MAT_UNLOCKULTIMATE_VAR,You've unlocked T4 Ultimates! Choose to level up one T4 Ultimate or a login calendar to level up 3 T4 Ultimates!
+ID_OF_DE_LC_T4MAT_UNLOCKCALENDAR_VAR,Don't miss out on this amazing T4 ability material offer! Get this offer to level up at least {var1} new abilities over {var2} days!
+ID_OF_NA_DEATHPOOL_FCO_OFFER,Grim Reaper Orb Offer
+ID_OF_DE_DEATHPOOL_FCO_OFFER_VAR_SU,"Recruit a <color=#fff568>{var1}-star Deathpool</color> with this offer! Each orb has a chance to earn up to 180 shards. Reap victory in Raids by granting Health, Ability Energy, and Drain to Mystic allies."
+ID_OF_NA_DEATHPOOL_SHARD_OFFER,Grim Reaper Offer
+ID_OF_DE_DEATHPOOL_FCO_OFFER_VAR,"Save on <color=#fff568>{var1} Grim Reaper Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Deathpool shards</color>. Reap victory in Raids by granting Health, Ability Energy, and Drain to Mystic allies."
+ID_OF_NA_SHANGCHI_FCO_OFFER,Human Weapon Orb Offer
+ID_OF_DE_SHANGCHI_FCO_OFFER_VAR_SU,Recruit a <color=#fff568>{var1}-star Shangchi</color> with this offer! Each orb has a chance to earn up to 180 shards. Dominate War Defense and synergize with Heroes for Hire allies!
+ID_OF_NA_SHANGCHI_SHARD_OFFER,Human Weapon Offer
+ID_OF_DE_SHANGCHI_FCO_OFFER_VAR,Save on <color=#fff568>{var1} Human Weapon Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Shang-Chi shards</color>. Dominate War Defense and synergize with Heroes for Hire allies!
+ID_OF_DE_DEATHPOOL_SHARD_OFFER_VAR,"Get <color=#fff568>{var1} Deathpool shards</color> and reap victory in Raids by granting Health, Ability Energy, and Drain to Mystic allies."
+ID_OF_DE_SHANGCHI_SHARD_OFFER_VAR,Get <color=#fff568>{var1} Shang-Chi shards</color> and dominate War Defense and synergize with Heroes for Hire allies!
+ID_OF_NA_CHARACTER_ABILITY_OFFER_1,Ability
+ID_OF_DE_CHARACTER_ABILITY_OFFER_50,Get this amazing bundle and power up your character. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_CHARACTER_GEAR_OFFER_1,Gear
+ID_OF_DE_CHARACTER_GEAR_OFFER_50,Get this amazing bundle and gear up your character. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_CHARACTER_GOLD_OFFER_1,Gold
+ID_OF_DE_CHARACTER_GOLD_OFFER_50,Get this amazing bundle and level up your character. Get over <color=#fff568>50%</color> off when you buy now!
+ID_OF_NA_CHARACTER_TRAINING_OFFER_1,Training
+ID_OF_DE_CHARACTER_TRAINING_OFFER_40,Get this amazing bundle and level up your character. Get over <color=#fff568>40%</color> off when you buy now!
+ID_OF_NA_EVENT_SALE_DUAL_GT14,Gear Tier 14 Offer
+ID_OF_DE_EVENT_SALE_DUAL_GT14_VAR,Pick a trait and get over <color=#fff568>80%</color> off on gear essential towards progressing Gear Tier 14!
+ID_OF_NA_EVENT_SALE_ORANGE_UNIQUE,Special Superior Unique Offer
+ID_OF_DE_EVENT_ORANGE_UNIQUE_VAR,Save on this spectacular offer and get <color=#fff568>{var1}</color> pictured Superior Unique gear pieces with each purchase!
+ID_OF_NA_EVENT_SALE_GT15,Amazing Gear Tier 15 Offer
+ID_OF_DE_EVENT_SALE_DUAL_GT15,Pick a trait and get over <color=#fff568>50%</color> off on gear essential towards progressing Gear Tier 15!
+ID_GACHA_CRATE_SHANGCHI_RING1_NAME,Silver Medallion
+ID_GACHA_CRATE_SHANGCHI_RING1_DESCRIPTION,Earn up to 50 Heroes for Hire Shards
+ID_GACHA_CRATE_SHANGCHI_RING1_TOKEN_NAME,Silver Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING1_TOKEN_DESCRIPTION,Earn up to 50 Heroes for Hire Shards
+ID_GACHA_CRATE_SHANGCHI_RING2_NAME,Gold Medallion
+ID_GACHA_CRATE_SHANGCHI_RING2_DESCRIPTION,Earn Gear Tier 15 Mini-Uniques
+ID_GACHA_CRATE_SHANGCHI_RING2_TOKEN_NAME,Gold Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING2_TOKEN_DESCRIPTION,Earn Gear Tier 15 Mini-Uniques
+ID_GACHA_CRATE_SHANGCHI_RING3_NAME,Redwood Medallion
+ID_GACHA_CRATE_SHANGCHI_RING3_DESCRIPTION,"Earn up to 30,000 War Credits"
+ID_GACHA_CRATE_SHANGCHI_RING3_TOKEN_NAME,Redwood Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING3_TOKEN_DESCRIPTION,"Earn up to 30,000 War Credits"
+ID_GACHA_CRATE_SHANGCHI_RING4_NAME,Amethyst Medallion
+ID_GACHA_CRATE_SHANGCHI_RING4_DESCRIPTION,"Earn up to 1,000 Power Cores"
+ID_GACHA_CRATE_SHANGCHI_RING4_TOKEN_NAME,Amethyst Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING4_TOKEN_DESCRIPTION,"Earn up to 1,000 Power Cores"
+ID_GACHA_CRATE_SHANGCHI_RING5_NAME,Turquoise Medallion
+ID_GACHA_CRATE_SHANGCHI_RING5_DESCRIPTION,Earn T1 Iso-8 Materials
+ID_GACHA_CRATE_SHANGCHI_RING5_TOKEN_NAME,Turquoise Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING5_TOKEN_DESCRIPTION,Earn T1 Iso-8 Materials
+ID_GACHA_CRATE_SHANGCHI_RING6_NAME,Copper Medallion
+ID_GACHA_CRATE_SHANGCHI_RING6_DESCRIPTION,Earn Training and Gold Orbs
+ID_GACHA_CRATE_SHANGCHI_RING6_TOKEN_NAME,Copper Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING6_TOKEN_DESCRIPTION,Earn Training and Gold Orbs
+ID_GACHA_CRATE_SHANGCHI_RING7_NAME,Bronze Medallion
+ID_GACHA_CRATE_SHANGCHI_RING7_DESCRIPTION,Earn Elite 5 and Elite 6 Credits
+ID_GACHA_CRATE_SHANGCHI_RING7_TOKEN_NAME,Bronze Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING7_TOKEN_DESCRIPTION,Earn Elite 5 and Elite 6 Credits
+ID_GACHA_CRATE_SHANGCHI_RING8_NAME,Stone Medallion
+ID_GACHA_CRATE_SHANGCHI_RING8_DESCRIPTION,Earn Fully Crafted Advanced Gear
+ID_GACHA_CRATE_SHANGCHI_RING8_TOKEN_NAME,Stone Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING8_TOKEN_DESCRIPTION,Earn Fully Crafted Advanced Gear
+ID_GACHA_CRATE_SHANGCHI_RING9_NAME,Jade Medallion
+ID_GACHA_CRATE_SHANGCHI_RING9_DESCRIPTION,Earn Level 5 T1 Iso-8 Crystals
+ID_GACHA_CRATE_SHANGCHI_RING9_TOKEN_NAME,Jade Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING9_TOKEN_DESCRIPTION,Earn Level 5 T1 Iso-8 Crystals
+ID_GACHA_CRATE_SHANGCHI_RING10_NAME,Sapphire Medallion
+ID_GACHA_CRATE_SHANGCHI_RING10_DESCRIPTION,"Earn up to 8,000 T2 Iso-8 Credits"
+ID_GACHA_CRATE_SHANGCHI_RING10_TOKEN_NAME,Sapphire Medallion Fragments
+ID_GACHA_CRATE_SHANGCHI_RING10_TOKEN_DESCRIPTION,"Earn up to 8,000 T2 Iso-8 Credits"
+ID_OF_NA_GT15_MYSTIC_01,Mystic Gear Tier 15 Offer
+ID_OF_NA_GT15_MUTANT_01,Mutant Gear Tier 15 Offer
+ID_OF_NA_GT15_BIO_01,Bio Gear Tier 15 Offer
+ID_OF_NA_GT15_TECH_01,Tech Gear Tier 15 Offer
+ID_OF_NA_GT15_SKILL_01,Skill Gear Tier 15 Offer
+ID_OF_NA_LEGACY2_01,Legacy II Orb Offer
+ID_OF_LOGIN_DE_MINERVA_R_V2,Unlock Minn-Erva with this amazing offer! Log in for the next 14 days to collect your rewards.
+ID_OF_LOGIN_DE_MINERVA_DD_V2,Unlock Minn-Erva with this amazing offer! Log in for the next 7 days to collect your rewards.
+ID_OF_DE_3456_RSDRAFT_MUTANT_CONTROLLER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Jubilee, Emma Frost, Phoenix, Iceman, and Domino.</color>"
+ID_OF_DE_345_RSDRAFT_MUTANT_CONTROLLER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Jubilee, Emma Frost, Phoenix, Iceman, and Domino.</color>"
+ID_OF_NA_DARKPROMOCREDITS_ASB_01,Dark Promotion Credit Draft
+ID_OF_DE_DARKPROMOCREDITS_ASB_01,"Save big on this Dark Promotion Credit Offer and get a chance to earn one of the following, 100 Dark Promotion Credits (90% chance), 300 Dark Promotion Credits (9% chance), or 1000 Dark Promotion Credits (1% chance)!"

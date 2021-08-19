@@ -45,6 +45,8 @@ ID_SHARD_CAPTAINMARVEL_NAME,Captain Marvel
 ID_SHARD_CAPTAINMARVEL_DESCRIPTION,A powerful cosmic soldier who breaks down the defenses of multiple foes and gains overwhelming power in Binary form.
 ID_SHARD_CARNAGE_NAME,Carnage
 ID_SHARD_CARNAGE_DESCRIPTION,"An insane brawler that viciously tears through foes with negative effects, attacking more frequently as their health decreases."
+ID_SHARD_CLOAK_NAME,Cloak
+ID_SHARD_CLOAK_DESCRIPTION,"A living conduit to the Darkforce Dimension, Cloak drains the health and offensive power of vulnerable enemies."
 ID_SHARD_COLLEENWING_NAME,Colleen Wing
 ID_SHARD_COLLEENWING_DESCRIPTION,"Colleen Wing is the Heroes for Hire Brawler, who deflects powerful attacks and counters with her lightning-fast katana."
 ID_SHARD_COLOSSUS_NAME,Colossus
@@ -61,10 +63,14 @@ ID_SHARD_CULLOBSIDIAN_NAME,Cull Obsidian
 ID_SHARD_CULLOBSIDIAN_DESCRIPTION,Cull Obsidian is a Protector who guards the Black Order and retaliates against those who would defy Thanos.
 ID_SHARD_CYCLOPS_NAME,Cyclops
 ID_SHARD_CYCLOPS_DESCRIPTION,Cyclops grants his teammates extra attacks and assails his enemies with optic blasts.
+ID_SHARD_DAGGER_NAME,Dagger
+ID_SHARD_DAGGER_DESCRIPTION,Teenage runaway Dagger uses her Lightforce powers to generate powerful daggers that damage enemies and heal her allies.
 ID_SHARD_DAREDEVIL_NAME,Daredevil
 ID_SHARD_DAREDEVIL_DESCRIPTION,"A tough bruiser who delivers bonus attacks, chain attacks, and counterattacks."
 ID_SHARD_DEADPOOL_NAME,Deadpool
 ID_SHARD_DEADPOOL_DESCRIPTION,A magical unicorn who specializes in stab-shooting vulnerable targets.
+ID_SHARD_DEATHPOOL_NAME,Deathpool
+ID_SHARD_DEATHPOOL_DESCRIPTION,"The daughter of the cosmic entity known as Death and, uh... Deadpool? Okay, wow. Deathpool combines her father's love of brawling with her mother's incredible supernatural powers."
 ID_SHARD_DOCTOROCTOPUS_NAME,Doctor Octopus
 ID_SHARD_DOCTOROCTOPUS_DESCRIPTION,"Genius, egomaniac, and mastermind, Doctor Octopus enhances Sinister Six allies and summons them to battle."
 ID_SHARD_DOCTORSTRANGE_NAME,Doctor Strange
@@ -283,6 +289,8 @@ ID_SHARD_SCIENTISTSUPREME_NAME,Scientist Supreme
 ID_SHARD_SCIENTISTSUPREME_DESCRIPTION,A mad scientist who converts negative effects to positive effects while healing her allies.
 ID_SHARD_SCREAM_NAME,Scream
 ID_SHARD_SCREAM_DESCRIPTION,The vicious Scream is a Symbiote Controller who clears positive effects from her foes.
+ID_SHARD_SHANGCHI_NAME,Shang-Chi
+ID_SHARD_SHANGCHI_DESCRIPTION,Shang-Chi is a master of martial arts who turns his enemies' strengths against them while improving his Heroes for Hire allies.
 ID_SHARD_SHARONCARTER_NAME,Sharon Carter
 ID_SHARD_SHARONCARTER_DESCRIPTION,"Niece of the legendary Peggy Carter, Sharon Carter uses her covert weapons training to disable the enemy through negative status effects."
 ID_SHARD_SHATTERSTAR_NAME,Shatterstar

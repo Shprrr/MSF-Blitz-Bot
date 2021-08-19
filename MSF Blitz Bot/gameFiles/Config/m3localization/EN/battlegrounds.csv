@@ -3,7 +3,7 @@ ID_BATTLEGROUNDS,Arena
 ID_BATTLEGROUNDS_ACCESS,You have unlocked the Arena!
 ID_BATTLEGROUNDS_MATCHUP,Select Opponent
 ID_BATTLEGROUNDS_ERROR_HEADER,Arena Status
-ID_BATTLEGROUNDS_ERROR_OPP_LOCKED,Your opponent is already engaged in an <color=#ffffff>ARENA BATTLE</color>. You can either choose a new opponent or wait for the battle to finish.
+ID_BATTLEGROUNDS_ERROR_OPP_LOCKED,Your opponent is already engaged in an <color=#ffffff>ARENA BATTLE</color> or you are no longer in range to reach them. You can either choose a new opponent or wait for the battle to finish.
 ID_BATTLEGROUNDS_ERROR_UNKNOWN,Unknown Error
 ID_BATTLEGROUNDS_ERROR_NO_OPPS,No opponents found.
 ID_BATTLEGROUNDS_YOURRANK,YOUR RANK

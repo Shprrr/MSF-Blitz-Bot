@@ -266,6 +266,13 @@ ID_AR_MT_CARNAGE,LIVE: Psychotic Blitz
 ID_AR_MS_CARNAGE,Your chance to win Carnage shards!
 ID_AR_MB_CARNAGE,"<color=#fff568>Psychotic Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Carnage shards!\n\n<color=#fff568>Psychotic Orb</color>\nFor a limited time, a new Psychotic Orb is available in the Store. The orb contains <color=#fff568>only Carnage shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Carnage now!"
 ID_AR_NA_CARNAGE_CARD,Psychotic
+ID_AR_NA_CLOAK,Within the Shadows
+ID_AR_SM_CLOAK,Win Cloak Shards!
+ID_AR_LM_CLOAK,Face off against other players' teams to earn various milestone rewards and a chance to win Cloak shards!
+ID_AR_MT_CLOAK,LIVE: Within the Shadows Blitz
+ID_AR_MS_CLOAK,Your chance to win Cloak shards!
+ID_AR_MB_CLOAK,"<color=#fff568>Within the Shadows Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Cloak shards!\n\n<color=#fff568>Within the Shadows Orb</color>\nFor a limited time, a new Within the Shadows Orb is available in the Store. The orb contains <color=#fff568>only Cloak shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Cloak now!"
+ID_AR_NA_CLOAK_CARD,Within the Shadows
 ID_AR_NA_COLLEENWING,Dragon Daughter
 ID_AR_SM_COLLEENWING,Win Colleen Wing Shards!
 ID_AR_LM_COLLEENWING,Face off against other players' teams to earn various milestone rewards and a chance to win Colleen Wing shards!
@@ -319,6 +326,13 @@ ID_AR_MT_CYCLOPS,LIVE: X-Leader Blitz
 ID_AR_MS_CYCLOPS,Your chance to win Cyclops shards!
 ID_AR_MB_CYCLOPS,"<color=#fff568>X-Leader Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Cyclops shards!\n\n<color=#fff568>X-Leader Orb</color>\nFor a limited time, a new X-Leader Orb is available in the Store. The orb contains <color=#fff568>only Cyclops shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Cyclops now!"
 ID_AR_NA_CYCLOPS_CARD,X-Leader
+ID_AR_NA_DAGGER,Light of Hope
+ID_AR_SM_DAGGER,Win Dagger Shards!
+ID_AR_LM_DAGGER,Face off against other players' teams to earn various milestone rewards and a chance to win Dagger shards!
+ID_AR_MT_DAGGER,LIVE: Light of Hope Blitz
+ID_AR_MS_DAGGER,Your chance to win Dagger shards!
+ID_AR_MB_DAGGER,"<color=#fff568>Light of Hope Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Dagger shards!\n\n<color=#fff568>Light of Hope Orb</color>\nFor a limited time, a new Light of Hope Orb is available in the Store. The orb contains <color=#fff568>only Dagger shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Dagger now!"
+ID_AR_NA_DAGGER_CARD,Light of Hope
 ID_AR_NA_DAREDEVIL,Man Without Fear
 ID_AR_SM_DAREDEVIL,Win Daredevil Shards!
 ID_AR_LM_DAREDEVIL,Face off against other players' teams to earn various milestone rewards and a chance to win DAREDEVIL shards!
@@ -335,10 +349,14 @@ ID_AR_LM_DEADPOOL,Face off against other players' teams to earn various mileston
 ID_AR_MT_DEADPOOL,LIVE: Merc with a Mouth Blitz
 ID_AR_MS_DEADPOOL,Your chance to win DEADPOOL shards.
 ID_AR_MB_DEADPOOL,Face off against other players' teams to earn various milestone rewards and a chance to win <color=#fff568>DEADPOOL</color> shards!
-ID_AR_MC_DEADPOOL,GO!
-ID_AR_ES_DEADPOOL,ENDED: Merc with a Mouth Blitz
-ID_AR_EB_DEADPOOL,The Merc with a Mouth Blitz has ended; visit <color=#fff568>BLITZ</color> to collect your rewards.
 ID_AR_NA_DEADPOOL_CARD,Merc with a Mouth
+ID_AR_NA_DEATHPOOL,Grim Reaper
+ID_AR_SM_DEATHPOOL,Win Deathpool Shards!
+ID_AR_LM_DEATHPOOL,Face off against other players' teams to earn various milestone rewards and a chance to win Deathpool shards!
+ID_AR_MT_DEATHPOOL,LIVE: Grim Reaper Blitz
+ID_AR_MS_DEATHPOOL,Your chance to win Deathpool shards!
+ID_AR_MB_DEATHPOOL,"<color=#fff568>Grim Reaper Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Deathpool shards!\n\n<color=#fff568>Grim Reaper Orb</color>\nFor a limited time, a new Grim Reaper Orb is available in the Store. The orb contains <color=#fff568>only Deathpool shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Deathpool now!"
+ID_AR_NA_DEATHPOOL_CARD,Grim Reaper
 ID_AR_NA_DOCTORSTRANGE,Sorcerer Supreme
 ID_AR_SM_DOCTORSTRANGE,Win Doctor Strange Shards!
 ID_AR_LM_DOCTORSTRANGE,Face off against other players' teams to earn various milestone rewards and a chance to win DOCTOR STRANGE shards!
@@ -900,6 +918,13 @@ ID_AR_MT_SCREAM,LIVE: Locks of Terror Blitz
 ID_AR_MS_SCREAM,Your chance to win Scream shards!
 ID_AR_MB_SCREAM,"<color=#fff568>Locks of Terror Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Scream shards!\n\n<color=#fff568>Locks of Terror Orb</color>\nFor a limited time, a new Locks of Terror Orb is available in the Store. The orb contains <color=#fff568>only Scream shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Scream now!"
 ID_AR_NA_SCREAM_CARD,Locks of Terror
+ID_AR_NA_SHANGCHI,Human Weapon
+ID_AR_SM_SHANGCHI,Win Shang-Chi Shards!
+ID_AR_LM_SHANGCHI,Face off against other players' teams to earn various milestone rewards and a chance to win Shang-Chi shards!
+ID_AR_MT_SHANGCHI,LIVE: Human Weapon Blitz
+ID_AR_MS_SHANGCHI,Your chance to win Shang-Chi shards!
+ID_AR_MB_SHANGCHI,"<color=#fff568>Human Weapon Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Shang-Chi shards!\n\n<color=#fff568>Human Weapon Orb</color>\nFor a limited time, a new Human Weapon Orb is available in the Store. The orb contains <color=#fff568>only Shang-Chi shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Shang-Chi now!"
+ID_AR_NA_SHANGCHI_CARD,Human Weapon
 ID_AR_NA_SHARONCARTER,Super Spy
 ID_AR_SM_SHARONCARTER,Win Sharon Carter Shards!
 ID_AR_LM_SHARONCARTER,Face off against other players' teams to earn various milestone rewards and a chance to win Sharon Carter shards!

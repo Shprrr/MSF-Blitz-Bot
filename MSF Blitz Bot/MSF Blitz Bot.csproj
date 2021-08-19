@@ -106,6 +106,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_Carnage.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_Cloak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_ColleenWing.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -133,6 +136,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_Cyclops.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_Dagger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Daredevil.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -140,6 +146,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Deadpool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_Deathpool.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_DoctorOctopus.png">

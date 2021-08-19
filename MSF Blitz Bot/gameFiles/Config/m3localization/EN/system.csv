@@ -531,6 +531,7 @@ ID_UI_ONLY_SUPERSLEUTH_CHAR,ONLY <color=#fff568>SUPER SLEUTH</color> CHARACTERS
 ID_UI_ONLY_VOYAGER_CHAR,ONLY <color=#fff568>VOYAGER</color> CHARACTERS
 ID_UI_ONLY_QUANTUMGUARD_CHAR,ONLY <color=#fff568>QUANTUM GUARD</color> CHARACTERS
 ID_UI_ONLY_SABOTEUR_CHAR,ONLY <color=#fff568>SABOTEUR</color> CHARACTERS
+ID_UI_ONLY_DEVOTED_CHAR,ONLY <color=#fff568>DEVOTED</color> CHARACTERS
 ID_UI_ONLY_MISFIT_CHARS,ONLY <color=#fff568>MISFIT</color> CHARACTERS
 ID_UI_ONLY_VILLAIN_CHARS,ONLY <color=#9e0b0f>VILLAIN</color> CHARACTERS
 ID_UI_ONLY_CITY_VILLAINS,ONLY <color=#fff568>CITY VILLAIN</color> CHARACTERS
@@ -832,7 +833,11 @@ ID_REQUIRES_TRAITS_PYM_KREE_WAK,"REQUIRES: <color=#fff568>KREE</color>, <color=#
 ID_REQUIRES_TRAITS_DEF_MERC,REQUIRES: <color=#fff568>DEFENDER</color> or <color=#fff568>MERCENARY</color>
 ID_REQUIRES_TRAITS_DEF_HYD,REQUIRES: <color=#fff568>DEFENDER</color> or <color=#fff568>HYDRA</color>
 ID_REQUIRES_TRAITS_DEF_HYD_MERC,"REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>HYDRA</color>, or <color=#fff568>MERCENARY</color>"
+ID_REQUIRES_TRAITS_DEF_HYD_HFH,"REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>HYDRA</color>, \nor <color=#fff568>HEROES FOR HIRE</color>"
+ID_REQUIRES_TRAITS_DEF_MERC_HFH,"REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>MERCENARY</color>, \nor <color=#fff568>HEROES FOR HIRE</color>"
+ID_REQUIRES_TRAITS_DEF_HYD_MERC_HFH,"REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>HYDRA</color>, <color=#fff568>MERCENARY</color>, \nor <color=#fff568>HEROES FOR HIRE</color>"
 ID_REQUIRES_TRAITS_DEF_SHLD_WAK,"<size=30>REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>S.H.I.E.L.D.</color>, or <color=#fff568>WAKANDAN</color></size>"
+ID_REQUIRES_TRAITS_DEF_SHLD_WAK_HFH,"<size=30>REQUIRES: <color=#fff568>DEFENDER</color>, <color=#fff568>S.H.I.E.L.D.</color>, <color=#fff568>WAKANDAN</color>, \nor <color=#fff568>HEROES FOR HIRE</color></size>"
 ID_REQUIRES_TRAITS_BH_MERC_XM,"<size=30>REQUIRES: <color=#fff568>BROTHERHOOD</color>, <color=#fff568>MERCENARY</color>, or <color=#fff568>X-MEN</color></size>"
 ID_REQUIRES_TRAITS_GOTG_MERC_XM,"<size=30>REQUIRES: <color=#fff568>GUARDIANS</color>, <color=#fff568>MERCENARY</color>, or <color=#fff568>X-MEN</color></size>"
 ID_REQUIRES_TRAITS_BH_GOTG_XM,"REQUIRES: <color=#fff568>BROTHERHOOD</color>, <color=#fff568>GUARDIANS</color>, or <color=#fff568>X-MEN</color>"
@@ -875,6 +880,7 @@ ID_REQUIRES_EC_QUANTUMGUARD_3,3 <color=#fff568>QUANTUM GUARD</color> Characters 
 ID_REQUIRES_EC_QUANTUMGUARD_5,5 <color=#fff568>QUANTUM GUARD</color> Characters REQUIRED
 ID_REQUIRES_EC_SABOTEUR_3,3 <color=#fff568>SABOTEUR</color> Characters REQUIRED
 ID_REQUIRES_EC_SABOTEUR_5,5 <color=#fff568>SABOTEUR</color> Characters REQUIRED
+ID_REQUIRES_EC_DEVOTED_5,5 <color=#fff568>DEVOTED</color> Characters REQUIRED
 ID_REQUIRES_EC_GALACTICWARRIORS_3,3 <color=#fff568>GALACTIC WARRIOR</color> Characters REQUIRED
 ID_REQUIRES_EC_GALACTICWARRIORS_5,5 <color=#fff568>GALACTIC WARRIOR</color> Characters REQUIRED
 ID_REQUIRES_EC_MISFIT_3,3 <color=#fff568>MISFIT</color> Characters REQUIRED

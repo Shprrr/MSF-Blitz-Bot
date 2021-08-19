@@ -383,6 +383,7 @@ ID_OPTIONS_RAID_KEY_OFFSET_DESCRIPTION_DISABLE,"Disabling this option will chang
 ID_OPTIONS_RAID_KEY_OFFSET_COOLDOWN_DESCRIPTION,You are currently on cooldown and cannot change this value for <color=#fff568>{cooldownRemaining}</color>.\n\nToggling this option will change your Raid Key generation reset to <color=#fff568>{time} (+{timeUTC} UTC)</color>. You will not be able to change back or generate keys for <color=#fff568>{cooldown}</color>.
 ID_OPTIONS_RAID_KEY_OFFSET_COOLDOWN_DISABLE_DESCRIPTION,You are currently on cooldown and cannot change this value for <color=#fff568>{cooldownRemaining}</color>. \n\nToggling this option will change your raid key generation reset to midnight local time. You will not be able to change back or generate keys for <color=#fff568>{cooldown}</color>.
 ID_OPTIONS_COMBAT_REDUCEDCOMBATTEXT,Use reduced combat text
+ID_OPTIONS_COMBAT_AUTOBASIC,Show Basic-Only Autoplay option
 ID_OPTIONS_COMBATTEXTOPTIONS,Combat Text Filtering
 ID_OPTIONS_INSANITY_ACTIVE_JUMP,Active Dark Dimension Tab & Selection
 ID_OPTIONS_INSANITY_ACTIVE_JUMP_FIRST_RUN_ONLY,Active Dark Dimension Tab & Selection For First-Run Only
@@ -468,7 +469,7 @@ ID_SELECT_WAR_DEFENSE_MESSAGE,DEFENSE CHARACTERS CANNOT BE USED TO ATTACK
 ID_SHARD_CONVERSION_TITLE,CONVERT EXTRA SHARDS
 ID_SHARD_CONVERSION_SUBTITLE,Extra character shards are converted into <color=#ffffff><i>ULTRA CREDITS</i></color>. Collect enough to open an <color=#ffffff><i>ULTIMUS ORB</i></color>.
 ID_SHARD_CONVERSION_INFO_TITLE,ULTRA CREDITS
-ID_SHARD_CONVERSION_INFO_MESSAGE,"When you receive shards of a character who is at 7 stars, they convert to <color=#ffffff><i>ULTRA CREDITS</i></color>. Use <color=#ffffff><i>ULTRA CREDITS</i></color> to buy Ultimus Orbs, which contain Ultimus shards and other prizes."
+ID_SHARD_CONVERSION_INFO_MESSAGE,"When you receive shards of a character who is at 7 stars, they convert to <color=#ffffff><i>ULTRA CREDITS</i></color>. Use <color=#ffffff><i>ULTRA CREDITS</i></color> to buy Ultimus Orbs or Gear."
 ID_SHARD_CONVERSION_UNLOCK_MESSAGE,Requires a 7 star character.
 ID_SLOT,Slot
 ID_UNCLAIMED,Unclaimed
@@ -808,6 +809,7 @@ ID_EVENT_CAMPAIGN_TYPE_MULTIPLEMAN,MULTIPLEMAN
 ID_EVENT_CAMPAIGN_TYPE_KESTREL,KESTREL
 ID_EVENT_CAMPAIGN_TYPE_PHYLAVELL,PHYLAVELL
 ID_EVENT_CAMPAIGN_TYPE_SHARONCARTER,SHARONCARTER
+ID_EVENT_CAMPAIGN_TYPE_DEATHPOOL,DEATHPOOL
 ID_OFFER_AND,AND
 ID_OFFER_OR,OR
 ID_CHAL_UNLOCK,UNLOCK
@@ -845,3 +847,27 @@ ID_UI_DISCORD_URL,https://app.adjust.net.in/mfgo61o_w7d6dio?label=discord&redire
 ID_EVENT_CURRENCY_UNLOCK_MESSAGE,The Event Store is currently locked
 ID_UI_WATCH,WATCH
 ID_UI_ENTERNOW,ENTER NOW
+ID_SSQUADS_CATEGORY_DEFAULT_CATEGORY,SAVED SQUADS: ROSTER
+ID_SSQUADS_CATEGORY_BATTLEGROUNDS,SAVED SQUADS: ARENA
+ID_SSQUADS_CATEGORY_PVP,SAVED SQUADS: BLITZ
+ID_SSQUADS_CATEGORY_RAIDS,SAVED SQUADS: RAIDS
+ID_SSQUADS_CATEGORY_AVA,SAVED SQUADS: WAR
+ID_SSQUADS_CATEGORY_INSANITY,SAVED SQUADS: DARK DIMENSION
+ID_SSQUADS_MANAGE_DEFAULT_CATEGORY,MANAGE: ROSTER
+ID_SSQUADS_MANAGE_BATTLEGROUNDS,MANAGE: ARENA
+ID_SSQUADS_MANAGE_PVP,MANAGE: BLITZ
+ID_SSQUADS_MANAGE_RAIDS,MANAGE: RAIDS
+ID_SSQUADS_MANAGE_AVA,MANAGE: WAR
+ID_SSQUADS_MANAGE_INSANITY,MANAGE: DARK DIMENSION
+ID_SSQUADS_COPY,COPY
+ID_SSQUADS_PASTE,PASTE
+ID_SSQUADS_ALL,ALL
+ID_SSQUADS_PASTE_SQUADS,Not Enough Space
+ID_SSQUADS_PASTE_SQUADS_TOO_MANY_SQUADS,The number of copied teams is greater than the available space in {gamemode}.\nDelete teams to make more room and try again
+ID_SSQUADS_DELETE_CONFIRM_TITLE,Confirm Delete
+ID_SSQUADS_DELETE_CONFIRM_BODY,Delete {num} Selected Items?
+ID_SSQUADS_COPY_FLOATER,COPIED
+ID_SSQUADS_PASTE_FLOATER,PASTED
+ID_SSQUADS_DELETE_FLOATER,DELETED
+ID_SSQUADS_CREATE_UNAVAILABLE_TITLE,Create Unavailable
+ID_SSQUADS_CREATE_UNAVAILABLE_BODY,"To use the Create function, enter Saved Squads via the Roster Filter Panel"

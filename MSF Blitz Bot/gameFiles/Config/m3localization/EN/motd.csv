@@ -429,6 +429,8 @@ ID_MOTD_NA_CAPTAINMARVEL,Ace Pilot: Now Live!
 ID_MOTD_DE_CAPTAINMARVEL,Battle for a chance to win Captain Marvel shards
 ID_MOTD_NA_CARNAGE,Psychotic: Now Live!
 ID_MOTD_DE_CARNAGE,Battle for a chance to win Carnage shards
+ID_MOTD_NA_CLOAK,Within the Shadows: Now Live!
+ID_MOTD_DE_CLOAK,Battle for a chance to win Cloak shards
 ID_MOTD_NA_COLLEENWING,Dragon Daughter: Now Live!
 ID_MOTD_DE_COLLEENWING,Battle for a chance to win Colleen Wing shards
 ID_MOTD_NA_COLOSSUS,Heavy Metal: Now Live!
@@ -445,6 +447,8 @@ ID_MOTD_NA_CULLOBSIDIAN,Dwarf Star: Now Live!
 ID_MOTD_DE_CULLOBSIDIAN,Battle for a chance to win Cull Obsidian shards
 ID_MOTD_NA_CYCLOPS,X-Leader: Now Live!
 ID_MOTD_DE_CYCLOPS,Battle for a chance to win Cyclops shards
+ID_MOTD_NA_DAGGER,Light of Hope: Now Live!
+ID_MOTD_DE_DAGGER,Battle for a chance to win Dagger shards
 ID_MOTD_NA_DAREDEVIL,Man Without Fear: Now Live!
 ID_MOTD_DE_DAREDEVIL,Battle for a chance to win DAREDEVIL shards
 ID_MOTD_NA_DEADPOOL,Merc with a Mouth: Now Live!
@@ -457,6 +461,8 @@ ID_MOTD_NA_DEADPOOL_RAID,LIMITED: Deadpool Raids
 ID_MOTD_DE_DEADPOOL_RAID,Participate in Deadpool Raids to earn more Deadpool Orb Fragments!
 ID_MOTD_NA_DEADPOOL_TAKEOVER,NOW LIVE: Merc with a Mouth
 ID_MOTD_DE_DEADPOOL_TAKEOVER,Reach Lvl 19 and help Deadpool!
+ID_MOTD_NA_DEATHPOOL,Grim Reaper: Now Live!
+ID_MOTD_DE_DEATHPOOL,Battle for a chance to win Deathpool shards
 ID_MOTD_NA_DOCTORSTRANGE,Sorcerer Supreme: Now Live!
 ID_MOTD_DE_DOCTORSTRANGE,Battle for a chance to win DOCTOR STRANGE shards
 ID_MOTD_NA_DOMINO,Lady Luck: Now Live!
@@ -603,6 +609,8 @@ ID_MOTD_NA_SCIENTISTSUPREME,Experimental: Now Live!
 ID_MOTD_DE_SCIENTISTSUPREME,Battle for a chance to win Scientist Supreme shards
 ID_MOTD_NA_SCREAM,Locks of Terror: Now Live!
 ID_MOTD_DE_SCREAM,Battle for a chance to win Scream shards
+ID_MOTD_NA_SHANGCHI,Human Weapon: Now Live!
+ID_MOTD_DE_SHANGCHI,Battle for a chance to win Shang-Chi shards
 ID_MOTD_NA_SHARONCARTER,Super Spy: Now Live!
 ID_MOTD_DE_SHARONCARTER,Battle for a chance to win Sharon Carter shards
 ID_MOTD_NA_SHATTERSTAR,Crowd Pleaser: Now Live!
@@ -863,5 +871,31 @@ ID_MOTD_NA_WEBOFSPIES_ANNOUNCE,LIVE: Web of Spies
 ID_MOTD_DE_WEBOFSPIES_ANNOUNCE,Infiltrate a massive rewards cache!
 ID_MOTD_NA_SEEINGRED_LIVE,Enter the Seeing Red Sweepstakes
 ID_MOTD_DE_SEEINGRED_LIVE,"Enter to win character shards, Red Stars, and Power Cores!"
-ID_MOTD_NA_BWTWITTER_JA_ANNOUNCE,Temp string
-ID_MOTD_DE_BWTWITTER_JA_ANNOUNCE,Temp string
+ID_MOTD_NA_MAYHEM_SEASON8_ANNOUNCE,LIVE: Season 8 of Mojo's Mayhem
+ID_MOTD_DE_MAYHEM_SEASON8_ANNOUNCE,Turn Ratings into Bishop shards and big rewards!
+ID_MOTD_NA_BLACKWIDOW_THEATRICAL,Marvel Studios' Black Widow
+ID_MOTD_DE_BLACKWIDOW_THEATRICAL,In Theaters & Disney+ Now
+ID_MOTD_NA_CLASSICLOOKS_ANNOUNCE,LIVE: Classic Looks
+ID_MOTD_DE_CLASSICLOOKS_ANNOUNCE,"Use Conspiracy Theories Energy to earn the ""Classic"" Captain America Costume!"
+ID_MOTD_NA_CAPTAINAMERICASAM_ANNOUNCE,Captain America (Sam) is here!
+ID_MOTD_DE_CAPTAINAMERICASAM_ANNOUNCE,Recruit the Secret Avengers' Raid team Protector
+ID_MOTD_NA_VEILEDTHREATS_ANNOUNCE,LIVE: Veiled Threats
+ID_MOTD_DE_VEILEDTHREATS_ANNOUNCE,Earn costumes for Gamora and Daredevil!
+ID_MOTD_NA_MARIAHILL_PREHYPE,Coming Soon: Maria Hill
+ID_MOTD_DE_MARIAHILL_PREHYPE,Your chance to recruit this Secret Avenger Support is on the way!
+ID_MOTD_NA_DEATHPOOL_PREHYPE,Coming Soon: Deathpool
+ID_MOTD_DE_DEATHPOOL_PREHYPE,The daughter of Deadpool and Death
+ID_MOTD_NA_DEATHPOOL_ECM_PREVIEW,Prepare for Deathpool!
+ID_MOTD_DE_DEATHPOOL_ECM_PREVIEW,On the way: Shadow of Deathpool
+ID_MOTD_NA_DEATHPOOL_ECM_LIVE,LIVE: Shadow of Deathpool
+ID_MOTD_DE_DEATHPOOL_ECM_LIVE,Battle to earn Deathpool shards!
+ID_MOTD_NA_MAYHEM_SEASON9_ANNOUNCE,LIVE: Season 9 of Mojo's Mayhem
+ID_MOTD_DE_MAYHEM_SEASON9_ANNOUNCE,Turn Ratings into Moon Knight shards and big rewards!
+ID_MOTD_NA_POSTMORTEM_TEASER,Coming Soon: Post Mortem
+ID_MOTD_DE_POSTMORTEM_TEASER,Earn big rewards and say RIP to your enemies
+ID_MOTD_NA_POSTMORTEM_ANNOUNCE,LIVE: Post Mortem
+ID_MOTD_DE_POSTMORTEM_ANNOUNCE,Reap big gear rewards!
+ID_MOTD_NA_THELEGEND_TEASER,Coming Soon: The Legend
+ID_MOTD_DE_THELEGEND_TEASER,Legendary rewards including Shang-Chi shards!
+ID_MOTD_NA_THELEGEND_LIVE,NOW LIVE: The Legend
+ID_MOTD_DE_THELEGEND_LIVE,Earn Shang-Chi shards and his limited-time costume!

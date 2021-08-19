@@ -8060,6 +8060,178 @@ ID_DIALOG_ECM_SHARONCARTER_09_END_4,"We sorted out which of us was real, we can 
 ID_DIALOG_ECM_SHARONCARTER_09_END_5,"You may be right. I guess I do go on most missions assuming I'll get stabbed in the back anyway. "
 ID_DIALOG_ECM_SHARONCARTER_09_END_6,"I'll be out here, undercover, finding out how much of what Sinister was saying is the truth. You'll need the intel."
 ID_DIALOG_ECM_SHARONCARTER_09_END_7,"So, call if you need me. I'll be there."
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_0,"A REMOTE MONASTERY, NEPAL..."
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_1,"Show yourself, pest! I know you're inside these walls. Your reckoning is at hand. "
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_2,"Who, little old me? MY reckoning? But I've been such a good boy. "
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_3,"See? Monks? A temple? I'm a zen master now. I've achieved inner peace, instead of my usual\n""outer annoyance."""
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_4,"Besides, Thanny, I don't really remember actually DOING anything to you reckoning worthy!"
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_5,"You? No. But in the world I'm from, someone much like you took something precious from me."
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_6,"So now, across the multiverse, I'm taking something precious from all of the versions of you I can find. "
+ID_DIALOG_ECM_DEATHPOOL_01_INTRO_7,Your lives.
+ID_DIALOG_ECM_DEATHPOOL_01_START_0,"Well, Grape Ape, one noble truth I've learned here is that life itself is suffering."
+ID_DIALOG_ECM_DEATHPOOL_01_START_1,"So, come over here, I've got a great big helping of life for you!"
+ID_DIALOG_ECM_DEATHPOOL_01_START_2,DEFEAT DEADPOOL TO WIN.
+ID_DIALOG_ECM_DEATHPOOL_01_END_0,"Okay, fine! I'll tell you my mantra. It's ""UglyTitanSaysWhat."""
+ID_DIALOG_ECM_DEATHPOOL_01_END_1,"More jokes. Once I've finally killed all the Deadpools, the silence will be reward enough. "
+ID_DIALOG_ECM_DEATHPOOL_01_END_2,"No, you're supposed to say ""What?"" and then I finally achieve nirvana! Help a guy out here. "
+ID_DIALOG_ECM_DEATHPOOL_01_END_3,"The only help you'll find is death. "
+ID_DIALOG_ECM_DEATHPOOL_01_END_4,"Well, I'm not going to get a better intro line than THAT! Put down the glowy rocks and step away from the Deadpool. "
+ID_DIALOG_ECM_DEATHPOOL_01_END_5,"You. The cosmic mistake. You're too late to save this one, just like all the others. "
+ID_DIALOG_ECM_DEATHPOOL_01_END_6,ARGH!
+ID_DIALOG_ECM_DEATHPOOL_01_END_7,"NO! Thanos... Obviously, ""death"" is my whole thing but BOY am I going to love killing you."
+ID_DIALOG_ECM_DEATHPOOL_01_END_8,"You're not getting away again! Let's see how those stones like a little scythe magic! "
+ID_DIALOG_ECM_DEATHPOOL_01_END_9,No! There's no telling what could hap---
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_0,"NEXUS EARTH, A CORRUPTED STRONGHOLD..."
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_1,"These corrupted aren't going down easy! Take 'em out fast, team, but remember: non-lethal force only."
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_2,"Cable-san, you know that once my katana has been drawn... It may not be returned until it has tasted blood... "
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_3,For the honor of clan X-Force!!!
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_4,"You let him stay up watching samurai movies again, didn't you?"
+ID_DIALOG_ECM_DEATHPOOL_02_INTRO_5,"Could be worse. He wanted to watch musicals. "
+ID_DIALOG_ECM_DEATHPOOL_02_START_0,"Ultimus may be gone, but we're carrying on his cause! Die, S.T.R.I.K.E.!"
+ID_DIALOG_ECM_DEATHPOOL_02_MID_0,"Nate, we got a portal opening up! Reinforcements? "
+ID_DIALOG_ECM_DEATHPOOL_02_MID_1,"Oof, my head. Thanos? Is he here yet?"
+ID_DIALOG_ECM_DEATHPOOL_02_MID_2,"Woah, woah, who is THIS! She's wearing my outfit?"
+ID_DIALOG_ECM_DEATHPOOL_02_MID_3,I know I was doing a samurai thing but that doesn't mean you can steal a guy's gimmick.
+ID_DIALOG_ECM_DEATHPOOL_02_MID_4,"Okay, you're still alive! Cool. Let's keep you that way. "
+ID_DIALOG_ECM_DEATHPOOL_02_MID_5,"DEATHPOOL'S <color=#fff568>BASIC ABILITY</color> CLEARS HER NEGATIVE EFFECTS, HEALING HERSELF AND DEALING DAMAGE FOR EACH EFFECT REMOVED."
+ID_DIALOG_ECM_DEATHPOOL_02_MID_6,"HER <color=#fff568>SPECIAL ABILITY</color> TRANSFERS NEGATIVE EFFECTS FROM DEATHPOOL TO HER TARGET, BEFORE SPREADING THEM TO OTHER ENEMIES."
+ID_DIALOG_ECM_DEATHPOOL_02_END_0,"Nice moves, kid. "
+ID_DIALOG_ECM_DEATHPOOL_02_END_1,"Hey! Don't praise her! I didn't license out my look! Unless you count Kidpool. And Headpool. And Pandapool. "
+ID_DIALOG_ECM_DEATHPOOL_02_END_2,My name's Deathpool.
+ID_DIALOG_ECM_DEATHPOOL_02_END_3,"I'm still mad at you, so I refuse to admit that sounds pretty cool! "
+ID_DIALOG_ECM_DEATHPOOL_02_END_4,"And I'm your daughter. "
+ID_DIALOG_ECM_DEATHPOOL_02_END_5,"Wait, WHAAAAAAAAAAAAAAAAAAAAAAAAAAAA-"
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_0,"-AAAAAAAAAAAAAAAAAAT?! "
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_1,"Well, not YOUR daughter, relax. My dad was a Deadpool who fell in love with Death..."
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_2,"Hm, you must be from a universe where she returned my calls. "
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_3,"(Actually, now that I think about it, I'm not 100% sure Death even HAS a phone.)"
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_4,"From what he told me, he just refused to die. And every time they met, they fell more in love. "
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_5,"And then one day? I appeared, dope scythe, cool cape, and everything!"
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_6,"And she let you play with that big knife?! I mean, I would let you, sure, I'm irresponsible. But your mom?"
+ID_DIALOG_ECM_DEATHPOOL_03_INTRO_7,"My mom...? I never knew her.\nShe vanished. "
+ID_DIALOG_ECM_DEATHPOOL_03_START_0,"DEATHPOOL'S HOME DIMENSION, THREE YEARS AGO..."
+ID_DIALOG_ECM_DEATHPOOL_03_START_1,"Their love brought me into the universe, but she vanished! Pretty rude, honestly!"
+ID_DIALOG_ECM_DEATHPOOL_03_START_2,"But Dad did what he could, and taught me how to fight. With his own specific style, too. "
+ID_DIALOG_ECM_DEATHPOOL_03_START_3,We fought space pirates...
+ID_DIALOG_ECM_DEATHPOOL_03_MID_01_0,...killer robots...
+ID_DIALOG_ECM_DEATHPOOL_03_MID_02_0,"...and generally whoever! I had great power, and Dad always told me it came with great irresponsbility. "
+ID_DIALOG_ECM_DEATHPOOL_03_END_0,Sniff... That... That sounds so beautiful! What happened?
+ID_DIALOG_ECM_DEATHPOOL_03_END_1,"Thanos. "
+ID_DIALOG_ECM_DEATHPOOL_03_END_2,"I guess he was some lame old boyfriend of mom's?\nExes, am I right?"
+ID_DIALOG_ECM_DEATHPOOL_03_END_3,"(I don't actually know, I just joined the cosmic miasma of existence a little bit ago.)"
+ID_DIALOG_ECM_DEATHPOOL_03_END_4,"But when she vanished, he snapped. Er, I mean he went crazy. He used the Infinity Stones to kill Dad."
+ID_DIALOG_ECM_DEATHPOOL_03_END_5,But it wasn't enough. He used the Infinity Gauntlet to escape me and has been killing Deadpools across the multiverse.
+ID_DIALOG_ECM_DEATHPOOL_03_END_6,"GASP! And you came here to SAVE me?! To protect your new papa?!\nI'm so PROUD. "
+ID_DIALOG_ECM_DEATHPOOL_03_END_7,"Sure! That'll be a nice side effect! Mainly? I'm going to kill Thanos. "
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_0,KILL Thanos?! No daughter of mine is going on a revenge quest! Those never end well.
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_1,"1. I'm not your daughter!\n2. Don't you kill people, like, kind of a lot?"
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_2,"Do as I say, not as I do! That's parenting 101! I'm already crushing this. "
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_3,"My point is, revenge is a big no-no in the hero game! You may as well start calling yourself Punishpool!"
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_4,"Or the Deathisher? Either way, the skull motif would be redundant. "
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_5,"I'm not letting you out of my sight until I manage to impart that fatherly wisdom. "
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_6,"Okay, well, I'm not letting YOU out of my sight. Because Thanos is out there and you're... You know... Bait? "
+ID_DIALOG_ECM_DEATHPOOL_04_INTRO_7,"I'll take it! Now come on, Fury's got a mission for me, and it's officially Take Your Deathpool to Work Day."
+ID_DIALOG_ECM_DEATHPOOL_04_START_0,"Deadpool, a corrupted Taskmaster is using this facility to train more enemy combatants. Take it out."
+ID_DIALOG_ECM_DEATHPOOL_04_START_1,"OMG, it's my girl's first day at school! Let's get a selfie to commemorate the occasion!"
+ID_DIALOG_ECM_DEATHPOOL_04_START_2,"Okay, but not because we're bonding! It's because the lighting in this bunker is surprisingly great?"
+ID_DIALOG_ECM_DEATHPOOL_04_START_3,"Say ""Picture Day Laser Background""! "
+ID_DIALOG_ECM_DEATHPOOL_04_START_4,DEFEAT THE ENEMY OPERATORS TO WIN.
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_01_0,We're under attack! Seal these intruders in with us. We'll deal with them once they're captured.
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_01_1,1 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_02_0,"Energy field charging up - soon you'll have nowhere to escape to. "
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_02_1,2 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_03_0,They're almost trapped in here! Who's ready to teach these new recruits some lessons in pain?
+ID_DIALOG_ECM_DEATHPOOL_04_OPERATOR_03_1,3 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_04_LOSE_0,"Energy field at 100%. You're mine, now. "
+ID_DIALOG_ECM_DEATHPOOL_04_END_0,"Wow, first day at school and graduation day all on the same day!"
+ID_DIALOG_ECM_DEATHPOOL_04_END_1,"I don't know if it counts as ""graduation"" just because we blew the building up?"
+ID_DIALOG_ECM_DEATHPOOL_04_END_2,Then why did you throw your hat in the air as we walked away from the explosion in slow motion?
+ID_DIALOG_ECM_DEATHPOOL_04_END_3,"For STYLE POINTS, obvi!"
+ID_DIALOG_ECM_DEATHPOOL_04_END_4,Sniff... It's true what they say...\nThey grow up so fast!
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_0,I've missed so many big milestones! Tell me about your first steps! Did you keep any of your baby teeth?
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_1,"I wasn't ever a baby. If you want teeth, though, I can totally get you teeth."
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_2,"Uh... that's okay, I'm good."
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_3,"Deadpool, this is Fury. Uncharacteristically good work on Taskmaster. "
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_4,"I'm trying to be a good role model. "
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_5,"Well, keep it up. There's symbiote activity in the area and you're the closest S.T.R.I.K.E. agent."
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_6,Take care of it.
+ID_DIALOG_ECM_DEATHPOOL_05_INTRO_7,GASP! The perfect thing - your first PET!
+ID_DIALOG_ECM_DEATHPOOL_05_START_0,"Okay, take your time and pick one out. Don't just fall in love with the first symbiote that runs up to you."
+ID_DIALOG_ECM_DEATHPOOL_05_START_1,RAAAAAARGH!
+ID_DIALOG_ECM_DEATHPOOL_05_START_2,I'm not sure that's going to be a problem!
+ID_DIALOG_ECM_DEATHPOOL_05_END_0,"No! Bad! Bad Venom! "
+ID_DIALOG_ECM_DEATHPOOL_05_END_1,"You know, I'm starting to suspect some of these symbiotes aren't even house trained."
+ID_DIALOG_ECM_DEATHPOOL_06_INTRO_0,"See, isn't this fun, us bonding? Want to climb up onto my shoulders? "
+ID_DIALOG_ECM_DEATHPOOL_06_INTRO_1,"Hmm, that does sound fun... Wait, no! We're not bonding, okay?"
+ID_DIALOG_ECM_DEATHPOOL_06_INTRO_2,"I'm keeping you safe until Thanos shows up to kill you, then I'm killing him? And then I'm heading home. "
+ID_DIALOG_ECM_DEATHPOOL_06_INTRO_3,"Now get behind me, there's symbiotes that need a little taste of scythe!"
+ID_DIALOG_ECM_DEATHPOOL_06_INTRO_4,"Come back here! We're not done discussing this, young lady! "
+ID_DIALOG_ECM_DEATHPOOL_06_START_0,"We will slice and dice you until you're bite-sized! "
+ID_DIALOG_ECM_DEATHPOOL_06_START_1,"SOMEONE'S got a bad attitude! You'll calm down a bit once we have you ""fixed."""
+ID_DIALOG_ECM_DEATHPOOL_06_START_2,You're going to look SO cute with one of those big cones around your neck!
+ID_DIALOG_ECM_DEATHPOOL_06_END_0,"Okay, a pet was the wrong call. I know! I can teach you to ride a bike! Where'd Ghost Rider put his training wheels..."
+ID_DIALOG_ECM_DEATHPOOL_06_END_1,"Enough! I know you look like my dad, but you're not him!"
+ID_DIALOG_ECM_DEATHPOOL_06_END_2,"Do you know how many versions of my dad I watched Thanos kill?\nI lost track. "
+ID_DIALOG_ECM_DEATHPOOL_06_END_3,"And as the avatar of death, I'm going to get revenge for all of them. "
+ID_DIALOG_ECM_DEATHPOOL_06_END_4,Uncharacteristically serious advice alert: killing Thanos for revenge is a pretty dark path.
+ID_DIALOG_ECM_DEATHPOOL_06_END_5,"I don't know your Deadpool, but I don't think it's what he'd want for you."
+ID_DIALOG_ECM_DEATHPOOL_06_END_6,"And I can't be THAT different than him. More handsome, of course..."
+ID_DIALOG_ECM_DEATHPOOL_06_END_7,"More annoying, for sure."
+ID_DIALOG_ECM_DEATHPOOL_06_END_8,"Well... being annoying is the main requirement for being a dad. "
+ID_DIALOG_ECM_DEATHPOOL_07_INTRO_0,"Deadpool, it's Fury. Something's entering the atmopshere fast, looks like Thanos's forces have finally found you."
+ID_DIALOG_ECM_DEATHPOOL_07_INTRO_1,Heeeeeeeeey! You knew he was coming for me?!
+ID_DIALOG_ECM_DEATHPOOL_07_INTRO_2,Of course I knew. We've been preparing for this fight since Spooky over there popped into our dimension.
+ID_DIALOG_ECM_DEATHPOOL_07_INTRO_3,"Why do you think I got you out of the way with that busy work? "
+ID_DIALOG_ECM_DEATHPOOL_07_INTRO_4,"BUSY WORK?! Well, I never! You think you know a guy! "
+ID_DIALOG_ECM_DEATHPOOL_07_START_0,"Surrender your Deadpool, and our master will leave the rest of this world alive."
+ID_DIALOG_ECM_DEATHPOOL_07_START_1,"You have no idea how tempting that deal is. But it's still a no. "
+ID_DIALOG_ECM_DEATHPOOL_07_START_2,"Prepare the charges! Destroy this planet, and leave nothing left!"
+ID_DIALOG_ECM_DEATHPOOL_07_START_3,DEFEAT THE ENEMY OPERATORS TO WIN.
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_01_0,Worldbreaker charges armed!
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_01_1,1 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_02_0,Targeting major fault lines...
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_02_1,2 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_03_0,Preparing to reign fire on the terrans!
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_03_1,3 / 4 STAGES COMPLETE.
+ID_DIALOG_ECM_DEATHPOOL_07_OPERATOR_LOSE_0,"You lost the moment you chose to stand before the might of Thanos. "
+ID_DIALOG_ECM_DEATHPOOL_07_END_0,"Okay, Big Purp! You had all this extra time to prepare, and we still took out your army!"
+ID_DIALOG_ECM_DEATHPOOL_07_END_1,"Come on out, you've got a date with me! By which I mean death! But not in a romantic way, in a destiny way!"
+ID_DIALOG_ECM_DEATHPOOL_07_END_2,"Don't you know? I AM destiny. "
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_0,"Your scythe interferred with my Space Stone, and sent me halfway across this wretched universe."
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_1,"But I cannot be denied. I found my way back to this cosmic blight, this joke who took your mother from me. "
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_2,"Uh, that's Mister Cosmic Blight to you, pal."
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_3,"Well, Mr. Fate, only one thing you failed to consider when you crashed my home dimension. "
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_4,"Oh? Tell me, what's that? "
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_5,We have a Thanos.\nAnd he works for me.
+ID_DIALOG_ECM_DEATHPOOL_08_INTRO_6,"Let's see how inevitable you really are. "
+ID_DIALOG_ECM_DEATHPOOL_08_START_0,"Are you going to be able to fight alongside me without trouble, child? "
+ID_DIALOG_ECM_DEATHPOOL_08_START_1,"As long as we kill my Thanos, who am I to look a gift titan in the mouth?"
+ID_DIALOG_ECM_DEATHPOOL_08_END_0,"You've traveled the multiverse, why? To destroy him? You shame us both with this pettiness. "
+ID_DIALOG_ECM_DEATHPOOL_08_END_1,I'm beyond shame. I'm beyond pain. I simply want one thing - my vengeance!
+ID_DIALOG_ECM_DEATHPOOL_08_END_2,ARGH!
+ID_DIALOG_ECM_DEATHPOOL_08_END_3,Your Thanos doesn't know what it is to be sharpened by such single-minded purpose.
+ID_DIALOG_ECM_DEATHPOOL_08_END_4,To be fueled by revenge.
+ID_DIALOG_ECM_DEATHPOOL_08_END_5,"But you do. "
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_0,"Look at you, lost in this multiverse. Driven only by your hatred for me."
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_1,"Um, DUH? I have NOT been shy about that fact. You kind of killed my DAD, dude!"
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_2,"And dozens like him. What's one more? "
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_3,"You'd stop at nothing to kill me. So, you know better than anyone else that you can't stop me. "
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_4,Don't listen to him! You're better than him! And I'm not just saying this because I very much want to live!
+ID_DIALOG_ECM_DEATHPOOL_09_INTRO_5,"I'm sorry, Da... Deadpool. I didn't cross the multiverse to let this guy off with a warning!"
+ID_DIALOG_ECM_DEATHPOOL_09_START_0,"Finally, we'll settle this! I destroy you both and right a cosmic wrong, or you kill me! Either way, my work is complete!"
+ID_DIALOG_ECM_DEATHPOOL_09_START_1,"YEESH, this guy never stops talking! Yap yap ya- wait..."
+ID_DIALOG_ECM_DEATHPOOL_09_START_2,"Is THIS what it's like talking to me?! No wonder Fury's always so crabby. "
+ID_DIALOG_ECM_DEATHPOOL_09_END_0,"Heh... So... your hatred won out over mine. Now kill me, and end this."
+ID_DIALOG_ECM_DEATHPOOL_09_END_1,Wait! Just a second! No one's going to miss this big purple pile of goop! Least of all me!
+ID_DIALOG_ECM_DEATHPOOL_09_END_2,But take it from someone whose parents are DEFINITELY disappointed in him - this isn't who they'd want you to be.
+ID_DIALOG_ECM_DEATHPOOL_09_END_3,"UGH! I can't believe it, but... you're right."
+ID_DIALOG_ECM_DEATHPOOL_09_END_4,"Death is a natural, beautiful part of life - I mean look at me, I'm gorgeous!"
+ID_DIALOG_ECM_DEATHPOOL_09_END_5,"But this isn't justice for my dad. "
+ID_DIALOG_ECM_DEATHPOOL_09_END_6,I'll bring Thanos back to our dimension. Let a certain cosmic Tribunal pass judgement!\nSee how he likes THAT.
+ID_DIALOG_ECM_DEATHPOOL_09_END_7,"Well, I guess now that my life isn't in MORTAL DANGER anymore, I won't be seeing you around here much..."
+ID_DIALOG_ECM_DEATHPOOL_09_END_8,"Don't worry, I'm sure plenty of people want to kill you. "
+ID_DIALOG_ECM_DEATHPOOL_09_END_9,"I'll be back soon... Dadpool. "
+ID_DIALOG_ECM_DEATHPOOL_09_END_10,"GASP!!!! DID YOU GUYS HEAR THAT?! "
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_0,"Barton, we've had a breach in S.H.I.E.L.D. containment module XR-847B."
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_1,"You're the closest agent to the scene of the incident. Find out how they got in, and why."
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_2,On it.
