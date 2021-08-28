@@ -32,6 +32,7 @@ namespace MSFBlitzBot
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoBestTarget.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.BestTarget : BlitzViewModel.AutoState.None;
+            model.DoAutoBlitz();
         }
 
         private void ToggleButtonAutoHighestTotal_Click(object sender, RoutedEventArgs e)
@@ -41,6 +42,7 @@ namespace MSFBlitzBot
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoHighestTotal.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.HighestTotal : BlitzViewModel.AutoState.None;
+            model.DoAutoBlitz();
         }
 
         private void ToggleButtonAutoTrainWorthy_Click(object sender, RoutedEventArgs e)
@@ -50,6 +52,7 @@ namespace MSFBlitzBot
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoTrainWorthy.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.TrainWorthy : BlitzViewModel.AutoState.None;
+            model.DoAutoBlitz();
         }
     }
 }

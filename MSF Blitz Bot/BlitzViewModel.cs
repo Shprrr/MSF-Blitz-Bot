@@ -43,6 +43,7 @@ namespace MSFBlitzBot
         private bool needRetrain = true;
         private BlitzFight currentFight;
         private bool autoScanCompleted;
+        private int currentOpponentTeamIndex;
 
         public string PlayerHeroes { get => playerHeroes; set { playerHeroes = value; RaisePropertyChanged(nameof(PlayerHeroes)); } }
         public string OpponentHeroes { get => opponentHeroes; set { opponentHeroes = value; RaisePropertyChanged(nameof(OpponentHeroes)); } }
@@ -134,6 +135,7 @@ namespace MSFBlitzBot
             if (!hasColorChanged) return;
 
             var data = model.GetData();
+            currentOpponentTeamIndex = data.TeamIndex;
 
             var hasPlayerHeroesChanged = currentFight.PlayerHeroes == null || !currentFight.PlayerHeroes.SequenceEqual(data.PlayerHeroes);
             if (CombatState == "Battle" || data.Victory || data.Defeat)
@@ -183,7 +185,7 @@ namespace MSFBlitzBot
                 autoScanCompleted = false;
             }
 
-            if (data.CanFindOpponent || !autoScanCompleted && data.HasOpponent) DoAutoBlitz(data.TeamIndex);
+            if (data.CanFindOpponent || !autoScanCompleted && data.HasOpponent) DoAutoBlitz();
             if (data.HasOpponent) autoScanCompleted = false; // Ready to scan for the next image update after the initial load after a battle.
         }
 
@@ -263,7 +265,7 @@ namespace MSFBlitzBot
         }
 
 
-        private void DoAutoBlitz(int selectedIndex)
+        public void DoAutoBlitz()
         {
             if (CurrentAutoState == AutoState.None) return;
 
@@ -280,7 +282,7 @@ namespace MSFBlitzBot
                     {
                         var bestTargetIndex = OpponentIsBestTargetTeam1 ? 0 : OpponentIsBestTargetTeam2 ? 1 : OpponentIsBestTargetTeam3 ? 2 : -1;
                         if (bestTargetIndex == -1) return;
-                        ClickUntilThisOpponent(selectedIndex, bestTargetIndex);
+                        ClickUntilThisOpponent(currentOpponentTeamIndex, bestTargetIndex);
                     }
                     break;
 
@@ -288,7 +290,7 @@ namespace MSFBlitzBot
                     {
                         var highestTotalIndex = OpponentIsHighestTotalTeam1 ? 0 : OpponentIsHighestTotalTeam2 ? 1 : OpponentIsHighestTotalTeam3 ? 2 : -1;
                         if (highestTotalIndex == -1) return;
-                        ClickUntilThisOpponent(selectedIndex, highestTotalIndex);
+                        ClickUntilThisOpponent(currentOpponentTeamIndex, highestTotalIndex);
                     }
                     break;
 
@@ -296,7 +298,7 @@ namespace MSFBlitzBot
                     {
                         var trainWorthyIndex = OpponentIsTrainWorthyTeam1 ? 0 : OpponentIsTrainWorthyTeam2 ? 1 : OpponentIsTrainWorthyTeam3 ? 2 : -1;
                         if (trainWorthyIndex == -1) return;
-                        ClickUntilThisOpponent(selectedIndex, trainWorthyIndex);
+                        ClickUntilThisOpponent(currentOpponentTeamIndex, trainWorthyIndex);
                     }
                     break;
             }
