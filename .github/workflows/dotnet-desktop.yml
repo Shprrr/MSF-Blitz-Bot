@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  SOLUTION_NAME: MSF Blitz Bot
+
 jobs:
 
   build:
@@ -23,9 +26,9 @@ jobs:
       with:
         dotnet-version: '5.0.x'
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release --output release
     - name: Upload build
       uses: actions/upload-artifact@v2
       with:
-        name: MSF Blitz Bot
-        path: MSF Blitz Bot\bin\Release\net5.0-windows\
+        name: ${{ env.SOLUTION_NAME }}
+        path: release\
