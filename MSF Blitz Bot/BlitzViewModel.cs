@@ -15,7 +15,8 @@ namespace MSFBlitzBot
             None,
             BestTarget,
             HighestTotal,
-            TrainWorthy
+            TrainWorthy,
+            HighestPercentage
         }
 
         private BlitzPage model;
@@ -38,6 +39,9 @@ namespace MSFBlitzBot
         private bool opponentIsTrainWorthyTeam1;
         private bool opponentIsTrainWorthyTeam2;
         private bool opponentIsTrainWorthyTeam3;
+        private bool opponentIsHighestPercentageTeam1;
+        private bool opponentIsHighestPercentageTeam2;
+        private bool opponentIsHighestPercentageTeam3;
         private readonly MLTask[] mlThreads = new MLTask[3];
         private string combatState;
         private bool needRetrain = true;
@@ -62,6 +66,9 @@ namespace MSFBlitzBot
         public bool OpponentIsTrainWorthyTeam1 { get => opponentIsTrainWorthyTeam1; set { opponentIsTrainWorthyTeam1 = value; RaisePropertyChanged(nameof(OpponentIsTrainWorthyTeam1)); } }
         public bool OpponentIsTrainWorthyTeam2 { get => opponentIsTrainWorthyTeam2; set { opponentIsTrainWorthyTeam2 = value; RaisePropertyChanged(nameof(OpponentIsTrainWorthyTeam2)); } }
         public bool OpponentIsTrainWorthyTeam3 { get => opponentIsTrainWorthyTeam3; set { opponentIsTrainWorthyTeam3 = value; RaisePropertyChanged(nameof(OpponentIsTrainWorthyTeam3)); } }
+        public bool OpponentIsHighestPercentageTeam1 { get => opponentIsHighestPercentageTeam1; set { opponentIsHighestPercentageTeam1 = value; RaisePropertyChanged(nameof(OpponentIsHighestPercentageTeam1)); } }
+        public bool OpponentIsHighestPercentageTeam2 { get => opponentIsHighestPercentageTeam2; set { opponentIsHighestPercentageTeam2 = value; RaisePropertyChanged(nameof(OpponentIsHighestPercentageTeam2)); } }
+        public bool OpponentIsHighestPercentageTeam3 { get => opponentIsHighestPercentageTeam3; set { opponentIsHighestPercentageTeam3 = value; RaisePropertyChanged(nameof(OpponentIsHighestPercentageTeam3)); } }
         public string CombatState { get => combatState; set { combatState = value; RaisePropertyChanged(nameof(CombatState)); } }
         public bool NeedRetrain { get => needRetrain; set { needRetrain = value; RaisePropertyChanged(nameof(NeedRetrain)); } }
         public AutoState CurrentAutoState { get; set; }
@@ -196,6 +203,11 @@ namespace MSFBlitzBot
             OpponentIsHighestTotalTeam2 = OpponentTotalTeam2 == highestTotal;
             OpponentIsHighestTotalTeam3 = OpponentTotalTeam3 == highestTotal;
 
+            var highestPercentage = Max(OpponentPredictionTeam1.GetValueOrDefault(), OpponentPredictionTeam2.GetValueOrDefault(), OpponentPredictionTeam3.GetValueOrDefault());
+            OpponentIsHighestPercentageTeam1 = OpponentPredictionTeam1 == highestPercentage;
+            OpponentIsHighestPercentageTeam2 = OpponentPredictionTeam2 == highestPercentage;
+            OpponentIsHighestPercentageTeam3 = OpponentPredictionTeam3 == highestPercentage;
+
             // Check highest training worth
             var trainingWorths = new float[] { CalculateTrainingWorth(OpponentPredictionTeam1.GetValueOrDefault()), CalculateTrainingWorth(OpponentPredictionTeam2.GetValueOrDefault()), CalculateTrainingWorth(OpponentPredictionTeam3.GetValueOrDefault()) };
             var highestTrainingWorth = Max(trainingWorths);
@@ -262,6 +274,9 @@ namespace MSFBlitzBot
             OpponentIsTrainWorthyTeam1 = false;
             OpponentIsTrainWorthyTeam2 = false;
             OpponentIsTrainWorthyTeam3 = false;
+            OpponentIsHighestPercentageTeam1 = false;
+            OpponentIsHighestPercentageTeam2 = false;
+            OpponentIsHighestPercentageTeam3 = false;
         }
 
 
@@ -281,6 +296,8 @@ namespace MSFBlitzBot
                 case AutoState.BestTarget:
                     {
                         var bestTargetIndex = OpponentIsBestTargetTeam1 ? 0 : OpponentIsBestTargetTeam2 ? 1 : OpponentIsBestTargetTeam3 ? 2 : -1;
+                        if (bestTargetIndex == -1)
+                            bestTargetIndex = OpponentIsHighestPercentageTeam1 ? 0 : OpponentIsHighestPercentageTeam2 ? 1 : OpponentIsHighestPercentageTeam3 ? 2 : -1;
                         if (bestTargetIndex == -1) return;
                         ClickUntilThisOpponent(currentOpponentTeamIndex, bestTargetIndex);
                     }
@@ -299,6 +316,14 @@ namespace MSFBlitzBot
                         var trainWorthyIndex = OpponentIsTrainWorthyTeam1 ? 0 : OpponentIsTrainWorthyTeam2 ? 1 : OpponentIsTrainWorthyTeam3 ? 2 : -1;
                         if (trainWorthyIndex == -1) return;
                         ClickUntilThisOpponent(currentOpponentTeamIndex, trainWorthyIndex);
+                    }
+                    break;
+
+                case AutoState.HighestPercentage:
+                    {
+                        var highestPercentIndex = OpponentIsHighestPercentageTeam1 ? 0 : OpponentIsHighestPercentageTeam2 ? 1 : OpponentIsHighestPercentageTeam3 ? 2 : -1;
+                        if (highestPercentIndex == -1) return;
+                        ClickUntilThisOpponent(currentOpponentTeamIndex, highestPercentIndex);
                     }
                     break;
             }

@@ -29,6 +29,7 @@ namespace MSFBlitzBot
         {
             btnAutoHighestTotal.IsChecked = false;
             btnAutoTrainWorthy.IsChecked = false;
+            btnAutoHighestPercentage.IsChecked = false;
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoBestTarget.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.BestTarget : BlitzViewModel.AutoState.None;
@@ -39,6 +40,7 @@ namespace MSFBlitzBot
         {
             btnAutoBestTarget.IsChecked = false;
             btnAutoTrainWorthy.IsChecked = false;
+            btnAutoHighestPercentage.IsChecked = false;
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoHighestTotal.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.HighestTotal : BlitzViewModel.AutoState.None;
@@ -49,9 +51,21 @@ namespace MSFBlitzBot
         {
             btnAutoBestTarget.IsChecked = false;
             btnAutoHighestTotal.IsChecked = false;
+            btnAutoHighestPercentage.IsChecked = false;
 
             var model = DataContext as BlitzViewModel;
             model.CurrentAutoState = btnAutoTrainWorthy.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.TrainWorthy : BlitzViewModel.AutoState.None;
+            model.DoAutoBlitz();
+        }
+
+        private void ToggleButtonAutoHighestPercentage_Click(object sender, RoutedEventArgs e)
+        {
+            btnAutoBestTarget.IsChecked = false;
+            btnAutoHighestTotal.IsChecked = false;
+            btnAutoTrainWorthy.IsChecked = false;
+
+            var model = DataContext as BlitzViewModel;
+            model.CurrentAutoState = btnAutoHighestPercentage.IsChecked.GetValueOrDefault() ? BlitzViewModel.AutoState.HighestPercentage : BlitzViewModel.AutoState.None;
             model.DoAutoBlitz();
         }
     }
