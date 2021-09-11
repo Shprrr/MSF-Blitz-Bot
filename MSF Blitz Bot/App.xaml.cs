@@ -16,7 +16,7 @@ namespace MSFBlitzBot
             Emulator.Initialize();
             if (!Emulator.IsValid)
             {
-                MessageBox.Show("You need to start your Emulator before MANTIS.\nSee MANTIS as a parasite, it can't survive without a host.", "OOPS");
+                MessageBox.Show("You need to start your Emulator before MSFBB.\nSee MSFBB as a parasite, it can't survive without a host.", "OOPS");
                 Current.Shutdown();
                 return;
             }

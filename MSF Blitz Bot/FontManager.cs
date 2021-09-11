@@ -29,9 +29,9 @@ namespace MSFBlitzBot
         }
 
         [DllImport("msvcrt.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "memcpy")]
-        private unsafe static extern void* CopyMemory(void* dest, void* src, ulong count);
+        private static extern unsafe void* CopyMemory(void* dest, void* src, ulong count);
 
-        public unsafe static FImage GetTextImage(string text, string fontName, float size, FontStyle style = FontStyle.Regular, float italic = 0.25f, Color? color = null, bool cleanup = false)
+        public static unsafe FImage GetTextImage(string text, string fontName, float size, FontStyle style = FontStyle.Regular, float italic = 0.25f, Color? color = null, bool cleanup = false)
         {
             if (!color.HasValue)
             {
@@ -56,7 +56,7 @@ namespace MSFBlitzBot
                 using (Graphics graphics2 = Graphics.FromImage(bitmap2))
                 {
                     using SolidBrush brush = new(color.Value);
-                    graphics2.DrawString(text, font, brush, new RectangleF(0f, (float)font.Height - font.Size, bitmap2.Width, bitmap2.Height), format);
+                    graphics2.DrawString(text, font, brush, new RectangleF(0f, font.Height - font.Size, bitmap2.Width, bitmap2.Height), format);
                 }
                 fImage = new FImage(bitmap2.Width + (int)Math.Ceiling(2f * size * italic), bitmap2.Height, 4);
                 fImage.Clear();
@@ -66,7 +66,7 @@ namespace MSFBlitzBot
                 for (int i = 0; i < bitmap2.Height; i++)
                 {
                     void* src = ptr + i * bitmapData.Stride;
-                    void* dest = pointer + i * fImage.Stride + (int)Math.Round((float)(bitmap2.Height - i) * italic) * fImage.Bpp;
+                    void* dest = pointer + i * fImage.Stride + (int)Math.Round((bitmap2.Height - i) * italic) * fImage.Bpp;
                     CopyMemory(dest, src, (ulong)bitmapData.Stride);
                 }
             }

@@ -16,21 +16,11 @@ namespace MSFBlitzBot
         }
 
         private unsafe byte* _rawData = null;
-
-        private unsafe byte* _allocPtr = null;
-
-        private int _bpp;
-
-        private int _stride;
-
         private unsafe byte* _ptr;
-
         private bool _disposed;
 
         private Color _areaBoxColor;
-
         private byte _areaBoxProximity;
-
         private Rectangle _areaBox = Rectangle.Empty;
 
         public int Width { get; private set; }
@@ -39,19 +29,19 @@ namespace MSFBlitzBot
 
         public Size Size => new(Width, Height);
 
-        public int Stride => _stride;
+        public int Stride { get; private set; }
 
-        public int Bpp => _bpp;
+        public int Bpp { get; private set; }
 
-        public unsafe byte* Pointer => _allocPtr;
+        public unsafe byte* Pointer { get; private set; } = null;
 
-        public unsafe IntPtr IntPtr => (IntPtr)_allocPtr;
+        public unsafe IntPtr IntPtr => (IntPtr)Pointer;
 
         public unsafe bool IsValid
         {
             get
             {
-                if (_allocPtr != null && Width > 0)
+                if (Pointer != null && Width > 0)
                 {
                     return Height > 0;
                 }
@@ -67,7 +57,7 @@ namespace MSFBlitzBot
 
         public unsafe FImage()
         {
-            _allocPtr = null;
+            Pointer = null;
         }
 
         public unsafe byte[] GetArray()
@@ -80,27 +70,27 @@ namespace MSFBlitzBot
 
         public unsafe FImage(FImage source)
         {
-            _bpp = source._bpp;
+            Bpp = source.Bpp;
             Height = source.Height;
             Width = source.Width;
-            _stride = source.Stride;
-            int num = Height * _stride;
-            _allocPtr = (byte*)(void*)MemoryManager.Alloc(num);
-            _ptr = _allocPtr;
-            _rawData = _allocPtr;
+            Stride = source.Stride;
+            int num = Height * Stride;
+            Pointer = (byte*)(void*)MemoryManager.Alloc(num);
+            _ptr = Pointer;
+            _rawData = Pointer;
             source.ResetPos();
             CopyMemory(_ptr, source._ptr, (ulong)num);
         }
 
         public unsafe FImage(int width, int height, int bpp)
         {
-            _bpp = bpp;
+            Bpp = bpp;
             Height = height;
             Width = width;
-            _stride = Width * _bpp;
-            _allocPtr = (byte*)(void*)MemoryManager.Alloc(Height * _stride);
-            _ptr = _allocPtr;
-            _rawData = _allocPtr;
+            Stride = Width * Bpp;
+            Pointer = (byte*)(void*)MemoryManager.Alloc(Height * Stride);
+            _ptr = Pointer;
+            _rawData = Pointer;
         }
 
         public unsafe FImage(string filename, float scale = 1f, int bpp = -1)
@@ -122,20 +112,20 @@ namespace MSFBlitzBot
 
         public unsafe FImage(FImage source, Rectangle area)
         {
-            _bpp = source._bpp;
+            Bpp = source.Bpp;
             Height = area.Height;
             Width = area.Width;
-            _stride = Width * _bpp;
-            _allocPtr = (byte*)(void*)MemoryManager.Alloc(Height * _stride);
-            _ptr = _allocPtr;
-            _rawData = _allocPtr;
+            Stride = Width * Bpp;
+            Pointer = (byte*)(void*)MemoryManager.Alloc(Height * Stride);
+            _ptr = Pointer;
+            _rawData = Pointer;
             source.SetPos(area.X, area.Y);
             SetPos(0, 0);
             for (int i = 0; i < Height; i++)
             {
-                CopyMemory(_ptr, source._ptr, (ulong)_stride);
-                _ptr += _stride;
-                source._ptr += source._stride;
+                CopyMemory(_ptr, source._ptr, (ulong)Stride);
+                _ptr += Stride;
+                source._ptr += source.Stride;
             }
         }
 
@@ -171,8 +161,8 @@ namespace MSFBlitzBot
         {
             if (!_disposed)
             {
-                MemoryManager.Free((IntPtr)_allocPtr);
-                _allocPtr = null;
+                MemoryManager.Free((IntPtr)Pointer);
+                Pointer = null;
                 _disposed = true;
             }
         }
@@ -184,28 +174,28 @@ namespace MSFBlitzBot
 
         public unsafe void Initialize(Bitmap source)
         {
-            if (_allocPtr != null && (source.Width != Width || source.Height != Height))
+            if (Pointer != null && (source.Width != Width || source.Height != Height))
             {
-                MemoryManager.Free((IntPtr)_allocPtr);
-                _allocPtr = null;
+                MemoryManager.Free((IntPtr)Pointer);
+                Pointer = null;
             }
             BitmapData bitmapData = source.LockBits(new Rectangle(0, 0, source.Width, source.Height), ImageLockMode.ReadWrite, source.PixelFormat);
-            if (_allocPtr == null)
+            if (Pointer == null)
             {
-                _bpp = Image.GetPixelFormatSize(source.PixelFormat) >> 3;
+                Bpp = Image.GetPixelFormatSize(source.PixelFormat) >> 3;
                 Height = bitmapData.Height;
                 Width = bitmapData.Width;
-                _stride = Width * _bpp;
-                _allocPtr = (byte*)(void*)MemoryManager.Alloc(Height * _stride);
+                Stride = Width * Bpp;
+                Pointer = (byte*)(void*)MemoryManager.Alloc(Height * Stride);
             }
             byte* PtrFirstPixel = (byte*)(void*)bitmapData.Scan0;
-            _rawData = _allocPtr;
-            _ptr = _allocPtr;
+            _rawData = Pointer;
+            _ptr = Pointer;
             Parallel.For(0, Height, delegate (int y)
             {
                 void* src = PtrFirstPixel + y * bitmapData.Stride;
-                void* dest = _rawData + y * _stride;
-                CopyMemory(dest, src, (ulong)_stride);
+                void* dest = _rawData + y * Stride;
+                CopyMemory(dest, src, (ulong)Stride);
             });
             source.UnlockBits(bitmapData);
         }
@@ -220,19 +210,19 @@ namespace MSFBlitzBot
             }
             int width = bitmap.Width;
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(x, 0, width, bitmap.Height), ImageLockMode.ReadWrite, bitmap.PixelFormat);
-            _bpp = Image.GetPixelFormatSize(bitmap.PixelFormat) >> 3;
+            Bpp = Image.GetPixelFormatSize(bitmap.PixelFormat) >> 3;
             Height = bitmapData.Height;
             Width = bitmapData.Width;
-            _stride = Width * _bpp;
+            Stride = Width * Bpp;
             byte* PtrFirstPixel = (byte*)(void*)bitmapData.Scan0;
-            _allocPtr = (byte*)(void*)MemoryManager.Alloc(Height * _stride);
-            _rawData = _allocPtr;
-            _ptr = _allocPtr;
+            Pointer = (byte*)(void*)MemoryManager.Alloc(Height * Stride);
+            _rawData = Pointer;
+            _ptr = Pointer;
             Parallel.For(0, Height, delegate (int y)
             {
                 void* src = PtrFirstPixel + y * bitmapData.Stride;
-                void* dest = _rawData + y * _stride;
-                CopyMemory(dest, src, (ulong)_stride);
+                void* dest = _rawData + y * Stride;
+                CopyMemory(dest, src, (ulong)Stride);
             });
             bitmap.UnlockBits(bitmapData);
             if (bitmap != source)
@@ -255,21 +245,21 @@ namespace MSFBlitzBot
                     break;
             }
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, pixelFormat);
-            _bpp = Image.GetPixelFormatSize(pixelFormat) >> 3;
+            Bpp = Image.GetPixelFormatSize(pixelFormat) >> 3;
             Height = bitmapData.Height;
             Width = bitmapData.Width;
-            _stride = Width * _bpp;
+            Stride = Width * Bpp;
             byte* ptrFirstPixel = (byte*)(void*)bitmapData.Scan0;
-            _allocPtr = (byte*)(void*)MemoryManager.Alloc(Height * _stride);
-            _rawData = _allocPtr;
-            _ptr = _allocPtr;
+            Pointer = (byte*)(void*)MemoryManager.Alloc(Height * Stride);
+            _rawData = Pointer;
+            _ptr = Pointer;
             if (pixelFormat == bitmap.PixelFormat)
             {
                 Parallel.For(0, Height, delegate (int y)
                 {
                     void* src = ptrFirstPixel + y * bitmapData.Stride;
-                    void* dest = _rawData + y * _stride;
-                    CopyMemory(dest, src, (ulong)_stride);
+                    void* dest = _rawData + y * Stride;
+                    CopyMemory(dest, src, (ulong)Stride);
                 });
             }
             else
@@ -277,10 +267,10 @@ namespace MSFBlitzBot
                 Parallel.For(0, Height, delegate (int y)
                 {
                     byte* ptr = ptrFirstPixel + y * bitmapData.Stride;
-                    byte* ptr2 = _rawData + y * _stride;
+                    byte* ptr2 = _rawData + y * Stride;
                     for (int i = 0; i < Width; i++)
                     {
-                        if (_bpp == 4)
+                        if (Bpp == 4)
                         {
                             *ptr2++ = byte.MaxValue;
                         }
@@ -326,7 +316,7 @@ namespace MSFBlitzBot
             {
                 bitmap = new Bitmap(original, num, num2);
             }
-            FImage img = new FImage(width, height, _bpp);
+            FImage img = new FImage(width, height, Bpp);
             img.Clear();
             int num5 = Image.GetPixelFormatSize(bitmap.PixelFormat) >> 3;
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, bitmap.PixelFormat);
@@ -334,11 +324,11 @@ namespace MSFBlitzBot
             int width2 = bitmapData.Width;
             ulong sstride = (ulong)(width2 * num5);
             byte* sPtrFirstPixel = (byte*)(void*)bitmapData.Scan0;
-            byte* ptr = img._allocPtr + num3 * img._bpp + num4 * img._stride;
+            byte* ptr = img.Pointer + num3 * img.Bpp + num4 * img.Stride;
             Parallel.For(0, bitmap.Height, delegate (int py)
             {
                 void* src = sPtrFirstPixel + py * bitmapData.Stride;
-                void* dest = ptr + py * img._stride;
+                void* dest = ptr + py * img.Stride;
                 CopyMemory(dest, src, sstride);
             });
             bitmap.Dispose();
@@ -374,12 +364,12 @@ namespace MSFBlitzBot
 
         public unsafe Bitmap GetBitmap()
         {
-            Bitmap bitmap = new Bitmap(Width, Height, (_bpp == 4) ? PixelFormat.Format32bppArgb : PixelFormat.Format24bppRgb);
+            Bitmap bitmap = new Bitmap(Width, Height, (Bpp == 4) ? PixelFormat.Format32bppArgb : PixelFormat.Format24bppRgb);
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, Width, Height), ImageLockMode.ReadWrite, bitmap.PixelFormat);
             byte* ptrFirstPixel = (byte*)(void*)bitmapData.Scan0;
             Parallel.For(0, Height, delegate (int y)
             {
-                void* src = _rawData + y * _stride;
+                void* src = _rawData + y * Stride;
                 void* dest = ptrFirstPixel + y * bitmapData.Stride;
                 CopyMemory(dest, src, (ulong)bitmapData.Stride);
             });
@@ -406,7 +396,7 @@ namespace MSFBlitzBot
 
         public unsafe void SetPos(int x, int y)
         {
-            _ptr = _rawData + y * _stride + x * _bpp;
+            _ptr = _rawData + y * Stride + x * Bpp;
         }
 
         public unsafe void ResetPos()
@@ -418,7 +408,7 @@ namespace MSFBlitzBot
         {
             int num = Height * Width;
             byte* ptr = _rawData;
-            for (int i = 0; i < num; i++, ptr += _bpp)
+            for (int i = 0; i < num; i++, ptr += Bpp)
             {
                 if (*ptr != color.B || ptr[1] != color.G || ptr[2] != color.R)
                 {
@@ -460,7 +450,7 @@ namespace MSFBlitzBot
         {
             int num = Height * Width;
             byte* ptr = _rawData;
-            for (int i = 0; i < num; i++, ptr += _bpp)
+            for (int i = 0; i < num; i++, ptr += Bpp)
             {
                 if (*ptr == color.B && ptr[1] == color.G && ptr[2] == color.R)
                 {
@@ -509,20 +499,20 @@ namespace MSFBlitzBot
                     ptr[3] = byte.MaxValue;
                 }
                 num2++;
-                ptr += _bpp;
+                ptr += Bpp;
             }
         }
 
         public unsafe Color GetPixel()
         {
-            Color result = Color.FromArgb((_bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
-            _ptr += _bpp;
+            Color result = Color.FromArgb((Bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
+            _ptr += Bpp;
             return result;
         }
 
         public unsafe Color GetPixelStay()
         {
-            return Color.FromArgb((_bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
+            return Color.FromArgb((Bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
         }
 
         public Color GetPixel(int x, int y)
@@ -544,7 +534,7 @@ namespace MSFBlitzBot
 
         public unsafe void GetPixel(int x, int y, out byte r, out byte g, out byte b)
         {
-            byte* ptr = _rawData + y * _stride + x * _bpp;
+            byte* ptr = _rawData + y * Stride + x * Bpp;
             b = *ptr;
             g = ptr[1];
             r = ptr[2];
@@ -552,7 +542,7 @@ namespace MSFBlitzBot
 
         public unsafe void GetPixel(int x, int y, out byte r, out byte g, out byte b, out byte a)
         {
-            byte* ptr = _rawData + y * _stride + x * _bpp;
+            byte* ptr = _rawData + y * Stride + x * Bpp;
             b = *ptr;
             g = ptr[1];
             r = ptr[2];
@@ -572,7 +562,7 @@ namespace MSFBlitzBot
 
         public unsafe byte GetPixelAlpha(int x, int y)
         {
-            return (_rawData + y * _stride + x * _bpp)[3];
+            return (_rawData + y * Stride + x * Bpp)[3];
         }
 
         public byte GetPixelAlphaExt(int x, int y)
@@ -596,7 +586,7 @@ namespace MSFBlitzBot
             *_ptr++ = c.B;
             *_ptr++ = c.G;
             *_ptr++ = c.R;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 *_ptr++ = c.A;
             }
@@ -604,7 +594,7 @@ namespace MSFBlitzBot
 
         public unsafe void SetPixel(uint c)
         {
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 uint* ptr = (uint*)_ptr;
                 *ptr = c;
@@ -616,16 +606,16 @@ namespace MSFBlitzBot
 
         public unsafe void NextPixel()
         {
-            _ptr += _bpp;
+            _ptr += Bpp;
         }
 
         public unsafe void SetPixel(int x, int y, byte r, byte g, byte b, byte a)
         {
-            byte* ptr = _rawData + y * _stride + x * _bpp;
+            byte* ptr = _rawData + y * Stride + x * Bpp;
             *ptr = b;
             ptr[1] = g;
             ptr[2] = r;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 ptr[3] = a;
             }
@@ -633,11 +623,11 @@ namespace MSFBlitzBot
 
         public unsafe void SetPixel(int x, int y, Color c)
         {
-            byte* ptr = _rawData + y * _stride + x * _bpp;
+            byte* ptr = _rawData + y * Stride + x * Bpp;
             *ptr = c.B;
             ptr[1] = c.G;
             ptr[2] = c.R;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 ptr[3] = c.A;
             }
@@ -645,11 +635,11 @@ namespace MSFBlitzBot
 
         public unsafe void SetPixel(int x, int y, uint color)
         {
-            byte* ptr = _rawData + y * _stride + x * _bpp;
+            byte* ptr = _rawData + y * Stride + x * Bpp;
             *ptr = (byte)(color & 0xFFu);
             ptr[1] = (byte)(color >> 8);
             ptr[2] = (byte)(color >> 16);
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 ptr[3] = (byte)(color >> 24);
             }
@@ -660,7 +650,7 @@ namespace MSFBlitzBot
             *_ptr++ = b;
             *_ptr++ = g;
             *_ptr++ = r;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 *_ptr++ = a;
             }
@@ -671,7 +661,7 @@ namespace MSFBlitzBot
             b = *_ptr++;
             g = *_ptr++;
             r = *_ptr++;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 _ptr++;
             }
@@ -682,7 +672,7 @@ namespace MSFBlitzBot
             b = *_ptr++;
             g = *_ptr++;
             r = *_ptr++;
-            if (_bpp == 4)
+            if (Bpp == 4)
             {
                 a = *_ptr++;
             }
@@ -741,7 +731,7 @@ namespace MSFBlitzBot
 
         public unsafe FImage Italic(float dist)
         {
-            FImage fImage = new FImage(Width, Height, _bpp);
+            FImage fImage = new FImage(Width, Height, Bpp);
             for (int i = 0; i < Height; i++)
             {
                 float num = (i - Height / 2f) * dist;
@@ -757,7 +747,7 @@ namespace MSFBlitzBot
                     {
                         fImage.SetPixel(_ptr[2], _ptr[1], *_ptr, _ptr[3]);
                     }
-                    _ptr += _bpp;
+                    _ptr += Bpp;
                 }
             }
             return fImage;
@@ -768,7 +758,7 @@ namespace MSFBlitzBot
             Rectangle empty = Rectangle.Empty;
             ResetPos();
             bool flag = false;
-            int num = _stride - Width * _bpp;
+            int num = Stride - Width * Bpp;
             int i;
             for (i = 0; i < Height; i++)
             {
@@ -809,7 +799,7 @@ namespace MSFBlitzBot
                 {
                     break;
                 }
-                _ptr += num - (_stride << 1);
+                _ptr += num - (Stride << 1);
             }
             num2 -= i;
             flag = false;
@@ -857,7 +847,7 @@ namespace MSFBlitzBot
             Rectangle empty = Rectangle.Empty;
             ResetPos();
             bool flag = false;
-            int num = _stride - Width * _bpp;
+            int num = Stride - Width * Bpp;
             int i;
             for (i = 0; i < Height; i++)
             {
@@ -898,7 +888,7 @@ namespace MSFBlitzBot
                 {
                     break;
                 }
-                _ptr += num - (_stride << 1);
+                _ptr += num - (Stride << 1);
             }
             num2 -= i;
             flag = false;
@@ -943,23 +933,23 @@ namespace MSFBlitzBot
 
         public unsafe void Clear()
         {
-            if (_bpp != 4)
+            if (Bpp != 4)
             {
                 throw new NotImplementedException();
             }
-            MemSet((IntPtr)_rawData, 0, Height * _stride);
+            MemSet((IntPtr)_rawData, 0, Height * Stride);
         }
 
         public unsafe FImage ItalicAndCrop(float dist)
         {
             Rectangle area = GetBoundingBox(200);
-            FImage result = new FImage(area.Width + (int)Math.Ceiling(area.Height * dist), area.Height, _bpp);
-            MemSet((IntPtr)result._rawData, 0, result.Height * result._stride);
+            FImage result = new FImage(area.Width + (int)Math.Ceiling(area.Height * dist), area.Height, Bpp);
+            MemSet((IntPtr)result._rawData, 0, result.Height * result.Stride);
             Parallel.For(0, area.Height, delegate (int y)
             {
-                void* src = _rawData + area.X * _bpp + (area.Y + y) * _stride;
-                void* dest = result._rawData + (int)(dist * (result.Height - y - 1)) * _bpp + y * result._stride;
-                CopyMemory(dest, src, (ulong)(area.Width * _bpp));
+                void* src = _rawData + area.X * Bpp + (area.Y + y) * Stride;
+                void* dest = result._rawData + (int)(dist * (result.Height - y - 1)) * Bpp + y * result.Stride;
+                CopyMemory(dest, src, (ulong)(area.Width * Bpp));
             });
             return result;
         }
@@ -977,12 +967,12 @@ namespace MSFBlitzBot
                 area.Y = 0;
                 area.Height = Height;
             }
-            FImage result = new FImage(area.Width, area.Height, _bpp);
+            FImage result = new FImage(area.Width, area.Height, Bpp);
             Parallel.For(0, area.Height, delegate (int y)
             {
-                void* src = _rawData + area.X * _bpp + (area.Y + y) * _stride;
-                void* dest = result._rawData + y * result._stride;
-                CopyMemory(dest, src, (ulong)(area.Width * _bpp));
+                void* src = _rawData + area.X * Bpp + (area.Y + y) * Stride;
+                void* dest = result._rawData + y * result.Stride;
+                CopyMemory(dest, src, (ulong)(area.Width * Bpp));
             });
             return result;
         }
@@ -990,12 +980,12 @@ namespace MSFBlitzBot
         public unsafe FImage CropBlack(byte tolerance = 50)
         {
             Rectangle area = GetBoundingBoxBlack(tolerance);
-            FImage result = new FImage(area.Width, area.Height, _bpp);
+            FImage result = new FImage(area.Width, area.Height, Bpp);
             Parallel.For(0, area.Height, delegate (int y)
             {
-                void* src = _rawData + area.X * _bpp + (area.Y + y) * _stride;
-                void* dest = result._rawData + y * result._stride;
-                CopyMemory(dest, src, (ulong)(area.Width * _bpp));
+                void* src = _rawData + area.X * Bpp + (area.Y + y) * Stride;
+                void* dest = result._rawData + y * result.Stride;
+                CopyMemory(dest, src, (ulong)(area.Width * Bpp));
             });
             return result;
         }
@@ -1014,7 +1004,7 @@ namespace MSFBlitzBot
             {
                 for (int j = 0; j < Width; j++)
                 {
-                    if (_bpp == 3 || ptr[3] >= alphaThreshold)
+                    if (Bpp == 3 || ptr[3] >= alphaThreshold)
                     {
                         if (Math.Abs(*ptr2 - *ptr) <= proximity && Math.Abs(ptr2[1] - ptr[1]) <= proximity && Math.Abs(ptr2[2] - ptr[2]) <= proximity)
                         {
@@ -1022,8 +1012,8 @@ namespace MSFBlitzBot
                         }
                         num2++;
                     }
-                    ptr += _bpp;
-                    ptr2 += displayImage._bpp;
+                    ptr += Bpp;
+                    ptr2 += displayImage.Bpp;
                 }
             }
             if (num2 == 0)
@@ -1064,8 +1054,8 @@ namespace MSFBlitzBot
                         }
                         num2++;
                     }
-                    ptr += _bpp;
-                    ptr2 += displayImage._bpp;
+                    ptr += Bpp;
+                    ptr2 += displayImage.Bpp;
                 }
             }
             if (num2 == 0)
@@ -1096,9 +1086,9 @@ namespace MSFBlitzBot
             {
                 return 0f;
             }
-            byte* ptr = _rawData + num2 * _stride + num * _bpp;
+            byte* ptr = _rawData + num2 * Stride + num * Bpp;
             byte* ptr2 = pattern._rawData;
-            int num3 = _stride - pattern.Width * _bpp;
+            int num3 = Stride - pattern.Width * Bpp;
             int num4 = (int)(pattern.Height * topratio);
             int num5 = 0;
             int num6 = 0;
@@ -1107,8 +1097,8 @@ namespace MSFBlitzBot
             {
                 if (num2 + num7 < 0)
                 {
-                    ptr += _stride;
-                    ptr2 += _stride;
+                    ptr += Stride;
+                    ptr2 += Stride;
                 }
                 else
                 {
@@ -1116,18 +1106,18 @@ namespace MSFBlitzBot
                     if (num < 0)
                     {
                         num8 = -num;
-                        ptr += _bpp * num8;
-                        ptr2 += pattern._bpp * num8;
+                        ptr += Bpp * num8;
+                        ptr2 += pattern.Bpp * num8;
                     }
                     while (num8 < pattern.Width)
                     {
                         if (num + num8 >= Width)
                         {
-                            ptr += _bpp * (pattern.Width - num8);
-                            ptr2 += _bpp * (pattern.Width - num8);
+                            ptr += Bpp * (pattern.Width - num8);
+                            ptr2 += Bpp * (pattern.Width - num8);
                             break;
                         }
-                        if (_bpp == 3 || ptr2[3] >= alphaThreshold)
+                        if (Bpp == 3 || ptr2[3] >= alphaThreshold)
                         {
                             if (Math.Abs(*ptr - *ptr2) <= proximity && Math.Abs(ptr[1] - ptr2[1]) <= proximity && Math.Abs(ptr[2] - ptr2[2]) <= proximity)
                             {
@@ -1136,8 +1126,8 @@ namespace MSFBlitzBot
                             num6++;
                         }
                         num8++;
-                        ptr += _bpp;
-                        ptr2 += pattern._bpp;
+                        ptr += Bpp;
+                        ptr2 += pattern.Bpp;
                     }
                 }
                 num7++;
@@ -1153,14 +1143,14 @@ namespace MSFBlitzBot
             int width = pattern.Width;
             _ = pattern.Height;
             byte* ptr = pattern._rawData;
-            byte* ptr2 = _rawData + num * _bpp + num2 * _stride;
+            byte* ptr2 = _rawData + num * Bpp + num2 * Stride;
             int num3 = 0;
             int num4 = 0;
-            int num5 = _stride - pattern.Width * _bpp;
+            int num5 = Stride - pattern.Width * Bpp;
             if (num2 < 0)
             {
-                ptr += -num2 * pattern._stride;
-                ptr2 += -num2 * _stride;
+                ptr += -num2 * pattern.Stride;
+                ptr2 += -num2 * Stride;
                 num2 = 0;
             }
             FImage fImage = null;
@@ -1180,15 +1170,15 @@ namespace MSFBlitzBot
                 if (num < 0)
                 {
                     num8 = -num;
-                    ptr2 += _bpp * num8;
-                    ptr += pattern._bpp * num8;
+                    ptr2 += Bpp * num8;
+                    ptr += pattern.Bpp * num8;
                 }
                 while (num8 < width)
                 {
                     if (num + num8 >= Width)
                     {
-                        ptr2 += _bpp * (pattern.Width - num8);
-                        ptr += _bpp * (pattern.Width - num8);
+                        ptr2 += Bpp * (pattern.Width - num8);
+                        ptr += Bpp * (pattern.Width - num8);
                         break;
                     }
                     if (debugFilename != null && ptr[3] < alphaThreshold)
@@ -1222,7 +1212,7 @@ namespace MSFBlitzBot
                                     bool flag = false;
                                     if (ptr2[2] > 120 && Math.Abs(ptr2[2] - *ptr2) > 10 && Math.Abs(ptr2[1] - *ptr2) < 5)
                                     {
-                                        if (ptr2[-2] - ptr2[-4] < 5 || ptr2[6] - ptr2[4] < 5 || ptr2[2 - _stride] - ptr2[-_stride] < 5 || ptr2[2 + _stride] - ptr2[_stride] < 5)
+                                        if (ptr2[-2] - ptr2[-4] < 5 || ptr2[6] - ptr2[4] < 5 || ptr2[2 - Stride] - ptr2[-Stride] < 5 || ptr2[2 + Stride] - ptr2[Stride] < 5)
                                         {
                                             fImage?.SetPixel(num8, num7, 0, 0, 0, 0);
                                             fImage2?.SetPixel(num8, num7, 0, 0, 0, 0);
@@ -1293,8 +1283,8 @@ namespace MSFBlitzBot
                         fImage2?.SetPixel(num8, num7, 0, 0, 0, 0);
                     }
                     num8++;
-                    ptr2 += _bpp;
-                    ptr += pattern._bpp;
+                    ptr2 += Bpp;
+                    ptr += pattern.Bpp;
                 }
                 num7++;
                 ptr2 += num5;
@@ -1337,9 +1327,9 @@ namespace MSFBlitzBot
             {
                 return 0;
             }
-            byte* ptr = _rawData + num2 * _stride + num * _bpp;
+            byte* ptr = _rawData + num2 * Stride + num * Bpp;
             byte* ptr2 = pattern._rawData;
-            int num3 = _stride - pattern.Width * _bpp;
+            int num3 = Stride - pattern.Width * Bpp;
             int num4 = (int)(pattern.Height * topratio);
             int num5 = 0;
             int num6 = 0;
@@ -1350,8 +1340,8 @@ namespace MSFBlitzBot
                 {
                     if (num2 + num7 < 0)
                     {
-                        ptr += _stride;
-                        ptr2 += _stride;
+                        ptr += Stride;
+                        ptr2 += Stride;
                     }
                     else
                     {
@@ -1359,18 +1349,18 @@ namespace MSFBlitzBot
                         if (num < 0)
                         {
                             num8 = -num;
-                            ptr += _bpp * num8;
-                            ptr2 += pattern._bpp * num8;
+                            ptr += Bpp * num8;
+                            ptr2 += pattern.Bpp * num8;
                         }
                         while (num8 < pattern.Width)
                         {
                             if (num + num8 >= Width)
                             {
-                                ptr += _bpp * (pattern.Width - num8);
-                                ptr2 += _bpp * (pattern.Width - num8);
+                                ptr += Bpp * (pattern.Width - num8);
+                                ptr2 += Bpp * (pattern.Width - num8);
                                 break;
                             }
-                            if (_bpp == 3 || ptr2[3] >= alphaThreshold)
+                            if (Bpp == 3 || ptr2[3] >= alphaThreshold)
                             {
                                 byte b = (byte)Math.Min(255f, *ptr2 * 0.07f + ptr2[1] * 0.72f + ptr2[2] * 0.21f);
                                 if (Math.Abs(*ptr - b) <= proximity)
@@ -1380,8 +1370,8 @@ namespace MSFBlitzBot
                                 num6++;
                             }
                             num8++;
-                            ptr += _bpp;
-                            ptr2 += pattern._bpp;
+                            ptr += Bpp;
+                            ptr2 += pattern.Bpp;
                         }
                     }
                     num7++;
@@ -1395,8 +1385,8 @@ namespace MSFBlitzBot
                 {
                     if (num2 + num9 < 0)
                     {
-                        ptr += _stride;
-                        ptr2 += _stride;
+                        ptr += Stride;
+                        ptr2 += Stride;
                     }
                     else
                     {
@@ -1404,18 +1394,18 @@ namespace MSFBlitzBot
                         if (num < 0)
                         {
                             num10 = -num;
-                            ptr += _bpp * num10;
-                            ptr2 += pattern._bpp * num10;
+                            ptr += Bpp * num10;
+                            ptr2 += pattern.Bpp * num10;
                         }
                         while (num10 < pattern.Width)
                         {
                             if (num + num10 >= Width)
                             {
-                                ptr += _bpp * (pattern.Width - num10);
-                                ptr2 += _bpp * (pattern.Width - num10);
+                                ptr += Bpp * (pattern.Width - num10);
+                                ptr2 += Bpp * (pattern.Width - num10);
                                 break;
                             }
-                            if (_bpp == 3 || ptr2[3] >= alphaThreshold)
+                            if (Bpp == 3 || ptr2[3] >= alphaThreshold)
                             {
                                 if (Math.Abs(*ptr - *ptr2) <= proximity && Math.Abs(ptr[1] - ptr2[1]) <= proximity && Math.Abs(ptr[2] - ptr2[2]) <= proximity)
                                 {
@@ -1424,8 +1414,8 @@ namespace MSFBlitzBot
                                 num6++;
                             }
                             num10++;
-                            ptr += _bpp;
-                            ptr2 += pattern._bpp;
+                            ptr += Bpp;
+                            ptr2 += pattern.Bpp;
                         }
                     }
                     num9++;
@@ -1457,7 +1447,7 @@ namespace MSFBlitzBot
             }
             if (searchArea.Value.Height <= 0 || searchArea.Value.Width <= 0)
             {
-                location = default(Point);
+                location = default;
                 return 0;
             }
             int num = searchArea.Value.Width * searchArea.Value.Height;
@@ -1467,15 +1457,15 @@ namespace MSFBlitzBot
             {
                 int num5 = pos % searchArea.Value.Width;
                 int num6 = pos / searchArea.Value.Width;
-                byte* ptr = pattern2._rawData + patternArea.Value.Y * pattern2._stride + patternArea.Value.X * pattern2._bpp;
-                byte* ptr2 = _rawData + (num6 + searchArea.Value.Y) * _stride + (num5 + searchArea.Value.X) * _bpp;
-                int num7 = _stride - patternArea.Value.Width * _bpp;
-                int num8 = pattern2._stride - patternArea.Value.Width * pattern2._bpp;
+                byte* ptr = pattern2._rawData + patternArea.Value.Y * pattern2.Stride + patternArea.Value.X * pattern2.Bpp;
+                byte* ptr2 = _rawData + (num6 + searchArea.Value.Y) * Stride + (num5 + searchArea.Value.X) * Bpp;
+                int num7 = Stride - patternArea.Value.Width * Bpp;
+                int num8 = pattern2.Stride - patternArea.Value.Width * pattern2.Bpp;
                 for (int j = 0; j < patternArea.Value.Height; j++)
                 {
                     for (int k = 0; k < patternArea.Value.Width; k++)
                     {
-                        if (pattern2._bpp == 3 || ptr[3] >= alphaThreshold)
+                        if (pattern2.Bpp == 3 || ptr[3] >= alphaThreshold)
                         {
                             if (Math.Abs(*ptr2 - *ptr) <= proximity && Math.Abs(ptr2[1] - ptr[1]) <= proximity && Math.Abs(ptr2[2] - ptr[2]) <= proximity)
                             {
@@ -1483,8 +1473,8 @@ namespace MSFBlitzBot
                             }
                             count[pos]++;
                         }
-                        ptr += pattern2._bpp;
-                        ptr2 += _bpp;
+                        ptr += pattern2.Bpp;
+                        ptr2 += Bpp;
                     }
                     ptr += num8;
                     ptr2 += num7;
@@ -1521,7 +1511,7 @@ namespace MSFBlitzBot
                 return _areaBox;
             }
             ResetPos();
-            int num = _stride - Width * _bpp;
+            int num = Stride - Width * Bpp;
             bool flag = false;
             int i;
             int j;
@@ -1565,7 +1555,7 @@ namespace MSFBlitzBot
                 {
                     break;
                 }
-                _ptr += num - (_stride << 1);
+                _ptr += num - (Stride << 1);
             }
             num2 -= i;
             flag = false;

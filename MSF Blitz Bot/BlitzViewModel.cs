@@ -245,11 +245,12 @@ namespace MSFBlitzBot
 
         private static float CalculateTrainingWorth(float prediction)
         {
-            if (prediction <= .6 && prediction >= .4)
-                return 1 - Math.Abs(prediction - .5f);
-            if (prediction > .6)
-                return Math.Abs(1 - prediction);
-            return Math.Abs(prediction);
+            return prediction switch
+            {
+                <= .6f and >= .4f => 1 - Math.Abs(prediction - .5f),
+                > .6f => Math.Abs(1 - prediction),
+                _ => Math.Abs(prediction)
+            };
         }
 
         private void ClearOpponentTeams()

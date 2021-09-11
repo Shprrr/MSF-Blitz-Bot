@@ -6,10 +6,10 @@ namespace MSFBlitzBot.GamePages
     {
         public struct Hero
         {
-            public string Id;
-            public string Name;
-            public int? Power;
-            public string PowerString;
+            public string Id { get; private set; }
+            public string Name { get; private set; }
+            public int? Power { get; private set; }
+            public string PowerString { get; private set; }
 
             public Hero(string id, int? power) : this()
             {
@@ -28,14 +28,14 @@ namespace MSFBlitzBot.GamePages
             }
         }
 
-        public Hero[] PlayerHeroes = new Hero[5];
-        public bool CanFindOpponent;
-        public bool HasOpponent;
-        public int TeamIndex = -1;
-        public Hero[] OpponentHeroes = new Hero[5];
+        public Hero[] PlayerHeroes { get; private set; } = new Hero[5];
+        public bool CanFindOpponent { get; set; }
+        public bool HasOpponent { get; set; }
+        public int TeamIndex { get; set; } = -1;
+        public Hero[] OpponentHeroes { get; private set; } = new Hero[5];
 
-        public bool Victory;
-        public bool Defeat;
+        public bool Victory { get; set; }
+        public bool Defeat { get; set; }
     }
 
     internal class BlitzPage : GamePage

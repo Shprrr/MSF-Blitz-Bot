@@ -70,7 +70,7 @@ namespace MSFBlitzBot
                 string[] array = textFieldParser.ReadFields();
                 string text = array[0];
                 string name = array[1];
-                if (text.EndsWith("_NAME") && text.StartsWith("ID_SHARD_"))
+                if (text.StartsWith("ID_SHARD_") && text.EndsWith("_NAME"))
                 {
                     text = text["ID_SHARD_".Length..^"_NAME".Length];
                     if (_hero.ContainsKey(text))
