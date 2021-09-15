@@ -40,7 +40,7 @@ namespace MSFBlitzBot
             FImage fImage;
             using (Font font = GetFont(fontName, size, style))
             {
-                using StringFormat format = new StringFormat
+                using StringFormat format = new()
                 {
                     Alignment = StringAlignment.Center
                 };
@@ -48,12 +48,12 @@ namespace MSFBlitzBot
                 using (Bitmap bitmap = new((int)(text.Length * size * 2f), (int)(size * 2f), PixelFormat.Format32bppArgb))
                 {
                     bitmap.SetResolution(96f, 96f);
-                    using Graphics graphics = Graphics.FromImage(bitmap);
+                    using var graphics = Graphics.FromImage(bitmap);
                     sizeF = graphics.MeasureString(text, font, bitmap.Width, format);
                 }
                 using Bitmap bitmap2 = new((int)(sizeF.Width + 0.5f) + 2, (int)(size * 2f), PixelFormat.Format32bppArgb);
                 bitmap2.SetResolution(96f, 96f);
-                using (Graphics graphics2 = Graphics.FromImage(bitmap2))
+                using (var graphics2 = Graphics.FromImage(bitmap2))
                 {
                     using SolidBrush brush = new(color.Value);
                     graphics2.DrawString(text, font, brush, new RectangleF(0f, font.Height - font.Size, bitmap2.Width, bitmap2.Height), format);
@@ -76,10 +76,10 @@ namespace MSFBlitzBot
                 {
                     for (int k = 0; k < fImage.Width; k++)
                     {
-                        Color pixel = fImage.GetPixel(k, j);
+                        var pixel = fImage.GetPixel(k, j);
                         if (pixel.A > 0 && (pixel.R != color.Value.R || pixel.G != color.Value.G || pixel.R != color.Value.R))
                         {
-                            Color c = Color.FromArgb(pixel.R, color.Value);
+                            var c = Color.FromArgb(pixel.R, color.Value);
                             fImage.SetPixel(k, j, c);
                         }
                     }

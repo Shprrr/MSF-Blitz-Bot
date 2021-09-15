@@ -72,9 +72,9 @@ namespace MSFBlitzBot
         public static Rectangle GetWindowArea(IntPtr hWnd, int dpi = 96)
         {
             Rect rect = default;
-            if (!GetWindowRect(hWnd, ref rect)) return Rectangle.Empty;
-
-            return new Rectangle(rect.Left * 96 / dpi, rect.Top * 96 / dpi, (rect.Right - rect.Left) * 96 / dpi, (rect.Bottom - rect.Top) * 96 / dpi);
+            return GetWindowRect(hWnd, ref rect)
+                ? new Rectangle(rect.Left * 96 / dpi, rect.Top * 96 / dpi, (rect.Right - rect.Left) * 96 / dpi, (rect.Bottom - rect.Top) * 96 / dpi)
+                : Rectangle.Empty;
         }
 
         [DllImport("user32.dll", SetLastError = true)]
@@ -92,9 +92,9 @@ namespace MSFBlitzBot
 
         public static IEnumerable<IntPtr> GetWindowChildren(IntPtr parent)
         {
-            List<IntPtr> list = new List<IntPtr>();
-            GCHandle value = GCHandle.Alloc(list);
-            IntPtr lParam = GCHandle.ToIntPtr(value);
+            List<IntPtr> list = new();
+            var value = GCHandle.Alloc(list);
+            var lParam = GCHandle.ToIntPtr(value);
             try
             {
                 EnumWindowProc callback = EnumWindow;
@@ -109,7 +109,7 @@ namespace MSFBlitzBot
 
         private static bool EnumWindow(IntPtr hWnd, IntPtr lParam)
         {
-            GCHandle gCHandle = GCHandle.FromIntPtr(lParam);
+            var gCHandle = GCHandle.FromIntPtr(lParam);
             if (gCHandle.Target == null)
             {
                 return false;
@@ -132,8 +132,8 @@ namespace MSFBlitzBot
             }
             try
             {
-                using Bitmap bitmap = new Bitmap(windowArea.Width, windowArea.Height);
-                using (Graphics graphics = Graphics.FromImage(bitmap))
+                using Bitmap bitmap = new(windowArea.Width, windowArea.Height);
+                using (var graphics = Graphics.FromImage(bitmap))
                 {
                     IntPtr hdc = graphics.GetHdc();
                     IntPtr dC = GetDC(captureWnd);
@@ -163,8 +163,8 @@ namespace MSFBlitzBot
             }
             try
             {
-                using Bitmap bitmap = new Bitmap(windowArea.Width, windowArea.Height);
-                using (Graphics graphics = Graphics.FromImage(bitmap))
+                using Bitmap bitmap = new(windowArea.Width, windowArea.Height);
+                using (var graphics = Graphics.FromImage(bitmap))
                 {
                     IntPtr hdc = graphics.GetHdc();
                     IntPtr dC = GetDC(hWnd);
@@ -192,8 +192,8 @@ namespace MSFBlitzBot
             {
                 return null;
             }
-            using Bitmap bitmap = new Bitmap(windowArea.Width, windowArea.Height);
-            using (Graphics graphics = Graphics.FromImage(bitmap))
+            using Bitmap bitmap = new(windowArea.Width, windowArea.Height);
+            using (var graphics = Graphics.FromImage(bitmap))
             {
                 IntPtr hdc = graphics.GetHdc();
                 IntPtr dC = GetDC(hWnd);

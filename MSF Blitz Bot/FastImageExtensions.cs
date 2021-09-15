@@ -149,12 +149,12 @@ namespace MSFBlitzBot
 
         private static Rectangle DetectBlack(this FImage img, int x, byte maxColor = 80)
         {
-            Rectangle result = new Rectangle(-1, 0, img.Width, img.Height);
+            Rectangle result = new(-1, 0, img.Width, img.Height);
             while (x < img.Width && result.X < 0)
             {
                 for (int i = 0; i < img.Height; i++)
                 {
-                    Color pixel = img.GetPixel(x, i);
+                    var pixel = img.GetPixel(x, i);
                     if (pixel.R > maxColor || pixel.G > maxColor || pixel.B > maxColor)
                     {
                         result.X = x;
@@ -172,7 +172,7 @@ namespace MSFBlitzBot
                 int j;
                 for (j = 0; j < img.Height; j++)
                 {
-                    Color pixel2 = img.GetPixel(x, j);
+                    var pixel2 = img.GetPixel(x, j);
                     if (pixel2.R > maxColor || pixel2.G > maxColor || pixel2.B > maxColor)
                     {
                         j = img.Height + 1;
@@ -191,7 +191,7 @@ namespace MSFBlitzBot
                 int l;
                 for (l = 0; l < result.Width; l++)
                 {
-                    Color pixel3 = img.GetPixel(result.X + l, k);
+                    var pixel3 = img.GetPixel(result.X + l, k);
                     if (pixel3.R > maxColor || pixel3.G > maxColor || pixel3.B > maxColor)
                     {
                         break;
@@ -209,7 +209,7 @@ namespace MSFBlitzBot
                 int m;
                 for (m = 0; m < result.Width; m++)
                 {
-                    Color pixel4 = img.GetPixel(result.X + m, result.Bottom - 1);
+                    var pixel4 = img.GetPixel(result.X + m, result.Bottom - 1);
                     if (pixel4.R > maxColor || pixel4.G > maxColor || pixel4.B > maxColor)
                     {
                         break;
@@ -252,7 +252,7 @@ namespace MSFBlitzBot
                 num = (int)(img.Height * detectionY);
                 num2 = num + 1;
             }
-            Color c = Color.FromArgb((int)color);
+            var c = Color.FromArgb((int)color);
             int num3 = (!rightToLeft) ? (img.Width - 1) : 0;
             int num4 = (!rightToLeft) ? 1 : (-1);
             while (x != num3)
@@ -282,7 +282,7 @@ namespace MSFBlitzBot
         {
             Stack<Point> stack = new();
             stack.Push(new Point(x, y));
-            Color c = Color.FromArgb((int)searchColor);
+            var c = Color.FromArgb((int)searchColor);
             img.SetPixel(x, y, fillColor);
             int num = x;
             int num2 = x;
@@ -381,7 +381,7 @@ namespace MSFBlitzBot
                         {
                             break;
                         }
-                        Color pixel = img.GetPixel(j, i);
+                        var pixel = img.GetPixel(j, i);
                         if (pixel.A >= minAlpha && pixel.R >= minAlpha && pixel.G >= minAlpha && pixel.B >= minAlpha)
                         {
                             return true;

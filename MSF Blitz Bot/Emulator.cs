@@ -79,7 +79,7 @@ namespace MSFBlitzBot
                 Id = EmulatorId.None;
                 return;
             }
-            Point point = new Point(rectangle.X + (rectangle.Width >> 1), rectangle.Y + (rectangle.Height >> 1));
+            Point point = new(rectangle.X + (rectangle.Width >> 1), rectangle.Y + (rectangle.Height >> 1));
             AppHandle = intPtr;
             Id = id;
             Dpi = WinCapture.GetWinDpi(AppHandle);

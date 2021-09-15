@@ -60,7 +60,7 @@ namespace MSFBlitzBot
 
         public static void LoadHeroNames(string path)
         {
-            using TextFieldParser textFieldParser = new TextFieldParser(Path.Combine(path, "Config\\m3localization\\", UserDataManager.CurrentLanguage!.Id, "heroes.csv"));
+            using TextFieldParser textFieldParser = new(Path.Combine(path, "Config\\m3localization\\", UserDataManager.CurrentLanguage!.Id, "heroes.csv"));
             textFieldParser.CommentTokens = new string[1] { "#" };
             textFieldParser.SetDelimiters(",");
             textFieldParser.HasFieldsEnclosedInQuotes = true;

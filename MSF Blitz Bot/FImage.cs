@@ -37,20 +37,10 @@ namespace MSFBlitzBot
 
         public unsafe IntPtr IntPtr => (IntPtr)Pointer;
 
-        public unsafe bool IsValid
-        {
-            get
-            {
-                if (Pointer != null && Width > 0)
-                {
-                    return Height > 0;
-                }
-                return false;
-            }
-        }
+        public unsafe bool IsValid => Pointer != null && Width > 0 && Height > 0;
 
         [DllImport("msvcrt.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "memcpy")]
-        private unsafe static extern void* CopyMemory(void* dest, void* src, ulong count);
+        private static extern unsafe void* CopyMemory(void* dest, void* src, ulong count);
 
         [DllImport("msvcrt.dll", CallingConvention = CallingConvention.Cdecl, EntryPoint = "memset")]
         private static extern IntPtr MemSet(IntPtr dest, int c, int byteCount);
@@ -95,13 +85,13 @@ namespace MSFBlitzBot
 
         public unsafe FImage(string filename, float scale = 1f, int bpp = -1)
         {
-            using Bitmap bitmap = new Bitmap(filename);
+            using Bitmap bitmap = new(filename);
             Initialize(bitmap, (int)Math.Round(bitmap.Width * scale), (int)Math.Round(bitmap.Height * scale), bpp);
         }
 
         public unsafe FImage(string filename, int width, int height, int bpp = -1)
         {
-            using Bitmap source = new Bitmap(filename);
+            using Bitmap source = new(filename);
             Initialize(source, width, height, bpp);
         }
 
@@ -316,7 +306,7 @@ namespace MSFBlitzBot
             {
                 bitmap = new Bitmap(original, num, num2);
             }
-            FImage img = new FImage(width, height, Bpp);
+            FImage img = new(width, height, Bpp);
             img.Clear();
             int num5 = Image.GetPixelFormatSize(bitmap.PixelFormat) >> 3;
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, bitmap.Width, bitmap.Height), ImageLockMode.ReadWrite, bitmap.PixelFormat);
@@ -338,7 +328,7 @@ namespace MSFBlitzBot
         public FImage GetScaledExtract(RectangleF area, float fontSize)
         {
             float scale = 108000f / (fontSize * Height);
-            using FImage fImage = new FImage(this, area);
+            using FImage fImage = new(this, area);
             using Bitmap source = fImage.GetBitmap();
             fImage.Dispose();
             return new FImage(source, scale);
@@ -346,25 +336,25 @@ namespace MSFBlitzBot
 
         public FImage GetScaledExtract(RectangleF area, int width, int height)
         {
-            using FImage source = new FImage(this, area);
+            using FImage source = new(this, area);
             return new FImage(source, width, height);
         }
 
         public FImage GetScaledExtract(Rectangle area, int width, int height)
         {
-            using FImage source = new FImage(this, area);
+            using FImage source = new(this, area);
             return new FImage(source, width, height);
         }
 
         public FImage GetScaledExtract(float x0, float y0, float x1, float y1, int width, int height)
         {
-            using FImage source = new FImage(this, new RectangleF(x0, y0, x1 - x0, y1 - y0));
+            using FImage source = new(this, new RectangleF(x0, y0, x1 - x0, y1 - y0));
             return new FImage(source, width, height);
         }
 
         public unsafe Bitmap GetBitmap()
         {
-            Bitmap bitmap = new Bitmap(Width, Height, (Bpp == 4) ? PixelFormat.Format32bppArgb : PixelFormat.Format24bppRgb);
+            Bitmap bitmap = new(Width, Height, (Bpp == 4) ? PixelFormat.Format32bppArgb : PixelFormat.Format24bppRgb);
             BitmapData bitmapData = bitmap.LockBits(new Rectangle(0, 0, Width, Height), ImageLockMode.ReadWrite, bitmap.PixelFormat);
             byte* ptrFirstPixel = (byte*)(void*)bitmapData.Scan0;
             Parallel.For(0, Height, delegate (int y)
@@ -380,11 +370,7 @@ namespace MSFBlitzBot
         public bool IsBlank(byte minAlpha = 1)
         {
             Rectangle boundingBox = GetBoundingBox(minAlpha);
-            if (boundingBox.Width != 0)
-            {
-                return boundingBox.Height == 0;
-            }
-            return true;
+            return boundingBox.Width == 0 || boundingBox.Height == 0;
         }
 
         public void Save(string filename)
@@ -505,7 +491,7 @@ namespace MSFBlitzBot
 
         public unsafe Color GetPixel()
         {
-            Color result = Color.FromArgb((Bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
+            var result = Color.FromArgb((Bpp == 4) ? _ptr[3] : byte.MaxValue, _ptr[2], _ptr[1], *_ptr);
             _ptr += Bpp;
             return result;
         }
@@ -567,11 +553,7 @@ namespace MSFBlitzBot
 
         public byte GetPixelAlphaExt(int x, int y)
         {
-            if (x < 0 || x >= Width || y < 0 || y >= Height)
-            {
-                return 0;
-            }
-            return GetPixelAlpha(x, y);
+            return x < 0 || x >= Width || y < 0 || y >= Height ? (byte)0 : GetPixelAlpha(x, y);
         }
 
         public unsafe byte GetPixelAlpha()
@@ -672,14 +654,7 @@ namespace MSFBlitzBot
             b = *_ptr++;
             g = *_ptr++;
             r = *_ptr++;
-            if (Bpp == 4)
-            {
-                a = *_ptr++;
-            }
-            else
-            {
-                a = byte.MaxValue;
-            }
+            a = Bpp == 4 ? *_ptr++ : byte.MaxValue;
         }
 
         public unsafe bool HasColor(RectangleF area, uint color)
@@ -731,7 +706,7 @@ namespace MSFBlitzBot
 
         public unsafe FImage Italic(float dist)
         {
-            FImage fImage = new FImage(Width, Height, Bpp);
+            FImage fImage = new(Width, Height, Bpp);
             for (int i = 0; i < Height; i++)
             {
                 float num = (i - Height / 2f) * dist;
@@ -943,7 +918,7 @@ namespace MSFBlitzBot
         public unsafe FImage ItalicAndCrop(float dist)
         {
             Rectangle area = GetBoundingBox(200);
-            FImage result = new FImage(area.Width + (int)Math.Ceiling(area.Height * dist), area.Height, Bpp);
+            FImage result = new(area.Width + (int)Math.Ceiling(area.Height * dist), area.Height, Bpp);
             MemSet((IntPtr)result._rawData, 0, result.Height * result.Stride);
             Parallel.For(0, area.Height, delegate (int y)
             {
@@ -967,7 +942,7 @@ namespace MSFBlitzBot
                 area.Y = 0;
                 area.Height = Height;
             }
-            FImage result = new FImage(area.Width, area.Height, Bpp);
+            FImage result = new(area.Width, area.Height, Bpp);
             Parallel.For(0, area.Height, delegate (int y)
             {
                 void* src = _rawData + area.X * Bpp + (area.Y + y) * Stride;
@@ -980,7 +955,7 @@ namespace MSFBlitzBot
         public unsafe FImage CropBlack(byte tolerance = 50)
         {
             Rectangle area = GetBoundingBoxBlack(tolerance);
-            FImage result = new FImage(area.Width, area.Height, Bpp);
+            FImage result = new(area.Width, area.Height, Bpp);
             Parallel.For(0, area.Height, delegate (int y)
             {
                 void* src = _rawData + area.X * Bpp + (area.Y + y) * Stride;
@@ -1437,14 +1412,9 @@ namespace MSFBlitzBot
                 patternArea = new Rectangle(0, 0, pattern2.Width, pattern2.Height);
                 pattern2.ResetPos();
             }
-            if (!searchArea.HasValue)
-            {
-                searchArea = new Rectangle(0, 0, Width - pattern2.Width, Height - pattern2.Height);
-            }
-            else
-            {
-                searchArea = new Rectangle(searchArea.Value.X, searchArea.Value.Y, Math.Min(searchArea.Value.Width, Width - searchArea.Value.X - patternArea.Value.Width), Math.Min(searchArea.Value.Height, Height - searchArea.Value.Y - patternArea.Value.Height));
-            }
+            searchArea = searchArea.HasValue
+                ? new Rectangle(searchArea.Value.X, searchArea.Value.Y, Math.Min(searchArea.Value.Width, Width - searchArea.Value.X - patternArea.Value.Width), Math.Min(searchArea.Value.Height, Height - searchArea.Value.Y - patternArea.Value.Height))
+                : new Rectangle(0, 0, Width - pattern2.Width, Height - pattern2.Height);
             if (searchArea.Value.Height <= 0 || searchArea.Value.Width <= 0)
             {
                 location = default;

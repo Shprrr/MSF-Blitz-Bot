@@ -237,7 +237,7 @@ namespace MSFBlitzBot
                 Rectangle rectangle = area;
                 int width = area.Width;
                 int height = area.Height;
-                Rectangle rectangle2 = new Rectangle(0, 0, fImage.Width, fImage.Height);
+                Rectangle rectangle2 = new(0, 0, fImage.Width, fImage.Height);
                 if (rectangle.Width > rectangle2.Width)
                 {
                     rectangle2.X -= rectangle.Width + 1 - rectangle2.Width >> 1;
@@ -272,14 +272,14 @@ namespace MSFBlitzBot
                     while (num8 < width)
                     {
                         int num9 = (num6 >= 0 && num >= 0 && num6 < fImage.Width && num < fImage.Height) ? fImage.GetPixelAlpha(num6, num) : 0;
-                        if (num9 == 0 || num9 == 255)
+                        if (num9 is 0 or 255)
                         {
                             bool flag2 = num6 >= 0 && num6 < fImage.Width && num >= 0 && num < fImage.Height && num9 > 128;
                             bool flag3 = num7 >= 0 && num7 < img.Width && num2 >= 0 && num2 < img.Height && img.GetPixelU32(num7, num2) == color;
                             int j = 0;
                             if (flag2 && !flag3)
                             {
-                                for (j = 1; j <= dist2 && (num7 - j < 0 || num7 - j >= img.Width || ((num2 < 0 || num2 >= img.Height || img.GetPixelU32(num7 - j, num2) != color) && (num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7 - j, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7 - j, num2 + j) != color))) && (num7 < 0 || num7 >= img.Width || ((num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7, num2 + j) != color))) && (num7 + j < 0 || num7 + j >= img.Width || ((num2 < 0 || num2 >= img.Height || img.GetPixelU32(num7 + j, num2) != color) && (num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7 + j, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7 + j, num2 + j) != color))); j++)
+                                for (j = 1; j <= dist2 && (num7 - j < 0 || num7 - j >= img.Width || (num2 < 0 || num2 >= img.Height || img.GetPixelU32(num7 - j, num2) != color) && (num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7 - j, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7 - j, num2 + j) != color)) && (num7 < 0 || num7 >= img.Width || (num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7, num2 + j) != color)) && (num7 + j < 0 || num7 + j >= img.Width || (num2 < 0 || num2 >= img.Height || img.GetPixelU32(num7 + j, num2) != color) && (num2 - j < 0 || num2 - j >= img.Height || img.GetPixelU32(num7 + j, num2 - j) != color) && (num2 + j < 0 || num2 + j >= img.Height || img.GetPixelU32(num7 + j, num2 + j) != color)); j++)
                                 {
                                 }
                                 if (j > dist2)
@@ -290,7 +290,7 @@ namespace MSFBlitzBot
                             }
                             else if (!flag2 && flag3)
                             {
-                                for (j = 1; j <= dist1 && (num6 - j < 0 || num6 - j >= img.Width || ((num < 0 || num >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num) < 200) && (num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num + j) < 200))) && (num6 < 0 || num6 >= fImage.Width || ((num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6, num + j) < 200))) && (num6 + j < 0 || num6 + j >= fImage.Width || ((num < 0 || num >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num) < 200) && (num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num + j) < 200))); j++)
+                                for (j = 1; j <= dist1 && (num6 - j < 0 || num6 - j >= img.Width || (num < 0 || num >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num) < 200) && (num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6 - j, num + j) < 200)) && (num6 < 0 || num6 >= fImage.Width || (num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6, num + j) < 200)) && (num6 + j < 0 || num6 + j >= fImage.Width || (num < 0 || num >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num) < 200) && (num - j < 0 || num - j >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num - j) < 200) && (num + j < 0 || num + j >= fImage.Height || fImage.GetPixelAlpha(num6 + j, num + j) < 200)); j++)
                                 {
                                 }
                                 if (j > dist1)
