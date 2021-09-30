@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Drawing;
 
 namespace MSFBlitzBot.GamePages
 {
@@ -25,6 +26,12 @@ namespace MSFBlitzBot.GamePages
                 if (int.TryParse(power, out var powerInt))
                     Power = powerInt;
                 PowerString = power;
+            }
+
+            [Newtonsoft.Json.JsonConstructor]
+            [SuppressMessage("Style", "IDE0060:Supprimer le paramètre inutilisé", Justification = "Calculated values")]
+            public Hero(string id, string name, int? power, string powerString) : this(id, powerString)
+            {
             }
         }
 
@@ -63,8 +70,8 @@ namespace MSFBlitzBot.GamePages
             // 1280, 432, 2560, 1440  67, 69, 82
             // 752, 254, 1505, 847  72, 74, 89
             // 180, 1152, 2560, 1440  101, 253, 255
-            if (Emulator.GameImage.GetPixel(0.5f, 0.3f).IsCloseTo(Color.FromArgb(72, 74, 89), 10)
-                && Emulator.GameImage.GetPixel(0.5f, 744f / 1440).IsCloseTo(Color.FromArgb(101, 252, 254), 3)
+            if (Emulator.GameImage.GetPixel(0.5f, 0.3f).IsCloseTo(Color.FromArgb(75, 69, 73), 10)
+                && Emulator.GameImage.GetPixel(0.5f, 744f / 1440).IsCloseTo(Color.FromArgb(98, 250, 252), 3)
                 && Emulator.GameImage.GetPixel(0.0703125f, 0.8f).IsCloseTo(Color.FromArgb(101, 253, 255), 3))
                 return true;
 
