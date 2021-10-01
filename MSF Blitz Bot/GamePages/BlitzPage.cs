@@ -166,7 +166,7 @@ namespace MSFBlitzBot.GamePages
             // side 0 index 4 = , 343
             // side 1 index 0 = 1026, 343
             float posx = (index * 82 + 57f + side * 969) / 1505;
-            float posy = (index % 2 == 1 ? 175f : 343f) / 847;
+            float posy = (index % 2 == 1 ? 174f : 342f) / 847;
             string[] heroIds = HeroManager.HeroIds;
             string id = string.Empty;
             byte b = 0;
@@ -182,6 +182,9 @@ namespace MSFBlitzBot.GamePages
                     id = heroId;
                 }
             }
+            //Debug matching portrait
+            //FImage p = HeroManager.GetPortrait(id); string d = $"PortraitHero_{side}_{index}";
+            //_img!.Match(p, posx, posy, 0.75f, (byte)30u, 100, FImage.MatchColorMode.Color, d);
             return HeroManager.GetId(id);
         }
 
