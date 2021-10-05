@@ -1561,6 +1561,22 @@ ID_LE_ADAMWARLOCK_07_NAME,Adam Warlock - Tier 7
 ID_LE_ADAMWARLOCK_07_DESC,"Requires Jubilee and 4 X-Factor characters at 6+ Stars, Gear Tier 13+, and Level 4 Iso-8.\n\nRecommended for Level 70+, Level 6 Abilities, 4 Red Stars.\n\nThis much power in one place attracts the wrong kind of attention, and Adam Warlock finds himself face to face with one of the forces of Doom!"
 ID_LE_ADAMWARLOCK_08_NAME,Adam Warlock - Tier 8
 ID_LE_ADAMWARLOCK_08_DESC,"Requires Jubilee and 4 X-Factor characters at 7+ Stars, Gear Tier 14+, and Level 5 Iso-8.\n\nRecommended for Level 75+, Level 6 Abilities, 5 Red Stars.\n\nCan X-Factor and Adam Warlock stand against the force of a gamma-powered Doctor Doom?"
+ID_LE_OMEGARED_01_NAME,Omega Red - Tier 1
+ID_LE_OMEGARED_01_DESC,"Nick Fury and the team recruit Omega Red, a dangerous mutant with deep ties to carbonadium experiments."
+ID_LE_OMEGARED_02_NAME,Omega Red - Tier 2
+ID_LE_OMEGARED_02_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 2+ Stars and Gear Tier 6+.\n\nRecommended for level 35+, Level 3+ Abilities.\n\nOmega Red leads Nick Fury and the Secret Avengers into a trap, hoping to realign with his former comrades."
+ID_LE_OMEGARED_03_NAME,Omega Red - Tier 3
+ID_LE_OMEGARED_03_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 3+ Stars and Gear Tier 8+.\n\nRecommended for level 40+, Level 4+ Abilities.\n\nOmega Red helps the team find Baron Zemo's chief ally--Scientist Supreme. Unfortunately, she isn't thrilled to see her old friend."
+ID_LE_OMEGARED_04_NAME,Omega Red - Tier 4
+ID_LE_OMEGARED_04_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 4+ Stars and Gear Tier 10+.\n\nRecommended for level 55+, Level 5+ Abilities.\n\nThe team finds the missing X-23, with some terrifying and dangerous modifications."
+ID_LE_OMEGARED_05_NAME,Omega Red - Tier 5
+ID_LE_OMEGARED_05_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 5+ Stars, Gear Tier 12+, and Level 3 Iso-8.\n\nRecommended for level 65+, Level 6+ Abilities, 4 Red Stars.\n\nFollowing X-23's instructions, Fury and Omega Red head to Baron Zemo's hidden base to stop his terrible experiments."
+ID_LE_OMEGARED_06_NAME,Omega Red - Tier 6
+ID_LE_OMEGARED_06_DESC,Complete Omega Red - Tier 5 to Unlock\n\nOmega Red leads the Weapon X team to find and stop Baron Zemo from escaping.
+ID_LE_OMEGARED_07_NAME,Omega Red - Tier 7
+ID_LE_OMEGARED_07_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 6+ Stars, Gear Tier 13+, and Level 4 Iso-8.\n\nRecommended for Level 70+, Level 6 Abilities, 4 Red Stars.\n\nWhen Nick Fury gets an urgent message from the Microverse, he reassembles the Secret Avengers team to investigate a new threat."
+ID_LE_OMEGARED_08_NAME,Omega Red - Tier 8
+ID_LE_OMEGARED_08_DESC,"Requires Nick Fury, Winter Soldier, and 3 Secret Avenger characters at 7+ Stars, Gear Tier 14+, and Level 5 Iso-8.\n\nRecommended for Level 75+, Level 6 Abilities, 5 Red Stars.\n\nS.T.R.I.K.E. goes head-to-head against an evil version of S.T.R.I.K.E. in an epic battle of good versus evil."
 ID_LE_BLACKBOLT_01_NAME,Black Bolt - Tier 1
 ID_LE_BLACKBOLT_01_DESC,Attilan is under attack and Quake must lead S.T.R.I.K.E.'s Inhumans to rescue their King.
 ID_LE_BLACKBOLT_02_NAME,Black Bolt - Tier 2
@@ -2443,3 +2459,36 @@ ID_ECM_DEATHPOOL_08_DESC,It's Thanos versus Nexus Thanos in a fight straight out
 ID_ECM_DEATHPOOL_08_NAME,Thanos/Thanos
 ID_ECM_DEATHPOOL_09_DESC,Deathpool stands against Thanos to save her adopted father! This one's kind of serious - someone could get hurt.
 ID_ECM_DEATHPOOL_09_NAME,Everyone Out of the Pool
+ID_ECM_SILVERSAMURAI_01_DESC,"When X-Factor is on a routine recon mission, they come across a terrifying new enemy. "
+ID_ECM_SILVERSAMURAI_01_NAME,Enter Weapon X
+ID_ECM_SILVERSAMURAI_02_DESC,"With a Black Blade to contend with, Wolverine attempts to recruit old foes to his cause."
+ID_ECM_SILVERSAMURAI_02_NAME,Return to Shadowland
+ID_ECM_SILVERSAMURAI_03_DESC,"In the depths of Shadowland, Wolverine and Silver Samurai attempt to survive against Lady Deathstrike."
+ID_ECM_SILVERSAMURAI_03_NAME,Castle Deathstrike
+ID_ECM_SILVERSAMURAI_04_DESC,"With Deathstrike on board, Wolverine and Silver Samurai seek out another member of Weapon X--Sabretooth!"
+ID_ECM_SILVERSAMURAI_04_NAME,Samurai's Creed
+ID_ECM_SILVERSAMURAI_05_DESC,"Sabretooth unleashes waves of Marauders, all under the sway of the Muramasa Blade!"
+ID_ECM_SILVERSAMURAI_05_NAME,Muramasa Marauders
+ID_ECM_SILVERSAMURAI_06_DESC,"Separated from Wolverine, Silver Samurai finally gets his chance against the evil and ferocious Sabretooth."
+ID_ECM_SILVERSAMURAI_06_NAME,Sabretooth's Bite
+ID_ECM_SILVERSAMURAI_07_DESC,"Silver Samurai seeks out the otherworldly Black Blade, only to discover its victims standing in his way!"
+ID_ECM_SILVERSAMURAI_07_NAME,Multiple Trouble
+ID_ECM_SILVERSAMURAI_08_DESC,"Taunted by the Wolverine from another world, Silver Samurai stands alone against wave after wave of enemies."
+ID_ECM_SILVERSAMURAI_08_NAME,Demon's Defense
+ID_ECM_SILVERSAMURAI_09_DESC,Can Silver Samurai overtake the corrupted Wolverine? Or will the Nexus fall to this new version of the Black Blade?
+ID_ECM_SILVERSAMURAI_09_NAME,Blade to Blade
+ID_MISSION_RAID_DOOM02_BIO01_NAME,Bio Mission 1
+ID_MISSION_RAID_DOOM02_BIO02_NAME,Bio Mission 2
+ID_MISSION_RAID_DOOM02_BIOBOSS_NAME,Bio Boss
+ID_MISSION_RAID_DOOM02_MUTANT01_NAME,Mutant Mission 1
+ID_MISSION_RAID_DOOM02_MUTANT02_NAME,Mutant Mission 2
+ID_MISSION_RAID_DOOM02_MUTANTBOSS_NAME,Mutant Boss
+ID_MISSION_RAID_DOOM02_MYSTIC01_NAME,Mystic Mission 1
+ID_MISSION_RAID_DOOM02_MYSTIC02_NAME,Mystic Mission 2
+ID_MISSION_RAID_DOOM02_MYSTICBOSS_NAME,Mystic Boss
+ID_MISSION_RAID_DOOM02_SKILL01_NAME,Skill Mission 1
+ID_MISSION_RAID_DOOM02_SKILL02_NAME,Skill Mission 2
+ID_MISSION_RAID_DOOM02_SKILLBOSS_NAME,Skill Boss
+ID_MISSION_RAID_DOOM02_TECH01_NAME,Tech Mission 1
+ID_MISSION_RAID_DOOM02_TECH02_NAME,Tech Mission 2
+ID_MISSION_RAID_DOOM02_TECHBOSS_NAME,Tech Boss

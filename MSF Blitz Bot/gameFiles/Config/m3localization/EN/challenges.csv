@@ -299,6 +299,14 @@ ID_LE_ADAMWARLOCK_MS,Unlock Adam Warlock
 ID_LE_ADAMWARLOCK_MT,The Infinity Watch Event has started!
 ID_LE_ADAMWARLOCK_EN_SU,The Infinity Watch Event has ended.
 ID_LE_ADAMWARLOCK_EN_BO,The Infinity Watch Event is now over.
+ID_LE_OMEGARED_NAME,Red Death
+ID_LE_OMEGARED_DESC,Nick Fury recruits Omega Red to help track down Baron Zemo and put a stop to his carbonadium experiments.
+ID_LE_OMEGARED_CHANCE,Earn Omega Red shards
+ID_LE_OMEGARED_MC,GO!
+ID_LE_OMEGARED_MS,Unlock Omega Red
+ID_LE_OMEGARED_MT,The Red Death Event has started!
+ID_LE_OMEGARED_EN_SU,The Red Death Event has ended.
+ID_LE_OMEGARED_EN_BO,The Red Death Event is now over.
 ID_INFO_NA_TWOBITDETECTIVES,Two-Bit Detectives
 ID_INFO_DE_TWOBITDETECTIVES,2x X-Factor shards
 ID_INFO_BO_TWOBITDETECTIVES,"For 24 hours, the number of X-Factor character shards rewarded in Campaigns will double from 2 to 4. These characters will help you with Adam Warlock's upcoming The Infinity Watch Legendary Event.\n\nPlease filter your roster using the trait ""X-Factor"" to find all affected characters, marked with green (!) indicators. Enter the character screen and tap the [FIND] button to see their Campaign node."
@@ -401,7 +409,7 @@ ID_LE_STARLORD_EN_SU,The Space Ace Event has ended.
 ID_LE_STARLORD_EN_BO,The event is now over.
 ID_ME_NA_STARLORD_LE_TEASER,Coming Soon: Space Ace
 ID_ME_DE_STARLORD_LE_TEASER,Unlock Star-Lord!
-ID_ME_BO_STARLORD_LE_TEASER,Assemble a 5-star team of <color=#fff568>Guardian and Ravager</color> members for a chance to recruit Star-Lord.\n\n<color=#fff568>Legendary Event Requirements:</color>\n- Five (5) Guardian and Ravager characters at 5 Stars\n- Rank requirement increases by 1 with each tier\n\nJoin the fight to recruit Star-Lord\!
+ID_ME_BO_STARLORD_LE_TEASER,Assemble a 5-star team of <color=#fff568>Guardian and Ravager</color> members for a chance to recruit Star-Lord.\n\n<color=#fff568>Legendary Event Requirements:</color>\n- Five (5) Guardian and Ravager characters at 5 Stars\n- Rank requirement increases by 1 with each tier\n\nJoin the fight to recruit Star-Lord!
 ID_ME_NA_STARLORD_LE_ANNOUNCE,LIVE: Space Ace
 ID_ME_DE_STARLORD_LE_ANNOUNCE,Recruit Star-Lord now!
 ID_ME_BO_STARLORD_LE_ANNOUNCE,Assemble your top 5 <color=#fff568>Guardian and Ravager</color> members to recruit <color=#fff568>Star-Lord</color> in this Legendary event.\n\n<color=#fff568>Legendary Event Requirements</color>:\n- Five (5) Guardian and Ravager characters at 5 Stars\n- Rank requirement increases by 1 with each tier\n\nJoin the fight to recruit Star-Lord!
@@ -598,6 +606,15 @@ ID_ECM_SCREAM_DESC_C,Recommendations:\n- Squad Lvl 30+\n- Gear Tier 5+\n- Abilit
 ID_ECM_SCREAM_MB,Help Scream as she joins forces with Doctor Doom to find help with controlling her Symbiote and her mind.
 ID_ECM_SCREAM_MC,GO!
 ID_ECM_SCREAM_MT,The Parasitic Intentions event has started!
+ID_ECM_SILVERSAMURAI_NAME,Curse of Muramasa
+ID_ECM_SILVERSAMURAI_DESC,"When a new version of the Black Blade threatens Nexus Earth, Wolverine and Nick Fury turn to the only being who was able to resist its pull in our world--the Silver Samurai. "
+ID_ECM_CHANCE_SILVERSAMURAI,Earn Silver Samurai shards
+ID_ECM_SILVERSAMURAI_DESC_A,"Recommendations:\n- Squad Lvl 60+\n- Gear Tier 9+\n- Ability Lvl 5+\n\nWhen a new version of the Black Blade threatens Nexus Earth, Wolverine and Nick Fury turn to the only being who was able to resist its pull in our world--the Silver Samurai. "
+ID_ECM_SILVERSAMURAI_DESC_B,"Recommendations:\n- Squad Lvl 45+\n- Gear Tier 7+\n- Ability Lvl 3+\n\nWhen a new version of the Black Blade threatens Nexus Earth, Wolverine and Nick Fury turn to the only being who was able to resist its pull in our world--the Silver Samurai. "
+ID_ECM_SILVERSAMURAI_DESC_C,"Recommendations:\n- Squad Lvl 30+\n- Gear Tier 5+\n- Ability Lvl 2+\n\nWhen a new version of the Black Blade threatens Nexus Earth, Wolverine and Nick Fury turn to the only being who was able to resist its pull in our world--the Silver Samurai. "
+ID_ECM_SILVERSAMURAI_MB,"When a new version of the Black Blade threatens Nexus Earth, Wolverine and Nick Fury turn to the only being who was able to resist its pull in our world--the Silver Samurai. "
+ID_ECM_SILVERSAMURAI_MC,GO!
+ID_ECM_SILVERSAMURAI_MT,The Curse of Muramasa event has started!
 ID_ECM_STATURE_NAME,"Tiny Stature, Big Problem"
 ID_ECM_STATURE_DESC,Join Stature on a not-so-little adventure through the Quantum Realm as she proves that she isn't just Ant-Man's daughter.
 ID_ECM_CHANCE_STATURE,Earn Stature shards
@@ -1100,3 +1117,21 @@ ID_INFO_BO_POSTMORTEM,"Celebrate the arrival of Deathpool by reaping big rewards
 ID_INFO_NA_THELEGEND,The Legend
 ID_INFO_DE_THELEGEND,Fight your way to Shang-Chi shards and rewards!
 ID_INFO_BO_THELEGEND,"Transform your roster with <color=#fff568>Shang-Chi</color> character shards and more with this limited-time event:\n\n<color=#fff568>Fire Essence Event Currency</color>\nEarn limited-time Fire Essence Event Currency via Campaign Nodes (not including Event Campaign), Blitz, and select Daily Objectives.\n\n<color=#fff568>Wise Warrior Milestone</color>\nRack up points toward a 14-day milestone by spending Fire Essence in the limited-time Event Store. Earn Shang-Chi character shards, various gear, Elite 6 Credits, and more via the milestone rewards.\n\n<color=#fff568>10 Medallions</color>\nFind Medallions in the limited-time login calendar, milestones, and offers and then redeem each Medallion in the Orbs Section of the Fire Essence Event Store for various rewards. Each opened Medallion earns Achievement progress. Open 7 Medallions to earn enough Gold Phase Bits to obtain Shang-Chi's ""Battle Armor"" Costume. Open all 10 Medallions to earn additional Shang-Chi character shards.\n\n<color=#fff568>Shang-Chi Costume</color>\nThe Legend is your first opportunity to add Shang-Chi's ""Battle Armor"" Costume to your roster using Gold Phase Bits. Unused Bits will be converted to <color=#fff568>Costume Credits</color> on Sept 22nd, at 5:00PM (PDT) at a conversion rate of <color=#fff568>60%</color>.\n\n<color=#fff568>Bonus Events Coming Soon</color>\n<color=#fff568>Ionize</color> - When refreshing your Isotope-8 Campaign Energy, earn 2x the amount\n<color=#fff568>Raid Frenzy</color> - 20% cost reduction for Raid Energy, Heals, and Revives in Raids\n<color=#fff568>Train and Gain</color> - 2x Training Modules from Campaign nodes\n<color=#fff568>Energy Overload</color> - When refreshing your Campaign Energy, earn 2x the amount"
+ID_INFO_NA_MIGHTIESTWARRIORS,Mightiest Warriors
+ID_INFO_DE_MIGHTIESTWARRIORS,Power up your roster with 2x rewards
+ID_INFO_BO_MIGHTIESTWARRIORS,"Earn big rewards with the <color=#fff568>Mightiest Warriors</color> Bonus Event!\n\nFor 48 hours, the following rewards will be <color=#fff568>doubled</color> for all <color=#fff568>Heroes</color> Campaign nodes:\n\n- Character shards\n- Gold\n- Training Modules\n\nBonus Events are limited-time opportunities to earn extra rewards and resources. These valuable resources can help quickly power up your characters, so don't miss out on this limited-time event."
+ID_INFO_NA_MASTERPLAN,Master Plan
+ID_INFO_DE_MASTERPLAN,Power up your roster with 2x rewards
+ID_INFO_BO_MASTERPLAN,"Earn big rewards with the <color=#fff568>Master Plan</color> Event!\n\nFor 48 hours, the following rewards will be <color=#fff568>doubled</color> for all <color=#fff568>Villains</color> Campaign nodes:\n\n- Character shards\n- Gold\n- Training Modules\n\nThese resources can help quickly power up your characters, so don't miss out on this limited-time event."
+ID_INFO_NA_IONIZE_BONUS_EVENT,Ionize
+ID_INFO_DE_IONIZE_BONUS_EVENT,2x Isotope-8 Campaign Energy!
+ID_INFO_BO_IONIZE_BONUS_EVENT,"Earn more Iso-8 resources!\n\nFor 24 hours, the amount of Isotope-8 Campaign Energy will be doubled from 120 to 240 when purchased."
+ID_INFO_NA_THEBLEEDINGKING,The Bleeding King
+ID_INFO_DE_THEBLEEDINGKING,Absolute Carnage Costume and more!
+ID_INFO_BO_THEBLEEDINGKING,"Sink your teeth into the <color=#fff568>Absolute Carnage</color> costume and mouth-watering rewards.\n\n<color=#fff568>The Bleeding King Milestone</color>\nSlice and dice enemies in <color=#fff568>Alliance War, Arena,</color> and <color=#fff568>Raids</color> to earn points toward a 14-day milestone that rewards:\n\n- Yellow Phase Bits\n- Elite 4 & Elite 5 Credits\n- Ability Materials\n- Catalyst Parts\n- Gear\n\n<color=#fff568>Costume</color>\nThe Bleeding King is your first opportunity to add Carnage's <color=#fff568>Absolute Carnage</color> costume to your roster using Yellow Phase Bits.\n\nUnused Bits will be converted to <color=#fff568>Costume Credits</color> on September 30th at 5:00PM (PDT) at a conversion rate of <color=#fff568>60%</color>."
+ID_INFO_NA_UNSTABLEELEMENTS,Unstable Elements
+ID_INFO_DE_UNSTABLEELEMENTS,Earn T2 and T1 Iso-8!
+ID_INFO_BO_UNSTABLEELEMENTS,Stock up on Iso-8 with this limited-time event:\n\n<color=#fff568>Elementary Particles Currency</color>\nEarn limited-time <color=#fff568>Elementary Particles</color> Event Currency by completing select Daily Objectives and via offers in the Supplies Store.\n\n<color=#fff568>Elementary Particles Event Store</color>\nSpend your Elementary Particles in the <color=#fff568>Elementary Particles Event Store</color> where you can purchase <color=#fff568>T2 (Blue) & T1 (Green) Iso-8</color>.
+ID_INFO_NA_EXPERIMENTX,Experiment X
+ID_INFO_DE_EXPERIMENTX,"Weapon X Costume, Teal gear, and more!"
+ID_INFO_BO_EXPERIMENTX,"Claw your way to Wolverine's new costume and other rewards with this limited-time event:\n\n<color=#fff568>Experiment X Milestone</color>\nSpend Campaign Energy, Isotope-8 Energy, and Power Cores to earn points toward a one-day milestone that repeats for 14 days. Rewards include:\n\n- Pink Phase Bits\n- <color=#fff568>Teal</color>, Orange, and Purple gear\n- Silver and Gold Promotion Credits\n\n<color=#fff568>Costume</color>\nExperiment X is your first opportunity to add Wolverine's <color=#fff568>Weapon X</color> Costume to your roster using Pink Phase Bits.\n\nUnused Bits will be converted to Costume Credits on <color=#fff568>October 20th at 5:00PM (PDT)</color> at a conversation rate of <color=#fff568>60%</color>."

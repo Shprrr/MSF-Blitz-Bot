@@ -40,11 +40,11 @@ ID_AVE_KEY_EVENT02_NAME,Event 02 Key
 ID_AVE_KEY_EVENT02_DESCRIPTION,Collect keys to launch raids and earn ability materials. Each Campaign Energy you spend earns you one key.
 ID_AVE_KEY_EVENT03_NAME,Champions' Raid Key
 ID_AVE_KEY_EVENT03_DESCRIPTION,Collect keys to launch raids and earn ability materials. Each Campaign Energy you spend earns you one key.
-ID_RES_CAMPAIGN_ENERGY_EVENT01,Vote for Loki Energy
+ID_RES_CAMPAIGN_ENERGY_EVENT01,Curse of Muramasa Energy
 ID_RES_CAMPAIGN_ENERGY_EVENT02,Conspiracy Theories Energy
 ID_RES_CAMPAIGN_ENERGY_EVENT03,Shadow of Deathpool Energy
-ID_CAMPAIGN_ENERGY_EVENT01_NAME,Vote for Loki Energy
-ID_CAMPAIGN_ENERGY_EVENT01_DESCRIPTION,Used to launch Vote for Loki missions.
+ID_CAMPAIGN_ENERGY_EVENT01_NAME,Curse of Muramasa Energy
+ID_CAMPAIGN_ENERGY_EVENT01_DESCRIPTION,Used to launch Curse of Muramasa missions.
 ID_CAMPAIGN_ENERGY_EVENT02_NAME,Conspiracy Theories Energy
 ID_CAMPAIGN_ENERGY_EVENT02_DESCRIPTION,Used to launch Conspiracy Theories missions.
 ID_CAMPAIGN_ENERGY_EVENT03_NAME,Shadow of Deathpool Energy
@@ -146,12 +146,24 @@ ID_ELITE_6_CUR_NAME,Elite 6 Credit
 ID_ELITE_6_CUR_DESCRIPTION,Used to buy Elite 6 Star Orbs or Silver Promotion Credits.\n\nEarn Elite 6 Credits by collecting duplicate Red Stars from an Elite 5 Star Orb or better.
 ID_ELITE_7_CUR_NAME,Elite 7 Credit
 ID_ELITE_7_CUR_DESCRIPTION,Used to buy Elite 7 Star Orbs or Gold Promotion Credits.\n\nEarn Elite 7 Credits by collecting duplicate Red Stars from an Elite 6 Star Orb or better.
-ID_EVENT_CUR1_NAME,Fire Essence
-ID_EVENT_CUR1_DESCRIPTION,"Used to spend in the Fire Essence Store. Earn Fire Essence by participating in Campaign, Blitz, Raids, Arena, and Real-Time Arena."
+ID_EVENT_CUR1_NAME,Elementary Particles
+ID_EVENT_CUR1_DESCRIPTION,Used in the Elementary Particles Store. Earn Elementary Particles by completing select Daily Objectives.
 ID_EVENT_CUR2_NAME,Gear Credits
 ID_EVENT_CUR2_DESCRIPTION,"Used to open Purple Origin Gear Orbs and Purple Catalyst Orbs. Earn Gear Credits by participating in High Roller, Save the World, and World Warrior Milestones."
-ID_EVENT_CUR3_NAME,Classified Data
-ID_EVENT_CUR3_DESCRIPTION,"Used to open Orange, Purple, and Blue Hidden Threat Orbs. Earn Classified Data by participating in Campaign, Blitz, Raids, Arena, and Real-Time Arena."
+ID_EVENT_CUR3_NAME,Luminous Credits
+ID_EVENT_CUR3_DESCRIPTION,Used to open Luminous Cloak or Dagger Orbs. Earn Luminous Credits by participating in S.T.R.I.K.E. Pass Season 7.
+ID_EVENT_CUR4_NAME,Event Currency 4
+ID_EVENT_CUR4_DESCRIPTION,Used to do Event Currency 4 related things.
+ID_EVENT_CUR5_NAME,Event Currency 5
+ID_EVENT_CUR5_DESCRIPTION,Used to do Event Currency 5 related things.
+ID_EVENT_CUR6_NAME,Event Currency 6
+ID_EVENT_CUR6_DESCRIPTION,Used to do Event Currency 6 related things.
+ID_EVENT_CUR7_NAME,Event Currency 7
+ID_EVENT_CUR7_DESCRIPTION,Used to do Event Currency 7 related things.
+ID_EVENT_CUR8_NAME,Event Currency 8
+ID_EVENT_CUR8_DESCRIPTION,Used to do Event Currency 8 related things.
+ID_EVENT_CUR9_NAME,Event Currency 9
+ID_EVENT_CUR9_DESCRIPTION,Used to do Event Currency 9 related things.
 ID_PROMOTION_CUR_NAME,Silver Promotion Credit
 ID_PROMOTION_CUR_DESCRIPTION,Used to promote specific characters (up to 5 Red Stars).\n\nBuy Red Star Promotions from the Supplies Store.
 ID_PROMOTION_CUR_ADV_NAME,Gold Promotion Credit

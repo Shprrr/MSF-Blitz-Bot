@@ -173,6 +173,8 @@ ID_SHARD_KREESUPPORT_HOT_NAME,Kree Oracle
 ID_SHARD_KREESUPPORT_HOT_DESCRIPTION,A purifier who utilizes Kree technology to regenerate and cleanse his allies.
 ID_SHARD_KREETANK_COUNTER_NAME,Kree Royal Guard
 ID_SHARD_KREETANK_COUNTER_DESCRIPTION,A heavily armored Kree warrior who intercepts attackers with brutal counterattacks.
+ID_SHARD_LADYDEATHSTRIKE_NAME,Lady Deathstrike
+ID_SHARD_LADYDEATHSTRIKE_DESCRIPTION,"Lady Deathstrike uses her cybernetics to slice at enemies, applying Bleed and making them susceptible to negative effects that the rest of Weapon X can take advantage of."
 ID_SHARD_LOCKJAW_NAME,Lockjaw
 ID_SHARD_LOCKJAW_DESCRIPTION,
 ID_SHARD_LOKI_NAME,Loki
@@ -243,6 +245,8 @@ ID_SHARD_NOBU_NAME,Nobu
 ID_SHARD_NOBU_DESCRIPTION,A mysterious ninja master who summons Hand Ninjas and specializes in ambushing his opponents.
 ID_SHARD_OKOYE_NAME,Okoye
 ID_SHARD_OKOYE_DESCRIPTION,The general of the Dora Milaje who uses precision attacks to break down enemy defenses.
+ID_SHARD_OMEGARED_NAME,Omega Red
+ID_SHARD_OMEGARED_DESCRIPTION,"Omega Red uses his Mutant Death Aura to apply the Trauma status to foes, preventing their negative effects from being removed or flipped."
 ID_SHARD_PHOENIX_NAME,Phoenix
 ID_SHARD_PHOENIX_DESCRIPTION,"Jean Grey absorbs her enemies negative status effects, being reborn as Dark Phoenix if she falls in battle."
 ID_SHARD_DARKPHOENIX_NAME,Dark Phoenix
@@ -313,6 +317,8 @@ ID_SHARD_SHURI_NAME,Shuri
 ID_SHARD_SHURI_DESCRIPTION,A scientific genius who uses her Vibranium-powered tech to heal those in need and power up her fellow Wakandans.
 ID_SHARD_SIF_NAME,Sif
 ID_SHARD_SIF_DESCRIPTION,"Shield maiden of Asgard, Sif combines counterattacks and Taunt to protect her fellow Asgardians."
+ID_SHARD_SILVERSAMURAI_NAME,Silver Samurai
+ID_SHARD_SILVERSAMURAI_DESCRIPTION,"Silver Samurai channels energy through the Muramasa Blade and, when charged, delivers a series of powerful strikes that no enemy can recover from."
 ID_SHARD_SILVERSURFER_NAME,Silver Surfer
 ID_SHARD_SILVERSURFER_DESCRIPTION,"The Sentinel of the Spaceways, Silver Surfer travels the cosmos using the Power Cosmic to atone for his time as the Herald of Galactus."
 ID_SHARD_SPIDERMAN_NAME,Spider-Man

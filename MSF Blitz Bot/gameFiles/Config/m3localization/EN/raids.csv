@@ -131,6 +131,7 @@ ID_RAIDS_LEVEL_70_NAME,Ultimus VII
 ID_RAIDS_LEVEL_70_DESC,Earn Ability Materials
 ID_RAIDS_LEVEL_70_DETAILS,Take on the toughest enemies yet!\n\nRecommendations:\n- Squad Lvl 75+\n- Gear Tier 12+\n- Ability Lvl 7+\n- Red Stars 4+
 ID_RAIDS_LEVEL_80_DETAILS,Fight your way through the minions of Doom!\n\nRecommendations:\n- Squad Lvl 80+\n- Gear Tier 15+\n- Ability Lvl 7\n- Red Stars 5+\n- Iso-8 Class T1 Level 5+
+ID_RAIDS_LEVEL_85_DETAILS,Fight your way through the minions of Doom!\n\nRecommendations:\n- Squad Lvl 85+\n- Gear Tier 15+\n- Ability Lvl 7\n- Red Stars 5+\n- Iso-8 Class T2 Level 1+
 ID_RAIDS_HYDRA_KINGPIN_NAME,Kingpin Hydra Takedown
 ID_RAIDS_HYDRA_KINGPIN_DESC,Earn Rare Materials
 ID_RAIDS_HYDRA_KINGPIN_DETAILS,Take down Kingpin's base before his plan with Hydra is complete!
@@ -297,6 +298,8 @@ ID_RAIDS_DIFFICULTY_ENEMY_STATS,ENEMY BONUS STATS
 ID_RAIDS_DIFFICULTY_ENEMY_DELTA_STATS,ENEMY STATS CHANGES
 ID_RAIDS_DIFFICULTY_MATCH_REWARDS,per NODE
 ID_RAIDS_DIFFICULTY_TIER_REWARDS,per REWARD TIER
+ID_RAIDS_DIFFICULTY_ALLIANCE_BONUS,at {num}% RAID COMPLETION
+ID_RAIDS_DIFFICULTY_ALLIANCE_BONUS_CHAT_MSG,Your alliance has earned {goldAmt} Raid Season points by reaching {rankBlitz}% progress in {raidName} Difficulty {raidRewardTier}.
 ID_RAIDS_DIFFICULTY_SELECTED,SELECTED
 ID_RAIDS_DIFFICULTY_SELECT,SELECT
 ID_RAIDS_DIFFICULTY_DIFFICULTY,DIFFICULTY
@@ -344,4 +347,5 @@ ID_RAIDS_DOOM_RAIDS,Doom Raids
 ID_RAIDS_DOOM_I_NAME,Doom I
 ID_RAIDS_DOOM_I_FS_NAME,Doom I - First Strike
 ID_RAIDS_DOOM_II_NAME,Doom II
-ID_RAIDS_DOOMII_RAIDS_DESC,Earn Red Gear Materials
+ID_RAIDS_DOOMII_RAIDS_DESC,Earn Teal Gear
+ID_MISSION_RAID_DOOM02_BLANK_DESC,

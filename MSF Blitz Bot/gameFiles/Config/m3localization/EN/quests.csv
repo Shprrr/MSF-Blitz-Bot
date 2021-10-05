@@ -83,6 +83,7 @@ ID_MILESTONE_BLITZ_KREEDMG_OFFENSE,Win a Blitz battle with: Kree Cyborg
 ID_MILESTONE_BLITZ_KREEDMG_SPEED,Win a Blitz battle with: Kree Reaper
 ID_MILESTONE_BLITZ_KREESUPPORT_HOT,Win a Blitz battle with: Kree Oracle
 ID_MILESTONE_BLITZ_KREETANK_COUNTER,Win a Blitz battle with: Kree Royal Guard
+ID_MILESTONE_BLITZ_LADYDEATHSTRIKE,Win a Blitz battle with: Lady Deathstrike
 ID_MILESTONE_BLITZ_LOKI,Win a Blitz battle with: Loki
 ID_MILESTONE_BLITZ_LONGSHOT,Win a Blitz battle with: Longshot
 ID_MILESTONE_BLITZ_LUKECAGE,Win a Blitz battle with: Luke Cage
@@ -112,6 +113,7 @@ ID_MILESTONE_BLITZ_NICKFURY,Win a Blitz battle with: Nick Fury
 ID_MILESTONE_BLITZ_NIGHTNURSE,Win a Blitz battle with: Night Nurse
 ID_MILESTONE_BLITZ_NOBU,Win a Blitz battle with: Nobu
 ID_MILESTONE_BLITZ_OKOYE,Win a Blitz battle with: Okoye
+ID_MILESTONE_BLITZ_OMEGARED,Win a Blitz battle with: Omega Red
 ID_MILESTONE_BLITZ_PHOENIX,Win a Blitz battle with: Phoenix
 ID_MILESTONE_BLITZ_DARKPHOENIX,Win a Blitz battle with: Dark Phoenix
 ID_MILESTONE_BLITZ_PHYLAVELL,Win a Blitz battle with: Phyla-Vell
@@ -146,6 +148,7 @@ ID_MILESTONE_BLITZ_SHEHULK,Win a Blitz battle with: She-Hulk
 ID_MILESTONE_BLITZ_SHOCKER,Win a Blitz battle with: Shocker
 ID_MILESTONE_BLITZ_SHURI,Win a Blitz battle with: Shuri
 ID_MILESTONE_BLITZ_SIF,Win a Blitz battle with: Sif
+ID_MILESTONE_BLITZ_SILVERSAMURAI,Win a Blitz battle with: Silver Samurai
 ID_MILESTONE_BLITZ_SILVERSURFER,Win a Blitz battle with: Silver Surfer
 ID_MILESTONE_BLITZ_SPIDERMAN,Win a Blitz battle with: Spider-Man
 ID_MILESTONE_BLITZ_SQUIRRELGIRL,Win a Blitz battle with: Squirrel Girl
@@ -711,6 +714,20 @@ ID_BP_MISSION_DAMAGE_PROTECTOR,Damage with: Protector
 ID_BP_MISSION_DAMAGE_SKILL,Damage with: Skill
 ID_BP_MISSION_DAMAGE_SUPPORT,Damage with: Support
 ID_BP_MISSION_DAMAGE_VILLAIN,Damage with: Villain
+ID_BP_MISSION_SCORE50,"Score 50 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE100,"Score 100 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE150,"Score 150 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE200,"Score 200 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE500,"Score 500 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE1500,"Score 1500 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE2400,"Score 2400 Points (10 for RTA KOs, 3 for Blitz Wins)"
+ID_BP_MISSION_SCORE50_GENERIC,Score 50 Points
+ID_BP_MISSION_SCORE100_GENERIC,Score 100 Points
+ID_BP_MISSION_SCORE150_GENERIC,Score 150 Points
+ID_BP_MISSION_SCORE200_GENERIC,Score 200 Points
+ID_BP_MISSION_SCORE500_GENERIC,Score 500 Points
+ID_BP_MISSION_SCORE1500_GENERIC,Score 1500 Points
+ID_BP_MISSION_SCORE2400_GENERIC,Score 2400 Points
 ID_BP_MISSION_KNOCKOUT100,Get 100 Knockouts
 ID_BP_MISSION_KNOCKOUT150,Get 150 Knockouts
 ID_BP_MISSION_KNOCKOUT200,Get 200 Knockouts
@@ -1027,6 +1044,20 @@ ID_QU_LM_DEATHPOOL_SOLO,Complete Arena and Raid battles and spend Shadow of Deat
 ID_QU_SM_DEATHPOOL_SOLO,Earn points by completing Arena and Raid battles and spending Shadow of Deathpool Energy
 ID_QU_NA_THELEGEND,Wise Warrior
 ID_QU_SD_THELEGEND,Spend Fire Essence
-ID_QU_LM_THELEGEND,"Earn Fire Essence by participating in Campaign, Blitz, Raids, Arena, and Real-Time Arena. Spend those Credits in the limited-time Fire Essence Event Store."
+ID_QU_LM_THELEGEND,"Earn Fire Essence by participating in Campaign (excluding Event Campaign), Blitz, and select Daily Objectives. Spend those Credits in the limited-time Fire Essence Event Store."
 ID_QU_SM_THELEGEND,Earn points by spending Fire Essence
 ID_QU_S1_THELEGEND,Spend Fire Essence
+ID_QU_NA_THEBLEEDINGKING,The Bleeding King
+ID_QU_SD_THEBLEEDINGKING,Participate in combat
+ID_QU_LM_THEBLEEDINGKING,"Battle in Arena, Raid, and Alliance War to earn points for various milestone rewards."
+ID_QU_SM_THEBLEEDINGKING,Earn points by participating in combat
+ID_QU_S1_THEBLEEDINGKING,Win or Lose an Arena battle
+ID_QU_S2_THEBLEEDINGKING,Win or Lose a Raid battle
+ID_QU_S3_THEBLEEDINGKING,Win or Lose a War battle
+ID_QU_NA_EXPERIMENTX,Experiment X
+ID_QU_SD_EXPERIMENTX,Spend Energy and Power Cores
+ID_QU_LM_EXPERIMENTX,"Spend Campaign Energy, Iso-8 Campaign Energy, and Power Cores for various milestone rewards."
+ID_QU_SM_EXPERIMENTX,Earn points by spending Energy and Power Cores
+ID_QU_S1_EXPERIMENTX,Spend 1 Campaign Energy
+ID_QU_S2_EXPERIMENTX,Spend 1 Iso-8 Campaign Energy
+ID_QU_S3_EXPERIMENTX,Spend 1 Power Core

@@ -167,6 +167,8 @@ ID_LOGIN_NA_JU_PRE,"Like, Totally Jubilee"
 ID_LOGIN_DE_JU_PRE,Log in 7 consecutive days to earn Pym Tech shards!
 ID_LOGIN_NA_AW_PRE,The Infinity Watch
 ID_LOGIN_DE_AW_PRE,Log in 7 consecutive days to earn X-Factor shards!
+ID_LOGIN_NA_LE_STARLORD,Road to Star-Lord
+ID_LOGIN_DE_LE_STARLORD,Log in 14 consecutive days to unlock Mantis and earn materials to get battle ready for the Space Ace Legendary Event!
 ID_LOGIN_OFFER_NA_ADVANCED_CATALYST,Advanced
 ID_LOGIN_OFFER_DE_ADVANCED_CATALYST_03D,Log in 3 days to claim Advanced Basic Catalyst Parts from your premium calendar!
 ID_LOGIN_OFFER_DE_ADVANCED_CATALYST_05D,Log in 5 days to claim Advanced Basic Catalyst Parts from your premium calendar!
@@ -189,6 +191,10 @@ ID_LOGIN_OFFER_DE_ENERGY_03D,Log in 3 days to claim Campaign Energy from your pr
 ID_LOGIN_OFFER_DE_ENERGY_05D,Log in 5 days to claim Campaign Energy from your premium calendar!
 ID_LOGIN_OFFER_DE_ENERGY_07D,Log in 7 days to claim Campaign Energy from your premium calendar!
 ID_LOGIN_OFFER_DE_ENERGY_10D,Log in 10 days to claim Campaign Energy from your premium calendar!
+ID_LOGIN_OFFER_DE_ENERGY_14D,Log in 14 days to claim Campaign Energy from your premium calendar!
+ID_LOGIN_OFFER_DE_ENERGY_20D,Log in 20 days to claim Campaign Energy from your premium calendar!
+ID_LOGIN_OFFER_DE_ENERGY_28D,Log in 28 days to claim Campaign Energy from your premium calendar!
+ID_LOGIN_OFFER_DE_ENERGY_30D,Log in 30 days to claim Campaign Energy from your premium calendar!
 ID_LOGIN_OFFER_NA_GOLD,Gold
 ID_LOGIN_OFFER_DE_GOLD_03D,Log in 3 days to claim Gold from your premium calendar!
 ID_LOGIN_OFFER_DE_GOLD_05D,Log in 5 days to claim Gold from your premium calendar!
@@ -386,3 +392,7 @@ ID_LOGIN_NA_THELEGEND,The Legend
 ID_LOGIN_DE_THELEGEND,"Log in every day to earn valuable gear, resources and 4 Medallions to help unlock the Shang-Chi Costume!"
 ID_LOGIN_NA_SHANGCHI_NU,Warrior for Hire Calendar
 ID_LOGIN_DE_SHANGCHI_NU,"Add Shang-Chi, the War Defense Warrior, to your roster with this limited-time calendar."
+ID_LOGIN_NA_HELA,Hela
+ID_LOGIN_NA_VENOM,Venom
+ID_LOGIN_DE_NEW_USER,Thank you for playing MARVEL Strike Force. Continue logging in to earn more rewards!
+ID_LOGIN_NA_CARNAGE,Carnage

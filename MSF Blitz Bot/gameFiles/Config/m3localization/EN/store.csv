@@ -221,6 +221,10 @@ ID_GACHA_CRATE_RAID_ORANGE_GEARMATS_NAME,Orange Gear Raid Orb
 ID_GACHA_CRATE_RAID_ORANGE_GEARMATS_DESCRIPTION,Contains orange gear materials
 ID_GACHA_CRATE_RAID_ORANGE_GEARMATS_TOKEN_DESCRIPTION,Collect Orange Gear Raid Orb Fragments to earn an Orange Gear Raid Orb
 ID_GACHA_CRATE_RAID_ORANGE_GEARMATS_TOKEN_NAME,Orange Gear Raid Orb Fragments
+ID_GACHA_CRATE_RAID_TEAL_GEARMATS_NAME,Teal Gear Raid Orb
+ID_GACHA_CRATE_RAID_TEAL_GEARMATS_DESCRIPTION,Contains teal gear materials
+ID_GACHA_CRATE_RAID_TEAL_GEARMATS_TOKEN_NAME,Teal Gear Raid Orb Fragments
+ID_GACHA_CRATE_RAID_TEAL_GEARMATS_TOKEN_DESCRIPTION,Collect Teal Gear Raid Orb Fragments to earn a Teal Gear Raid Orb
 ID_GACHA_CRATE_W_BLUE_NAME,Blue Gear War Orb
 ID_GACHA_CRATE_W_BLUE_DESCRIPTION,Contains blue gear and blue gear materials
 ID_GACHA_CRATE_W_BLUE_TOKEN_NAME,Blue Gear War Orb Fragments
@@ -232,7 +236,11 @@ ID_GACHA_CRATE_W_PURPLE_TOKEN_DESCRIPTION,Collect Purple Gear War Orb Fragments 
 ID_GACHA_CRATE_W_ORANGE_NAME,Orange Gear War Orb I
 ID_GACHA_CRATE_W_ORANGE_DESCRIPTION,Contains orange gear and Unique gear materials
 ID_GACHA_CRATE_W_ORANGE_TOKEN_NAME,Orange Gear War Orb I Fragments
-ID_GACHA_CRATE_W_ORANGE_TOKEN_DESCRIPTION,Collect Orange Gear War Orb I Fragments to earn a Orange Gear War Orb I.
+ID_GACHA_CRATE_W_ORANGE_TOKEN_DESCRIPTION,Collect Orange Gear War Orb I Fragments to earn an Orange Gear War Orb I.
+ID_GACHA_CRATE_W_TEAL_NAME,Teal Gear War Orb
+ID_GACHA_CRATE_W_TEAL_DESCRIPTION,Contains teal gear and Unique gear materials
+ID_GACHA_CRATE_W_TEAL_TOKEN_NAME,Teal Gear War Orb Fragments
+ID_GACHA_CRATE_W_TEAL_TOKEN_DESCRIPTION,Collect Teal Gear War Orb Fragments to earn a Teal Gear War Orb.
 ID_GACHA_CRATE_RAID_ELITE_ORANGE_GEARMATS_NAME,Orange Elite Orb
 ID_GACHA_CRATE_RAID_ELITE_ORANGE_GEARMATS_DESCRIPTION,Contains orange gear and Unique gear materials
 ID_GACHA_CRATE_RAID_ELITE_ORANGE_GEARMATS_TOKEN_DESCRIPTION,Collect Orange Elite Orb Fragments to earn an Orange Elite Orb.
@@ -495,6 +503,17 @@ ID_OF_DE_DEATHPOOL_MORB_500,Take advantage of this limited-time deal and complet
 ID_OF_NA_DEATHPOOL_ENERGY_OFFER_1,Shadow of Deathpool Energy Offer
 ID_OF_NA_DEATHPOOL_ENERGY_OFFER_2,Shadow of Deathpool Energy Bundle
 ID_OF_DE_DEATHPOOL_ENERGY_OFFER_1,Save on <color=#fff568>Shadow of Deathpool Energy</color> with this offer! Play in the Shadow of Deathpool Campaign and recruit Deathpool!
+ID_GACHA_CRATE_EVENT_CAMPAIGN_SILVERSAMURAI_202110_NAME,Honorable Orb
+ID_GACHA_CRATE_EVENT_CAMPAIGN_SILVERSAMURAI_202110_DESCRIPTION,Earn Honorable Orb Fragments in the Curse of Muramasa Event Campaign.
+ID_GACHA_CRATE_EVENT_CAMPAIGN_SILVERSAMURAI_202110_TOKEN_NAME,Honorable Orb Fragments
+ID_GACHA_CRATE_EVENT_CAMPAIGN_SILVERSAMURAI_202110_TOKEN_DESCRIPTION,Collect Honorable Orb Fragments in the Curse of Muramasa Event Campaign to earn Honorable Orbs.
+ID_OF_NA_SILVERSAMURAI_ECO_OFFER,Honorable Orb Offer
+ID_OF_DE_SILVERSAMURAI_ECO_OFFER_VAR,Save on <color=#fff568>{var1} Honorable Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 28 character shards</color>!
+ID_OF_NA_SILVERSAMURAI_MORB_1,Honorable Orb Fragments
+ID_OF_DE_SILVERSAMURAI_MORB_500,Take advantage of this limited-time deal and complete your orb! Get <color=#fff568>500 Honorable Orb Fragments</color> with this offer!
+ID_OF_NA_SILVERSAMURAI_ENERGY_OFFER_1,Curse of Muramasa Energy Offer
+ID_OF_NA_SILVERSAMURAI_ENERGY_OFFER_2,Curse of Muramasa Energy Bundle
+ID_OF_DE_SILVERSAMURAI_ENERGY_OFFER_1,Save on <color=#fff568>Curse of Muramasa Energy</color> with this offer! Play in the Curse of Muramasa Campaign and recruit Silver Samurai!
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_NAME,Serendipity Orb
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_DESCRIPTION,Earn Serendipity Orb Fragments in the Serendipity Event Campaign.
 ID_GACHA_CRATE_EVENT_CAMPAIGN_DOMINO_202006_TOKEN_NAME,Serendipity Orb Fragments
@@ -2199,6 +2218,10 @@ ID_GACHA_CRATE_FCO_KREESUPPORT_HOT_SPECIAL_NAME,Farseer Orb
 ID_GACHA_CRATE_FCO_KREESUPPORT_HOT_SPECIAL_DESCRIPTION,Get up to 180 Kree Oracle shards
 ID_GACHA_CRATE_FCO_KREESUPPORT_HOT_SPECIAL_TOKEN_NAME,Farseer Orb Fragments
 ID_GACHA_CRATE_FCO_KREESUPPORT_HOT_SPECIAL_TOKEN_DESCRIPTION,Collect Farseer Orb Fragments to earn a Farseer Orb.
+ID_GACHA_CRATE_FCO_LADYDEATHSTRIKE_SPECIAL_NAME,Tough as Nails Orb
+ID_GACHA_CRATE_FCO_LADYDEATHSTRIKE_SPECIAL_DESCRIPTION,Earn up to 180 Lady Deathstrike shards
+ID_GACHA_CRATE_FCO_LADYDEATHSTRIKE_SPECIAL_TOKEN_NAME,Tough as Nails Orb Fragments
+ID_GACHA_CRATE_FCO_LADYDEATHSTRIKE_SPECIAL_TOKEN_DESCRIPTION,Collect Tough as Nails Orb Fragments to earn a Tough as Nails Orb.
 ID_GACHA_CRATE_FCO_LOKI_SPECIAL_NAME,God of Mischief Orb
 ID_GACHA_CRATE_FCO_LOKI_SPECIAL_DESCRIPTION,Get up to 180 Loki shards
 ID_GACHA_CRATE_FCO_LOKI_SPECIAL_TOKEN_NAME,God of Mischief Orb Fragments
@@ -3137,6 +3160,10 @@ ID_OF_DE_SIF_OFFER_55,"Get <color=#fff568>55 Sif shards</color> and use her to d
 ID_OF_DE_SIF_OFFER_75,"Get <color=#fff568>75 Sif shards</color> and use her to draw enemy fire with a Taunt fortified by Block and Deflect, then make enemies pay with Counter!"
 ID_OF_DE_SIF_OFFER_125,"Get <color=#fff568>125 Sif shards</color> and use her to draw enemy fire with a Taunt fortified by Block and Deflect, then make enemies pay with Counter!"
 ID_OF_DE_SIF_OFFER_150,"Get <color=#fff568>150 Sif shards</color> and use her to draw enemy fire with a Taunt fortified by Block and Deflect, then make enemies pay with Counter!"
+ID_GACHA_CRATE_FCO_SILVERSAMURAI_SPECIAL_NAME,Tachyon Warrior Orb
+ID_GACHA_CRATE_FCO_SILVERSAMURAI_SPECIAL_DESCRIPTION,Earn up to 180 Silver Samurai shards
+ID_GACHA_CRATE_FCO_SILVERSAMURAI_SPECIAL_TOKEN_NAME,Tachyon Warrior Orb Fragments
+ID_GACHA_CRATE_FCO_SILVERSAMURAI_SPECIAL_TOKEN_DESCRIPTION,Collect Tachyon Warrior Orb Fragments to earn a Tachyon Warrior Orb.
 ID_GACHA_CRATE_FCO_SILVERSURFER_SPECIAL_NAME,The Herald Orb
 ID_GACHA_CRATE_FCO_SILVERSURFER_SPECIAL_DESCRIPTION,Earn up to 180 Silver Surfer shards
 ID_GACHA_CRATE_FCO_SILVERSURFER_SPECIAL_TOKEN_NAME,The Herald Orb Fragments
@@ -4940,12 +4967,12 @@ ID_OF_NA_GENERIC_OFFER_1,Special Offer
 ID_OF_DE_GENERIC_OFFER_1,Fortify your roster with this character and more for a limited time!
 ID_OF_NA_GENERIC_OFFER_2,Special Offer
 ID_OF_DE_GENERIC_OFFER_2,Fortify your roster with these characters and more for a limited time!
-ID_OF_NA_GENERIC_1,Limited Time Sale
-ID_OF_NA_GENERIC_2,Heroic Deal
-ID_OF_NA_GENERIC_3,Exclusive Offer
-ID_OF_NA_GENERIC_4,Super Savings
-ID_OF_NA_GENERIC_5,Deep Discount
-ID_OF_NA_GENERIC_6,Last Chance Discount
+ID_OF_NA_GENERIC_1,LIMITED TIME SALE
+ID_OF_NA_GENERIC_2,HEROIC DEAL
+ID_OF_NA_GENERIC_3,EXCLUSIVE OFFER
+ID_OF_NA_GENERIC_4,SUPER SAVINGS
+ID_OF_NA_GENERIC_5,DEEP DISCOUNT
+ID_OF_NA_GENERIC_6,LAST CHANCE DISCOUNT
 ID_OF_DE_GENERIC_1,Save big for a limited time!
 ID_OF_DE_GENERIC_2,Unlock your discount before it's gone!
 ID_OF_DE_GENERIC_PERC_1,Get 30% off for a limited time!
@@ -5487,6 +5514,14 @@ ID_OF_DE_OGEARBIT_60,Get this bundle of orange Superior gear parts to power up y
 ID_OF_DE_OGEARBIT_70,Get this bundle of orange Superior gear parts to power up your characters' gear. Get over <color=#fff568>70%</color> off when you buy now!
 ID_OF_DE_OGEARBIT_80,Get this bundle of orange Superior gear parts to power up your characters' gear. Get over <color=#fff568>80%</color> off when you buy now!
 ID_OF_DE_OGEARBIT_90,Get this bundle of orange Superior gear parts to power up your characters' gear. Get over <color=#fff568>90%</color> off when you buy now!
+ID_OF_NA_TGEAR_BIO_1,Augmented Bio Gear Offer
+ID_OF_NA_TGEAR_MYSTIC_1,Augmented Mystic Gear Offer
+ID_OF_NA_TGEAR_MUTANT_1,Augmented Mutant Gear Offer
+ID_OF_NA_TGEAR_SKILL_1,Augmented Skill Gear Offer
+ID_OF_NA_TGEAR_TECH_1,Augmented Tech Gear Offer
+ID_OF_NA_TGEARBIT_1,Power Up Your Teal Gear
+ID_OF_NA_TGEARBIT_2,Power Up Your Augmented Gear
+ID_OF_DE_TGEARBIT_VAR,Get this bundle of teal Augmented gear parts to power up your characters' gear. Get over <color=#fff568>{var1}%</color> off when you buy now!
 ID_OF_NA_BCAT_1,Improved Basic Catalyst Offer
 ID_OF_DE_CAT_OFFER_20,Buy these Improved Basic Catalysts and power up your characters' gear. Get over <color=#fff568>20%</color> off when you buy now!
 ID_OF_DE_CAT_OFFER_30,Buy these Improved Basic Catalysts and power up your characters' gear. Get over <color=#fff568>30%</color> off when you buy now!
@@ -5511,6 +5546,8 @@ ID_OF_DE_OCATBIT_OFFER_40,Buy these Superior Basic Catalyst Parts and power up y
 ID_OF_DE_OCATBIT_OFFER_50,Buy these Superior Basic Catalyst Parts and power up your characters' gear. Get over <color=#fff568>50%</color> off when you buy now!
 ID_OF_DE_OCATBIT_OFFER_60,Buy these Superior Basic Catalyst Parts and power up your characters' gear. Get over <color=#fff568>60%</color> off when you buy now!
 ID_OF_DE_OCATBIT_OFFER_70,Buy these Superior Basic Catalyst Parts and power up your characters' gear. Get over <color=#fff568>70%</color> off when you buy now!
+ID_OF_NA_TCATBIT_1,Augmented Basic Catalyst Offer
+ID_OF_DE_TCATBIT_OFFER_VAR,Buy these Augmented Basic Catalyst Parts and power up your characters' gear. Get over <color=#fff568>{var1}%</color> off when you buy now!
 ID_OF_NA_SSS_IBC_OFFER_01,IBC Tier 1
 ID_OF_DE_SSS_IBC_OFFER_50,"Get <color=#fff568>over 50%</color> off when you buy now, and access the <color=#fff568>IBC Tier 2 offer</color> that will save you <color=#fff568>over 60%</color> on Improved Basic Catalysts."
 ID_OF_NA_SSS_IBC_OFFER_02,IBC Tier 2
@@ -6615,11 +6652,11 @@ ID_OF_DE_LE_SINISTERSIX_BUNDLE_VAR2,"Conquer the Princess and the Symbiote event
 ID_OF_NA_EVENT_ENERGY_01,Energy Event Offer
 ID_OF_DE_EVENT_ENERGY_01_VAR,Save big on this offer and receive <color=#fff568>{var1} event energy</color> to progress in your event campaign!
 ID_OF_NA_GT15_DEFAULT,Gear Tier 15 Offer
-ID_OF_DE_GT15_DEFAULT_TECH,Save on this spectacular offer and get <color=#fff568>{var1} Superior tech</color>gear parts to help level your roster toward Gear Tier 15!
-ID_OF_DE_GT15_DEFAULT_BIO,Save on this spectacular offer and get <color=#fff568>{var1} Superior bio</color>gear parts to help level your roster toward Gear Tier 15!
-ID_OF_DE_GT15_DEFAULT_MYSTIC,Save on this spectacular offer and get <color=#fff568>{var1} Superior mystic</color>gear parts to help level your roster toward Gear Tier 15!
-ID_OF_DE_GT15_DEFAULT_MUTANT,Save on this spectacular offer and get <color=#fff568>{var1} Superior mutant</color>gear parts to help level your roster toward Gear Tier 15!
-ID_OF_DE_GT15_DEFAULT_SKILL,Save on this spectacular offer and get <color=#fff568>{var1} Superior skill</color>gear parts to help level your roster toward Gear Tier 15!
+ID_OF_DE_GT15_DEFAULT_TECH,Save on this spectacular offer and get <color=#fff568>{var1} Superior Tech</color> gear parts to help level your roster toward Gear Tier 15!
+ID_OF_DE_GT15_DEFAULT_BIO,Save on this spectacular offer and get <color=#fff568>{var1} Superior Bio</color> gear parts to help level your roster toward Gear Tier 15!
+ID_OF_DE_GT15_DEFAULT_MYSTIC,Save on this spectacular offer and get <color=#fff568>{var1} Superior Mystic</color> gear parts to help level your roster toward Gear Tier 15!
+ID_OF_DE_GT15_DEFAULT_MUTANT,Save on this spectacular offer and get <color=#fff568>{var1} Superior Mutant</color> gear parts to help level your roster toward Gear Tier 15!
+ID_OF_DE_GT15_DEFAULT_SKILL,Save on this spectacular offer and get <color=#fff568>{var1} Superior Skill</color> gear parts to help level your roster toward Gear Tier 15!
 ID_OF_DE_FALCON_WINTER_ORANGE_UNIQUE_02,Save <color=#fff568>over {var1}%</color> with this spectacular offer and get <color=#fff568>{var2}</color> Superior Carbonadium pieces!
 ID_OF_DE_LC_HYDRA_BUNDLE_02_VAR,"Unlock this <color=#fff568>{var1}-Star Hydra team</color> and take on Alliance War! This bundle includes <color=#fff568>{var2} Shards</color> of:\n<color=#fff568>Baron Zemo, Crossbones, Winter Soldier, Kingpin, and Hydra Grenadier.</color>"
 ID_OF_NA_LC_CAPTAIN_AMERICA_TRIO_VAR,Team Captain America
@@ -6984,4 +7021,90 @@ ID_OF_LOGIN_DE_MINERVA_DD_V2,Unlock Minn-Erva with this amazing offer! Log in fo
 ID_OF_DE_3456_RSDRAFT_MUTANT_CONTROLLER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Jubilee, Emma Frost, Phoenix, Iceman, and Domino.</color>"
 ID_OF_DE_345_RSDRAFT_MUTANT_CONTROLLER_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, or 5 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 5) for each of the following characters:\n<color=#fff568>Jubilee, Emma Frost, Phoenix, Iceman, and Domino.</color>"
 ID_OF_NA_DARKPROMOCREDITS_ASB_01,Dark Promotion Credit Draft
-ID_OF_DE_DARKPROMOCREDITS_ASB_01,"Save big on this Dark Promotion Credit Offer and get a chance to earn one of the following, 100 Dark Promotion Credits (90% chance), 300 Dark Promotion Credits (9% chance), or 1000 Dark Promotion Credits (1% chance)!"
+ID_OF_DE_DARKPROMOCREDITS_ASB_01,"Save big on this Dark Promotion Credit Offer and get {var1} Dark Promotion Credit Orbs! Each orb contains a chance to earn one of the following, 100 Dark Promotion Credits (90% chance), 300 Dark Promotion Credits (9% chance), or 1000 Dark Promotion Credits (1% chance) (Orbs open upon purchase)!"
+ID_GACHA_CRATE_FCO_CLOAK_DAGGER_SPECIAL_NAME,Luminous Orb - Cloak
+ID_GACHA_CRATE_FCO_CLOAK_DAGGER_SPECIAL_DESCRIPTION,Guarantees 5 Cloak Shards
+ID_GACHA_CRATE_FCO_DAGGER_CLOAK_SPECIAL_NAME,Luminous Orb - Dagger
+ID_GACHA_CRATE_FCO_DAGGER_CLOAK_SPECIAL_DESCRIPTION,Guarantees 5 Dagger Shards
+ID_OF_NA_LC_SHARD_TEAM_GOTG_ENERGY_01,Guardians of the Galaxy Supercharge Offer
+ID_OF_DE_LC_SHARD_TEAM_GOTG_ENERGY_01,"Unlock the Guardians of the Galaxy team and accelerate your Heroes Campaign progress with an energy calendar! Get an incredible total of 7,000 energy through the course of 7 days!"
+ID_OF_NA_LC_SHARD_TEAM_GOTG_ENERGY_02,Guardians of the Galaxy Booster
+ID_OF_DE_LC_SHARD_TEAM_GOTG_ENERGY_02,Take your Guardians of the Galaxy team even further with this offer! Boost your Guardians of the Galaxy to 5 stars to get the team ready to unlock Star-Lord!
+ID_OF_NA_LC_SHARD_TEAM_SINISTERSIX_ENERGY_01,Sinister Six Supercharge Offer
+ID_OF_DE_LC_SHARD_TEAM_SINISTERSIX_ENERGY_01,"Unlock the Sinister Six team and accelerate your Villains Campaign progress with an energy calendar! Get an incredible total of 10,000 energy through the course of 14 days!"
+ID_OF_NA_LC_SHARD_TEAM_SINISTERSIX_ENERGY_02,Sinister Six Booster
+ID_OF_DE_LC_SHARD_TEAM_SINISTERSIX_ENERGY_02,Take your Sinister Six team even further with this offer! Boost your Sinister Six to 5 stars to get the team ready to unlock Shuri and Invisible Woman!
+ID_OF_NA_RING1,Silver Medallion Offer
+ID_OF_DE_RING1,This spectacular offer will give you <color=#fff568>1 Silver Medallion</color> which contains 30 Shang-Chi character shards and up to 20 Colleen Wing and Misty Knight character shards!
+ID_OF_NA_RING2,Gold Medallion Offer
+ID_OF_DE_RING2,"This spectacular offer will give you <color=#fff568>1 Gold Medallion</color> which contains 36 Mini-Uniques for Gear Tier 15 and up to 75,000 Gold!\n*You need to be Player Level 75 to be able to use the Mini-Uniques"
+ID_OF_NA_RING3,Redwood Medallion Offer
+ID_OF_DE_RING3,"This spectacular offer will give you <color=#fff568>1 Redwood Medallion</color> which contains up to 30,000 War Credits!"
+ID_OF_NA_THELEGEND_DAILY_ENERGY,Daily Fire Essence Offer
+ID_OF_DE_THELEGEND_DAILY_ENERGY,Get <color=#fff568>{var1} Fire Essence currency</color> to spend in the <color=#fff568>Fire Essence Event Store</color>!
+ID_OF_NA_THELEGEND_STARTER_BIG,The Legend Big Bundle
+ID_OF_DE_THELEGEND_STARTER_BIG,Save <color=#fff568>over {var1}%</color> and get <color=#fff568>{var2} Fire Essence currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Fire Essence Event Store</color>.
+ID_OF_NA_THELEGEND_STARTER_SMALL,The Legend Small Bundle
+ID_OF_DE_THELEGEND_STARTER_SMALL,Save <color=#fff568>over {var1}%</color> and get <color=#fff568>{var2} Fire Essence currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Fire Essence Event Store</color>.
+ID_OF_NA_THELEGEND_CATCHUP,The Legend Catch-Up Offer
+ID_OF_DE_THELEGEND_CATCHUP,Save <color=#fff568>over {var1}%</color> and get <color=#fff568>{var2} Fire Essence currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Fire Essence Event Store</color> and complete The Legend Milestone.
+ID_OF_NA_GOLD_STC_OFFER_01,Gold Phase Bits Offer
+ID_OF_DE_GOLD_STC_OFFER_01,"Save <color=#fff568>over {var1}%</color> on this exclusive bundle and get <color=#fff568>Gold Phase Bits</color> to buy the ""Battle Armor"" Costume for Shang-Chi before it disappears from the store!"
+ID_OF_NA_PICK_TEAM_HEROES_FOR_HIRE,Heroes for Hire Team Offer
+ID_OF_DE_PICK_TEAM_HEROES_FOR_HIRE,"Save big on this <color=#fff568>Heroes for Hire team</color> and battle against Ultimus! This bundle includes <color=#fff568>100 Shards</color> of <color=#fff568>Colleen Wing, Misty Knight, and Iron Fist</color>, and <color=#fff568>45 Shards</color> of <color=#fff568>Luke Cage and Jessica Jones</color>"
+ID_OF_DE_3456_RSDRAFT_H4H_01_VAR,"Get an equal chance of either a <color=#fff568>3, 4, 5, or 6 Red Star</color> (Minimum Red Star level 3, Maximum Red Star Level 6) for each of the following characters:\n<color=#fff568>Colleen Wing, Misty Knight, Luke Cage, Jessica Jones, and Iron Fist.</color>"
+ID_OF_NA_CLOAK_FCO_OFFER,Within the Shadows Orb Offer
+ID_OF_DE_CLOAK_FCO_OFFER_VAR_SU,Recruit a <color=#fff568>{var1}-star Cloak</color> with this offer! Each orb has a chance to earn up to 180 shards. Snuff out enemies by stealing Health from enemies each turn and boosting Dagger with powerful synergies.
+ID_OF_DE_CLOAK_FCO_OFFER_VAR_S,Save on <color=#fff568>{var1} Within the Shadows Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Cloak shards</color>. Snuff out enemies by stealing Health from enemies each turn and boosting Dagger with powerful synergies.
+ID_OF_NA_CLOAK_SHARD_OFFER,Within the Shadows Offer
+ID_OF_DE_CLOAK_OFFER_VAR_S,"Get <color=#fff568>{var1} Cloak shards</color> and snuff out enemies by stealing Health from enemies each turn and boosting Dagger with powerful synergies. "
+ID_OF_NA_DAGGER_FCO_OFFER,Light of Hope Orb Offer
+ID_OF_DE_DAGGER_FCO_OFFER_VAR_SU,Recruit a <color=#fff568>{var1}-star Dagger</color> with this offer! Each orb has a chance to earn up to 180 shards. Light up Raids with powerful heals and synergies with Cloak and Mystic Heroes.
+ID_OF_DE_DAGGER_FCO_OFFER_VAR_S,Save on <color=#fff568>{var1} Light of Hope Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Dagger shards</color>. Light up Raids with powerful heals and synergies with Cloak and Mystic Heroes.
+ID_OF_NA_DAGGER_SHARD_OFFER,Light of Hope Offer
+ID_OF_DE_DAGGER_OFFER_VAR_S,Get <color=#fff568>{var1} Dagger shards</color> and light up Raids with powerful heals and synergies with Cloak and Mystic Heroes.
+ID_OF_NA_ABSOLUTECARNAGE_STC_01,Absolute Carnage Bundle
+ID_OF_DE_DUAL_ABSOLUTECARNAGE_STC_STARTER_01,"Choose a 4-6 Carnage Red Star Draft or 100 Shards of Carnage and get Bits for ""Absolute Carnage""!"
+ID_OF_NA_DUAL_ABSOLUTECARNAGE_STOREBAR_01,ABSOLUTE CARNAGE
+ID_OF_DE_ABSOLUTECARNAGE_STC_DAILY_01,"Keep up your progress to unlock the ""Absolute Carnage"" Costume by purchasing this offer!"
+ID_OF_DE_ABSOLUTECARNAGE_STC_CATCHUP_01,"Get Yellow Phase Bits and catch up on unlocking the ""Absolute Carnage"" Costume before it leaves the store!"
+ID_OF_NA_TEAL_UNIQUE_OFFER,Teal Unique Gear Offer
+ID_OF_DE_TEAL_UNIQUE_OFFER,Save <color=#fff568>over {var1}%</color> with this spectacular offer and get <color=#fff568>{var2}</color> pieces of teal unique gear!
+ID_OF_NA_GT16_DRAFT_01,Gear Tier 16 Draft
+ID_OF_DE_GT16_DRAFT_VAR,Save on this spectacular offer and get <color=#fff568>{var1} Augmented</color> gear parts to help level your roster toward Gear Tier 16!
+ID_OF_NA_UNSTABLE_STARTWEEK_GREEN_OFFER_01,Unstable Large Green Bundle
+ID_OF_DE_UNSTABLE_STARTWEEK_GREEN_OFFER_01,Save big on this offer and get <color=#fff568>{var1} Elementary Particles currency</color> and more! Use this currency in the limited-time <color=#fff568>Elementary Particles Event Store</color>.
+ID_OF_NA_UNSTABLE_STARTWEEK_BLUE_OFFER_01,Unstable Large Blue Bundle
+ID_OF_DE_UNSTABLE_STARTWEEK_BLUE_OFFER_01,Save big and get <color=#fff568>{var1} Elementary Particles currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Elementary Particles Event Store</color>. Iso-8 T2 (Blue) unlocks at level 75.
+ID_OF_NA_UNSTABLE_MIDWEEK_GREEN_OFFER_01,Unstable Small Green Bundle
+ID_OF_DE_UNSTABLE_MIDWEEK_GREEN_OFFER_01,Save big on this offer and get <color=#fff568>{var1} Elementary Particles currency</color> and more! Use this currency in the limited-time <color=#fff568>Elementary Particles Event Store</color>.
+ID_OF_NA_UNSTABLE_MIDWEEK_BLUE_OFFER_01,Unstable Small Blue Bundle
+ID_OF_DE_UNSTABLE_MIDWEEK_BLUE_OFFER_01,Save big and get <color=#fff568>{var1} Elementary Particles currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Elementary Particles Event Store</color>. Iso-8 T2 (Blue) unlocks at level 75.
+ID_OF_NA_UNSTABLE_ENDWEEK_OFFER_01,Elementary Particles Bundle
+ID_OF_DE_UNSTABLE_ENDWEEK_OFFER_01,Save big and get <color=#fff568>{var1} Elementary Particles currency</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Elementary Particles Event Store</color>. Iso-8 T2 (Blue) unlocks at level 75.
+ID_OF_NA_UNSTABLE_DAILY_IONS_OFFER_01,Unstable Ions Offer
+ID_OF_DE_UNSTABLE_DAILY_IONS_OFFER_01,Save on <color=#fff568>{var1} T2 Ions</color> and <color=#fff568>{var2} T1 Ions</color> with this offer! Fuse your Iso-8 Crystals or upgrade your Class Level with these Ions.
+ID_OF_NA_UNSTABLE_TOPOFF_OFFER_01,Elementary Particles Catch-Up Offer
+ID_OF_DE_UNSTABLE_TOPOFF_OFFER_01,Save on <color=#fff568>{var1} Elementary Particles</color> and more with this offer! Use this currency in the limited-time <color=#fff568>Elementary Particles Store</color> before it's gone!
+ID_OF_NA_PICK_XFACTOR_ADAMWARLOCK,Team X-Factor Investigations Offer
+ID_OF_DE_PICK_XFACTOR_ADAMWARLOCK,"Save big on this <color=#fff568>X-Factor team</color>bundle and prepare for Adam Warlock! This bundle includes <color=#fff568>{var1} Shards</color> of <color=#fff568>Shatterstar and Longshot</color>, and <color=#fff568>{var2} Shards</color> of <color=#fff568>Polaris and Multiple Man</color>!"
+ID_OF_NA_DUAL_GOLD_STOREBAR_01,DUAL GOLD OFFER
+ID_OF_NA_DUAL_LEGACY_STOREBAR_01,DUAL LEGACY OFFER
+ID_OF_NA_DUAL_KREE_STOREBAR_01,PREPARE FOR NICK FURY
+ID_OF_NA_DUAL_OMEGA_STOREBAR_01,OMEGA RED UNLOCK OFFER
+ID_OF_NA_TEAL_STATCAT_DRAFT,Teal Catalyst Parts Draft
+ID_OF_DE_TEAL_STATCAT_DRAFT,"Save <color=#fff568>over {var1}%</color> with this valuable offer and get <color=#fff568>{var2}</color> chances at <color=#fff568>{var3}</color> pieces of Augmented Damage, Focus, Health, Armor, or Resistance Catalyst Parts (for a total of <color=#fff568>{var4}</color> Catalyst Parts)!"
+ID_OF_NA_GT16_MINIUNIQUE_DRAFT_01,Gear Tier 16 Mini-Unique Draft
+ID_OF_DE_GT16_MINIUNIQUE_DRAFT_VAR,Save on this spectacular offer and get <color=#fff568>{var1}</color> Augmented Gear Tier 16 Mini-Uniques to help level your roster toward Gear Tier 16!
+ID_OF_NA_TEAL_BIG_OFFER,Gigantic Teal Gear Bundle!
+ID_OF_DE_TEAL_BIG_OFFER,"<color=#00fff>Over 6x Value!</color> Get an assortment of Teal Gear that includes <color=#fff568>{var1}</color> Augmented Basic Catalyst Parts, <color=#fff568>{var2}</color> Augmented Gear Tier 16 Mini-Uniques, and <color=#fff568>{var3}</color> Augmented Damage, Focus, Health, Armor, or Resistance Catalyst Parts!"
+ID_OF_NA_DUAL_PHOENIX_STOREBAR_01,PREPARE FOR PHOENIX
+ID_OF_NA_DUAL_SILVERSAMURAI_STOREBAR_01,THE LETHAL PROTECTOR
+ID_OF_NA_SILVERSAMURAI_FCO_OFFER,Tachyon Warrior Orb Offer
+ID_OF_DE_SILVERSAMURAI_FCO_OFFER_VAR_SU,"Save on <color=#fff568>{var1} Tachyon Warrior Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Silver Samurai shards</color>. Protect allies with Taunt and Barrier, while slashing enemies with powerful Piercing attacks."
+ID_OF_NA_SILVERSAMURAI_SHARD_OFFER,The Lethal Protector Offer
+ID_OF_DE_SILVERSAMURAI_OFFER_VAR_S,"Get <color=#fff568>{var1} Silver Samurai shards</color> and Protect allies with Taunt and Barrier, while slashing enemies with powerful Piercing attacks."
+ID_OF_NA_PICK_DUAL_SILVERSAMURAI_OFFER_ECO,Dual: Honorable Orb Offer
+ID_OF_DE_PICK_DUAL_SILVERSAMURAI_OFFER_ECO,"Take advantage of one of these spectacular <color=#fff568>Honorable Orb</color> deals. "
+ID_OF_NA_PICK_DUAL_SILVERSAMURAI_OFFER_FCO,Dual: Tachyon Warrior Orb Offer
+ID_OF_DE_PICK_DUAL_SILVERSAMURAI_OFFER_FCO,"Take advantage of one of these spectacular <color=#fff568>Tachyon Warrior Orb</color> deals. "

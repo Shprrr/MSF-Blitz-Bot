@@ -525,6 +525,8 @@ ID_MOTD_NA_KORATH,Pursuer: Now Live!
 ID_MOTD_DE_KORATH,Battle for a chance to win KORATH shards
 ID_MOTD_NA_KREESUPPORT_HOT,Farseer: Now Live!
 ID_MOTD_DE_KREESUPPORT_HOT,Battle for a chance to win Kree Oracle shards
+ID_MOTD_NA_LADYDEATHSTRIKE,Tough as Nails: Now Live!
+ID_MOTD_DE_LADYDEATHSTRIKE,Battle for a chance to win Lady Deathstrike shards
 ID_MOTD_NA_LOKI,God of Mischief: Now Live!
 ID_MOTD_DE_LOKI,Battle for a chance to win LOKI shards
 ID_MOTD_NA_LONGSHOT,Probability Master: Now Live!
@@ -631,6 +633,8 @@ ID_MOTD_NA_SHOCKER,Vibro-Smasher: Now Live!
 ID_MOTD_DE_SHOCKER,Battle for a chance to win Shocker shards
 ID_MOTD_NA_SIF,Shield Maiden: Now Live!
 ID_MOTD_DE_SIF,Battle for a chance to win Sif shards
+ID_MOTD_NA_SILVERSAMURAI,Tachyon Warrior: Now Live!
+ID_MOTD_DE_SILVERSAMURAI,Battle for a chance to win Silver Samurai shards
 ID_MOTD_NA_SILVERSURFER,The Herald: Now Live!
 ID_MOTD_DE_SILVERSURFER,Battle for a chance to win Silver Surfer shards
 ID_MOTD_NA_SPIDERMAN,Web-Slinger: Now Live!
@@ -899,3 +903,39 @@ ID_MOTD_NA_THELEGEND_TEASER,Coming Soon: The Legend
 ID_MOTD_DE_THELEGEND_TEASER,Legendary rewards including Shang-Chi shards!
 ID_MOTD_NA_THELEGEND_LIVE,NOW LIVE: The Legend
 ID_MOTD_DE_THELEGEND_LIVE,Earn Shang-Chi shards and his limited-time costume!
+ID_MOTD_NA_MIGHTIESTWARRIORS,LIVE: Mightiest Warriors
+ID_MOTD_DE_MIGHTIESTWARRIORS,"2x rewards for character shards, Gold, and Training Modules in Heroes Campaign"
+ID_MOTD_NA_MASTERPLAN,LIVE: Master Plan
+ID_MOTD_DE_MASTERPLAN,"2x rewards for character shards, Gold, and Training Modules in Villains Campaign"
+ID_MOTD_NA_IONIZE_BONUS_EVENT,NOW LIVE: Ionize
+ID_MOTD_DE_IONIZE_BONUS_EVENT,Receive double the Isotope-8 Campaign Energy when purchased for the next 24 hours.
+ID_MOTD_NA_JA_TWITTER_SHANGCHI_ANNOUNCE,Temp string
+ID_MOTD_DE_JA_TWITTER_SHANGCHI_ANNOUNCE,Temp string
+ID_MOTD_NA_CLOAKDAGGER,Luminous Duo: Now Live!
+ID_MOTD_DE_CLOAKDAGGER,Battle for a chance to win Luminous Credits
+ID_MOTD_NA_KO_SHANGCHI_ANNOUNCE,Temp string
+ID_MOTD_DE_KO_SHANGCHI_ANNOUNCE,Temp string
+ID_MOTD_NA_DAGGER_PREHYPE,Coming Soon: Dagger
+ID_MOTD_DE_DAGGER_PREHYPE,The living light is on the way!
+ID_MOTD_NA_DAGGER_ANNOUNCE,Dagger is ready for battle!
+ID_MOTD_DE_DAGGER_ANNOUNCE,Recruit the New Warriors' Support
+ID_MOTD_NA_CLOAK_PREHYPE,Coming Soon: Cloak
+ID_MOTD_DE_CLOAK_PREHYPE,Recruit the All-Consuming Shadow!
+ID_MOTD_NA_MAYHEM_SEASON10_ANNOUNCE,LIVE: Season 10 of Mojo's Mayhem
+ID_MOTD_DE_MAYHEM_SEASON10_ANNOUNCE,Turn Ratings into Multiple Man shards and big rewards!
+ID_MOTD_NA_THEBLEEDINGKING_ANNOUNCE,LIVE: The Bleeding King
+ID_MOTD_DE_THEBLEEDINGKING_ANNOUNCE,"Bond with the ""Absolute Carnage"" costume!"
+ID_MOTD_NA_SILVERSAMURAI_PREHYPE,Coming Soon: Silver Samurai
+ID_MOTD_DE_SILVERSAMURAI_PREHYPE,Wielder of the Black Blade
+ID_MOTD_NA_SILVERSAMURAI_ECM_PREVIEW,Coming Soon: Curse of Muramasa
+ID_MOTD_DE_SILVERSAMURAI_ECM_PREVIEW,Prepare for Silver Samurai
+ID_MOTD_NA_SILVERSAMURAI_ECM_LIVE,LIVE: Curse of Muramasa
+ID_MOTD_DE_SILVERSAMURAI_ECM_LIVE,Battle to earn Silver Samurai shards!
+ID_MOTD_NA_UNSTABLEELEMENTS_LIVE,LIVE: Unstable Elements
+ID_MOTD_DE_UNSTABLEELEMENTS_LIVE,Stock up on T2 and T1 Iso-8!
+ID_MOTD_NA_EXPERIMENTX_TEASER,Coming Soon: Experiment X
+ID_MOTD_DE_EXPERIMENTX_TEASER,"Earn Wolverine's new costume, Teal gear, and more!"
+ID_MOTD_NA_EXPERIMENTX_LIVE,LIVE: Experiment X
+ID_MOTD_DE_EXPERIMENTX_LIVE,Claw your way to Wolverine's Weapon X Costume!
+ID_MOTD_NA_LADYDEATHSTRIKE_PREHYPE,Coming Soon: Lady Deathstrike
+ID_MOTD_DE_LADYDEATHSTRIKE_PREHYPE,The cybernetic Brawler for Weapon X is on the way!

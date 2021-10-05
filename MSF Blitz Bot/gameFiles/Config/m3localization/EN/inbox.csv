@@ -383,6 +383,9 @@ ID_ME_BO_NICKFURY_LE_LIFECYCLE_ANNOUNCE,"Commander,\n\nLegendary Events are unde
 ID_ME_NA_NICKFURY_LE_ANNOUNCE_V2,LIVE: Chasing Fury
 ID_ME_DE_NICKFURY_LE_ANNOUNCE_V2,Nick Fury Legendary Event
 ID_ME_BO_NICKFURY_LE_ANNOUNCE_V2,"Commander,\n\nCongratulations! You've unlocked the <color=#fff568>Chasing Fury Legendary Event</color>.\n\nYou can now battle through a series of challenges to recruit the Legendary Avenger: <color=#fff568>Nick Fury</color>. Each tier rewards Nick Fury shards, and completing Tier 3 unlocks Nick Fury.\n\n<color=#fff568>Event Requirements</color>:\n- Kree minions at various Star Ranks to unlock Nick Fury\n\nBe on the lookout for more Legendary Events for a chance to unlock other Legendary characters.\n\nGood luck, Commander."
+ID_ME_NA_STARLORD_LE_LIFECYCLE_ANNOUNCE,Update: Space Ace
+ID_ME_DE_STARLORD_LE_LIFECYCLE_ANNOUNCE,Permanent Legendary Event
+ID_ME_BO_STARLORD_LE_LIFECYCLE_ANNOUNCE,"Commander,\n\n<color=#fff568>Star-Lord's</color> Legendary Event, ""Space Ace,"" now has a permanent home in the <color=#fff568>Events</color> section!\n\nHere's how you can recruit and rank up this Legendary Guardian:\n\n<color=#fff568>Legendary Event Update</color>\nStar-Lord will now unlock at 4-Stars and Commanders <color=#fff568>Level 35+</color> can try to earn his shards after reaching a tier's requirements.\n\n<color=#fff568>Space Ace Login Calendar</color>\nAvailable at Level 35+ will be a one-time 14-day calendar with Mantis character shards and valuable gear and resources.\n\nRecruit and rank up Star-Lord today!"
 ID_ME_NA_NEEDAHAND,Need A Hand?
 ID_ME_DE_NEEDAHAND,2x Hand shards from Campaign
 ID_ME_BO_NEEDAHAND,"Commander,\n\nFor 24 hours, the number of <color=#fff568>Hand</color> character shards rewarded from <color=#fff568>Campaign</color> nodes has <color=#fff568>doubled</color> from 2 to 4. These characters will help you with the upcoming Relic Hunt Flash Event.\n\nPlease filter your roster using the trait ""Hand"" to find all affected characters, marked with green (!) indicators. Enter the character screen and tap the [FIND] button to see their Campaign node.\n\nGood luck, Commander!"
@@ -702,6 +705,12 @@ ID_ME_BO_DEATHPOOL_ECM_TEASER,"Commander,\n\n<color=#fff568>Deathpool</color> is
 ID_ME_NA_DEATHPOOL_ECM_ANNOUNCE,LIVE: Shadow of Deathpool
 ID_ME_DE_DEATHPOOL_ECM_ANNOUNCE,Recruit Deathpool
 ID_ME_BO_DEATHPOOL_ECM_ANNOUNCE,"Commander,\n\n<color=#fff568>You're needed for this secret S.T.R.I.K.E. mission:</color>\nThe Daughter of Death and Deadpool has come to Nexus Earth! Chasing a crazed Thanos who is eliminating every interdimensional version of her father, Deathpool has to protect Deadpool while he tries to bond with his sort-of-not daughter.\n\nEach node in the Shadow of Deathpool Event Campaign rewards <color=#fff568>Devoted Orb Fragments</color> that contain select characters with the limited-time <color=#fff568>Devoted</color> trait (excluding Legendary characters, Longshot, Symbiote Spider-Man, Emma Frost, and Coulson).\n\n<color=#fff568>Event Campaign Update</color>\nFor this event, the Medium Difficulty will have <color=#fff568>no trait restrictions.</color>\n\nFor the list of characters using the <color=#fff568>Devoted trait</color>, filter your roster using: Devoted."
+ID_ME_NA_SILVERSAMURAI_ECM_TEASER,Coming Soon: Silver Samurai
+ID_ME_DE_SILVERSAMURAI_ECM_TEASER,Wielder of the Black Blade
+ID_ME_BO_SILVERSAMURAI_ECM_TEASER,"Commander,\n\n<color=#fff568>Silver Samurai</color> is suiting up for battle! Be on the lookout for your first chance to recruit him in the upcoming Event Campaign: <color=#fff568>Curse of Muramasa.</color>\n\nUnsheath deadly protection with Silver Samurai:\n\n- All attacks deal Piercing damage & apply Heal Block\n- Taunts, applies Barrier, and applies Defense Up\n- Charges clear his negative effects & activate Bonus Attacks with his Ultimate ability\n- In War: Lowers enemy assist chance by 100% and grants Resistance to Weapon X allies\n- Villain, Global, Mutant, Protector, Weapon X\n\n<color=#fff568>Event Requirements</color>\nLimited-time Honorable trait.\n\nPrepare for Silver Samurai's arrival!"
+ID_ME_NA_SILVERSAMURAI_ECM_ANNOUNCE,LIVE: Curse of Muramasa
+ID_ME_DE_SILVERSAMURAI_ECM_ANNOUNCE,Recruit Silver Samurai
+ID_ME_BO_SILVERSAMURAI_ECM_ANNOUNCE,"Commander,\n\n<color=#fff568>You're needed for this secret S.T.R.I.K.E. mission:</color>\nJoin Wolverine and Silver Samurai as they attempt to stop an alternate Earth's Weapon X team from using the power of the Black Blade to wreak havoc.\n\nEach node in the Curse of Muramasa Event Campaign rewards <color=#fff568>Honorable Orb Fragments</color> that contain select characters with the limited-time <color=#fff568>Honorable</color> trait (excluding Legendary characters, Longhost, Spider-Man (Symbiote), Emma Frost, and Coulson).\n\n<color=#fff568>Event Campaign Update</color>\nFor this event, the <color=#fff568>Medium Difficulty</color> will have <color=#fff568>no trait restrictions.</color>\n\nFor a list of the characters using the <color=#fff568>Honorable</color> trait, filter your roster using: Honorable."
 ID_ME_NA_ALLIANCE_DONATION,War Effort - Alliance Donation Event
 ID_ME_DE_ALLIANCE_DONATION,Additional Alliance Donation Rewards!
 ID_ME_BO_ALLIANCE_DONATION,"Commander,\n\nFor the next week, War Energy Refills, War Defense Boosts, and additional Gold have been added to the Alliance Donation Milestone Rewards. Donate to increase your Alliance level and receive the new rewards!"
@@ -921,93 +930,33 @@ ID_ME_BO_YOUNGAVENGER_RS_FEATURING_START,"Commander,\n\nFor a limited-time only,
 ID_ME_NA_YOUNGAVENGER_RS_FEATURING_ENDING,ENDING: Red Star Featuring
 ID_ME_DE_YOUNGAVENGER_RS_FEATURING_ENDING,1 day left!
 ID_ME_BO_YOUNGAVENGER_RS_FEATURING_ENDING,"Commander,\n\nThere's only one day left for increased <color=#fff568>Red Star Orb</color> drops.\n\nThe following characters will each have a 5% drop rate for 1-7 Red Stars -- for a total of 15% featuring:\n\n- Squirrel Girl\n- Spider-Man (Miles)\n- Ms. Marvel\n\nDon't miss your chance to add Red Stars to your <color=#fff568>Young Avengers</color> team!"
-ID_ME_NA_ALPHARAID_START,Alpha Raid
-ID_ME_DE_ALPHARAID_START,Featuring Global Villains
-ID_ME_BO_ALPHARAID_START,"Commander,\n\nAlpha Raid has begun!\n\nTeam up with your Alliance to earn Gold Orb Fragments and Alpha Raid Orb Fragments, which contain select Global Villains.\n\nReach 100% on Alpha Raid IV and receive a slew of Orange Gear, including unique gear pieces!\n\nAlpha Raid Keys are required to launch Alpha Raids and can be acquired by spending Campaign Energy -- one Energy spent earns you one Alpha Raid Key, up to 600 keys per day.\n\nHere are some keys to get you started!\n\nGood luck, Commander"
-ID_ME_NA_ALPHARAIDS_END,Alpha Raid Has Ended
-ID_ME_DE_ALPHARAIDS_END,Thank you for playing!
-ID_ME_BO_ALPHARAIDS_END,Thank you for participating in Alpha Raid. Continue playing and strengthening your team.\n\nAlpha Raid will return.
-ID_ME_NA_BETARAIDS_START,Beta Raid
-ID_ME_DE_BETARAIDS_START,Featuring Blasters!
-ID_ME_BO_BETARAIDS_START,"Beta has launched!\n\nClear Beta Raid missions to earn select <color=#fff568>Blaster character shards</color>! Team up with your Alliance to reach 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch a Beta Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_BETARAIDS_END,Beta Raid Has Ended
-ID_ME_DE_BETARAIDS_END,Thank you for playing!
-ID_ME_BO_BETARAIDS_END,Thank you for participating in Beta Raid. Continue playing and strengthening your team.\n\nBeta Raid will return.
-ID_ME_NA_GAMMARAIDS_START,Gamma Raid
-ID_ME_DE_GAMMARAIDS_START,Featuring Bio Heroes!
-ID_ME_BO_GAMMARAIDS_START,"Gamma has launched!\n\nClear Gamma Raid missions to earn select <color=#fff568>Bio & Hero character shards</color>! Team up with your Alliance to reach 100% on Gamma Raid IV to earn <color=#fff568>Elite Orange Gear Orb Fragments</color> which contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_GAMMARAIDS_END,Gamma Raid Has Ended
-ID_ME_DE_GAMMARAIDS_END,Thank you for playing!
-ID_ME_BO_GAMMARAIDS_END,Thank you for participating in Gamma Raid. Continue playing and strengthening your team.\n\nGamma Raid will return.
-ID_ME_NA_DELTARAIDS_END,Delta Raid Has Ended
-ID_ME_DE_DELTARAIDS_END,Thank you for playing!
-ID_ME_BO_DELTARAIDS_END,Thank you for participating in Delta Raid. Continue playing and strengthening your team.\n\nDelta Raid will return.
-ID_ME_NA_BRAWLER_GAMMARAIDS,Gamma Raid
-ID_ME_DE_BRAWLER_GAMMARAIDS,Featuring Brawlers!
-ID_ME_BO_BRAWLER_GAMMARAIDS,"Gamma has launched!\n\nClear Gamma Raid missions to earn <color=#fff568>Brawler Character Shards</color> (not including Captain Marvel and Ultimus)! Team up with your Alliance to reach 100% on Gamma Raid IV to earn <color=#fff568>Elite Orange Gear Orb Fragments</color> which contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_CITY_VILLAIN_BETARAIDS,Beta Raid
-ID_ME_DE_CITY_VILLAIN_BETARAIDS,Featuring City Villains!
-ID_ME_BO_CITY_VILLAIN_BETARAIDS,"Beta has launched!\n\nClear Beta Raid missions to earn <color=#fff568>City Villain character shards</color> (not including Mysterio and Vulture)! Team up with your Alliance to reach 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch a Beta Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_GLOBAL_HEROES_BETARAIDS_TEASER,Coming Soon: Beta Raid
-ID_ME_DE_GLOBAL_HEROES_BETARAIDS_TEASER,Earn more character shards!
-ID_ME_BO_GLOBAL_HEROES_BETARAIDS_TEASER,"Commander,\n\nBeta Raid is coming back soon...this time featuring select <color=#fff568>Global Hero</color> characters!\n\nBe sure to team with your Alliance to earn select <color=#fff568>Global Hero character shards</color> and hit 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
-ID_ME_NA_GLOBAL_HEROES_BETARAIDS,Beta Raid
-ID_ME_DE_GLOBAL_HEROES_BETARAIDS,Featuring Global Heroes!
-ID_ME_BO_GLOBAL_HEROES_BETARAIDS,"Beta has launched!\n\nClear Beta Raid missions to earn <color=#fff568>select Global Hero character shards</color> including Colossus, Black Widow, and Elsa Bloodstone! Team up with your Alliance to reach 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch a Beta Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,Coming Soon: Gamma Raid
-ID_ME_DE_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,Earn more character shards!
-ID_ME_BO_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,"Commander,\n\nGamma Raid is coming back soon...this time featuring select <color=#fff568>City Brawler and Protector</color> characters!\n\nBe sure to team up with your Alliance to earn select <color=#fff568>City Brawler and Protector character shards</color> and hit 100% on Gamma Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
-ID_ME_NA_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,Gamma Raid
-ID_ME_DE_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,Featuring City Brawlers and Protectors!
-ID_ME_BO_CITY_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,"Gamma has launched!\n\nClear Gamma Raid missions to earn <color=#fff568>select City Brawler and Protector character shards</color>! Team up with your Alliance to reach 100% on Gamma Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_MYSTICVILLAIN_ALPHARAIDS_TEASER,Coming Soon: Alpha Raid
-ID_ME_DE_MYSTICVILLAIN_ALPHARAIDS_TEASER,Earn more character shards!
-ID_ME_BO_MYSTICVILLAIN_ALPHARAIDS_TEASER,"Commander,\n\nAlpha Raid is coming back soon...this time featuring select <color=#fff568>Mystic Villain</color> characters!\n\nBe sure to team up with your Alliance to earn select <color=#fff568>Mystic Villain character shards</color> and hit 100% on Alpha Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\nThis limited-time Alpha Raid Orb will feature a more concentrated number of characters and its side pillars will offer <color=#fff568>Purple Gear pieces</color>! Continue gearing up your characters and hit milestones with your Alliance."
-ID_ME_NA_MYSTICVILLAIN_ALPHARAIDS_ANNOUNCE,Alpha Raid
-ID_ME_DE_MYSTICVILLAIN_ALPHARAIDS_ANNOUNCE,Featuring select Mystic Villains!
-ID_ME_BO_MYSTICVILLAIN_ALPHARAIDS_ANNOUNCE,"Alpha has launched!\n\nClear Alpha Raid missions to earn <color=#fff568>select Mystic Villain character shards</color>! Team up with your Alliance to reach 100% on Alpha Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\nThis limited-time Alpha Raid Orb will feature a more concentrated number of characters and its side pillars will offer <color=#fff568>Purple Gear pieces</color>! Continue gearing up your characters and hit milestones with your Alliance.\n\n<color=#fff568>Alpha Raid Keys</color> are required to launch an Alpha Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Alpha Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_BETA_HERO_SKILL_TECH_TEASER,Coming Soon: Beta Raid
-ID_ME_DE_BETA_HERO_SKILL_TECH_TEASER,Earn more character shards!
-ID_ME_BO_BETA_HERO_SKILL_TECH_TEASER,"Commander,\n\nBeta Raid is coming back soon...this time featuring select <color=#fff568>Skill and Tech Hero</color> characters!\n\nBe sure to team up with your Alliance to earn select <color=#fff568>Skill and Tech Hero character shards</color> and hit 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
-ID_ME_NA_BETA_HERO_SKILL_TECH_ANNOUNCE,Beta Raid
-ID_ME_DE_BETA_HERO_SKILL_TECH_ANNOUNCE,Featuring Skill and Tech Hero characters!
-ID_ME_BO_BETA_HERO_SKILL_TECH_ANNOUNCE,"Beta has launched!\n\nClear Beta Raid missions to earn <color=#fff568>select Skill and Tech Hero character shards</color>! Team up with your Alliance to reach 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch a Beta Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
-ID_ME_NA_GAMMA_ORB_CITYBRAWLERSPROTECTORS_LEAVING_SOON,Gamma Raid Orb Leaving
-ID_ME_DE_GAMMA_ORB_CITYBRAWLERSPROTECTORS_LEAVING_SOON,3 days left!
-ID_ME_BO_GAMMA_ORB_CITYBRAWLERSPROTECTORS_LEAVING_SOON,"Commander,\n\nThe Gamma Raid Orb featuring <color=#fff568>select City Brawlers and Protectors</color> characters will be leaving soon! Be sure to continue opening your Gamma Raid Orbs to earn character shards before they're gone."
-ID_ME_NA_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,Coming Soon: Gamma Raid
-ID_ME_DE_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,Earn more character shards!
-ID_ME_BO_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_TEASER,"Commander,\n\nGamma Raid is coming back soon...this time featuring select <color=#fff568>Global Brawlers and Protectors</color> characters!\n\nBe sure to team up with your Alliance to earn select <color=#fff568>Global Brawlers and Protector character shards</color> and hit 100% on Gamma Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
-ID_ME_NA_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,Gamma Raid
-ID_ME_DE_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,Featuring Global Brawlers and Protector characters!
-ID_ME_BO_GLOBAL_BRAWLER_PROTECTOR_GAMMARAIDS_ANNOUNCE,"Gamma has launched!\n\nClear Gamma Raid missions to earn <color=#fff568>select Global Brawlers and Protector character shards</color>! Team up with your Alliance to reach 100% on Gamma Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy -- one Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nBest of luck, Commander."
 ID_ME_NA_MYSTICHERO_ALPHARAIDS_TEASER,Coming Soon: S.T.R.I.K.E. Raid Alpha
 ID_ME_DE_MYSTICHERO_ALPHARAIDS_TEASER,Featuring Mystic Hero characters!
-ID_ME_BO_MYSTICHERO_ALPHARAIDS_TEASER,"Commander,\n\nAlpha Raid is coming back soon... this time featuring select <color=#fff568>Mystic Hero</color> characters!\n\nTeam up with your Alliance to earn select <color=#fff568>Mystic Hero character shards</color> and hit 100% on Alpha Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
+ID_ME_BO_MYSTICHERO_ALPHARAIDS_TEASER,"Commander,\n\nAlpha Raid is coming back soon and will feature select <color=#fff568>Mystic Hero</color> characters!\n\nTeam up with your Alliance to earn select <color=#fff568>Mystic Hero character shards</color> and <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
 ID_ME_NA_MYSTICHERO_ALPHARAIDS_ANNOUNCE,Alpha Raid
 ID_ME_DE_MYSTICHERO_ALPHARAIDS_ANNOUNCE,Featuring Mystic Hero characters!
-ID_ME_BO_MYSTICHERO_ALPHARAIDS_ANNOUNCE,"Commander,\n\nAlpha has launched!\n\nClear Alpha Raid missions to earn select <color=#fff568>Mystic Hero character shards</color>! Team up with your Alliance to reach 100% on Alpha Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Alpha Raid Keys</color> are required to launch an Alpha Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Alpha Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander"
-ID_ME_NA_RAID_DIFF_SELECTOR,LIVE: Raid Difficulty Selector
-ID_ME_DE_RAID_DIFF_SELECTOR,"Alpha, Beta, Gamma Raids"
-ID_ME_BO_RAID_DIFF_SELECTOR,"Commander,\n\nThe <color=#fff568>Raid Difficulty Selector</color> is live for <color=#fff568>Beta Raids!</color> You can now quickly adjust the rewards and difficulty to match your Alliance's skill level.\n\nHere's how it works:\n\n- Select the difficulty level and corresponding rewards that suit your Alliance skill level.\n- Difficulties increase enemy stats as well as per-node and completion rewards.\n- Higher difficulties may also include rule changes, such as limiting heals between nodes.\n- Reward improvements are auto-included in the Rewards page when you have the difficulty selected.\n- First Time Rewards are tracked by players, not Alliances, so you can't earn First Time Rewards twice.\n- Complete 60% of a difficulty level to unlock the next difficulty level and its corresponding rewards.\n- Complete Beta III at 60%+ to earn First Time Rewards.\n- Complete Beta IV at 100% to earn First Time Rewards.\n\nFuture Alpha and Gamma Raids will also be receiving this update, so be sure to to adjust those future Raids to your Alliance's skill level when it arrives.\n\nGood luck, Commander!"
-ID_ME_NA_TRAIT_SWAP,S.T.R.I.K.E. Raid Gamma
-ID_ME_DE_TRAIT_SWAP,Trait Update
-ID_ME_BO_TRAIT_SWAP,"Commander,\n\nWe've updated several trait requirements for S.T.R.I.K.E. Raid Gamma nodes. Here is a summary of the adjustments:\n\n- Hand and Kree nodes are now Kree & Pym Tech\n- Kree and Ravager nodes are now Pym Tech & Wakandan\n- Hand, Kree, and Ravager nodes are now Kree, Pym Tech, and Wakandan\n\nGood luck, Commander!"
+ID_ME_BO_MYSTICHERO_ALPHARAIDS_ANNOUNCE,"Commander,\n\nAlpha Raid has launched!\n\nClear Alpha Raid missions to earn select <color=#fff568>Mystic Hero character shards</color>! Team up with your Alliance to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Alpha Raid Keys</color> are required to launch an Alpha Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Alpha Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander"
+ID_ME_NA_STRIKE_ALPHARAIDS_ENDING,Alpha Mystic Hero Orb Leaving Soon
+ID_ME_DE_STRIKE_ALPHARAIDS_ENDING,3 Days Left!
+ID_ME_BO_STRIKE_ALPHARAIDS_ENDING,"Commander,\n\nTheAlpha Raid Orb featuring select<color=#fff568>Mystic Hero</color> characters will be leaving soon! Be sure to continue opening your Alpha Raid Orbs to earn character shards before they're gone."
 ID_ME_NA_BETA_VILLAIN_SKILL_TECH_TEASER,Coming Soon: S.T.R.I.K.E. Raid: Beta
 ID_ME_DE_BETA_VILLAIN_SKILL_TECH_TEASER,Earn more character shards!
-ID_ME_BO_BETA_VILLAIN_SKILL_TECH_TEASER,"Commander,\n\nBeta Raids are coming back soon and this time will feature select <color=#fff568>Skill and Tech Villain</color> characters!\n\nTeam up with your Alliance to earn select <color=#fff568>Skill and Tech Villain character shards</color> and hit 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
+ID_ME_BO_BETA_VILLAIN_SKILL_TECH_TEASER,"Commander,\n\nBeta Raids are coming back soon and will feature select <color=#fff568>Skill and Tech Villain</color> characters!\n\nTeam up with your Alliance to earn select <color=#fff568>Skill and Tech Villain character shards</color> and <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
 ID_ME_NA_BETA_VILLAIN_SKILL_TECH_ANNOUNCE,S.T.R.I.K.E. Raid: Beta
 ID_ME_DE_BETA_VILLAIN_SKILL_TECH_ANNOUNCE,Featuring Skill and Tech Villains!
-ID_ME_BO_BETA_VILLAIN_SKILL_TECH_ANNOUNCE,"Commander,\n\nBeta has launched!\n\nClear Beta Raid missions to earn select <color=#fff568>Skill and Tech Villain character shards</color>! Team up with your Alliance to reach 100% on Beta Raid IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch an Beta Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander"
+ID_ME_BO_BETA_VILLAIN_SKILL_TECH_ANNOUNCE,"Commander,\n\nBeta Raid has launched!\n\nClear Beta Raid missions to earn select <color=#fff568>Skill and Tech Villain character shards</color>! Team up with your Alliance to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Beta Raid Keys</color> are required to launch an Beta Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Beta Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander."
 ID_ME_NA_BETA_VILLAIN_SKILL_TECH_LEAVINGSOON,Beta Raid Orb Leaving
 ID_ME_DE_BETA_VILLAIN_SKILL_TECH_LEAVINGSOON,3 days left!
 ID_ME_BO_BETA_VILLAIN_SKILL_TECH_LEAVINGSOON,"Commander,\n\nThe Beta Raid Orb featuring <color=#fff568>select Skill and Tech Villains</color> characters will be leaving soon! Be sure to continue opening your Beta Raid Orbs to earn character shards before they're gone."
-ID_ME_NA_BETA_HERO_SKILL_TECH_LEAVINGSOON,Beta Raid Orb Leaving
-ID_ME_DE_BETA_HERO_SKILL_TECH_LEAVINGSOON,3 days left!
-ID_ME_BO_BETA_HERO_SKILL_TECH_LEAVINGSOON,"Commander,\n\nThe Beta Raid Orb featuring <color=#fff568>select Skill and Tech Heroes</color> characters will be leaving soon! Be sure to continue opening your Beta Raid Orbs to earn character shards before they're gone."
-ID_ME_NA_RAID_MILESTONE_UPDATE,Raid Milestone Updates
-ID_ME_DE_RAID_MILESTONE_UPDATE,New Milestones & Rewards
-ID_ME_BO_RAID_MILESTONE_UPDATE,"Commander,\n\nWe've added new Raid Season Milestones!\n\nEnjoy even more gear rewards for your Raid journey efforts, including:\n\nArmory 14 Orb Fragments\nArmory 15 Orb Fragments\nOrange Elite Orb Fragments\n\nPower up your roster with these new Raid Milestones!"
+ID_ME_NA_STRIKE_GAMMARAIDS_TEASER,Coming Soon: S.T.R.I.K.E. Raid Gamma
+ID_ME_DE_STRIKE_GAMMARAIDS_TEASER,Featuring Cosmic Brawlers & Protectors
+ID_ME_BO_STRIKE_GAMMARAIDS_TEASER,"Commander,\n\nUnleash your Cosmic Brawlers & Protectors in the upcoming S.T.R.I.K.E. Raid: Gamma!\n\nTeam up with your Alliance to earn select <color=#fff568>Cosmic Brawler Protector character shards</color> and <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
+ID_ME_NA_STRIKE_GAMMARAIDS_ANNOUNCE,LIVE: S.T.R.I.K.E. Raid: Gamma
+ID_ME_DE_STRIKE_GAMMARAIDS_ANNOUNCE,Featuring Cosmic Brawlers & Protectors!
+ID_ME_BO_STRIKE_GAMMARAIDS_ANNOUNCE,"Commander,\n\nGamma Raid has launched!\n\nClear S.T.R.I.K.E. Raid: Gamma missions to earn select<color=#fff568>Cosmic Brawler & Protector character shards</color>! Team up with your Alliance to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander"
+ID_ME_NA_STRIKE_GAMMARAIDS_ENDING,Gamma Cosmic Brawler & Protector Orb Leaving Soon
+ID_ME_DE_STRIKE_GAMMARAIDS_ENDING,3 Days Left!
+ID_ME_BO_STRIKE_GAMMARAIDS_ENDING,"Commander,\n\nThe Gamma Raid Orb featuring select <color=#fff568>Cosmic Brawler & Protector</color> characters will be leaving soon! Be sure to continue opening your Gamma Raid Orbs to earn character shards before they're gone."
 ID_ME_NA_EMMAFROST_MILESTONES_ANNOUNCE,Recurring Milestones
 ID_ME_DE_EMMAFROST_MILESTONES_ANNOUNCE,Recruit Emma Frost!
 ID_ME_BO_EMMAFROST_MILESTONES_ANNOUNCE,"Commander,\n\nBegin earning <color=#fff568>Emma Frost</color> character shards by collecting your <color=#fff568>daily milestones rewards</color>. Fight in battles, and spend Campaign Energy and Gold to earn character shards by hitting milestones!\n\nBe sure to catch Emma Frost while you can, as she'll be leaving the Milestone rewards after about <color=#fff568>4 weeks</color>."
@@ -1636,15 +1585,6 @@ ID_ME_BO_LUNARFESTIVAL_ANNOUNCE,"Commander,\n\nNOW LIVE: <color=#fff568>Lunar Fe
 ID_ME_NA_LUNARFESTIVAL_ENDING,ENDING: Lunar Festival
 ID_ME_DE_LUNARFESTIVAL_ENDING,2 days left!
 ID_ME_BO_LUNARFESTIVAL_ENDING,"Commander,\n\nThe <color=#fff568>Lunar Festival</color> event ends in <color=#fff568>2 days!</color> Continue earning Lunar Orbs and gear before they're gone for good.\n\nGood luck, Commander!"
-ID_ME_NA_STRIKE_GAMMARAIDS_TEASER,Coming Soon: S.T.R.I.K.E. Raid Gamma
-ID_ME_DE_STRIKE_GAMMARAIDS_TEASER,Featuring Cosmic Brawlers & Protectors
-ID_ME_BO_STRIKE_GAMMARAIDS_TEASER,"Commander,\n\nUnleash your Cosmic Brawlers & Protectors in the upcoming S.T.R.I.K.E. Raid: Gamma!\n\nTeam up with your Alliance to earn select <color=#fff568>Cosmic Brawler Protector character shards</color> and hit 100% on S.T.R.I.K.E. Raid: Gamma IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!"
-ID_ME_NA_STRIKE_GAMMARAIDS_ANNOUNCE,LIVE: S.T.R.I.K.E. Raid: Gamma
-ID_ME_DE_STRIKE_GAMMARAIDS_ANNOUNCE,Featuring Cosmic Brawlers & Protectors!
-ID_ME_BO_STRIKE_GAMMARAIDS_ANNOUNCE,"Commander,\n\nGamma has launched!\n\nClear S.T.R.I.K.E. Raid: Gamma missions to earn select<color=#fff568>Cosmic Brawler & Protector character shards</color>! Team up with your Alliance to reach 100% on S.T.R.I.K.E. Raid: Gamma IV to earn <color=#fff568>Orange Elite Orb Fragments</color>. The Orange Elite Orb contains a slew of Orange Gear, including unique gear pieces!\n\n<color=#fff568>Gamma Raid Keys</color> are required to launch a Gamma Raid and can be acquired by spending Campaign Energy. One Energy spent earns you one Gamma Raid Key, up to 600 keys per day. Here are some keys to get you started!\n\nGood luck, Commander"
-ID_ME_NA_STRIKE_GAMMARAIDS_ENDING,Gamma Cosmic Brawler & Protector Orb Leaving Soon
-ID_ME_DE_STRIKE_GAMMARAIDS_ENDING,3 Days Left!
-ID_ME_BO_STRIKE_GAMMARAIDS_ENDING,"Commander,\n\nThe Gamma Raid Orb featuring select<color=#fff568>Cosmic Brawler & Protector</color> characters will be leaving soon! Be sure to continue opening your Gamma Raid Orbs to earn character shards before they're gone."
 ID_ME_NA_FALCON_EVENT_ANNOUNCE,Eyes in the Skies
 ID_ME_DE_FALCON_EVENT_ANNOUNCE,2x Falcon shards
 ID_ME_BO_FALCON_EVENT_ANNOUNCE,"Celebrate <color=#fff568>Black History Month</color> with one of Marvel's most selfless heroes: Falcon!\n\nWith a duty to serve, Sam Wilson immediately volunteered to assist Captain America when asked for assistance. Complete with a flight suit and telepathic communication with birds, Falcon soars into combat providing aerial support for the Avengers.\n\nTo honor Falcon, for 24 hours, the number of <color=#fff568>Falcon</color> character shards rewarded in the following <color=#fff568>Campaign node</color> will <color=#fff568>double</color> from 2 to 4:\n\nFalcon: Nexus 7-3"
@@ -2434,6 +2374,7 @@ ID_ME_BO_AGENTCOULSON_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Agent Coulso
 ID_ME_NA_SILVERSURFER_SUPPLYSTORE,Supplies Store Update
 ID_ME_DE_SILVERSURFER_SUPPLYSTORE,Limited-Time: Silver Surfer
 ID_ME_BO_SILVERSURFER_SUPPLYSTORE,"Commander,\n\nNow available in the Supplies Store: <color=#fff568>Silver Surfer!</color>\n\nFrom <color=#fff568>July 27, 5PM (PDT) to August 2, 5PM (PDT)</color> Silver Surfer character shards will be purchasable with Power Cores and have an appearance rate of <color=#fff568>20%</color>. After this period, he'll return to being solely available via the Raid Season Milestones.\n\nHurry and power up Silver Surfer before he leaves the Store!"
+ID_ME_BO_SILVERSURFER_SUPPLYSTORE_2,"Commander,\n\nNow available in the Supplies Store: <color=#fff568>Silver Surfer!</color>\n\nFrom <color=#fff568>August 20, 5PM (PDT) to August 26, 5PM (PDT)</color> Silver Surfer character shards will be purchasable with Power Cores and have an appearance rate of <color=#fff568>20%</color>. After this period, he'll return to being solely available via the Raid Season Milestones.\n\nHurry and power up Silver Surfer before he leaves the Store!"
 ID_ME_NA_PREVIEWBLOG2_2021,2021 Second Half Preview
 ID_ME_DE_PREVIEWBLOG2_2021,Upcoming new features and content
 ID_ME_BO_PREVIEWBLOG2_2021,"Commander,\n\nCheck out our <color=#fff568>latest blog</color> with a rundown of what's in store for the rest of <color=#fff568>2021 and beyond</color>, including:\n\n- Updates to Alliance War and Real-Time Arena\n- Doom Raid II & Dark Dimension V\n- Auto-Basic Combat\n- Preview of Upcoming Costumes\n- New Game Mode in 2022...\n\nTap Go to learn about all this and more!"
@@ -2461,6 +2402,18 @@ ID_ME_BO_KESTREL_SUPPLIES_STORE,"Commander,\n\n<color=#fff568>Kestrel's</color> 
 ID_ME_NA_SHANGCHI_TEASER,Coming Soon: Shang-Chi
 ID_ME_DE_SHANGCHI_TEASER,The Human Weapon
 ID_ME_BO_SHANGCHI_TEASER,"Commander,\n\n<color=#fff568>Shang-Chi</color> is preparing for battle! Add one of the Earth's greatest fighters to your roster:\n\n- Hits hard and attacks often\n- Powerful synergies on War Defense and with Heroes for Hire\n- Clears negative effects from allies\n- Punishes enemies that have positive effects\n- Hero, City, Skill, Brawler, Heroes for Hire\n\n<color=#fff568>How to Recruit</color>\nBe on the lookout for <color=#fff568>The Legend Event</color> to earn Shang-Chi character shards.\n\n<color=#fff568>Supply Store Availability</color>\nCan't wait for The Legend? Starting <color=#fff568>August 20th, 5PM (PDT)</color>, Shang-Chi character shards will be purchasable with Power Cores and will have a 100% appearance rate in the <color=#fff568>Supplies Store</color>."
+ID_ME_NA_SHANGCHI_ANNOUNCE,Shang-Chi is ready for battle!
+ID_ME_DE_SHANGCHI_ANNOUNCE,Warrior for Hire
+ID_ME_BO_SHANGCHI_ANNOUNCE,"Commander,\n\nPunch a hole in the enemy plan with Shang-Chi:\n\n<color=#fff568>Strengths</color>: High Health, Damage, and Speed\n<color=#fff568>Specialty</color>: Attacks often, hits hard, and punishes teams that have positive effects\n<color=#fff568>Ability Highlights</color>: Special ability gains damage per enemy positive effect and applies Speed Up to Heroes for Hire allies\n<color=#fff568>War Defense</color>: When Charged, Heal, gain Offense Up for 2 turns, 2 Deflect, Deathproof, and always revive on Death.\n\nFor more details, check out his <color=#fff568>New Character Spotlight</color> (English only) on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nComing Soon: The Legend Event\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Shang-Chi is featured in Red Star Orbs with an increased drop rate of <color=#fff568>15%</color> for a limited time.\n\nAdd this War Defense warrior today!"
+ID_ME_NA_SHANGCHI_RS_ENDING,Red Star feat. Shang-Chi
+ID_ME_DE_SHANGCHI_RS_ENDING,1 day left!
+ID_ME_BO_SHANGCHI_RS_ENDING,<color=#fff568>Shang-Chi</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%.
+ID_ME_NA_SHANGCHI_PREBAMESH,Availability Update
+ID_ME_DE_SHANGCHI_PREBAMESH,Recruit Shang-Chi!
+ID_ME_BO_SHANGCHI_PREBAMESH,"Commander,\n\n<color=#fff568>Shang-Chi</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>Blob</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_SHANGCHI_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_SHANGCHI_ELITE_STORE,Get Red Stars for Shang-Chi
+ID_ME_BO_SHANGCHI_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Shang-Chi</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Shang-Chi 1 Red Star higher</color> than his current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
 ID_ME_NA_MAYHEM_SEASON9_PREHYPE,Soon: Mayhem Season 9
 ID_ME_DE_MAYHEM_SEASON9_PREHYPE,Updates & New Featured Character
 ID_ME_BO_MAYHEM_SEASON9_PREHYPE,"Commander,\n\nThe new Season of Mojo's Mayhem is almost here! Don't touch that dial because Moon Knight is coming your way!\n\nStay tuned for the exciting start of <color=#fff568>Mojo's Mayhem: Season 9!</color>"
@@ -2551,3 +2504,159 @@ ID_ME_BO_MARIAHILLRS_MAKEGOOD_ELITE67,"There was an issue on July 23, 2021, 5PM 
 ID_ME_NA_GOLD_CALENDAR_10MM,Crafting Bug & 10M Gold
 ID_ME_DE_GOLD_CALENDAR_10MM,Log in every day to earn 10M in Gold!
 ID_ME_BO_GOLD_CALENDAR_10MM,"We recently corrected a bug that was affecting gear crafting. Specifically, it was costing more Gold to craft gear piece-by-piece than crafting the full gear part all at once.\n\nTo compensate the Community for this error, we're upgrading the Update Gold Calendar to a <color=#fff568>2-week login calendar</color> that rewards <color=#fff568>10 million in Gold</color>, which will start on <color=#fff568>August 20th local time</color>.\n\nDon't miss a day and stock up on Gold to power up your roster.\n\n-- MARVEL Strike Force Dev Team"
+ID_ME_NA_WHITETIGER_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_WHITETIGER_FOUNTAIN_UPDATE,Recruit White Tiger
+ID_ME_BO_WHITETIGER_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>White Tiger</color> character shards are now exclusively available in the <color=#fff568>Blitz Orb</color> for 350 Blitz Credits.\n\n<color=#fff568>Domino</color> will still be available in the Blitz Orb and purchasable in the <color=#fff568>Blitz Store</color> for 500 Blitz Credits."
+ID_ME_NA_PHYLAVELL_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_PHYLAVELL_FOUNTAIN_UPDATE,Recruit Phyla-Vell!
+ID_ME_BO_PHYLAVELL_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Phyla-Vell</color> character shards are now available in the <color=#fff568>Arena Orb</color> for 800 Arena Credits.\n\n<color=#fff568>Shatterstar</color> will move out from the Arena Orb featuring and will be available in the <color=#fff568>Arena Store</color> for <color=#fff568>975 Arena Credits</color>.\n\nAdditionally, <color=#fff568>Red Guardian</color> will now be purchasable in the <color=#fff568>Arena Store</color> for <color=#fff568>500 Arena Credits</color>."
+ID_ME_NA_NEWBLOGPOST_082021,New Blog Available
+ID_ME_DE_NEWBLOGPOST_082021,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_082021,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Cloak and Dagger abilities\n- Returning Legendary Event\n- Upcoming Blitzes\n- Weekly Events"
+ID_ME_NA_561PATCHNOTES_ANNOUNCE,The Latest Update has Arrived!
+ID_ME_DE_561PATCHNOTES_ANNOUNCE,5.6.1 Release Notes
+ID_ME_BO_561PATCHNOTES_ANNOUNCE,"<color=#fff568>New over the course of this release:</color>\n\n- Fixed a problem causing crashes in combat\n- Fixed an issue with the Daily Objectives\n\nGood luck, Commanders!"
+ID_ME_NA_STRIKEPASS7_ANNOUNCE,S.T.R.I.K.E. Pass: Season 7
+ID_ME_DE_STRIKEPASS7_ANNOUNCE,Recruit Cloak and Dagger!
+ID_ME_BO_STRIKEPASS7_ANNOUNCE,"Commander,\n\n<color=#fff568>S.T.R.I.K.E. Pass: Season 7 is live!</color>\n\nRack up big rewards by completing your Daily Objectives.\n\nSeason 7 Featured Characters: <color=#fff568>Cloak</color> and <color=#fff568>Dagger</color>\n\n<color=#fff568>How to Recruit Cloak and Dagger</color>\nEarn <color=#fff568>Luminous Credits</color> by hitting season-long S.T.R.I.K.E. Pass milestones. Use those Credits to open either the <color=#fff568>Luminous Cloak Orb</color> or the <color=#fff568>Luminous Dagger Orb</color>. Each orb rewards 5 shards for the specified character.\n\n<color=#fff568>Premium S.T.R.I.K.E. Pass</color>\nUpgrade to the Premium S.T.R.I.K.E. Pass to earn additional rewards for reaching each S.T.R.I.K.E. Level, including Cloak & Dagger Credits.\n\nDon't miss out on <color=#fff568>Cloak</color> and <color=#fff568>Dagger</color> shards in Season 7!"
+ID_ME_NA_HELA_NEWUSER_CALENDAR,Special Hela Calendar
+ID_ME_DE_HELA_NEWUSER_CALENDAR,Recruit Hela with this Calendar
+ID_ME_BO_HELA_NEWUSER_CALENDAR,"Welcome to MARVEL Strike Force! Power up your roster with this exclusive limited-time calendar.\n\nLog in every day for 7 days to <color=#fff568>recruit Hela</color> and earn these resources:\n\n- Legacy I Orb Fragments\n- Legacy II Orb Fragments\n- Mega Orb Fragments\n- Gold Orb Fragments\n\nTo view the full details of your Hela Login Calendar, go to your <color=#fff568>Inbox</color>, tap <color=#fff568>Daily Rewards</color>, and then select the Hela Calendar.\n\nDon't miss a day to recruit and power up Hela!"
+ID_ME_NA_IONIZE_BONUS_EVENT,LIVE: Ionize
+ID_ME_DE_IONIZE_BONUS_EVENT,2x Isotope-8 Campaign Energy!
+ID_ME_BO_IONIZE_BONUS_EVENT,"Commander,\n\nIt's time to earn more Iso-8 resources!\n\nFor <color=#fff568>24 hours</color>, the amount of <color=#fff568>Isotope-8 Campaign Energy</color> received when purchased will be doubled from <color=#fff568>120 to 240</color>.\n\nDon't miss out on more Isotope-8 Campaign Energy!"
+ID_ME_NA_MIGHTIESTWARRIORS_ANNOUNCE,LIVE: Mightiest Warriors
+ID_ME_DE_MIGHTIESTWARRIORS_ANNOUNCE,Power up your roster with 2x rewards
+ID_ME_BO_MIGHTIESTWARRIORS_ANNOUNCE,"Commander,\n\nEarn big rewards with the <color=#fff568>Mightiest Warriors</color> Bonus Event!\n\nFor 48 hours, the following rewards will be <color=#fff568>doubled</color> for all <color=#fff568>Heroes</color> Campaign nodes:\n\n- Character shards\n- Gold\n- Training Modules\n\nBonus Events are limited-time opportunities to earn extra rewards and resources. These valuable resources can help quickly power up your characters, so don't miss out on this limited-time event.\n\nGood luck, Commander!"
+ID_ME_NA_MASTERPLAN_ANNOUNCE,LIVE: Master Plan
+ID_ME_DE_MASTERPLAN_ANNOUNCE,Power up your roster with 2x rewards
+ID_ME_BO_MASTERPLAN_ANNOUNCE,"Commander,\n\nEarn big rewards with the <color=#fff568>Master Plan</color> Event!\n\nFor 48 hours, the following rewards will be <color=#fff568>doubled</color> for all <color=#fff568>Villains</color> Campaign nodes:\n\n- Character shards\n- Gold\n- Training Modules\n\nThese resources can help quickly power up your characters, so don't miss out on this limited-time event.\n\nGood luck, Commander!"
+ID_ME_NA_JA_TWITTER_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_DE_JA_TWITTER_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_BO_JA_TWITTER_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_NA_JA_TWITTER_SHANGCHI_REMINDER1,Temp string
+ID_ME_DE_JA_TWITTER_SHANGCHI_REMINDER1,Temp string
+ID_ME_BO_JA_TWITTER_SHANGCHI_REMINDER1,Temp string
+ID_ME_NA_JA_TWITTER_SHANGCHI_REMINDER2,Temp string
+ID_ME_DE_JA_TWITTER_SHANGCHI_REMINDER2,Temp string
+ID_ME_BO_JA_TWITTER_SHANGCHI_REMINDER2,Temp string
+ID_ME_NA_JA_TWITTER_SHANGCHI_REWARD,Temp string
+ID_ME_DE_JA_TWITTER_SHANGCHI_REWARD,Temp string
+ID_ME_BO_JA_TWITTER_SHANGCHI_REWARD,Temp string
+ID_ME_NA_KO_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_DE_KO_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_BO_KO_SHANGCHI_ANNOUNCE,Temp string
+ID_ME_NA_KO_SHANGCHI_REWARD,Temp string
+ID_ME_DE_KO_SHANGCHI_REWARD,Temp string
+ID_ME_BO_KO_SHANGCHI_REWARD,Temp string
+ID_ME_NA_STRIKEPASS7_ENDING,ENDING: S.T.R.I.K.E. Pass
+ID_ME_DE_STRIKEPASS7_ENDING,7 days left!
+ID_ME_BO_STRIKEPASS7_ENDING,"Commander,\n\n<color=#fff568>S.T.R.I.K.E. Pass: Season 7</color> ends in <color=#fff568>3 days</color>! Continue earning Cloak and Dagger character shards via the <color=#fff568>Luminous Cloak Orb</color> and <color=#fff568>Luminous Dagger Orb</color> before they're gone for good!"
+ID_ME_NA_CLOAK_TEASER,Coming Soon: Cloak
+ID_ME_DE_CLOAK_TEASER,The All-Consuming Shadow
+ID_ME_BO_CLOAK_TEASER,"Commander,\n\n<color=#fff568>Cloak</color> is suiting up for battle! Turn out the lights on your enemies with this New Warrior:\n\n- High Focus and Resistance\n- Hinders enemies with negative effects\n- Synergizes with Dagger for increased power and effectiveness.\n- Raid Synergies: Increased Damage for self and New Warrior allies\n- Hero, City, Mystic, Controller, New Warriors\n\nBe on the lookout for the upcoming Season of <color=#fff568>S.T.R.I.K.E. Pass</color> to earn Cloak shards!"
+ID_ME_NA_DAGGER_TEASER,Coming Soon: Dagger
+ID_ME_DE_DAGGER_TEASER,The Living Light
+ID_ME_BO_DAGGER_TEASER,"Commander,\n\n<color=#fff568>Dagger</color> is en route to the battlefield! Show your enemies the light with this New Warrior:\n\n- Possesses High Health which boosts her Healing abilities\n- Heals allies with Regeneration and direct heals\n- Cloak Synergies increase attack potency and boosts Passive Ability\n- Ultimate Ability applies Vulnerable\n- Hero, City, Mystic, Support, New Warriors\n\nBe on the lookout for the upcoming Season of <color=#fff568>S.T.R.I.K.E. Pass</color> to earn Dagger shards!"
+ID_ME_NA_CARNAGE_NEWUSER_CALENDAR,Special Carnage Calendar
+ID_ME_DE_CARNAGE_NEWUSER_CALENDAR,Recruit Carnage with this Calendar
+ID_ME_BO_CARNAGE_NEWUSER_CALENDAR,"Welcome to MARVEL Strike Force! Power up your roster with this exclusive limited-time calendar.\n\nLog in every day for 7 days to <color=#fff568>recruit Carnage</color> and earn these resources:\n\n- Gold\n- L2 Training Modules\n- T2 Ability Materials\n- Legacy I Orb Fragments\n\nTo view the full details of your Carnage Login Calendar, go to your <color=#fff568>Inbox</color>, tap <color=#fff568>Daily Rewards</color>, and then select the Carnage Calendar.\n\nDon't miss a day to recruit and power up Carnage!"
+ID_ME_NA_CLOAK_ANNOUNCE,Cloak has arrived!
+ID_ME_DE_CLOAK_ANNOUNCE,The All-Consuming Shadow
+ID_ME_BO_CLOAK_ANNOUNCE,"Commander,\n\nEngulf your enemies with Cloak:\n\n<color=#fff568>Strengths</color>: Focus & Resistance\n<color=#fff568>Specialty</color>: Weighs down enemies with negative effects\n<color=#fff568>Ability Highlights</color>: Every ability applies a negative effect\n<color=#fff568>Dagger Synergies</color>: Steal Health from enemy each turn and gain either additional Damage or an Assist with every attack.\n\nFor more details, check out his <color=#fff568>New Character Spotlight</color> (English only) on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nUpcoming Seasons of S.T.R.I.K.E. Pass\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Cloak is featured in Red Star Orbs with an increased drop rate of 15% for a limited time.\n\nRecruit this New Warrior Controller!"
+ID_ME_NA_CLOAK_RS_ENDING,Red Star feat. Cloak
+ID_ME_DE_CLOAK_RS_ENDING,1 day left!
+ID_ME_BO_CLOAK_RS_ENDING,"Commander,\n\n<color=#fff568>Cloak</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%. "
+ID_ME_NA_CLOAK_PREBAMESH,Availability Update
+ID_ME_DE_CLOAK_PREBAMESH,Recruit Cloak!
+ID_ME_BO_CLOAK_PREBAMESH,"Commander,\n\n<color=#fff568>Cloak</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>Ghost Rider</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_CLOAK_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_CLOAK_ELITE_STORE,Get Red Stars for Cloak
+ID_ME_BO_CLOAK_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Cloak</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Cloak 1 Red Star higher</color> than his current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
+ID_ME_NA_DAGGER_ANNOUNCE,Dagger cuts into battle!
+ID_ME_DE_DAGGER_ANNOUNCE,The Living Light
+ID_ME_BO_DAGGER_ANNOUNCE,"Commander,\n\nLight up the battlefield with <color=#fff568>Dagger</color>:\n\n<color=#fff568>Strengths</color>: High Health & Focus\n<color=#fff568>Specialty</color>: Healing allies with Regeneration and direct Healing\n<color=#fff568>Ability Highlights</color>: Special Ability clears Heal Block, heals all allies, and attacks all enemies for Piercing damage.\n<color=#fff568>Cloak Synergies</color>: Applies Assist Now to Cloak with Basic Ability, gains increased Ultimate Ability potency, and gains Passive Ability Boosts.\n\nFor more details, check out her <color=#fff568>New Character Spotlight</color> (English only) on YouTube now!\n\n<color=#fff568>How to Recruit</color>\nUpcoming Seasons of S.T.R.I.K.E. Pass\n\n<color=#fff568>Red Stars</color>\nFor players who have unlocked the Red Star feature (Level 42), Dagger is featured in Red Star Orbs with an increased drop rate of 15% for a limited time.\n\nAdd this New Warrior Support to your roster today!"
+ID_ME_NA_DAGGER_RS_ENDING,Red Star feat. Dagger
+ID_ME_DE_DAGGER_RS_ENDING,1 day left!
+ID_ME_BO_DAGGER_RS_ENDING,"Commander,\n\n<color=#fff568>Dagger</color> will only be featured in all Red Star Orbs for 1 more day! Hurry and open Red Star Orbs while the drop rate is still 15%."
+ID_ME_NA_DAGGER_PREBAMESH,Availability Update
+ID_ME_DE_DAGGER_PREBAMESH,Recruit Dagger!
+ID_ME_BO_DAGGER_PREBAMESH,"Commander,\n\n<color=#fff568>Dagger</color> has been added to the Ultimus Orb, Basic Orb, Premium Orb, Mega Orb, and the Supplies section in the Store. As a result, we have removed <color=#fff568>Toad</color> from the Mega Orb to keep the orb's content exciting and up to date."
+ID_ME_NA_DAGGER_ELITE_STORE,Elite Store Availability Update
+ID_ME_DE_DAGGER_ELITE_STORE,Get Red Stars for Dagger
+ID_ME_BO_DAGGER_ELITE_STORE,"Commander,\n\nDirect Red Star promotions for <color=#fff568>Dagger</color> have been added to the <color=#fff568>Elite Store</color>! You can now use <color=#fff568>Silver or Gold Promotion Credits</color> to promote <color=#fff568>Dagger 1 Red Star higher</color> than her current rank. You can earn Promotion Credits by <color=#fff568>exchanging your Elite Credits</color> or by completing the Alliance Donation Daily Objective."
+ID_ME_NA_NEWBLOGPOST_090321,New Blog Available
+ID_ME_DE_NEWBLOGPOST_090321,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_090321,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Mojo's Mayhem Updates\n- Upcoming Blitzes\n- Weekly Events"
+ID_ME_NA_VENOM_NEWUSER_CALENDAR,Special Venom Calendar
+ID_ME_DE_VENOM_NEWUSER_CALENDAR,Recruit Venom with this Calendar
+ID_ME_BO_VENOM_NEWUSER_CALENDAR,"Welcome to MARVEL Strike Force! Power up your roster with this exclusive limited-time calendar.\n\nLog in every day for 7 days to <color=#fff568>recruit Venom</color> and earn these resources:\n\n- Gold\n- L2 Training Modules\n- T2 Ability Materials\n- Legacy I Orb Fragments\n\nTo view the full details of your Venom Login Calendar, go to your <color=#fff568>Inbox</color>, tap <color=#fff568>Daily Rewards</color>, and then select the Venom Calendar.\n\nDon't miss a day to recruit and power up Venom!"
+ID_ME_NA_MOONKNIGHT_FOUNTAIN_UPDATE,Availability Update
+ID_ME_DE_MOONKNIGHT_FOUNTAIN_UPDATE,Recruit Moonknight!
+ID_ME_BO_MOONKNIGHT_FOUNTAIN_UPDATE,"Commander,\n\n<color=#fff568>Moonknight</color> character shards are now available in <color=#fff568>Cosmic 1-3</color>.\n\n"
+ID_ME_NA_MAYHEM_SEASON10_ANNOUNCE,Mojo's Mayhem: Season 10
+ID_ME_DE_MAYHEM_SEASON10_ANNOUNCE,"Blitz, Bans, and the featured character"
+ID_ME_BO_MAYHEM_SEASON10_ANNOUNCE,"Commander,\n\n<color=#fff568>Mojo's Mayhem: Season 10 is live!</color>\nHelp Mojo crush his ratings goals in return for big prizes in this month's Season of Mojo's Mayhem! Complete this Season's Daily and Weekly Objectives and reap the ratings rewards.\n\n<color=#fff568>Updates for this Season:</color>\nWe've updated bans and expanded objectives to also include Blitz. Here are the Season 10 update details:\n\n<color=#fff568>Blitz Wins</color> - Season 10 will include the option of battling in Blitz as Daily and Weekly Objectives. By either winning in Blitz and/or getting KO's in Real-Time Arena, you'll earn Ratings towards Mojo's Mayhem - the choice is yours. Accompanying the addition of Blitz to Mojo's Mayhem will be a small improvement to the Blitz Rank Rewards.\n\n<color=#fff568>Character Bans</color> - Weekly individual character bans have been increased from 4 to 5 to encourage unique team compositions in battle.\n\n<color=#fff568>Featured Season 10 Rewards:</color>\n- 100 <color=#fff568>Multiple Man</color> character shards\n- 120 Superior Gear Parts required for Gear Tier 14\n- 100 Superior Gear Parts required for Gear Tier 15\n- 5 Gold Promotion Credits\n- 15 Silver Promotion Credits\n- 1,675 Various pieces of Superior Gear\n- 712 Various pieces of Advanced Gear\n- 550 Power Cores\n- 180 L3 Training Modules\n\nCharge into <color=#fff568>Mojo's Mayhem: Season 10</color> today!"
+ID_ME_NA_MAYHEM_SEASON10_ENDING,Season Ending Soon...
+ID_ME_DE_MAYHEM_SEASON10_ENDING,7 more days!
+ID_ME_BO_MAYHEM_SEASON10_ENDING,"Commander,\n\nThere are only <color=#fff568>7 more days</color> until this Season of Mojo's Mayhem ends.\n\nHit your Objectives and earn Multiple Man shards before these rewards fade to black!"
+ID_ME_NA_THEBLEEDINGKING_TEASER,Prepare for Absolute Carnage
+ID_ME_DE_THEBLEEDINGKING_TEASER,Earn Carnage's new costume!
+ID_ME_BO_THEBLEEDINGKING_TEASER,"Commander,\n\nBond with big rewards in the upcoming <color=#fff568>The Bleeding King</color> Event!\n\nTear into enemies to earn gear rewards and Bits to purchase Carnage's terrifying new <color=#fff568>Absolute Carnage</color> Costume.\n\nBe on the lookout for this razor-sharp event!"
+ID_ME_NA_THEBLEEDINGKING_ANNOUNCE,LIVE: The Bleeding King
+ID_ME_DE_THEBLEEDINGKING_ANNOUNCE,Absolute Carnage Costume and more!
+ID_ME_BO_THEBLEEDINGKING_ANNOUNCE,"Commander,\n\nNOW LIVE: The Bleeding King!\n\nBond with Carnage's new costume and other rewards with this limited-time event:\n\n<color=#fff568>The Bleeding King Milestone</color>\nSlice and dice enemies in <color=#fff568>Alliance War, Arena,</color> and <color=#fff568>Raids</color> to earn points toward a 14-day milestone that rewards:\n\n- Yellow Phase Bits\n- Elite 4 & Elite 5 Credits\n- Ability Materials\n- Catalyst Parts\n- Gear\n\n<color=#fff568>Costume</color>\nThe Bleeding King is your first opportunity to add Carnage's <color=#fff568>Absolute Carnage</color> costume to your roster using Yellow Phase Bits.\n\nUnused Bits will be converted to <color=#fff568>Costume Credits</color> on September 30th at 5:00PM (PDT) at a conversion rate of <color=#fff568>60%</color>."
+ID_ME_NA_THEBLEEDINGKING_ENDING,ENDING: The Bleeding King
+ID_ME_DE_THEBLEEDINGKING_ENDING,3 days left!
+ID_ME_BO_THEBLEEDINGKING_ENDING,"Commander,\n\n<color=#fff568>The Bleeding King</color> Event ends in <color=#fff568>3 days</color>!\n\nContinue earning Yellow Phase Bits and gear before these rewards are gone for good. All unused Yellow Phase Bits will be converted to Costume Credits on <color=#fff568>September 30th at 5:00PM (PDT)</color> at a conversion rate of <color=#fff568>60%</color> after the event has ended.\n\nGood luck, Commander!"
+ID_ME_NA_NEWBLOGPOST_091021,New Blog Available
+ID_ME_DE_NEWBLOGPOST_091021,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_091921,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- The Bleeding King Event\n- S.T.R.I.K.E. Pass New Season\n- Character Availability Update\n- Next Repeating Legendary Event\n- Weekly Events"
+ID_ME_NA_UNSTABLEELEMENTS_TEASER,Soon: Unstable Elements
+ID_ME_DE_UNSTABLEELEMENTS_TEASER,Earn tons of Iso-8!
+ID_ME_BO_UNSTABLEELEMENTS_TEASER,"Commander,\n\nGrow your Iso-8 supply with the upcoming <color=#fff568>Unstable Elements Event</color>!\n\nEarn <color=#fff568>T2 (Blue)</color> and <color=#fff568>T1 (Green) Iso-8</color> pieces by completing select Daily Objectives during this limited-time event.\n\nThe Iso-8 Lab opens soon, so be on the lookout!"
+ID_ME_NA_UNSTABLEELEMENTS_ANNOUNCE,LIVE: Unstable Elements
+ID_ME_DE_UNSTABLEELEMENTS_ANNOUNCE,Complete Daily Objectives to earn Iso-8
+ID_ME_BO_UNSTABLEELEMENTS_ANNOUNCE,"Commander,\n\nNOW LIVE: <color=#fff568>Unstable Elements</color>\n\nStock up on Iso-8 with this limited-time event:\n\n<color=#fff568>Elementary Particles Currency</color>\nEarn limited-time <color=#fff568>Elementary Particles</color> Event Currency by completing select Daily Objectives and via offers in the Supplies Store.\n\n<color=#fff568>Elementary Particles Event Store</color>\nSpend your Elementary Particles in the <color=#fff568>Elementary Particles Event Store</color> where you can purchase <color=#fff568>T2 (Blue) & T1 (Green) Iso-8</color>."
+ID_ME_NA_UNSTABLEELEMENTS_ENDING,ENDING: Unstable Elements
+ID_ME_DE_UNSTABLEELEMENTS_ENDING,2 days left!
+ID_ME_BO_UNSTABLEELEMENTS_ENDING,"Commander,\n\nThe <color=#fff568>Unstable Elements</color> Event ends in <color=#fff568>2 days</color>! Continue earning Elementary Particles via Daily Objectives and be sure to spend all of it on Iso-8 pieces in the Event Store before this event is gone for good.\n\nGood luck, Commander!"
+ID_ME_NA_AUGMENTEDTEALGEAR_ANNOUNCE,Introducing: Augmented Gear
+ID_ME_DE_AUGMENTEDTEALGEAR_ANNOUNCE,The next gear tier is here...
+ID_ME_BO_AUGMENTEDTEALGEAR_ANNOUNCE,"Commander,\n\nThe next gear phase has arrived: <color=#fff568>Augmented (Teal) gear</color>! Here are the updates heading your way:\n\n<color=#fff568>Doom II Raids</color>\nTeal Gear Raid Orbs earned from Doom II rewards will include all Augmented gear types, excluding mini-uniques.\n\n<color=#fff568>Supplies & War Store</color>\nCommanders Level 80+ will find one row dedicated to Augmented gear in both the Supplies Store and War Store.\n\n<color=#fff568>Special Offers</color>\nBe on the lookout for limited-time offers for Augmented gear.\n\n<color=#fff568>Orange Gear Updates</color>\nIn the Supplies Store, all orange gear types, except Basic Catalysts, will now appear in higher quantities. We've also reduced the prices of Orange Catalysts, Orange Origin Gear, and Gear Tier 14 mini-uniques.\n\nIn the War Store, Superior Basic Catalysts, Orange Uniques, and gear tier 14 mini-uniques will all appear in greater quantities. Orange uniques and gear tier 14 mini-uniques have had their prices greatly reduced.\n\nStart powering up your roster with Augmented gear today!"
+ID_ME_NA_570PATCHNOTES_TEASER,Update Coming Soon
+ID_ME_DE_570PATCHNOTES_TEASER,Prepare yourself
+ID_ME_BO_570PATCHNOTES_TEASER,"Commander,\n\nA new MARVEL Strike Force update is coming soon, including:\n\n- 3 new playable characters\n- New costumes\n- New Mythic Legendary Event\n- New Event Campaign\n- Alliance War Updates\n- Doom II\n- Teal (Augmented) Gear\n- And more!\n\nGet ready for these and other big changes coming soon!"
+ID_ME_NA_NEWBLOGPOST_091721,New Blog Available
+ID_ME_DE_NEWBLOGPOST_091721,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_091721,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Omega Red abilities & Mythic Legendary Event\n- Unstable Elements Event\n- Returning Legendary Event\n- Weekly Events"
+ID_ME_NA_ALLIANCEWAR_UPDATE_TEASER,Coming Soon: War Updates
+ID_ME_DE_ALLIANCEWAR_UPDATE_TEASER,Prepare your Defenses
+ID_ME_BO_ALLIANCEWAR_UPDATE_TEASER,"Commander,\n\nHelicarrier-sized updates are coming to Alliance War, including:\n\n- 2 additional slots for Defense teams\n- 2 additional War Energy at the start of each War and a higher War Energy cap\n- New ""War Ready"" trait\n- Updated room bonuses\n- And more!\n\nThe updates go live with our upcoming <color=#fff568>version 5.7.0 Release</color>. Make sure you set defenses in your <color=#fff568>2 new Defensive Slots</color> as soon as the scheduled maintenance is complete.\n\nGood luck, Commander!"
+ID_ME_NA_ALLIANCEWAR_UPDATE_ANNOUNCE,Alliance War Updates
+ID_ME_DE_ALLIANCEWAR_UPDATE_ANNOUNCE,Set your new Defensive teams now!
+ID_ME_BO_ALLIANCEWAR_UPDATE_ANNOUNCE,"Commander,\n\nThe <color=#fff568>Alliance War</color> updates are now live!\n\nSet your <color=#fff568>2 new Defensive slots</color> and review the following updates with your Alliance:\n\n<color=#fff568>War Energy</color>\n- Players now start a War with 4 War Energy (previously 2).\n- War Energy cap raised from 5 to 10.\n\n<color=#fff568>War Ready Trait</color>\n- New ""War Ready"" trait: Gives characters boosted stats when defending the Hangar or Cargo Bay.\n- Any character equipped with T1 Level 4 Iso-8 or higher receives the ""War Ready"" trait.\n\n<color=#fff568>Room Updates</color>\n- Each player now has 10 slots to which they can assign Defense teams (previously 8).\n- Room Bonuses updated for Cargo Bay, Bridge, and Hangar.\n\n<color=#fff568>Boosts & Attacks</color>\n- You can now Boost 5 rooms per War (previously 4).\n- Alliances can attack 4 teams per player in parallel (previously 2).\n- Alliance officers can mark rooms as ""Do Not Attack."" This is a visual tool and will not prevent attacks.\n\nFor more information, check out the Alliance War Update blog.\n\nGood luck, Commanders!"
+ID_ME_NA_570PATCHNOTES_ANNOUNCE,The Latest Update has Arrived!
+ID_ME_DE_570PATCHNOTES_ANNOUNCE,5.7.0 Release Notes
+ID_ME_BO_570PATCHNOTES_ANNOUNCE,"Devour alphas with the one true omega: Omega Red!\n\n<color=#fff568>New over the course of this release:</color>\n\n- 3 new playable characters: Omega Red, Lady Deathstrike, and Silver Samurai\n- New Costumes for Cyclops, Wolverine, and Venom\n- Ability and stat improvements for Wolverine & Sabretooth\n- Omega Red Mythical Legendary Event: The Red Death\n- Silver Samurai Event Campaign: Curse of Muramasa\n- New Gear Tier 16: Teal (Augmented) Gear\n- New Doom II Raid: Earn T2 (Blue) Iso-8, Teal Gear, and more!\n- Raid completion requirements updates to unlock higher difficulties\n- Alliance War updates\n- New negative effect: Trauma\n- Suggested device requirements pop-up\n- Gear tier ring visual improvements\n\nAccess the full briefing on the MARVEL Strike Force website.\n\nGood luck, Commanders!"
+ID_ME_NA_EXPERIMENTX_TEASER,Coming Soon: A new experiment
+ID_ME_DE_EXPERIMENTX_TEASER,"Wolverine costume, Teal gear, and more!"
+ID_ME_BO_EXPERIMENTX_TEASER,"Commander,\n\nSet your sights on the upcoming <color=#fff568>Experiment X</color> Event!\n\nClaw your way to big rewards, including:\n\n- Bits to purchase Wolverine's <color=#fff568>Weapon X Costume</color>\n- Teal gear\n- Silver & Gold Promotion Credits\n- And more!\n\nSharpen your claws and get ready!"
+ID_ME_NA_EXPERIMENTX_ANNOUNCE,LIVE: Experiment X
+ID_ME_DE_EXPERIMENTX_ANNOUNCE,"Weapon X Costume, Teal gear, and more!"
+ID_ME_BO_EXPERIMENTX_ANNOUNCE,"Commander,\n\nNOW LIVE: Experiment X!\n\nClaw your way to Wolverine's new costume and other rewards with this limited-time event:\n\n<color=#fff568>Experiment X Milestone</color>\nSpend Campaign Energy, Isotope-8 Energy, and Power Cores to earn points toward a one-day milestone that repeats for 14 days. Rewards include:\n\n- Pink Phase Bits\n- <color=#fff568>Teal</color>, Orange, and Purple gear\n- Silver and Gold Promotion Credits\n\n<color=#fff568>Costume</color>\nExperiment X is your first opportunity to add Wolverine's <color=#fff568>Weapon X</color> Costume to your roster using Pink Phase Bits.\n\nUnused Bits will be converted to Costume Credits on <color=#fff568>October 20th at 5:00PM (PDT)</color> at a conversation rate of <color=#fff568>60%</color>."
+ID_ME_NA_EXPERIMENTX_ENDING,ENDING: Experiment X
+ID_ME_DE_EXPERIMENTX_ENDING,5 days left!
+ID_ME_BO_EXPERIMENTX_ENDING,"Commander,\n\nThe <color=#fff568>Experiment X</color> Event ends in <color=#fff568>5 days</color>!\n\nContinue earning Pink Phase Bits and gear before these rewards are gone for good. All unused Pink Phase Bits will be converted to Costume Credits on <color=#fff568>October 20th at 5:00PM (PDT)</color> at a conversation rate of <color=#fff568>60%</color> after the event has ended.\n\nGood luck, Commander!"
+ID_ME_NA_LADYDEATHSTRIKE_TEASER,Soon: Lady Deathstrike
+ID_ME_DE_LADYDEATHSTRIKE_TEASER,Cybernetic Assassin
+ID_ME_BO_LADYDEATHSTRIKE_TEASER,"Commander,\n\n<color=#fff568>Lady Deathstrike</color> is slashing toward the battlefield! Claw your way to victory with this Weapon X Brawler:\n\n- Clears negative effects and provides Immunity\n- Alliance War Weapon X Synergies\n- Gains bonuses when attacking enemies possessing Bleed\n- Villain, Global, Tech, Brawler, Weapon X\n\nBe on the lookout for the <color=#fff568>Lab Experiments</color> Event to earn Lady Deathstrike character shards!"
+ID_ME_NA_571PATCHNOTES_ANNOUNCE,The Latest Update has Arrived!
+ID_ME_DE_571PATCHNOTES_ANNOUNCE,5.7.1 Release Notes
+ID_ME_BO_571PATCHNOTES_ANNOUNCE,"New in this release:\n\n- Fixed some combat bugs\n- Updates to character art\n\nGood luck, Commanders!"
+ID_ME_NA_NEWBLOGPOST_100121,New Blog Available
+ID_ME_DE_NEWBLOGPOST_100121,See the latest MARVEL Strike Force news
+ID_ME_BO_NEWBLOGPOST_100121,"Commander,\n\nThere's a new blog available to read. Inside you'll learn about:\n\n- Mojo's Mayhem Season 11\n- Returning Legendary Event\n- Character Availability Update\n- Weekly Events"
+ID_ME_NA_MAYHEM_SEASON11_ANNOUNCE,Mojo's Mayhem: Season 11
+ID_ME_DE_MAYHEM_SEASON11_ANNOUNCE,Earn Emma Frost's new costume!
+ID_ME_BO_MAYHEM_SEASON11_ANNOUNCE,"Commander,\n\n<color=#fff568>Mojo's Mayhem: Season 11 is live!</color>\n\nHelp Mojo crush his ratings goals in return for big prizes in this month's Season of Mojo's Mayhem! Complete this Season's Daily and Weekly Objectives and reap the ratings rewards.\n\n<color=#fff568>Emma Frost's ""Dawn of X"" Costume:</color>\nSilver Flash Bits have been added to select Premium Pass Ratings Milestones for Season 11. Upgrade to the Premium Pass to earn these bits and use them to purchase Emma Frost's ""Dawn of X"" Costume.\n\nUnused Bits will be converted to Costume Credits on November 12th at 4:00PM (PST) at a conversion rate of 60%.\n\n<color=#fff568>Featured Season 11 Rewards:</color>\n- 100 <color=#fff568>Emma Frost</color> character shards\n- 120 Superior Gear Parts required for Gear Tier 14\n- 100 Superior Gear Parts required for Gear Tier 15\n- 5 Gold Promotion Credits\n- 15 Silver Promotion Credits\n- 1,600 Various pieces of Superior Gear\n- 712 Various pieces of Advanced Gear\n- 550 Power Cores\n- 180 L3 Training Modules\n\nCharge into <color=#fff568>Mojo's Mayhem: Season 11</color> today!"

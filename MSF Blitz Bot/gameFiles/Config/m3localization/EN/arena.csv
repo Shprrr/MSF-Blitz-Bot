@@ -598,9 +598,14 @@ ID_AR_LM_KREESUPPORT_HOT,Face off against other players' teams to earn various m
 ID_AR_MT_KREESUPPORT_HOT,LIVE: Farseer Blitz
 ID_AR_MS_KREESUPPORT_HOT,Your chance to win Kree Oracle shards!
 ID_AR_MB_KREESUPPORT_HOT,"<color=#fff568>Farseer Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Kree Oracle shards!\n\n<color=#fff568>Farseer Orb</color>\nFor a limited time, a new Farseer Orb is available in the Store. The orb contains <color=#fff568>only Kree Oracle shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Kree Oracle now!"
-ID_AR_ES_KREESUPPORT_HOT,ENDED: Farseer Blitz
-ID_AR_EB_KREESUPPORT_HOT,The Farseer Blitz has ended; visit <color=#fff568>BLITZ</color> to collect your rewards.
 ID_AR_NA_KREESUPPORT_HOT_CARD,Farseer
+ID_AR_NA_LADYDEATHSTRIKE,Tough as Nails
+ID_AR_SM_LADYDEATHSTRIKE,Win Lady Deathstrike Shards!
+ID_AR_LM_LADYDEATHSTRIKE,Face off against other players' teams to earn various milestone rewards and a chance to win Lady Deathstrike shards!
+ID_AR_MT_LADYDEATHSTRIKE,LIVE: Tough as Nails Blitz
+ID_AR_MS_LADYDEATHSTRIKE,Your chance to win Lady Deathstrike shards!
+ID_AR_MB_LADYDEATHSTRIKE,"<color=#fff568>Tough as Nails Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Lady Deathstrike shards!\n\n<color=#fff568>Tough as Nails Orb</color>\nFor a limited time, a new Tough as Nails Orb is available in the Store. The orb contains <color=#fff568>only Lady Deathstrike shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Lady Deathstrike now!"
+ID_AR_NA_LADYDEATHSTRIKE_CARD,Tough as Nails
 ID_AR_NA_LOKI,God of Mischief
 ID_AR_SM_LOKI,Win Loki Shards!
 ID_AR_LM_LOKI,Face off against other players' teams to earn various milestone rewards and a chance to win LOKI shards!
@@ -986,8 +991,6 @@ ID_AR_LM_SHIELDTANK_STUN,Face off against other players' teams to earn various m
 ID_AR_MT_SHIELDTANK_STUN,LIVE: Bulwark Blitz
 ID_AR_MS_SHIELDTANK_STUN,Your chance to win S.H.I.E.L.D. Security shards!
 ID_AR_MB_SHIELDTANK_STUN,"<color=#fff568>Bulwark Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win S.H.I.E.L.D. Security shards!\n\n<color=#fff568>Bulwark Orb</color>\nFor a limited time, a new Bulwark Orb is available in the Store. The orb contains <color=#fff568>only S.H.I.E.L.D. Security shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit S.H.I.E.L.D. Security now!"
-ID_AR_ES_SHIELDTANK_STUN,ENDED: Bulwark Blitz
-ID_AR_EB_SHIELDTANK_STUN,The Bulwark Blitz has ended; visit <color=#fff568>BLITZ</color> to collect your rewards.
 ID_AR_NA_SHIELDTANK_STUN_CARD,Bulwark
 ID_AR_NA_SHOCKER,Vibro-Smasher
 ID_AR_SM_SHOCKER,Win Shocker Shards!
@@ -995,8 +998,6 @@ ID_AR_LM_SHOCKER,Face off against other players' teams to earn various milestone
 ID_AR_MT_SHOCKER,LIVE: Vibro-Smasher Blitz
 ID_AR_MS_SHOCKER,Your chance to win Shocker shards!
 ID_AR_MB_SHOCKER,"<color=#fff568>Vibro-Smasher Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Shocker shards!\n\n<color=#fff568>Vibro-Smasher Orb</color>\nFor a limited time, a new Vibro-Smasher Orb is available in the Store. The orb contains <color=#fff568>only Shocker shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Shocker now!"
-ID_AR_ES_SHOCKER,ENDED: Vibro-Smasher Blitz
-ID_AR_EB_SHOCKER,The Vibro-Smasher Blitz has ended; visit <color=#fff568>BLITZ</color> to collect your rewards.
 ID_AR_NA_SHOCKER_CARD,Vibro-Smasher
 ID_AR_NA_SIF,Shield Maiden
 ID_AR_SM_SIF,Win Sif Shards!
@@ -1005,6 +1006,13 @@ ID_AR_MT_SIF,LIVE: Shield Maiden Blitz
 ID_AR_MS_SIF,Your chance to win Sif shards!
 ID_AR_MB_SIF,"<color=#fff568>Shield Maiden Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Sif shards!\n\n<color=#fff568>Shield Maiden Orb</color>\nFor a limited time, a new Shield Maiden Orb is available in the Store. The orb contains <color=#fff568>only Sif shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Sif now!"
 ID_AR_NA_SIF_CARD,Shield Maiden
+ID_AR_NA_SILVERSAMURAI,Tachyon Warrior
+ID_AR_SM_SILVERSAMURAI,Win Silver Samurai Shards!
+ID_AR_LM_SILVERSAMURAI,Face off against other players' teams to earn various milestone rewards and a chance to win Silver Samurai shards!
+ID_AR_MT_SILVERSAMURAI,LIVE: Tachyon Warrior Blitz
+ID_AR_MS_SILVERSAMURAI,Your chance to win Silver Samurai shards!
+ID_AR_MB_SILVERSAMURAI,"<color=#fff568>Tachyon Warrior Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Silver Samurai shards!\n\n<color=#fff568>Tachyon Warrior Orb</color>\nFor a limited time, a new Tachyon Warrior Orb is available in the Store. The orb contains <color=#fff568>only Silver Samurai shards</color> and guarantees at least 6 shards with a chance to earn <color=#fff568>up to 180</color>! Recruit Silver Samurai now!"
+ID_AR_NA_SILVERSAMURAI_CARD,Tachyon Warrior
 ID_AR_NA_SILVERSURFER,The Herald
 ID_AR_SM_SILVERSURFER,Win Silver Surfer Shards!
 ID_AR_LM_SILVERSURFER,Face off against other players' teams to earn various milestone rewards and a chance to win Silver Surfer shards!
@@ -1226,3 +1234,10 @@ ID_AR_MT_YOYO,LIVE: Slingshot Blitz
 ID_AR_MS_YOYO,Your chance to win Yo-Yo shards!
 ID_AR_MB_YOYO,"<color=#fff568>Slingshot Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Yo-Yo shards!\n\n<color=#fff568>Slingshot Orb</color>\nFor a limited time, a new Slingshot Orb is available in the Store. The orb contains <color=#fff568>only Yo-Yo shards</color> and guarantees at least 6 shards with a chance to win <color=#fff568>up to 180</color>! Recruit Yo-Yo now!"
 ID_AR_NA_YOYO_CARD,Slingshot
+ID_AR_NA_CLOAKDAGGER,Luminous Duo
+ID_AR_SM_CLOAKDAGGER,Win Luminous Credits!
+ID_AR_LM_CLOAKDAGGER,Face off against other players' teams to earn various milestone rewards and a chance to win Luminous Credits!
+ID_AR_MT_CLOAKDAGGER,LIVE: Luminous Duo Blitz
+ID_AR_MS_CLOAKDAGGER,Your chance to win Luminous Credits!
+ID_AR_MB_CLOAKDAGGER,"<color=#fff568>Luminous Duo Blitz</color>\nFace off against other players' teams to earn various milestone rewards and a chance to win Luminous Credits!\n\n<color=#fff568>Luminous Orbs</color>\nFor a limited time, Luminous Credits can be used to open either Luminous Cloak or Luminous Dagger Orbs that are available in the Store. Each orb only contains <color=#fff568>Cloak or Dagger shards</color> and guarantees <color=#fff568>5 shards</color>. Use your Luminous Credits to recruit Cloak and Dagger now!"
+ID_AR_NA_CLOAKDAGGER_CARD,Luminous Duo

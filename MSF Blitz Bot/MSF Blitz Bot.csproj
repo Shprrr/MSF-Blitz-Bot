@@ -297,6 +297,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_KreeTank_Counter.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_LadyDeathstrike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Loki.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -382,6 +385,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Okoye.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_OmegaRed.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Phoenix.png">
@@ -487,6 +493,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Sif.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_SilverSamurai.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_SilverSurfer.png">

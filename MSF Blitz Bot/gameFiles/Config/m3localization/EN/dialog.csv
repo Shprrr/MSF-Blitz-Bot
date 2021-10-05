@@ -8232,6 +8232,154 @@ ID_DIALOG_ECM_DEATHPOOL_09_END_7,"Well, I guess now that my life isn't in MORTAL
 ID_DIALOG_ECM_DEATHPOOL_09_END_8,"Don't worry, I'm sure plenty of people want to kill you. "
 ID_DIALOG_ECM_DEATHPOOL_09_END_9,"I'll be back soon... Dadpool. "
 ID_DIALOG_ECM_DEATHPOOL_09_END_10,"GASP!!!! DID YOU GUYS HEAR THAT?! "
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_0,THE ARCTIC...
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_1,W-w-w-why did Fury send us to the freezing cold middle of nowhere again?
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_2,"We got trace radiation readings that indicated a dimensional breach, so he needed someone to check it out. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_3,"Sure, but why US? I'm two seconds from creating a dozen dupes to huddle together for warmth out here."
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_4,"Something about wanting to get Shatterstar... "
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_5,"Madrox!!! Come, adventure awaits! I can see your teeth absolutely CHATTERING with anticipation! "
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_6,"...out of the Helicarrier. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_7,"Well, I hope whatever we find out here, it was worth him yelling about."
+ID_DIALOG_ECM_SILVERSAMURAI_01_INTRO_8,"Oh, trust me, Madrox. It is. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_0,"Heh. X-Factor's this world's defenders, eh? Gonna be easier than I expected. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_1,"What's the play, runt?"
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_2,"We tear 'em apart... Then let the blade claim 'em. Weapon X? Strike. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_3,"THE WEAPON X TEAM BREAKS DOWN ENEMY DEFENSES, OPENING THEM UP TO DEVASTAING FOLLOW UP ATTACKS THAT ARE ESPECIALLY DEADLY IN WAR."
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_4,"ALL OF SILVER SAMURAI'S ATTACKS APPLY <color=#fff568>HEAL BLOCK</color>, PREVENTING ENEMIES FROM HEALING."
+ID_DIALOG_ECM_SILVERSAMURAI_01_START_5,"HIS ATTACKS ALSO DEAL <color=#fff568>PIERCING</color> DAMAGE, MAKING HIM EFFICIENT AT BREAKING DOWN HIGH ARMOR ENEMIES."
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_0,"I hear you like swords, Shatterstar. Lemme tell you 'bout this one."
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_1,"The Muramasa Blade. Got a demon's soul in it, and the more folks I strike with it? "
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_2,"The more people the demon gets to control. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_3,"We got more than enough people in our world, so guess what... We're here to take yours. Startin' with you. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_4,ARGH!
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_5,"Go! Get out of here, warn Fury!"
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_6,"One of Madrox's duplicates! He's getting away. "
+ID_DIALOG_ECM_SILVERSAMURAI_01_END_7,"Even if he does, when we're done with this place? Ain't nowhere he can hide anyway. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_0,THE HELICARRIER...
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_1,We've got Madrox's dupe in the med bay. Got sliced up pretty bad getting away. Says YOU'RE the one who put him there.
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_2,"Hm. Been battling my Weapon X days a long time. Never thought it'd be this literal. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_3,"He also said something about a demon blade. Can't tell if that was rambling or not. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_4,"Nah, it's the real deal. I dealt with that blade a long time ago. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_5,"Only one guy I know ever resisted it, and as much as it pains me... I called him in for backup."
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_6,"You were wise to do so, Logan. The black blade of Muramasa is beyond your... Heh... Inferior will. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_INTRO_7,"Fury, meet Silver Samurai. We'll take care of this. But first we need to round up the team. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_START_0,A castle in the middle of New York? This is a mockery and abomination.
+ID_DIALOG_ECM_SILVERSAMURAI_02_START_1,"Yeah, well, when the Hand built Shadowland, I don't think they were that interested in honoring tradition."
+ID_DIALOG_ECM_SILVERSAMURAI_02_START_2,"Since Daredevil got outed, Deathstrike's been running this place... She's around here somewhere."
+ID_DIALOG_ECM_SILVERSAMURAI_02_START_3,"Intruders! Hand, attack! Bring them down and let them face Lady Deathstrike."
+ID_DIALOG_ECM_SILVERSAMURAI_02_END_0,"The Hand are honorless cowards, Logan. I understand why they challenge you, but fighting them is beneath me."
+ID_DIALOG_ECM_SILVERSAMURAI_02_END_1,"Besides, I could have stayed in Japan if I wanted to kill these insects."
+ID_DIALOG_ECM_SILVERSAMURAI_02_END_2,"We ain't here for them, Harada. "
+ID_DIALOG_ECM_SILVERSAMURAI_02_END_3,Deathstrike! C'mon out! I gotta have some words with ya.
+ID_DIALOG_ECM_SILVERSAMURAI_02_END_4,The shiny soldier and his pet dog... You come to my home and make demands? This should be good.
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_0,So that's the situation. This blade's gonna take more and more of our people.
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_1,"We're the only ones who can stop it. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_2,"So here you are, putting our motley band back together? "
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_3,"Somethin' like that. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_4,"The gall of you, Logan. To come to me for a favor?"
+ID_DIALOG_ECM_SILVERSAMURAI_03_INTRO_5,"Tell you what... Come closer. Tell your wishes to my talons, and see if they might grant them!"
+ID_DIALOG_ECM_SILVERSAMURAI_03_START_0,"We ain't gotta do this, Yuriko!"
+ID_DIALOG_ECM_SILVERSAMURAI_03_START_1,"No, but it'll be FUN if nothing else, won't it?"
+ID_DIALOG_ECM_SILVERSAMURAI_03_START_2,"It's refreshing to see someone else who hates you as much as I do, Logan. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_START_3,"Yeah, yeah... Get in line."
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_0,"Heh, I missed the sound of my claws scraping against your metal bones, Logan."
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_1,"Can't say the same. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_2,"Yuriko, we can stand here and slice this dog all day, but he'll simply heal. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_3,"Meanwhile, our actual enemies are out there, amassing power. Help us, then return to this shameful empire. "
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_4,"You have a way with words, Harada. But fine, I'll help. Another Muramasa Blade can't be good for anyone."
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_5,So you were gonna help the whole time?
+ID_DIALOG_ECM_SILVERSAMURAI_03_END_6,"I wasn't sure--I wanted to see if I could kill you or not first. Lucky for this dimension... you lived. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_0,"Fury called in a lead on that other Weapon X, someone spotted 'em. So I sent Yuriko to check it out."
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_1,"What's wrong, Wolverine? Did she frighten you so much that you sent her away?"
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_2,"Bub, if you ain't scared of Lady Deathstrike, you're probably already dead. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_3,"In the meantime, we got someone else to find. Creed. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_4,"That animal?! I've tolerated your smell thus far, but adding him to the mix..."
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_5,"They got a Sabretooth, so we're gettin' one. I'm not going into battle short one psychopath."
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_6,And where are we finding him?
+ID_DIALOG_ECM_SILVERSAMURAI_04_INTRO_7,"Madripoor. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_START_0,"Creed! We need to talk. Fury sent us. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_START_1,"Oh, Victor, did you leave the door open? A few strays wandered in..."
+ID_DIALOG_ECM_SILVERSAMURAI_04_START_2,"This Mystique means trouble... Guard up, Harada!"
+ID_DIALOG_ECM_SILVERSAMURAI_04_END_0,"These mutants... They were from our world, but they have the mark of the Black Blade on them. "
+ID_DIALOG_ECM_SILVERSAMURAI_04_END_1,Something's not right.
+ID_DIALOG_ECM_SILVERSAMURAI_04_END_2,"You got that right, runt. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_INTRO_0,"You ain't our Creed. You're the one that came in with them. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_INTRO_1,"I can smell Muramasa all over you. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_INTRO_2,"You're smart for a half-pint. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_INTRO_3,"We turned those Brotherhood right away. Your X-Factor pals led us to 'em, they've been real helpful."
+ID_DIALOG_ECM_SILVERSAMURAI_05_INTRO_4,Muramasa needs servants. And you two are next to join!
+ID_DIALOG_ECM_SILVERSAMURAI_05_START_0,"Ah, what a relief. Instead of standing beside you, Creed, I get to tear you to pieces. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_START_1,"Heh, good luck. If you can even get to me. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_START_2,"Take 'em down! "
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_0,"I can't believe you two are still standin'?! "
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_1,Swarm 'em! We can't let 'em get to the blade!
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_2,"Logan, we can fight these hordes off, but this cursed Creed is getting away... "
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_3,"I see him, Harada! Go! I'll hold these goons off and give you cover."
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_4,"You want me to run?! "
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_5,"Don't think of it as running from a fight. Think of it as maybe leavin' me to die. "
+ID_DIALOG_ECM_SILVERSAMURAI_05_END_6,"Heh. That does help. "
+ID_DIALOG_ECM_SILVERSAMURAI_06_INTRO_0,"You've named yourself Sabretooth, Creed! After a ferocious predator."
+ID_DIALOG_ECM_SILVERSAMURAI_06_INTRO_1,Yet you hide in this warehouse like a rat.
+ID_DIALOG_ECM_SILVERSAMURAI_06_INTRO_2,"Show yourself, and die by my blade with some honor. "
+ID_DIALOG_ECM_SILVERSAMURAI_06_INTRO_3,"I ain't hiding, tin can. I was just waiting for all my friends to get here. "
+ID_DIALOG_ECM_SILVERSAMURAI_06_INTRO_4,Now let's see what happens when I use my claws to peel you outta that fancy armor!
+ID_DIALOG_ECM_SILVERSAMURAI_06_START_0,"You came lookin' for me, shiny! Let's see if you like what you found!"
+ID_DIALOG_ECM_SILVERSAMURAI_06_END_0,"Many noble enemies have fallen before the skill of the Silver Samurai, Victor. "
+ID_DIALOG_ECM_SILVERSAMURAI_06_END_1,"It saddens me that you can't be counted among them. "
+ID_DIALOG_ECM_SILVERSAMURAI_06_END_2,Now... Where are the rest of the invaders?!
+ID_DIALOG_ECM_SILVERSAMURAI_07_INTRO_0,"Wolverine, I found Sabretooth. I've left him alive... Mostly. "
+ID_DIALOG_ECM_SILVERSAMURAI_07_INTRO_1,He's told me the location of the Black Blade and the rest of his team. I'm going to face them.
+ID_DIALOG_ECM_SILVERSAMURAI_07_INTRO_2,"Harada, no! Wait for backup. I'm almost there, what are you..."
+ID_DIALOG_ECM_SILVERSAMURAI_07_INTRO_3,"I'm going it alone. Silver Samurai out. "
+ID_DIALOG_ECM_SILVERSAMURAI_07_INTRO_4,"Going it alone, eh? Personally... I can't relate. "
+ID_DIALOG_ECM_SILVERSAMURAI_07_START_0,Couldn't help but overhear that you're trying to take out our new master? And solo?
+ID_DIALOG_ECM_SILVERSAMURAI_07_START_1,"You've got guts, big guy! "
+ID_DIALOG_ECM_SILVERSAMURAI_07_START_2,"S.H.I.E.L.D. Agents? Let's try gassing this man-mountain. Then we can take a look at his guts ourselves. "
+ID_DIALOG_ECM_SILVERSAMURAI_07_START_3,STOP THE ENEMY OPERATORS TO WIN.
+ID_DIALOG_ECM_SILVERSAMURAI_07_OPERATOR_01_0,Preparing gas canister!
+ID_DIALOG_ECM_SILVERSAMURAI_07_OPERATOR_02_0,Paralyzing agent has been synthesized!
+ID_DIALOG_ECM_SILVERSAMURAI_07_OPERATOR_03_0,"Get ready to get knocked out, Samurai! When you wake up... The Black Blade will be waiting for you."
+ID_DIALOG_ECM_SILVERSAMURAI_07_OPERATOR_LOSE_0,"The Silver Samurai has fallen. Alert Weapon X. "
+ID_DIALOG_ECM_SILVERSAMURAI_07_END_0,Tricks! Gas! Endless duplicates of your weakest warriors!
+ID_DIALOG_ECM_SILVERSAMURAI_07_END_1,"None of these pose a true challenge for a warrior such as I. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_0,"Samurai, come in. It's Logan!\nWhere are you? "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_1,I disabled my comms! How are you getting through?
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_2,"You're a damned fool if you think Nick Fury built a comm system that can be disabled. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_3,"Now give me your position and I'll join you. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_4,"I've tracked Weapon X and done alone what you needed a so-called team to achieve. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_5,"I'll let you know when the task is done. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_6,"You should have heeded Wolverine's warning, Samurai. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_INTRO_7,"It wouldn't save you, but it might have given you hope. Instead...\nThere is only pain."
+ID_DIALOG_ECM_SILVERSAMURAI_08_START_0,"You're too stubborn to bow to my blade now, Harada. It took a long time to corrupt the Silver Samurai of my world. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_START_1,"But after you're worn down by my forces... Perhaps then you'll be more pliable. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_0,"Is... Is that the extent... Of your army, imposter? "
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_1,Bring on the next wave...
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_2,"You can barely stand, Samurai. "
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_3,"Now, bow before the true Muramasa Blade, and join its ranks!"
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_4,N... Never...
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_5,"Boy, I tell ya, bub. Whether it's with friends or foes, you don't know when to quit."
+ID_DIALOG_ECM_SILVERSAMURAI_08_END_6,"Luckily, I'm here to pick ya back up!"
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_0,"Logan, how...???"
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_1,"I've tracked more elusive targets than your giant shiny backside, Harada."
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_2,"I just needed you to stay in one place for a dang second! Guess I should thank this Wolverine, huh..."
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_3,I hate to admit it...\nBut it's you I should thank.
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_4,"Been trying to tell you, this lone wolf, masterless samurai thing...\nIt ain't all it's cracked up to be."
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_5,You need a team.
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_6,"Good advice, Wolverine. "
+ID_DIALOG_ECM_SILVERSAMURAI_09_INTRO_7,"Luckily, I've brought mine to deal with the two of you!"
+ID_DIALOG_ECM_SILVERSAMURAI_09_START_0,"With these two out of the way, the spirit of Muramasa can take the rest of this world's warriors!"
+ID_DIALOG_ECM_SILVERSAMURAI_09_START_1,Avengers! Weapon X! If they won't surrender... Destroy them!
+ID_DIALOG_ECM_SILVERSAMURAI_09_START_2,"You're dealing with S.T.R.I.K.E. now, bub. We don't do ""surrender."""
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_0,"Raaargh... How... How did you stand against us? "
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_1,"Now that his lackeys are down, you wanna take care of this?"
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_2,With the power of my own Muramasa blade... I'll see yours forever shattered!
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_3,N-NO!!!
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_4,Huh. Unconscious. The demon's soul must have been the only thing keeping him going.
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_5,"Hm. True... But when my blade crossed his own, when I shattered it... I sensed something else. "
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_6,It wasn't just the Muramasa soul... Something powerful imbued this blade with its strength.
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_7,"Whatever it is... I should stay nearby. You're simply too weak and foolish, you'll need my help."
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_8,"Yeah, well, whatever you gotta tell yourself to sleep at night, Harada."
+ID_DIALOG_ECM_SILVERSAMURAI_09_END_9,Welcome to the team.
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_0,"Barton, we've had a breach in S.H.I.E.L.D. containment module XR-847B."
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_1,"You're the closest agent to the scene of the incident. Find out how they got in, and why."
 ID_DIALOG_IRONMAN_EVENT_01_INTRO_2,On it.
@@ -9632,6 +9780,120 @@ ID_DIALOG_LE_ADAMWARLOCK_08_END_4,Take me to Nick Fury. I'll hear his plans. Per
 ID_DIALOG_LE_ADAMWARLOCK_08_END_5,"Phyla-Vell, return us to Nexus Earth."
 ID_DIALOG_LE_ADAMWARLOCK_08_END_6,"GREAT. This has been a way deadlier adventure than I was ready for. Jubilee, let's keep this between us, okay?"
 ID_DIALOG_LE_ADAMWARLOCK_08_END_7,"Oh, are you kidding? I'm TOTALLY telling Cyclops about this. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_0,"To anyone receiving this, Baron Zemo has infiltrated Omega Red's safe house!"
+ID_DIALOG_LE_OMEGARED_01_INTRO_1,He's stolen the carbonadium synthesizer. He's plan--
+ID_DIALOG_LE_OMEGARED_01_INTRO_2,"That's where the transmission cuts off. After that, X-23 goes silent. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_3,"This ain't right.\nI shoulda been with her. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_4,"Laura's an agent of S.T.R.I.K.E., she knew the risks. But we're not just going to leave her behind. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_5,"Besides, whatever Zemo's doing with Omega Red's carbonadium, it's a threat. I'm leading the team myself. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_6,"Where to, sir?"
+ID_DIALOG_LE_OMEGARED_01_INTRO_7,"It's Omega Red's carbonadium. Last I checked, he's locked up--sounds like we need to pay him a visit. "
+ID_DIALOG_LE_OMEGARED_01_INTRO_8,Siberia. I'll get the winter gear.
+ID_DIALOG_LE_OMEGARED_01_START_0,Omega Red. We're not here to fight. We need your assistance. Baron Zemo's taken something of yours.
+ID_DIALOG_LE_OMEGARED_01_START_1,"And why would I help you Americans? "
+ID_DIALOG_LE_OMEGARED_01_START_2,"Help us stop Zemo and it gets you out of cold storage. "
+ID_DIALOG_LE_OMEGARED_01_START_3,Tempting. But I'd rather go through you than with you!
+ID_DIALOG_LE_OMEGARED_01_START_4,OMEGA RED STEALS HEALTH FROM ENEMIES TO HEAL HIMSELF WHENEVER HE ATTACKS.
+ID_DIALOG_LE_OMEGARED_01_START_5,"HIS <color=#fff568>BASIC ABILITY</color> PROLONGS <color=#fff568>BLEED</color>, <color=#fff568>SLOW</color>, AND <color=#fff568>OFFENSE DOWN</color>."
+ID_DIALOG_LE_OMEGARED_01_START_6,HIS <color=#fff568>SPECIAL ABILITY</color> APPLIES <color=#fff568>TRAUMA</color> AND <color=#fff568>ABILITY BLOCK</color>.
+ID_DIALOG_LE_OMEGARED_01_START_7,"HIS <color=#fff568>ULTIMATE ABILITY</color> FLIPS ALL POSITIVE EFFECTS TO NEGATIVE WHILE APPLYING  <color=#fff568>SLOW</color> AND <color=#fff568>HEAL BLOCK</color>, AND DRAINING THE SPEEDBAR ON ALL ENEMIES."
+ID_DIALOG_LE_OMEGARED_01_MID_0,You done? Or do we need to go a few more rounds?
+ID_DIALOG_LE_OMEGARED_01_END_0,"Argh, fine. I'll help you track down MY synthesizer."
+ID_DIALOG_LE_OMEGARED_01_END_1,Cooperating now that you don't have a choice? How noble.
+ID_DIALOG_LE_OMEGARED_01_END_2,"Take us to whatever facility Zemo broke into. Oh, and Arkady? Don't even think about a double cross. "
+ID_DIALOG_LE_OMEGARED_02_INTRO_0,I repurposed an abandoned factory in Cuba to produce my carbonadium.
+ID_DIALOG_LE_OMEGARED_02_INTRO_1,"It contained a surplus of the materials needed to make it. Zemo will likely head there first. "
+ID_DIALOG_LE_OMEGARED_02_INTRO_2,"Sir, I don't like this. It could be a trap. "
+ID_DIALOG_LE_OMEGARED_02_INTRO_3,"I'd be disappointed if it wasn't. "
+ID_DIALOG_LE_OMEGARED_02_INTRO_4,CUBA...
+ID_DIALOG_LE_OMEGARED_02_INTRO_5,"Sir, we're at the facility, but it's far from abandoned. I've got enemies on radar. "
+ID_DIALOG_LE_OMEGARED_02_INTRO_6,"Ha, you fools! You've brought me right back to my team!"
+ID_DIALOG_LE_OMEGARED_02_INTRO_7,Your team? Not anymore. Zemo sends his thanks for these new recruits and for keeping all this gear warm for him.
+ID_DIALOG_LE_OMEGARED_02_START_0,Just give up. You'll never win.
+ID_DIALOG_LE_OMEGARED_02_END_0,"Last chance, Arkady. You can head back to the Raft with all these goons who just sold you out... "
+ID_DIALOG_LE_OMEGARED_02_END_1,"Or you can give up the games and help us find Zemo. I personally don't care which. "
+ID_DIALOG_LE_OMEGARED_02_END_2,"Have it your way, comrade. Here is what I know."
+ID_DIALOG_LE_OMEGARED_02_END_3,"When you and S.T.R.I.K.E. put me in prison, I was working with a Scientist Supreme to make carbonadium stronger. "
+ID_DIALOG_LE_OMEGARED_02_END_4,"My sources say she is in hiding, near the country Ultron turned into a crater."
+ID_DIALOG_LE_OMEGARED_02_END_5,"Sokovia? We're not going to be welcome there for sure. "
+ID_DIALOG_LE_OMEGARED_02_END_6,"That's why she's hiding there. No prying eyes. She's our best bet to find the synthesizer. "
+ID_DIALOG_LE_OMEGARED_03_INTRO_0,SOKOVIA...
+ID_DIALOG_LE_OMEGARED_03_INTRO_1,This place is still a battleground. I thought we were going to help rebuild it?
+ID_DIALOG_LE_OMEGARED_03_INTRO_2,"Stark tried, but the locals rioted any time he sent help. Hard to make a difference when you're technically an invader. "
+ID_DIALOG_LE_OMEGARED_03_INTRO_3,"Can you blame them? You're not always the heroes you claim to be. To them, you are Baba Yaga."
+ID_DIALOG_LE_OMEGARED_03_INTRO_4,There's a massive amount of energy drain coming from below ground. Good chance that's where our girl's hiding.
+ID_DIALOG_LE_OMEGARED_03_START_0,"Monica, we don't want you. We just want Zemo. Where is he hiding?"
+ID_DIALOG_LE_OMEGARED_03_START_1,"Sorry, Fury! But I'm more scared of Zemo than I am of you! He's got a weird mask, anything could be under there!"
+ID_DIALOG_LE_OMEGARED_03_END_0,"No more tricks, Monica. Where is he?"
+ID_DIALOG_LE_OMEGARED_03_END_1,"You don't understand! He's psychotic! He isn't just using the carbonadium on enhanced soldiers, they're also... ARGH!"
+ID_DIALOG_LE_OMEGARED_03_END_2,"Sorry, Scientist, but the Baron doesn't like loose lips. "
+ID_DIALOG_LE_OMEGARED_04_INTRO_0,X-23! Stand down!
+ID_DIALOG_LE_OMEGARED_04_INTRO_1,I don't take orders from you anymore.
+ID_DIALOG_LE_OMEGARED_04_INTRO_2,"He's done it. He's finally figured out how to use it to completely control his soldiers. "
+ID_DIALOG_LE_OMEGARED_04_INTRO_3,"What are you talking about? Carbonadium's just some knock-off Adamantium, right? "
+ID_DIALOG_LE_OMEGARED_04_INTRO_4,It's so much more. Scientist Supreme was working on nanotech that could be implanted into carbonadium.
+ID_DIALOG_LE_OMEGARED_04_INTRO_5,"The nanotech syncs with a Master Mind device. Now anyone implanted is Zemo's to control completely. "
+ID_DIALOG_LE_OMEGARED_04_INTRO_6,"Got it. We break that carbonadium and we break control. Let's do it. "
+ID_DIALOG_LE_OMEGARED_04_START_0,You're not strong enough to defeat us!
+ID_DIALOG_LE_OMEGARED_04_END_0,"Laura, what happened? We received your encrypted message, but it was partially destroyed."
+ID_DIALOG_LE_OMEGARED_04_END_1,"We found Zemo when he caught the team by surprise. We were captured. "
+ID_DIALOG_LE_OMEGARED_04_END_2,"Instead of killing us, he used us as his first living subjects. "
+ID_DIALOG_LE_OMEGARED_04_END_3,Do you remember anything about the facility you were being held in?
+ID_DIALOG_LE_OMEGARED_04_END_4,I remember everything.
+ID_DIALOG_LE_OMEGARED_04_END_5,Just be ready for a fight. There were hundreds of carbonadium weapons and outfits being made.
+ID_DIALOG_LE_OMEGARED_05_INTRO_0,"You heard X-23's intel. Eyes open. "
+ID_DIALOG_LE_OMEGARED_05_INTRO_1,Tavarish Fury! Welcome to die.
+ID_DIALOG_LE_OMEGARED_05_INTRO_2,Baron Zemo has prepared a special suit of carbonadium just for you.
+ID_DIALOG_LE_OMEGARED_05_START_0,"Remember, disable the suits! We don't want to cause too much harm to the people inside."
+ID_DIALOG_LE_OMEGARED_05_END_0,"Pity, looks like there is still much work to do. To perfect my creations."
+ID_DIALOG_LE_OMEGARED_05_END_1,Zemo! Hold it right there. I am taking you into custody!
+ID_DIALOG_LE_OMEGARED_05_END_2,"Taking me? Oh, Fury. I've already started the self-destruct sequence for this facility. "
+ID_DIALOG_LE_OMEGARED_05_END_3,"So you can try to catch me, save the research files, or free the prisoners. But not all three. "
+ID_DIALOG_LE_OMEGARED_05_END_4,"He's right. There's not enough time for us to do everything. "
+ID_DIALOG_LE_OMEGARED_05_END_5,That's why I called in backup. Logan? Your team is a go.
+ID_DIALOG_LE_OMEGARED_05_END_6,"At your service, bub. "
+ID_DIALOG_LE_OMEGARED_06_INTRO_0,"Carter, Hill, Wilson. You're with me. We need to recover the intel."
+ID_DIALOG_LE_OMEGARED_06_INTRO_1,"Red Guardian, if you're up for it, we need you to free as many hostages as you can."
+ID_DIALOG_LE_OMEGARED_06_INTRO_2,"Wolverine, your team takes out Zemo. He can't be allowed to escape. "
+ID_DIALOG_LE_OMEGARED_06_INTRO_3,Won't be a problem.\nWeapon X? Let's go.
+ID_DIALOG_LE_OMEGARED_06_START_0,"Ah, the Weapon X project. How... disappointing you all were. "
+ID_DIALOG_LE_OMEGARED_06_START_1,Does Fury truly think you failed science experiments stand a chance against me?!
+ID_DIALOG_LE_OMEGARED_06_START_2,The only failure here is you! I'll show you the true power of carbonadium!
+ID_DIALOG_LE_OMEGARED_06_END_0,My beautiful army! It would have been the Baron's finest work...
+ID_DIALOG_LE_OMEGARED_06_END_1,"Weapon X team, what's your status?"
+ID_DIALOG_LE_OMEGARED_06_END_2,"Zemo's wrapped up and headed to the Raft. Should keep things quiet for a bit. "
+ID_DIALOG_LE_OMEGARED_06_END_3,What about Omega Red? He still in check?
+ID_DIALOG_LE_OMEGARED_06_END_4,"Arkady's still here... Still behaving himself for now. "
+ID_DIALOG_LE_OMEGARED_06_END_5,"Fury! I held up my end of the bargain! Now give me my synthesizer and let me get away from these mongrels. "
+ID_DIALOG_LE_OMEGARED_06_END_6,"About that. You know I can't give you that back, right? What I can offer you, though, is a chance to do some good. "
+ID_DIALOG_LE_OMEGARED_06_END_7,I am Omega Red! Good and evil mean nothing to me.
+ID_DIALOG_LE_OMEGARED_06_END_8,But I have nearly forgotten the smell of fresh air. I accept your terms.
+ID_DIALOG_LE_OMEGARED_07_INTRO_0,"Glad you're on the team, Omega Red, because I have our next mission. "
+ID_DIALOG_LE_OMEGARED_07_INTRO_1,Ant-Man has reported that an evil version of S.T.R.I.K.E. has been spotted in the Microverse.
+ID_DIALOG_LE_OMEGARED_07_INTRO_2,They're stealing Pym Particles and setting up to wage all-out war against Nexus Earth.
+ID_DIALOG_LE_OMEGARED_07_INTRO_3,Microverse? Hah! I will squish them like the tiny bugs they are.
+ID_DIALOG_LE_OMEGARED_07_INTRO_4,"Nexus S.T.R.I.K.E., I soooo hoped we would meet."
+ID_DIALOG_LE_OMEGARED_07_INTRO_5,I thought you people were\nthe good guys.
+ID_DIALOG_LE_OMEGARED_07_INTRO_6,S.T.R.I.K.E. rules this world for its own good. We're beyond labels such as good or evil.
+ID_DIALOG_LE_OMEGARED_07_INTRO_7,"And soon we'll be ruling your world, too. Just as soon as we get those Pym Particles."
+ID_DIALOG_LE_OMEGARED_07_START_0,"Hey, this is just like training. Only with swords, guns, and no safety net."
+ID_DIALOG_LE_OMEGARED_07_END_0,"You bought your world a little time, but we WILL get those Pym Particles in the end."
+ID_DIALOG_LE_OMEGARED_07_END_1,"Why are you doing this? We built S.T.R.I.K.E. to protect, not conquerer."
+ID_DIALOG_LE_OMEGARED_07_END_2,I'm tired of responding to crises and cleaning up messes. It's so much easier when I'm calling the shots!
+ID_DIALOG_LE_OMEGARED_08_INTRO_0,"Stand down, Fury! Things don't have to end this way."
+ID_DIALOG_LE_OMEGARED_08_INTRO_1,"Give up the tyranny, leave this planet, and surrender. "
+ID_DIALOG_LE_OMEGARED_08_INTRO_2,"Run from a fight? No way in hell. I thought you'd know me better. "
+ID_DIALOG_LE_OMEGARED_08_START_0,Team. Let's show these so-called heroes what it's like to be unshackled.
+ID_DIALOG_LE_OMEGARED_08_END_0,"Looks like your reign of terror ends here, Fury."
+ID_DIALOG_LE_OMEGARED_08_END_1,Don't worry. There's a special wing of the Raft waiting for you.
+ID_DIALOG_LE_OMEGARED_08_END_2,You're still fighting the small fights. You have no idea what we were getting ready to fight against.
+ID_DIALOG_LE_OMEGARED_08_END_3,"Yeah, yeah. Get him out of here already."
+ID_DIALOG_LE_OMEGARED_08_END_4,"Bah. Such empty prophecies. There is ALWAYS something bigger to fight against. "
+ID_DIALOG_LE_OMEGARED_08_END_5,"Whatever it is, we'll be ready for it. And part of that means getting your help synthesizing the carbonadium into our gear."
+ID_DIALOG_LE_OMEGARED_08_END_6,"Fine. You'll see the strength of my carbonadium, as long as I can unleash it on who I please. "
+ID_DIALOG_LE_OMEGARED_08_END_7,"Director Fury, our techs finished scouring the would-be S.T.R.I.K.E.'s database."
+ID_DIALOG_LE_OMEGARED_08_END_8,"One name kept coming up, over and over, but it's not in our records."
+ID_DIALOG_LE_OMEGARED_08_END_9,"""Dormammu."""
 ID_DIALOG_EVENT_UNDERWORLD_1_INTRO_0,The Kree are abducting my associates and converting them to their cause.
 ID_DIALOG_EVENT_UNDERWORLD_1_INTRO_1,I'm sure whoever rescued would be willing to join S.T.R.I.K.E.
 ID_DIALOG_ELEKTRA_EVENT_1_START_0,We're getting reports of Elektra running rampant in Hell's Kitchen.
