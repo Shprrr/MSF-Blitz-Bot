@@ -11,13 +11,7 @@ namespace MSFBlitzBot.GamePages
             public string Name { get; private set; }
             public int? Power { get; private set; }
             public string PowerString { get; private set; }
-
-            public Hero(string id, int? power) : this()
-            {
-                Id = id;
-                Name = HeroManager.GetName(id);
-                Power = power;
-            }
+            public float Accuracy { get; }
 
             public Hero(string id, string power) : this()
             {
@@ -26,13 +20,16 @@ namespace MSFBlitzBot.GamePages
                 if (int.TryParse(power, out var powerInt))
                     Power = powerInt;
                 PowerString = power;
+                Accuracy = 1;
             }
 
             [Newtonsoft.Json.JsonConstructor]
             [SuppressMessage("Style", "IDE0060:Supprimer le paramètre inutilisé", Justification = "Calculated values")]
-            public Hero(string id, string name, int? power, string powerString) : this(id, powerString)
+            public Hero(string id, string name, int? power, string powerString, float accuracy) : this(id, powerString, accuracy)
             {
             }
+
+            public Hero(string id, string power, float accuracy) : this(id, power) => Accuracy = accuracy;
         }
 
         public Hero[] PlayerHeroes { get; private set; } = new Hero[5];
@@ -47,7 +44,7 @@ namespace MSFBlitzBot.GamePages
 
     internal class BlitzPage : GamePage
     {
-        private FImage _img;
+        private FImage screenImage;
 
         public BlitzPage()
             : base(GamePageId.Blitz)
@@ -104,11 +101,11 @@ namespace MSFBlitzBot.GamePages
 
         public void SetImage(FImage image)
         {
-            if (_img == null || image.Width != _img!.Width)
+            if (screenImage == null || image.Width != screenImage!.Width)
             {
                 HeroManager.LoadPortraits("gameFiles", 88 * image.Width / 1505, 139 * image.Height / 847);
             }
-            _img = image;
+            screenImage = image;
         }
 
         public BlitzData GetData()
@@ -130,7 +127,7 @@ namespace MSFBlitzBot.GamePages
 
             for (var i = 0; i < 5; i++)
             {
-                data.PlayerHeroes[i] = new(GetHeroId(0, i), GetHeroPower(0, i));
+                data.PlayerHeroes[i] = new(GetHeroId(0, i, out var accuracy), GetHeroPower(0, i), accuracy);
             }
 
             // 1180, 640  0, 223, 251   New Opponent
@@ -148,7 +145,7 @@ namespace MSFBlitzBot.GamePages
 
                 for (var i = 0; i < 5; i++)
                 {
-                    data.OpponentHeroes[i] = new(GetHeroId(1, i), GetHeroPower(1, i));
+                    data.OpponentHeroes[i] = new(GetHeroId(1, i, out var accuracy), GetHeroPower(1, i), accuracy);
                 }
             }
             else
@@ -157,7 +154,7 @@ namespace MSFBlitzBot.GamePages
             return data;
         }
 
-        private string GetHeroId(int side, int index)
+        private string GetHeroId(int side, int index, out float accuracy)
         {
             // side 0 index 0 =  57, 343
             // side 0 index 1 = 138, 175
@@ -175,7 +172,7 @@ namespace MSFBlitzBot.GamePages
                 FImage portrait = HeroManager.GetPortrait(heroId);
                 string debugFilename = null;
                 //debugFilename = $"PortraitHero_{side}_{index}";
-                byte b2 = _img!.Match(portrait, posx, posy, 0.75f, (byte)30u, 100, FImage.MatchColorMode.Color, debugFilename);
+                byte b2 = screenImage!.Match(portrait, posx, posy, 0.75f, (byte)30u, 100, FImage.MatchColorMode.Color, debugFilename);
                 if (b2 > b)
                 {
                     b = b2;
@@ -185,6 +182,7 @@ namespace MSFBlitzBot.GamePages
             //Debug matching portrait
             //FImage p = HeroManager.GetPortrait(id); string d = $"PortraitHero_{side}_{index}";
             //_img!.Match(p, posx, posy, 0.75f, (byte)30u, 100, FImage.MatchColorMode.Color, d);
+            accuracy = b / 255f;
             return HeroManager.GetId(id);
         }
 
@@ -192,7 +190,7 @@ namespace MSFBlitzBot.GamePages
         {
             float posx = (index * 82 + 55f + side * 969) / 1505;
             float posy = (index % 2 == 1 ? 267f : 435f) / 847;
-            string text = _img.ReadText(new RectangleF(posx, posy, 0.07f, 45f / 847f), 23f, CharactersImageSet.UltimusMed, 4294964894u, detectionY: 0.5f, dist1: 5, dist2: 15);
+            string text = screenImage.ReadText(new RectangleF(posx, posy, 0.07f, 45f / 847f), 23f, CharactersImageSet.UltimusMed, 4294964894u, detectionY: 0.5f, dist1: 5, dist2: 15);
             return text;
         }
     }

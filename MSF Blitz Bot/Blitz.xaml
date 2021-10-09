@@ -98,8 +98,59 @@
                 Click="ButtonRetrain_Click">Retrain
         </Button>
         <TextBlock Text="{Binding PlayerHeroes}" TextWrapping="Wrap" FontSize="10" Grid.Row="1" />
+        <Grid Grid.Row="1" Margin="0,12,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="64" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding PlayerHeroesAccuracy[0], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding PlayerHeroesAccuracy[0], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="1" />
+            <TextBlock Text="{Binding PlayerHeroesAccuracy[1], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding PlayerHeroesAccuracy[1], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="2" />
+            <TextBlock Text="{Binding PlayerHeroesAccuracy[2], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding PlayerHeroesAccuracy[2], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="3" />
+            <TextBlock Text="{Binding PlayerHeroesAccuracy[3], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding PlayerHeroesAccuracy[3], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="4" />
+            <TextBlock Text="{Binding PlayerHeroesAccuracy[4], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding PlayerHeroesAccuracy[4], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="5" />
+        </Grid>
         <TextBlock Text="{Binding OpponentHeroes}" TextWrapping="Wrap" FontSize="10" TextAlignment="Right" Grid.Column="1"
                 Grid.Row="1" />
+        <Grid Grid.Column="1" Grid.Row="1" Margin="0,12,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="42" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{Binding OpponentHeroesAccuracy[0], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding OpponentHeroesAccuracy[0], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="1" />
+            <TextBlock Text="{Binding OpponentHeroesAccuracy[1], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding OpponentHeroesAccuracy[1], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="2" />
+            <TextBlock Text="{Binding OpponentHeroesAccuracy[2], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding OpponentHeroesAccuracy[2], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="3" />
+            <TextBlock Text="{Binding OpponentHeroesAccuracy[3], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding OpponentHeroesAccuracy[3], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="4" />
+            <TextBlock Text="{Binding OpponentHeroesAccuracy[4], StringFormat={}{0:P2}}" TextWrapping="Wrap"
+                    Foreground="{Binding OpponentHeroesAccuracy[4], Converter={StaticResource PredictionColorSelector}}"
+                    FontSize="10" TextAlignment="Center" Grid.Column="5" />
+        </Grid>
         <Grid Grid.Column="0" Grid.Row="2" Width="440" Height="48" Margin="10,0,0,0" HorizontalAlignment="Left"
                 VerticalAlignment="Top">
             <Grid.ColumnDefinitions>

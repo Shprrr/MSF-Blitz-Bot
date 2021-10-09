@@ -20,7 +20,7 @@ namespace MSFBlitzBot
         }
 
         private BlitzPage model;
-        private Color[] _colorCheck;
+        private Color[] colorCheck;
 
         private string playerHeroes;
         private string opponentHeroes;
@@ -50,7 +50,9 @@ namespace MSFBlitzBot
         private int currentOpponentTeamIndex;
 
         public string PlayerHeroes { get => playerHeroes; set { playerHeroes = value; RaisePropertyChanged(nameof(PlayerHeroes)); } }
+        public AsyncObservableCollection<float> PlayerHeroesAccuracy { get; } = new AsyncObservableCollection<float>(new float[5]);
         public string OpponentHeroes { get => opponentHeroes; set { opponentHeroes = value; RaisePropertyChanged(nameof(OpponentHeroes)); } }
+        public AsyncObservableCollection<float> OpponentHeroesAccuracy { get; } = new AsyncObservableCollection<float>(new float[5]);
         public int? OpponentTotalTeam1 { get => opponentTotalTeam1; set { opponentTotalTeam1 = value; RaisePropertyChanged(nameof(OpponentTotalTeam1)); } }
         public int? OpponentTotalTeam2 { get => opponentTotalTeam2; set { opponentTotalTeam2 = value; RaisePropertyChanged(nameof(OpponentTotalTeam2)); } }
         public int? OpponentTotalTeam3 { get => opponentTotalTeam3; set { opponentTotalTeam3 = value; RaisePropertyChanged(nameof(OpponentTotalTeam3)); } }
@@ -118,8 +120,8 @@ namespace MSFBlitzBot
 
             model.SetImage(Emulator.GameImage);
             // Check if pixels are modified.
-            bool hasColorChanged = _colorCheck == null;
-            var array = new Color[10];
+            bool hasColorChanged = colorCheck == null;
+            var newColorCheck = new Color[10];
             for (var i = 0; i < 10; i++)
             {
                 // size 92, 137
@@ -132,13 +134,13 @@ namespace MSFBlitzBot
                 // Odd indexes are considered opponent side (0, 2, 4, 6, 8 vs 1, 3, 5, 7, 9)
                 float posx = (i / 2 * 82 + 103f + i % 2 * 969) / 1505;
                 float posy = (i / 2 % 2 == 1 ? 243.5f : 411.5f) / 847;
-                array[i] = Emulator.GameImage.GetPixel(posx, posy);
-                if (_colorCheck != null && array[i] != _colorCheck[i])
+                newColorCheck[i] = Emulator.GameImage.GetPixel(posx, posy);
+                if (colorCheck != null && newColorCheck[i] != colorCheck[i])
                 {
                     hasColorChanged = true;
                 }
             }
-            _colorCheck = array;
+            colorCheck = newColorCheck;
             if (!hasColorChanged) return;
 
             var data = model.GetData();
@@ -167,6 +169,11 @@ namespace MSFBlitzBot
                 currentFight.PlayerHeroes = data.PlayerHeroes;
                 currentFight.OpponentHeroes = data.OpponentHeroes;
                 PlayerHeroes = string.Join(" + ", data.PlayerHeroes.Select(h => $"{h.Name} ({h.PowerString})"));
+                for (int i = 0; i < data.PlayerHeroes.Length; i++)
+                {
+                    PlayerHeroesAccuracy[i] = data.PlayerHeroes[i].Accuracy;
+                    OpponentHeroesAccuracy[i] = data.OpponentHeroes[i].Accuracy;
+                }
                 OpponentHeroes = data.HasOpponent ? $"#{data.TeamIndex + 1} " + string.Join(" + ", data.OpponentHeroes.Select(h => $"{h.Name} ({h.PowerString})")) : "";
 
                 switch (data.TeamIndex)
@@ -466,7 +473,7 @@ namespace MSFBlitzBot
                 MLModelBlitz.Retrain(modelData);
 
                 CombatState = "Lobby";
-                _colorCheck = null; // To force the refresh of the prediction.
+                colorCheck = null; // To force the refresh of the prediction.
             });
         }
     }

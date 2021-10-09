@@ -1113,21 +1113,21 @@ namespace MSFBlitzBot
 
         public unsafe byte Match(FImage pattern, float posx, float posy, float topRatio = 1f, byte proximity = 30, byte alphaThreshold = 100, MatchColorMode mode = MatchColorMode.Color, string debugFilename = null)
         {
-            int num = (int)Math.Round(posx * Width);
-            int num2 = (int)Math.Round(posy * Height);
+            int posXPixel = (int)Math.Round(posx * Width);
+            int posYPixel = (int)Math.Round(posy * Height);
             int width = pattern.Width;
-            _ = pattern.Height;
-            byte* ptr = pattern._rawData;
-            byte* ptr2 = _rawData + num * Bpp + num2 * Stride;
-            int num3 = 0;
-            int num4 = 0;
+            byte* ptrPattern = pattern._rawData;
+            byte* ptrRawData = _rawData + posXPixel * Bpp + posYPixel * Stride;
+            int nbPixelMatched = 0;
+            int nbPixelNonTransparent = 0;
             int num5 = Stride - pattern.Width * Bpp;
-            if (num2 < 0)
+            if (posYPixel < 0)
             {
-                ptr += -num2 * pattern.Stride;
-                ptr2 += -num2 * Stride;
-                num2 = 0;
+                ptrPattern += -posYPixel * pattern.Stride;
+                ptrRawData += -posYPixel * Stride;
+                posYPixel = 0;
             }
+
             FImage fImage = null;
             FImage fImage2 = null;
             FImage fImage3 = null;
@@ -1137,91 +1137,92 @@ namespace MSFBlitzBot
                 fImage2 = new FImage(pattern.Width, pattern.Height, pattern.Bpp);
                 fImage3 = new FImage(pattern.Width, pattern.Height, pattern.Bpp);
             }
-            int num6 = (int)(pattern.Height * topRatio);
-            int num7 = 0;
-            while (num7 < num6 && num2 + num7 < Height)
+
+            int heightToMatch = (int)(pattern.Height * topRatio);
+            int scanY = 0;
+            while (scanY < heightToMatch && posYPixel + scanY < Height)
             {
-                int num8 = 0;
-                if (num < 0)
+                int scanX = 0;
+                if (posXPixel < 0)
                 {
-                    num8 = -num;
-                    ptr2 += Bpp * num8;
-                    ptr += pattern.Bpp * num8;
+                    scanX = -posXPixel;
+                    ptrRawData += Bpp * scanX;
+                    ptrPattern += pattern.Bpp * scanX;
                 }
-                while (num8 < width)
+                while (scanX < width)
                 {
-                    if (num + num8 >= Width)
+                    if (posXPixel + scanX >= Width)
                     {
-                        ptr2 += Bpp * (pattern.Width - num8);
-                        ptr += Bpp * (pattern.Width - num8);
+                        ptrRawData += Bpp * (pattern.Width - scanX);
+                        ptrPattern += Bpp * (pattern.Width - scanX);
                         break;
                     }
-                    if (debugFilename != null && ptr[3] < alphaThreshold)
+                    if (debugFilename != null && ptrPattern[3] < alphaThreshold)
                     {
-                        fImage?.SetPixel(num8, num7, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
-                        fImage2?.SetPixel(num8, num7, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
-                        fImage3?.SetPixel(num8, num7, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
+                        fImage?.SetPixel(scanX, scanY, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
+                        fImage2?.SetPixel(scanX, scanY, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
+                        fImage3?.SetPixel(scanX, scanY, byte.MaxValue, byte.MaxValue, byte.MaxValue, 127);
                     }
-                    fImage3?.SetPixel(num8, num7, ptr2[2], ptr2[1], *ptr2, ptr2[3]);
-                    if (ptr[3] >= alphaThreshold)
+                    fImage3?.SetPixel(scanX, scanY, ptrRawData[2], ptrRawData[1], *ptrRawData, ptrRawData[3]);
+                    if (ptrPattern[3] >= alphaThreshold)
                     {
                         switch (mode)
                         {
                             case MatchColorMode.Grayscale:
                                 {
-                                    byte b5 = (byte)Math.Min(255f, *ptr * 0.07f + ptr[1] * 0.72f + ptr[2] * 0.21f);
-                                    fImage2?.SetPixel(num8, num7, b5, b5, b5, byte.MaxValue);
-                                    if (Math.Abs(*ptr2 - b5) <= proximity)
+                                    byte b5 = (byte)Math.Min(255f, *ptrPattern * 0.07f + ptrPattern[1] * 0.72f + ptrPattern[2] * 0.21f);
+                                    fImage2?.SetPixel(scanX, scanY, b5, b5, b5, byte.MaxValue);
+                                    if (Math.Abs(*ptrRawData - b5) <= proximity)
                                     {
-                                        num3++;
-                                        fImage?.SetPixel(num8, num7, 0, byte.MaxValue, 0, byte.MaxValue);
+                                        nbPixelMatched++;
+                                        fImage?.SetPixel(scanX, scanY, 0, byte.MaxValue, 0, byte.MaxValue);
                                     }
                                     else
                                     {
-                                        fImage?.SetPixel(num8, num7, byte.MaxValue, 0, 0, byte.MaxValue);
+                                        fImage?.SetPixel(scanX, scanY, byte.MaxValue, 0, 0, byte.MaxValue);
                                     }
                                     break;
                                 }
                             case MatchColorMode.GrayscaleWithRed:
                                 {
                                     bool flag = false;
-                                    if (ptr2[2] > 120 && Math.Abs(ptr2[2] - *ptr2) > 10 && Math.Abs(ptr2[1] - *ptr2) < 5)
+                                    if (ptrRawData[2] > 120 && Math.Abs(ptrRawData[2] - *ptrRawData) > 10 && Math.Abs(ptrRawData[1] - *ptrRawData) < 5)
                                     {
-                                        if (ptr2[-2] - ptr2[-4] < 5 || ptr2[6] - ptr2[4] < 5 || ptr2[2 - Stride] - ptr2[-Stride] < 5 || ptr2[2 + Stride] - ptr2[Stride] < 5)
+                                        if (ptrRawData[-2] - ptrRawData[-4] < 5 || ptrRawData[6] - ptrRawData[4] < 5 || ptrRawData[2 - Stride] - ptrRawData[-Stride] < 5 || ptrRawData[2 + Stride] - ptrRawData[Stride] < 5)
                                         {
-                                            fImage?.SetPixel(num8, num7, 0, 0, 0, 0);
-                                            fImage2?.SetPixel(num8, num7, 0, 0, 0, 0);
+                                            fImage?.SetPixel(scanX, scanY, 0, 0, 0, 0);
+                                            fImage2?.SetPixel(scanX, scanY, 0, 0, 0, 0);
                                             break;
                                         }
                                         flag = true;
                                     }
-                                    byte b2 = (byte)Math.Min(255f, *ptr * 0.07f + ptr[1] * 0.72f + ptr[2] * 0.21f);
+                                    byte b2 = (byte)Math.Min(255f, *ptrPattern * 0.07f + ptrPattern[1] * 0.72f + ptrPattern[2] * 0.21f);
                                     if (flag)
                                     {
                                         byte b3 = (byte)((38760 + b2 * 65) / 255);
                                         byte b4 = (byte)((2280 + b2 * 65) / 255);
-                                        fImage2?.SetPixel(num8, num7, b3, b4, b4, byte.MaxValue);
-                                        if (Math.Abs(*ptr2 - b4) <= proximity && Math.Abs(ptr2[1] - b4) <= proximity && Math.Abs(ptr2[2] - b3) <= proximity)
+                                        fImage2?.SetPixel(scanX, scanY, b3, b4, b4, byte.MaxValue);
+                                        if (Math.Abs(*ptrRawData - b4) <= proximity && Math.Abs(ptrRawData[1] - b4) <= proximity && Math.Abs(ptrRawData[2] - b3) <= proximity)
                                         {
-                                            num3++;
-                                            fImage?.SetPixel(num8, num7, 0, byte.MaxValue, 0, byte.MaxValue);
+                                            nbPixelMatched++;
+                                            fImage?.SetPixel(scanX, scanY, 0, byte.MaxValue, 0, byte.MaxValue);
                                         }
                                         else
                                         {
-                                            fImage?.SetPixel(num8, num7, byte.MaxValue, 0, 0, byte.MaxValue);
+                                            fImage?.SetPixel(scanX, scanY, byte.MaxValue, 0, 0, byte.MaxValue);
                                         }
                                     }
                                     else
                                     {
-                                        fImage2?.SetPixel(num8, num7, b2, b2, b2, byte.MaxValue);
-                                        if (Math.Abs(*ptr2 - b2) <= proximity)
+                                        fImage2?.SetPixel(scanX, scanY, b2, b2, b2, byte.MaxValue);
+                                        if (Math.Abs(*ptrRawData - b2) <= proximity)
                                         {
-                                            num3++;
-                                            fImage?.SetPixel(num8, num7, 0, byte.MaxValue, 0, byte.MaxValue);
+                                            nbPixelMatched++;
+                                            fImage?.SetPixel(scanX, scanY, 0, byte.MaxValue, 0, byte.MaxValue);
                                         }
                                         else
                                         {
-                                            fImage?.SetPixel(num8, num7, byte.MaxValue, 0, 0, byte.MaxValue);
+                                            fImage?.SetPixel(scanX, scanY, byte.MaxValue, 0, 0, byte.MaxValue);
                                         }
                                     }
                                     break;
@@ -1229,40 +1230,40 @@ namespace MSFBlitzBot
                             case MatchColorMode.Color:
                                 if (debugFilename != null)
                                 {
-                                    byte b = (byte)Math.Max(Math.Abs(*ptr2 - *ptr), Math.Max(Math.Abs(ptr2[1] - ptr[1]), Math.Abs(ptr2[2] - ptr[2])));
+                                    byte b = (byte)Math.Max(Math.Abs(*ptrRawData - *ptrPattern), Math.Max(Math.Abs(ptrRawData[1] - ptrPattern[1]), Math.Abs(ptrRawData[2] - ptrPattern[2])));
                                     if (b <= proximity)
                                     {
-                                        fImage2?.SetPixel(num8, num7, 0, (byte)(255 - b), 0, byte.MaxValue);
+                                        fImage2?.SetPixel(scanX, scanY, 0, (byte)(255 - b), 0, byte.MaxValue);
                                     }
                                     else
                                     {
-                                        fImage2?.SetPixel(num8, num7, b, 0, 0, byte.MaxValue);
+                                        fImage2?.SetPixel(scanX, scanY, b, 0, 0, byte.MaxValue);
                                     }
                                 }
-                                if (Math.Abs(*ptr2 - *ptr) <= proximity && Math.Abs(ptr2[1] - ptr[1]) <= proximity && Math.Abs(ptr2[2] - ptr[2]) <= proximity)
+                                if (Math.Abs(*ptrRawData - *ptrPattern) <= proximity && Math.Abs(ptrRawData[1] - ptrPattern[1]) <= proximity && Math.Abs(ptrRawData[2] - ptrPattern[2]) <= proximity)
                                 {
-                                    num3++;
-                                    fImage?.SetPixel(num8, num7, 0, byte.MaxValue, 0, byte.MaxValue);
+                                    nbPixelMatched++;
+                                    fImage?.SetPixel(scanX, scanY, 0, byte.MaxValue, 0, byte.MaxValue);
                                 }
                                 else
                                 {
-                                    fImage?.SetPixel(num8, num7, byte.MaxValue, 0, 0, byte.MaxValue);
+                                    fImage?.SetPixel(scanX, scanY, byte.MaxValue, 0, 0, byte.MaxValue);
                                 }
                                 break;
                         }
-                        num4++;
+                        nbPixelNonTransparent++;
                     }
                     else if (debugFilename != null)
                     {
-                        fImage?.SetPixel(num8, num7, 0, 0, 0, 0);
-                        fImage2?.SetPixel(num8, num7, 0, 0, 0, 0);
+                        fImage?.SetPixel(scanX, scanY, 0, 0, 0, 0);
+                        fImage2?.SetPixel(scanX, scanY, 0, 0, 0, 0);
                     }
-                    num8++;
-                    ptr2 += Bpp;
-                    ptr += pattern.Bpp;
+                    scanX++;
+                    ptrRawData += Bpp;
+                    ptrPattern += pattern.Bpp;
                 }
-                num7++;
-                ptr2 += num5;
+                scanY++;
+                ptrRawData += num5;
             }
             if (debugFilename != null)
             {
@@ -1274,11 +1275,11 @@ namespace MSFBlitzBot
                 fImage2?.Dispose();
                 fImage3?.Dispose();
             }
-            if (num4 == 0)
+            if (nbPixelNonTransparent == 0)
             {
                 return 0;
             }
-            int val = (num3 << 8) / num4;
+            int val = (nbPixelMatched << 8) / nbPixelNonTransparent;
             return (byte)Math.Min(255, val);
         }
 
