@@ -7099,7 +7099,7 @@ ID_OF_DE_GT16_MINIUNIQUE_DRAFT_VAR,Save on this spectacular offer and get <color
 ID_OF_NA_TEAL_BIG_OFFER,Gigantic Teal Gear Bundle!
 ID_OF_DE_TEAL_BIG_OFFER,"<color=#00fff>Over 6x Value!</color> Get an assortment of Teal Gear that includes <color=#fff568>{var1}</color> Augmented Basic Catalyst Parts, <color=#fff568>{var2}</color> Augmented Gear Tier 16 Mini-Uniques, and <color=#fff568>{var3}</color> Augmented Damage, Focus, Health, Armor, or Resistance Catalyst Parts!"
 ID_OF_NA_DUAL_PHOENIX_STOREBAR_01,PREPARE FOR PHOENIX
-ID_OF_NA_DUAL_SILVERSAMURAI_STOREBAR_01,THE LETHAL PROTECTOR
+ID_OF_NA_DUAL_SILVERSAMURAI_STOREBAR_01,UNSHEATHED PROTECTOR
 ID_OF_NA_SILVERSAMURAI_FCO_OFFER,Tachyon Warrior Orb Offer
 ID_OF_DE_SILVERSAMURAI_FCO_OFFER_VAR_SU,"Save on <color=#fff568>{var1} Tachyon Warrior Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Silver Samurai shards</color>. Protect allies with Taunt and Barrier, while slashing enemies with powerful Piercing attacks."
 ID_OF_NA_SILVERSAMURAI_SHARD_OFFER,The Lethal Protector Offer
@@ -7108,3 +7108,11 @@ ID_OF_NA_PICK_DUAL_SILVERSAMURAI_OFFER_ECO,Dual: Honorable Orb Offer
 ID_OF_DE_PICK_DUAL_SILVERSAMURAI_OFFER_ECO,"Take advantage of one of these spectacular <color=#fff568>Honorable Orb</color> deals. "
 ID_OF_NA_PICK_DUAL_SILVERSAMURAI_OFFER_FCO,Dual: Tachyon Warrior Orb Offer
 ID_OF_DE_PICK_DUAL_SILVERSAMURAI_OFFER_FCO,"Take advantage of one of these spectacular <color=#fff568>Tachyon Warrior Orb</color> deals. "
+ID_OF_NA_DUAL_SILVERSAMURAI_STOREBAR_02,CURSE OF MURAMASA OFFER
+ID_OF_NA_DUAL_WINTERSOLDIER_STOREBAR_0,RECRUIT THE WINTER SOLDIER
+ID_OF_NA_DUAL_MEGA_STOREBAR_0,MEGA ORBS
+ID_OF_NA_LADYDEATHSTRIKE_FCO_OFFER,Tough as Nails Orb Offer
+ID_OF_DE_LADYDEATHSTRIKE_FCO_OFFER_VAR_SU,Save on <color=#fff568>{var1} Tough as Nails Orbs</color> with this offer! Each orb has a chance to earn <color=#fff568>up to 180 Lady Deathstrike shards</color>. Slice and dice enemies by applying Bleed and gaining bonuses while attacking enemies who possess Bleed.
+ID_OF_NA_LADYDEATHSTRIKE_SHARD_OFFER,Adamantium Assassin Offer
+ID_OF_DE_LADYDEATHSTRIKE_OFFER_VAR_S,"Recruit a <color=#fff568>{var1}-star Lady Deathstrike</color> with this offer! Each orb has a chance to earn up to 180 shards. Carve up enemies by applying Bleed, and gaining bonuses while attacking enemies who possess Bleed."
+ID_OF_DE_LADYDEATHSTRIKE_OFFER_VAR_S_V2,Get <color=#fff568>{var1} Lady Deathstrike shards</color> and claw your way to victory with high damage attacks that apply Bleed and gain bonuses when attacking enemies who possess Bleed.
