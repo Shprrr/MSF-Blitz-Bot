@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using MSFBlitzBot.GamePages;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -10,23 +9,34 @@ namespace MSFBlitzBot
     {
         public enum FightResult
         {
-            Victory,
-            Defeat
+            Defeat,
+            Victory
         }
 
         public BlitzFight()
         {
         }
 
-        private BlitzData.Hero[] playerHeroes;
-        private BlitzData.Hero[] opponentHeroes;
+        public BlitzFight(int? id, BlitzHero[] playerHeroes, BlitzHero[] opponentHeroes, FightResult result, DateTime dateTime)
+        {
+            Id = id;
+            PlayerHeroes = playerHeroes ?? throw new ArgumentNullException(nameof(playerHeroes));
+            OpponentHeroes = opponentHeroes ?? throw new ArgumentNullException(nameof(opponentHeroes));
+            Result = result;
+            DateTime = dateTime;
+        }
+
+        public int? Id { get; set; }
+
+        private BlitzHero[] playerHeroes;
+        private BlitzHero[] opponentHeroes;
         private string playerHeroesString;
         private string opponentHeroesString;
 
         [JsonIgnore]
         public bool IsEmpty => PlayerHeroes == null || OpponentHeroes == null || PlayerHeroes.All(h => h.Id == null) || OpponentHeroes.All(h => h.Id == null);
 
-        public BlitzData.Hero[] PlayerHeroes
+        public BlitzHero[] PlayerHeroes
         {
             get => playerHeroes;
             set
@@ -35,7 +45,7 @@ namespace MSFBlitzBot
                 playerHeroesString = string.Join(" + ", playerHeroes.Select(h => $"{h.Name} ({h.PowerString})"));
             }
         }
-        public BlitzData.Hero[] OpponentHeroes
+        public BlitzHero[] OpponentHeroes
         {
             get => opponentHeroes;
             set
@@ -83,6 +93,10 @@ namespace MSFBlitzBot
         {
             var token = JToken.Load(reader);
             var value = token.ToObject<BlitzFight>();
+
+            // Reverse results because enum values has been inverted.
+            value.Result = value.Result == BlitzFight.FightResult.Victory ? BlitzFight.FightResult.Defeat : BlitzFight.FightResult.Victory;
+
             if (value.DateTime.Ticks == 0)
                 value.DateTime = fileDateTime;
             return value;

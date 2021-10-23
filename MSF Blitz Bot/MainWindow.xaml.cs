@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.ComponentModel;
+using System.IO;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interop;
@@ -32,17 +34,19 @@ namespace MSFBlitzBot
                 }
                 overlay.Show();
                 BlitzViewModel.LoadFights("blitzFights.json");
+                // Need to convert json to sqlite.
+                if (BlitzViewModel.Fights.Count > 0)
+                {
+                    Task.Run(() => SQLEngine.SaveFightsAsync(BlitzViewModel.Fights)).GetAwaiter().GetResult();
+                    File.Delete("blitzFights.json");
+                }
+                else
+                    BlitzViewModel.LoadFightsAsync().ConfigureAwait(false);
             }
             OverlayViewModel.StartLoopTask();
-            BlitzViewModel.Fights.CollectionChanged += Fights_CollectionChanged;
         }
 
-        private void Fights_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-        {
-            File.WriteAllText("blitzFights.json", Newtonsoft.Json.JsonConvert.SerializeObject(BlitzViewModel.Fights.ToArray()));
-        }
-
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        private void Window_Closing(object sender, CancelEventArgs e)
         {
             if (Emulator.IsValid)
             {

@@ -1,42 +1,14 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace MSFBlitzBot.GamePages
 {
     public class BlitzData
     {
-        public struct Hero
-        {
-            public string Id { get; private set; }
-            public string Name { get; private set; }
-            public int? Power { get; private set; }
-            public string PowerString { get; private set; }
-            public float Accuracy { get; }
-
-            public Hero(string id, string power) : this()
-            {
-                Id = id;
-                Name = HeroManager.GetName(id);
-                if (int.TryParse(power, out var powerInt))
-                    Power = powerInt;
-                PowerString = power;
-                Accuracy = 1;
-            }
-
-            [Newtonsoft.Json.JsonConstructor]
-            [SuppressMessage("Style", "IDE0060:Supprimer le paramètre inutilisé", Justification = "Calculated values")]
-            public Hero(string id, string name, int? power, string powerString, float accuracy) : this(id, powerString, accuracy)
-            {
-            }
-
-            public Hero(string id, string power, float accuracy) : this(id, power) => Accuracy = accuracy;
-        }
-
-        public Hero[] PlayerHeroes { get; private set; } = new Hero[5];
+        public BlitzHero[] PlayerHeroes { get; private set; } = new BlitzHero[5];
         public bool CanFindOpponent { get; set; }
         public bool HasOpponent { get; set; }
         public int TeamIndex { get; set; } = -1;
-        public Hero[] OpponentHeroes { get; private set; } = new Hero[5];
+        public BlitzHero[] OpponentHeroes { get; private set; } = new BlitzHero[5];
 
         public bool Victory { get; set; }
         public bool Defeat { get; set; }

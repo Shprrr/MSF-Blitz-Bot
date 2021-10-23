@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 using System.Drawing;
 using System.Linq;
 using System.Threading;
@@ -83,7 +84,16 @@ namespace MSFBlitzBot
             Fights.CollectionChanged += Fights_CollectionChanged;
         }
 
-        private static void Fights_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        private static async void Fights_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            if (isLoading) return;
+
+            await SQLEngine.SaveFightsAsync(e.NewItems.Cast<BlitzFight>());
+
+            RefreshTodayFights();
+        }
+
+        private static void RefreshTodayFights()
         {
             FightsToday.Clear();
             var fightsToday = Fights.Where(f => f.DateTime.Date == DateTime.UtcNow.Date).Select(f => f.ToString()).ToArray();
@@ -108,10 +118,29 @@ namespace MSFBlitzBot
             model = null;
         }
 
+        private static bool isLoading;
+        public static async Task LoadFightsAsync()
+        {
+            isLoading = true;
+
+            Fights.Clear();
+            Fights.AddRange(await SQLEngine.LoadBlitzFightsAsync());
+            RefreshTodayFights();
+
+            isLoading = false;
+        }
+
         public static void LoadFights(string path)
         {
+            if (!System.IO.File.Exists(path)) return;
+
+            isLoading = true;
+
             Fights.Clear();
             Fights.AddRange(Newtonsoft.Json.JsonConvert.DeserializeObject<BlitzFight[]>(System.IO.File.ReadAllText(path), new BlitzFightJsonConverter(System.IO.File.GetLastWriteTimeUtc(path))));
+            RefreshTodayFights();
+
+            isLoading = false;
         }
 
         public override void Loop()
@@ -442,9 +471,9 @@ namespace MSFBlitzBot
                 var duplicateDataWithReverseOrder = Fights.SelectMany(f => new[]
                 {
                     f,
-                    new BlitzFight { PlayerHeroes = f.PlayerHeroes, OpponentHeroes = f.OpponentHeroes.Reverse().ToArray(), Result = f.Result, DateTime = f.DateTime },
-                    new BlitzFight { PlayerHeroes = f.PlayerHeroes.Reverse().ToArray(), OpponentHeroes = f.OpponentHeroes, Result = f.Result, DateTime = f.DateTime },
-                    new BlitzFight { PlayerHeroes = f.PlayerHeroes.Reverse().ToArray(), OpponentHeroes = f.OpponentHeroes.Reverse().ToArray(), Result = f.Result, DateTime = f.DateTime }
+                    new(f.Id, f.PlayerHeroes, f.OpponentHeroes.Reverse().ToArray(), f.Result, f.DateTime),
+                    new(f.Id, f.PlayerHeroes.Reverse().ToArray(), f.OpponentHeroes, f.Result, f.DateTime),
+                    new(f.Id, f.PlayerHeroes.Reverse().ToArray(), f.OpponentHeroes.Reverse().ToArray(), f.Result, f.DateTime)
                 });
                 var modelData = duplicateDataWithReverseOrder.Select(d => new MLModelBlitz.ModelInput
                 {
