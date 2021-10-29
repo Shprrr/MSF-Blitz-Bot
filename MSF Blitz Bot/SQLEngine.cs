@@ -19,9 +19,12 @@ namespace MSFBlitzBot
 
             var fights = await db.Table<Fight>().ToArrayAsync();
             var fightHeroes = await db.Table<FightHero>().ToArrayAsync();
+            var outdatedData = Newtonsoft.Json.JsonConvert.DeserializeObject<OutdatedData[]>(System.IO.File.ReadAllText("gameFiles/outdatedData.json"));
 
-            return fights.GroupJoin(fightHeroes, f => f.Id, fh => fh.FightId,
-                (f, fh) => new BlitzFight(f.Id, BuildBlitzHeroes(fh, HeroSide.Player), BuildBlitzHeroes(fh, HeroSide.Opponent), (BlitzFight.FightResult)f.Result, f.DateTime));
+            return fights
+                .GroupJoin(fightHeroes, f => f.Id, fh => fh.FightId, (f, fh) => (fight: f, heroes: fh))
+                .Where(f => !outdatedData.Any(o => f.fight.DateTime <= o.DateBefore && f.heroes.Any(fh => fh.CharacterId == o.CharacterId)))
+                .Select(f => new BlitzFight(f.fight.Id, BuildBlitzHeroes(f.heroes, HeroSide.Player), BuildBlitzHeroes(f.heroes, HeroSide.Opponent), (BlitzFight.FightResult)f.fight.Result, f.fight.DateTime));
 
             static BlitzHero[] BuildBlitzHeroes(IEnumerable<FightHero> fh, HeroSide side)
                 => fh.Where(h => h.Side == (int)side).OrderBy(h => h.Index)
@@ -123,6 +126,12 @@ namespace MSFBlitzBot
                 Power = blitzHero.Power.Value;
                 Accuracy = blitzHero.Accuracy;
             }
+        }
+
+        private class OutdatedData
+        {
+            public string CharacterId { get; set; }
+            public DateTime DateBefore { get; set; }
         }
     }
 }

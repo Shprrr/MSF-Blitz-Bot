@@ -40,6 +40,9 @@
     <None Update="gameFiles\Config\m3localization\EN\heroes.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\outdatedData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_AdamWarlock.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
