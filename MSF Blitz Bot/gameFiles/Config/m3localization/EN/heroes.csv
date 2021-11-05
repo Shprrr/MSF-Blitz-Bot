@@ -81,6 +81,8 @@ ID_SHARD_DOOM_NAME,Doctor Doom
 ID_SHARD_DOOM_DESCRIPTION,"A master of technology and magic, Doctor Doom will stop at nothing to conquer Nexus Earth."
 ID_SHARD_DOOMBOT_NAME,Doombot
 ID_SHARD_DOOMBOT_DESCRIPTION,A near-identical robotic copy of Doctor Doom.
+ID_SHARD_DORMAMMU_NAME,Dormammu
+ID_SHARD_DORMAMMU_DESCRIPTION,"Lord of the Dark Dimension, Dormammu revives his fallen allies and rains mystic chaos down on his enemies."
 ID_SHARD_DRAX_NAME,Drax
 ID_SHARD_DRAX_DESCRIPTION,"An unpredictable, taunting attacker with rapid attacks that drain health."
 ID_SHARD_EBONYMAW_NAME,Ebony Maw
@@ -139,6 +141,8 @@ ID_SHARD_HYDRATANK_TAUNT_NAME,Hydra Armored Guard
 ID_SHARD_HYDRATANK_TAUNT_DESCRIPTION,The most loyal and resilient Hydra guards are trained to sacrifice themselves for the cause.
 ID_SHARD_ICEMAN_NAME,Iceman
 ID_SHARD_ICEMAN_DESCRIPTION,"One of the original X-Men, Bobby Drake's mutant power to control cold allows him to slow and freeze his enemies."
+ID_SHARD_IKARIS_NAME,Ikaris
+ID_SHARD_IKARIS_DESCRIPTION,"The Eternal Ikaris strafes foes with laser vision and uses super strength to slam down on them, fighting even more intensely when allied with Sersi."
 ID_SHARD_INVISIBLEWOMAN_NAME,Invisible Woman
 ID_SHARD_INVISIBLEWOMAN_DESCRIPTION,Invisible Woman is a Protector who grants Barrier to her teammates and reveals hidden enemies.
 ID_SHARD_IRONFIST_NAME,Iron Fist
@@ -261,6 +265,18 @@ ID_SHARD_PUNISHER_NAME,Punisher
 ID_SHARD_PUNISHER_DESCRIPTION,A vicious blaster who deals high piercing damage to multiple targets.
 ID_SHARD_PSYLOCKE_NAME,Psylocke
 ID_SHARD_PSYLOCKE_DESCRIPTION,Psylocke's psychic abilities remove negative status effects from allies and place them on her foes.
+ID_SHARD_PVE_DDDOCTORDOOM_NAME,Doctor Doom
+ID_SHARD_PVE_DDDOCTORDOOM_DESCRIPTION,
+ID_SHARD_PVE_DDDOOMBOMB_NAME,Doom Bomb
+ID_SHARD_PVE_DDDOOMBOMB_DESCRIPTION,
+ID_SHARD_PVE_DDHUMANTORCH_NAME,Torch-Bot
+ID_SHARD_PVE_DDHUMANTORCH_DESCRIPTION,
+ID_SHARD_PVE_DDINVISIBLEWOMAN_NAME,Invisi-Bot
+ID_SHARD_PVE_DDINVISIBLEWOMAN_DESCRIPTION,
+ID_SHARD_PVE_DDMRFANTASTIC_NAME,Fantastic-Bot
+ID_SHARD_PVE_DDMRFANTASTIC_DESCRIPTION,
+ID_SHARD_PVE_DDTHING_NAME,Thing-Bot
+ID_SHARD_PVE_DDTHING_DESCRIPTION,
 ID_SHARD_PYRO_NAME,Pyro
 ID_SHARD_PYRO_DESCRIPTION,A hotheaded fire-starter who excels at burning enemies in an area to inflict damage over time.
 ID_SHARD_QUAKE_NAME,Quake
@@ -293,6 +309,8 @@ ID_SHARD_SCIENTISTSUPREME_NAME,Scientist Supreme
 ID_SHARD_SCIENTISTSUPREME_DESCRIPTION,A mad scientist who converts negative effects to positive effects while healing her allies.
 ID_SHARD_SCREAM_NAME,Scream
 ID_SHARD_SCREAM_DESCRIPTION,The vicious Scream is a Symbiote Controller who clears positive effects from her foes.
+ID_SHARD_SERSI_NAME,Sersi
+ID_SHARD_SERSI_DESCRIPTION,"Sersi copies her enemies' positive effects, and when her Eternal ally Ikaris is with her, also turns those effects against them!"
 ID_SHARD_SHANGCHI_NAME,Shang-Chi
 ID_SHARD_SHANGCHI_DESCRIPTION,Shang-Chi is a master of martial arts who turns his enemies' strengths against them while improving his Heroes for Hire allies.
 ID_SHARD_SHARONCARTER_NAME,Sharon Carter

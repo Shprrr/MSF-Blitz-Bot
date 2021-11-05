@@ -24,7 +24,7 @@ namespace MSFBlitzBot
             return fights
                 .GroupJoin(fightHeroes, f => f.Id, fh => fh.FightId, (f, fh) => (fight: f, heroes: fh))
                 .Where(f => !outdatedData.Any(o => f.fight.DateTime <= o.DateBefore && f.heroes.Any(fh => fh.CharacterId == o.CharacterId)))
-                .Select(f => new BlitzFight(f.fight.Id, BuildBlitzHeroes(f.heroes, HeroSide.Player), BuildBlitzHeroes(f.heroes, HeroSide.Opponent), (BlitzFight.FightResult)f.fight.Result, f.fight.DateTime));
+                .Select(f => new BlitzFight(f.fight.Id, BuildBlitzHeroes(f.heroes, HeroSide.Player), BuildBlitzHeroes(f.heroes, HeroSide.Opponent), (BlitzFight.FightResult)f.fight.Result, f.fight.DateTime.ToUniversalTime()));
 
             static BlitzHero[] BuildBlitzHeroes(IEnumerable<FightHero> fh, HeroSide side)
                 => fh.Where(h => h.Side == (int)side).OrderBy(h => h.Index)

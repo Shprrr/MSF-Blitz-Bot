@@ -47,7 +47,7 @@ namespace MSFBlitzBot
         private string combatState;
         private bool needRetrain = true;
         private BlitzFight currentFight;
-        private bool autoScanCompleted;
+        private bool battleCompleted;
         private int currentOpponentTeamIndex;
 
         public string PlayerHeroes { get => playerHeroes; set { playerHeroes = value; RaisePropertyChanged(nameof(PlayerHeroes)); } }
@@ -182,13 +182,19 @@ namespace MSFBlitzBot
                 OpponentHeroes = "";
                 if (!currentFight.IsEmpty && (data.Victory || data.Defeat))
                 {
-                    autoScanCompleted = true;
                     currentFight.Result = data.Victory ? BlitzFight.FightResult.Victory : BlitzFight.FightResult.Defeat;
                     currentFight.DateTime = DateTime.UtcNow;
                     Fights.Add(currentFight);
+
+                    battleCompleted = true;
                     NeedRetrain = true;
                     CombatState = data.Victory ? "Victory" : "Defeat";
-                    currentFight = new BlitzFight();
+
+                    var lastHeroes = currentFight.PlayerHeroes; // Heroes don't change between battles
+                    currentFight = new BlitzFight
+                    {
+                        PlayerHeroes = lastHeroes
+                    };
                     ClearOpponentTeams();
                 }
             }
@@ -222,14 +228,14 @@ namespace MSFBlitzBot
                 if (data.HasOpponent) StartTeamPrediction(data);
             }
 
-            if (data.CanFindOpponent || hasPlayerHeroesChanged && !autoScanCompleted)
+            if (data.CanFindOpponent || hasPlayerHeroesChanged && !battleCompleted)
             {
                 ClearOpponentTeams();
-                autoScanCompleted = false;
+                battleCompleted = !hasPlayerHeroesChanged;
             }
 
-            if (data.CanFindOpponent || !autoScanCompleted && data.HasOpponent) DoAutoBlitz();
-            if (data.HasOpponent) autoScanCompleted = false; // Ready to scan for the next image update after the initial load after a battle.
+            if (!battleCompleted && (data.CanFindOpponent || data.HasOpponent)) DoAutoBlitz();
+            if (data.HasOpponent) battleCompleted = false; // Ready to scan for the next image update after the initial load after a battle.
         }
 
         private void CheckOpponentTeams()
