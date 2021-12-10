@@ -1,22 +1,58 @@
 [
   {
     "CharacterId": "IronFist",
-    "DateBefore": "2021-08-17 16:00Z"
+    "DateBefore": "2021-08-17 19:00Z"
   },
   {
     "CharacterId": "LukeCage",
-    "DateBefore": "2021-08-17 16:00Z"
+    "DateBefore": "2021-08-17 19:00Z"
   },
   {
     "CharacterId": "Wolverine",
-    "DateBefore": "2021-09-29 16:00Z"
+    "DateBefore": "2021-09-29 19:00Z"
   },
   {
     "CharacterId": "Sabretooth",
-    "DateBefore": "2021-09-29 16:00Z"
+    "DateBefore": "2021-09-29 19:00Z"
   },
   {
     "CharacterId": "Deathpool",
-    "DateBefore": "2021-09-29 16:00Z"
+    "DateBefore": "2021-09-29 19:00Z"
+  },
+  {
+    "CharacterId": "SpiderMan",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "UltSpiderMan",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "Storm",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "Cyclops",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "Colossus",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "Yondu",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "RavagerDmg_AoE",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "RavagerTank_Taunt",
+    "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "RavagerSupport_Heal",
+    "DateBefore": "2021-12-08 19:00Z"
   }
 ]
