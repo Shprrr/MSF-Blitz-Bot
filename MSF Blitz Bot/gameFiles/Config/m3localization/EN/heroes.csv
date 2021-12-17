@@ -103,6 +103,8 @@ ID_SHARD_GHOST_NAME,Ghost
 ID_SHARD_GHOST_DESCRIPTION,"Originally trained by S.H.I.E.L.D. as a spy, Ghost now uses her Quantum phasing powers as an untraceable thief."
 ID_SHARD_GHOSTRIDER_NAME,Ghost Rider
 ID_SHARD_GHOSTRIDER_DESCRIPTION,"As the Spirit of Vengeance, Ghost Rider brutally inflicts damage on those who harm his allies."
+ID_SHARD_GHOSTSPIDER_NAME,Ghost-Spider
+ID_SHARD_GHOSTSPIDER_DESCRIPTION,Ghost-Spider hails from a universe where Gwen Stacy was bitten by a radioactive spider. She's an agile Web-Warrior that can prevent enemies from using their abilities.
 ID_SHARD_GRAVITON_NAME,Graviton
 ID_SHARD_GRAVITON_DESCRIPTION,Graviton is an A.I.M. Controller who extends negative status effects on enemies.
 ID_SHARD_GREG_NAME,Undead Asgardian
@@ -191,6 +193,8 @@ ID_SHARD_LONGSHOT_NAME,Longshot
 ID_SHARD_LONGSHOT_DESCRIPTION,"Longshot is a genetically engineered hero from the Mojoverse, where he uses his luck powers to deal critical hits and become a hit with critics."
 ID_SHARD_LUKECAGE_NAME,Luke Cage
 ID_SHARD_LUKECAGE_DESCRIPTION,An extremely tough taunting protector with high damage and health.
+ID_SHARD_MAGIK_NAME,Magik
+ID_SHARD_MAGIK_DESCRIPTION,"Magik uses dark sorcery to charge up her allies and her mutant teleportation power to get the drop on enemies. As the demonic Darkchylde, she can inflict heavy damage."
 ID_SHARD_MAGNETO_NAME,Magneto
 ID_SHARD_MAGNETO_DESCRIPTION,A master of magnetic fields who can shift enemy positions and empower his Brotherhood allies.
 ID_SHARD_MANTIS_NAME,Mantis
@@ -303,6 +307,8 @@ ID_SHARD_RONAN_NAME,Ronan the Accuser
 ID_SHARD_RONAN_DESCRIPTION,A Kree fanatic who summons Kree minions while denying the abilities of his foes with brutal strikes.
 ID_SHARD_SABRETOOTH_NAME,Sabretooth
 ID_SHARD_SABRETOOTH_DESCRIPTION,"A savage, regenerating brute that shreds single targets and chains to additional enemies."
+ID_SHARD_SCARLETSPIDER_NAME,Scarlet Spider
+ID_SHARD_SCARLETSPIDER_DESCRIPTION,"Scarlet Spider, a clone of Peter Parker that goes by Ben Reilly, uses his spider powers to debilitate enemies and strip them of their defenses."
 ID_SHARD_SCARLETWITCH_NAME,Scarlet Witch
 ID_SHARD_SCARLETWITCH_DESCRIPTION,A mystical controller that prolongs negative effects and redistributes health across her teammates.
 ID_SHARD_SCIENTISTSUPREME_NAME,Scientist Supreme
@@ -341,6 +347,8 @@ ID_SHARD_SILVERSURFER_NAME,Silver Surfer
 ID_SHARD_SILVERSURFER_DESCRIPTION,"The Sentinel of the Spaceways, Silver Surfer travels the cosmos using the Power Cosmic to atone for his time as the Herald of Galactus."
 ID_SHARD_SPIDERMAN_NAME,Spider-Man
 ID_SHARD_SPIDERMAN_DESCRIPTION,A quick attacker that weakens opponents and evades incoming attacks.
+ID_SHARD_SPIDERPUNK_NAME,Spider-Punk
+ID_SHARD_SPIDERPUNK_DESCRIPTION,Spider-Punk is a spider-powered rock star who uses his electric guitar together with his web abilities to deal big damage and disable groups of bad guys.
 ID_SHARD_SQUIRRELGIRL_NAME,Squirrel Girl
 ID_SHARD_SQUIRRELGIRL_DESCRIPTION,Squirrel Girl is a Young Avenger who uses her unbeatable squirrel powers to eat nuts and kick butts!
 ID_SHARD_STARLORD_NAME,Star-Lord
@@ -359,6 +367,8 @@ ID_SHARD_SYMBIOTESPIDERMAN_NAME,Spider-Man (Symbiote)
 ID_SHARD_SYMBIOTESPIDERMAN_DESCRIPTION,"Permanently bonded with the Venom symbiote, Spider-Man brutally takes down foes while powering up his Symbiote allies."
 ID_SHARD_TASKMASTER_NAME,Taskmaster
 ID_SHARD_TASKMASTER_DESCRIPTION,"A master of combat mimicry, Taskmaster uses his skill to steal positive effects from enemies."
+ID_SHARD_TCHALLA_NAME,Star-Lord (T'Challa)
+ID_SHARD_TCHALLA_DESCRIPTION,"Star-Lord (T'Challa) is the idealistic Ravager outlaw who uses gadgets, charm, and fancy footwork to embolden his allies, take power from the powerful, and stylishly defeat those who threaten his friends."
 ID_SHARD_THANOS_NAME,Thanos
 ID_SHARD_THANOS_DESCRIPTION,A Titan Eternal who delivers crushing blows that drain his foes and taunt his enemies.
 ID_SHARD_THING_NAME,The Thing

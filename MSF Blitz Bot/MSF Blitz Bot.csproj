@@ -196,6 +196,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_GhostRider.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_GhostSpider.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Graviton.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -460,6 +463,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_SamWilson.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_ScarletSpider.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_ScarletWitch.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -520,6 +526,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_SpiderMan.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_SpiderPunk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_SquirrelGirl.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -545,6 +554,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Taskmaster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_TChalla.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Thanos.png">
