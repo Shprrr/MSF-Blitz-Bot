@@ -54,5 +54,33 @@
   {
     "CharacterId": "RavagerSupport_Heal",
     "DateBefore": "2021-12-08 19:00Z"
+  },
+  {
+    "CharacterId": "ElsaBloodstone",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "GhostRider",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "BaronMordo",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "AmericaChavez",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "MsMarvel",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "SquirrelGirl",
+    "DateBefore": "2022-02-02 19:00Z"
+  },
+  {
+    "CharacterId": "AdamWarlock",
+    "DateBefore": "2022-02-02 19:00Z"
   }
 ]
