@@ -157,6 +157,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_DoctorStrange.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_DoctorVoodoo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Domino.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -170,6 +173,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_EbonyMaw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_Echo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Electro.png">
@@ -283,6 +289,9 @@
     <None Update="gameFiles\RosterPortraits\Portrait_Karnak.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_KateBishop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Killmonger.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -362,6 +371,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_MoonKnight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="gameFiles\RosterPortraits\Portrait_Morbius.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_MrFantastic.png">
@@ -644,9 +656,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="gameFiles\RosterPortraits\Portrait_Zemo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="gameFiles\RosterPortraits\RosterPortraits.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="MachineLearning\data.csv">

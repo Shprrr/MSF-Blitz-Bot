@@ -75,6 +75,8 @@ ID_SHARD_DOCTOROCTOPUS_NAME,Doctor Octopus
 ID_SHARD_DOCTOROCTOPUS_DESCRIPTION,"Genius, egomaniac, and mastermind, Doctor Octopus enhances Sinister Six allies and summons them to battle."
 ID_SHARD_DOCTORSTRANGE_NAME,Doctor Strange
 ID_SHARD_DOCTORSTRANGE_DESCRIPTION,Sorcerer Supreme and versatile healer with the ability to remove effects from friends and foes.
+ID_SHARD_DOCTORVOODOO_NAME,Doctor Voodoo
+ID_SHARD_DOCTORVOODOO_DESCRIPTION,Doctor Voodoo is a powerful sorcerer who uses his soul manipulation abilities to restore and protect his allies while turning his enemies against each other.
 ID_SHARD_DOMINO_NAME,Domino
 ID_SHARD_DOMINO_DESCRIPTION,Domino is X-Force's Controller whose Mutant luck lets her allies Dodge and deal deadlier Critical hits.
 ID_SHARD_DOOM_NAME,Doctor Doom
@@ -87,6 +89,8 @@ ID_SHARD_DRAX_NAME,Drax
 ID_SHARD_DRAX_DESCRIPTION,"An unpredictable, taunting attacker with rapid attacks that drain health."
 ID_SHARD_EBONYMAW_NAME,Ebony Maw
 ID_SHARD_EBONYMAW_DESCRIPTION,"The Black Order's Support, Ebony Maw aids Thanos by granting positive effects to allies."
+ID_SHARD_ECHO_NAME,Echo
+ID_SHARD_ECHO_DESCRIPTION,"Born deaf, Maya Lopez possesses the ability to mimic the movements of others, using it to become the formidable warrior known as Echo."
 ID_SHARD_ELECTRO_NAME,Electro
 ID_SHARD_ELECTRO_DESCRIPTION,Electro uses her rage and voltage to unleash massive damage on the Sinister Six's most vulnerable enemies.
 ID_SHARD_ELEKTRA_NAME,Elektra
@@ -161,6 +165,8 @@ ID_SHARD_JUGGERNAUT_NAME,Juggernaut
 ID_SHARD_JUGGERNAUT_DESCRIPTION,An unstoppable tank who taunts his foes and charges for devastating damage.
 ID_SHARD_KARNAK_NAME,Karnak
 ID_SHARD_KARNAK_DESCRIPTION,"An Inhuman Controller, Karnak uses his power to see his enemies' weakness to strike at them with surgical precision."
+ID_SHARD_KATEBISHOP_NAME,Kate Bishop
+ID_SHARD_KATEBISHOP_DESCRIPTION,"Kate Bishop's already impressive archery is made even more devastating with the addition of Hawkeye's Trick Arrows. Stubborn and a bit reckless, she's the perfect leader for the Young Avengers."
 ID_SHARD_KILLMONGER_NAME,Killmonger
 ID_SHARD_KILLMONGER_DESCRIPTION,A lethal assassin who drains health from enemies and eliminates weakened targets.
 ID_SHARD_KINGPIN_NAME,Kingpin
@@ -227,6 +233,8 @@ ID_SHARD_MOONDRAGON_NAME,Moondragon
 ID_SHARD_MOONDRAGON_DESCRIPTION,"Moondragon and her partner Phyla-Vell are key members of the Infinity Watch, with Moondragon providing psychic healing support."
 ID_SHARD_MOONKNIGHT_NAME,Moon Knight
 ID_SHARD_MOONKNIGHT_DESCRIPTION,"Returned to life by the god Khonshu, Moon Knight battles criminals and his own shattered psyche using random status effects."
+ID_SHARD_MORBIUS_NAME,Morbius
+ID_SHARD_MORBIUS_DESCRIPTION,"A brilliant biochemist with an insatiable appetite for blood, Morbius uses his fangs and claws to expose enemy weaknesses, and heals himself with every attack."
 ID_SHARD_MSMARVEL_NAME,Ms. Marvel
 ID_SHARD_MSMARVEL_DESCRIPTION,A plucky Super Hero brawler who assists and generates ability energy for her allies.
 ID_SHARD_MULTIPLEMAN_NAME,Multiple Man
