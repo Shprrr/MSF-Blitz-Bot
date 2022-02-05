@@ -7,7 +7,7 @@ using Newtonsoft.Json.Linq;
 
 namespace MSFBlitzBot
 {
-    internal class HeroManager
+    public class HeroManager
     {
         public class Hero
         {

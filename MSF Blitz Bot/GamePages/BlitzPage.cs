@@ -14,7 +14,7 @@ namespace MSFBlitzBot.GamePages
         public bool Defeat { get; set; }
     }
 
-    internal class BlitzPage : GamePage
+    public class BlitzPage : GamePage
     {
         private FImage screenImage;
 
@@ -134,8 +134,8 @@ namespace MSFBlitzBot.GamePages
             // side 0 index 3 = , 175
             // side 0 index 4 = , 343
             // side 1 index 0 = 1026, 343
-            float posx = (index * 82 + 57f + side * 969) / 1505;
-            float posy = (index % 2 == 1 ? 174f : 342f) / 847;
+            float posx = (index * 82 + 57f + side * 971) / 1505;
+            float posy = (index % 2 == 1 ? 171f : 341f) / 847;
             string[] heroIds = HeroManager.HeroIds;
             string id = string.Empty;
             byte b = 0;
@@ -144,7 +144,7 @@ namespace MSFBlitzBot.GamePages
                 FImage portrait = HeroManager.GetPortrait(heroId);
                 string debugFilename = null;
                 //debugFilename = $"PortraitHero_{side}_{index}";
-                byte b2 = screenImage!.Match(portrait, posx, posy, 0.75f, (byte)30u, 100, FImage.MatchColorMode.Color, debugFilename);
+                byte b2 = screenImage!.Match(portrait, posx, posy, 0.76f, (byte)30u, 100, FImage.MatchColorMode.Color, debugFilename);
                 if (b2 > b)
                 {
                     b = b2;
