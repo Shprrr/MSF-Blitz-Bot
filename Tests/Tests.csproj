@@ -26,13 +26,28 @@
     <None Update="BlitzPageImageTests\ScreenshotGame Ant-man en Black Panther.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Black Bolt en Black Panther.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Kestrel en X-23 slot 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="BlitzPageImageTests\ScreenshotGame Phyla-Vell en Crossbones.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Rescue en Black Panther.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt player.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Stryfe en Black Panther slot 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="BlitzPageImageTests\ScreenshotGame Stryfe en Black Panther.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Toad en Winter Soldier.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
