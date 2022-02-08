@@ -8,6 +8,7 @@ on:
 
 env:
   SOLUTION_NAME: MSF Blitz Bot
+  UNIT_TEST: true
 
 jobs:
 
@@ -25,8 +26,13 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '5.0.x'
+    - name: Install dependencies
+      run: dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --output release
+      run: dotnet build --configuration Release --no-restore --output release
+    - name: Unit tests
+      if: ${{ env.UNIT_TEST }}
+      run: dotnet test --no-restore --verbosity normal
     - name: Upload build
       uses: actions/upload-artifact@v2
       with:
