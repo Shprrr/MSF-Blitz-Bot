@@ -183,6 +183,98 @@ namespace Tests
         }
 
         [TestMethod]
+        public void GetData_SabretoothIsntBlackBoltInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Black Bolt slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("Hela", 96360, data.PlayerHeroes[0]);
+            AssertHeroData("BaronMordo", 43141, data.PlayerHeroes[1]);
+            AssertHeroData("GhostRider", 58376, data.PlayerHeroes[2]);
+            AssertHeroData("ScarletWitch", 23529, data.PlayerHeroes[3]);
+            AssertHeroData("DoctorStrange", 54796, data.PlayerHeroes[4]);
+            AssertHeroData("Pyro", 93971, data.OpponentHeroes[0]);
+            AssertHeroData("Mystique", 26664, data.OpponentHeroes[1]);
+            AssertHeroData("Magneto", 58751, data.OpponentHeroes[2]);
+            AssertHeroData("Sabretooth", 48074, data.OpponentHeroes[3]);
+            AssertHeroData("Juggernaut", 61196, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_SabretoothIsntBlackBoltInOpponent1()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Black Bolt slot 2.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("SamWilson", 105570, data.PlayerHeroes[0]);
+            AssertHeroData("MariaHill", 97138, data.PlayerHeroes[1]);
+            AssertHeroData("Zemo", 95959, data.PlayerHeroes[2]);
+            AssertHeroData("SharonCarter", 109918, data.PlayerHeroes[3]);
+            AssertHeroData("Sybil", 115060, data.PlayerHeroes[4]);
+            AssertHeroData("Pyro", 124490, data.OpponentHeroes[0]);
+            AssertHeroData("Sabretooth", 120911, data.OpponentHeroes[1]);
+            AssertHeroData("Toad", 122809, data.OpponentHeroes[2]);
+            AssertHeroData("Juggernaut", 113870, data.OpponentHeroes[3]);
+            AssertHeroData("Blob", 110000, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_SabretoothIsntBlackBoltInOpponent4()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Black Bolt.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("CullObsidian", 25223, data.PlayerHeroes[0]);
+            AssertHeroData("Thanos", 510, data.PlayerHeroes[1]);
+            AssertHeroData("CorvusGlaive", 509, data.PlayerHeroes[2]);
+            AssertHeroData("ProximaMidnight", 414, data.PlayerHeroes[3]);
+            AssertHeroData("EbonyMaw", 45601, data.PlayerHeroes[4]);
+            AssertHeroData("BlackPanther", 52174, data.OpponentHeroes[0]);
+            AssertHeroData("Deadpool", 775, data.OpponentHeroes[1]);
+            AssertHeroData("Hulk", 777, data.OpponentHeroes[2]);
+            AssertHeroData("ShieldSupport_Heal", 631, data.OpponentHeroes[3]);
+            AssertHeroData("Sabretooth", 31314, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_SabretoothIsntBlackBoltInOpponent2()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Black Bolt slot 3.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("JessicaJones", 352, data.PlayerHeroes[0]);
+            AssertHeroData("Mysterio", 15178, data.PlayerHeroes[1]);
+            AssertHeroData("Ultron", 168, data.PlayerHeroes[2]);
+            AssertHeroData("Shocker", 41036, data.PlayerHeroes[3]);
+            AssertHeroData("Vulture", 37965, data.PlayerHeroes[4]);
+            AssertHeroData("EmmaFrost", 44864, data.OpponentHeroes[0]);
+            AssertHeroData("MrSinister", 46535, data.OpponentHeroes[1]);
+            AssertHeroData("Sabretooth", 513, data.OpponentHeroes[2]);
+            AssertHeroData("Stryfe", 299, data.OpponentHeroes[3]);
+            AssertHeroData("Mystique", 18167, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
         public void GetData_SabretoothIsntBlackBoltInPlayer2()
         {
             BlitzPage page = new();

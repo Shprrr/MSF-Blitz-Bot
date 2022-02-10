@@ -41,6 +41,18 @@
     <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt player.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt slot 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt slot 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt slot 4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Black Bolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="BlitzPageImageTests\ScreenshotGame Stryfe en Black Panther slot 4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
