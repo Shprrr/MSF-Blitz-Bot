@@ -293,6 +293,121 @@ namespace Tests
         }
 
         [TestMethod]
+        public void GetData_SpiderPunkIsntJessicaJonesInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Spider-Punk en Jessica Jones slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("RavagerSupport_Heal", 418, data.PlayerHeroes[0]);
+            AssertHeroData("Yondu", 4308, data.PlayerHeroes[1]);
+            AssertHeroData("RavagerDmg_AoE", 881, data.PlayerHeroes[2]);
+            AssertHeroData("ShieldDmg_AoE", 376, data.PlayerHeroes[3]);
+            AssertHeroData("RavagerTank_Taunt", 382, data.PlayerHeroes[4]);
+            AssertHeroData("SymbioteSpiderMan", 5092, data.OpponentHeroes[0]);
+            AssertHeroData("SpiderMan", 485, data.OpponentHeroes[1]);
+            AssertHeroData("ScarletSpider", 516, data.OpponentHeroes[2]);
+            AssertHeroData("SpiderPunk", 1042, data.OpponentHeroes[3]);
+            AssertHeroData("UltSpiderMan", 477, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_PhylaVellIsntCrossbonesInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Phyla-Vell en Crossbones slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("ShieldTank_Stun", 460, data.PlayerHeroes[0]);
+            AssertHeroData("Sybil", 115060, data.PlayerHeroes[1]);
+            AssertHeroData("NickFury", 50756, data.PlayerHeroes[2]);
+            AssertHeroData("ShieldDmg_Defense", 5837, data.PlayerHeroes[3]);
+            AssertHeroData("ShieldSupport_Stealth", 381, data.PlayerHeroes[4]);
+            AssertHeroData("GhostRider", 7612, data.OpponentHeroes[0]);
+            AssertHeroData("Hulk", 574, data.OpponentHeroes[1]);
+            AssertHeroData("Gamora", 60272, data.OpponentHeroes[2]);
+            AssertHeroData("PhylaVell", 494, data.OpponentHeroes[3]);
+            AssertHeroData("Nebula", 122000, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_StarLordIsntBlackPantherInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Star-Lord en Black Panther slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("SilverSamurai", 415, data.PlayerHeroes[0]);
+            AssertHeroData("Wolverine", 68461, data.PlayerHeroes[1]);
+            AssertHeroData("Sabretooth", 54935, data.PlayerHeroes[2]);
+            AssertHeroData("LadyDeathstrike", 10664, data.PlayerHeroes[3]);
+            AssertHeroData("ElsaBloodstone", 69213, data.PlayerHeroes[4]);
+            AssertHeroData("MrSinister", 87219, data.OpponentHeroes[0]);
+            AssertHeroData("ShieldSupport_Heal", 676, data.OpponentHeroes[1]);
+            AssertHeroData("CaptainMarvel", 67819, data.OpponentHeroes[2]);
+            AssertHeroData("StarLord", 81807, data.OpponentHeroes[3]);
+            AssertHeroData("LukeCage", 13503, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_SabretoothIsntSpiderManMilesInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Miles slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("Juggernaut", 43546, data.PlayerHeroes[0]);
+            AssertHeroData("Magneto", 29001, data.PlayerHeroes[1]);
+            AssertHeroData("Toad", 25144, data.PlayerHeroes[2]);
+            AssertHeroData("Blob", 28768, data.PlayerHeroes[3]);
+            AssertHeroData("Pyro", 22614, data.PlayerHeroes[4]);
+            AssertHeroData("LukeCage", 44219, data.OpponentHeroes[0]);
+            AssertHeroData("ScarletWitch", 23207, data.OpponentHeroes[1]);
+            AssertHeroData("SpiderMan", 29009, data.OpponentHeroes[2]);
+            AssertHeroData("Sabretooth", 27682, data.OpponentHeroes[3]);
+            AssertHeroData("Wolverine", 24712, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_AntManIsntBlackPantherInOpponent3()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Ant-man en Black Panther slot 4.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("SheHulk", 482, data.PlayerHeroes[0]);
+            AssertHeroData("Thing", 687, data.PlayerHeroes[1]);
+            AssertHeroData("MrFantastic", 476, data.PlayerHeroes[2]);
+            AssertHeroData("HumanTorch", 512, data.PlayerHeroes[3]);
+            AssertHeroData("InvisibleWoman", 447, data.PlayerHeroes[4]);
+            AssertHeroData("MrSinister", 603, data.OpponentHeroes[0]);
+            AssertHeroData("SilverSurfer", 614, data.OpponentHeroes[1]);
+            AssertHeroData("Groot", 869, data.OpponentHeroes[2]);
+            AssertHeroData("AntMan", 562, data.OpponentHeroes[3]);
+            AssertHeroData("Thor", 628, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
         public void GetData_PhylaVellIsntCrossbonesInOpponent4()
         {
             BlitzPage page = new();
@@ -313,6 +428,29 @@ namespace Tests
             AssertHeroData("Gamora", 639, data.OpponentHeroes[2]);
             AssertHeroData("X23", 609, data.OpponentHeroes[3]);
             AssertHeroData("PhylaVell", 569, data.OpponentHeroes[4]);
+        }
+
+        [TestMethod]
+        public void GetData_SabretoothIsntToadInOpponent4()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Toad.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("Groot", 21515, data.PlayerHeroes[0]);
+            AssertHeroData("RocketRaccoon", 30504, data.PlayerHeroes[1]);
+            AssertHeroData("StarLord", 295, data.PlayerHeroes[2]);
+            AssertHeroData("Vision", 19145, data.PlayerHeroes[3]);
+            AssertHeroData("Minerva", 79698, data.PlayerHeroes[4]);
+            AssertHeroData("Daredevil", 23988, data.OpponentHeroes[0]);
+            AssertHeroData("Punisher", 32110, data.OpponentHeroes[1]);
+            AssertHeroData("Hulk", 423, data.OpponentHeroes[2]);
+            AssertHeroData("RocketRaccoon", 21680, data.OpponentHeroes[3]);
+            AssertHeroData("Sabretooth", 91085, data.OpponentHeroes[4]);
         }
 
         private static void AssertHeroData(string expectedId, int expectedPower, BlitzHero heroData)
