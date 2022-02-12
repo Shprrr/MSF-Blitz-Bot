@@ -134,7 +134,7 @@ namespace MSFBlitzBot.GamePages
             // side 0 index 3 = , 175
             // side 0 index 4 = , 343
             // side 1 index 0 = 1026, 343
-            float posx = (index * 82 + 57f + side * 971) / 1505;
+            float posx = (index * 82 + 57f + side * 971) / 1504;
             float posy = (index % 2 == 1 ? 171f : 341f) / 847;
             string[] heroIds = HeroManager.HeroIds;
             string id = string.Empty;
