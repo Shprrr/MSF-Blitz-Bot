@@ -62,6 +62,9 @@
     <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Miles slot 4.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Toad again.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="BlitzPageImageTests\ScreenshotGame Sabretooth en Toad.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

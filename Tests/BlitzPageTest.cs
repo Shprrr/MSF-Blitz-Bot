@@ -453,6 +453,29 @@ namespace Tests
             AssertHeroData("Sabretooth", 91085, data.OpponentHeroes[4]);
         }
 
+        [TestMethod]
+        public void GetData_SabretoothIsntToadInOpponent4Again()
+        {
+            BlitzPage page = new();
+            var image = (Bitmap)Image.FromFile(Path.Combine(ImageFolder, "ScreenshotGame Sabretooth en Toad again.png"));
+            Emulator.GameImage.Initialize(image);
+            page.SetImage(Emulator.GameImage);
+
+            var data = page.GetData();
+
+            Assert.IsTrue(data.HasOpponent);
+            AssertHeroData("Crossbones", 19487, data.PlayerHeroes[0]);
+            AssertHeroData("HandTank_Stealth", 481, data.PlayerHeroes[1]);
+            AssertHeroData("WinterSoldier", 39519, data.PlayerHeroes[2]);
+            AssertHeroData("HydraDmg_Buff", 34116, data.PlayerHeroes[3]);
+            AssertHeroData("Zemo", 95959, data.PlayerHeroes[4]);
+            AssertHeroData("EmmaFrost", 608, data.OpponentHeroes[0]);
+            AssertHeroData("Mystique", 45659, data.OpponentHeroes[1]);
+            AssertHeroData("Stryfe", 37720, data.OpponentHeroes[2]);
+            AssertHeroData("MrSinister", 110516, data.OpponentHeroes[3]);
+            AssertHeroData("Sabretooth", 23430, data.OpponentHeroes[4]);
+        }
+
         private static void AssertHeroData(string expectedId, int expectedPower, BlitzHero heroData)
         {
             Assert.AreEqual(expectedId, heroData.Id);
